@@ -1,0 +1,6 @@
+custom_phrase.txt	#设置文本替换
+luna_pinyin.schema.yaml	#设置表情、符号
+default.custom.yaml	#设置翻页快捷键，禁用Shift
+squirrel.custom.yaml	#设置皮肤，软件默认英文
+luna_pinyin.extended.dict.yaml	#设置词库
+Open文件夹	#设置候选词表情

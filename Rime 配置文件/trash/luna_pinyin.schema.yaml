@@ -1,0 +1,99 @@
+custom_phrase:
+  db_class: stabledb
+  dictionary: ""
+  enable_completion: false
+  enable_sentence: false
+  initial_quality: 1
+  user_dict: custom_phrase
+customization: 1021765413
+engine:
+  filters:
+    - simplifier
+    - uniquifier
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - "table_translator@custom_phrase"
+    - reverse_lookup_translator
+    - script_translator
+key_binder:
+  import_preset: default
+punctuator:
+  import_preset: default
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"
+reverse_lookup:
+  comment_format:
+    - "xform/([nl])v/$1ü/"
+  dictionary: stroke
+  enable_completion: true
+  preedit_format:
+    - "xlit/hspnz/一丨丿丶乙/"
+  prefix: "`"
+  suffix: "'"
+  tips: "〔筆畫〕"
+schema:
+  author:
+    - "佛振 <chen.sst@gmail.com>"
+  dependencies:
+    - stroke
+  description: |
+    Rime 預設的拼音輸入方案。
+    參考以下作品而創作：
+      * CC-CEDICT
+      * Android open source project
+      * Chewing - 新酷音
+      * opencc - 開放中文轉換
+    
+  name: "朙月拼音"
+  schema_id: luna_pinyin
+  version: 0.20.custom.1021765413
+speller:
+  algebra:
+    - "xform/^([b-df-np-z])$/$1_/"
+    - "erase/^xx$/"
+    - "derive/^([zcs])h/$1/"
+    - "derive/^([zcs])([^h])/$1h$2/"
+    - "derive/^shen/sehn/"
+    - "derive/([ei])n$/$1ng/"
+    - "derive/([ei])ng$/$1n/"
+    - "abbrev/^([a-z]).+$/$1/"
+    - "abbrev/^([zcs]h).+$/$1/"
+    - "derive/^([nl])ve$/$1ue/"
+    - "derive/^([jqxy])u/$1v/"
+    - "derive/ong$/on/"
+  alphabet: zyxwvutsrqponmlkjihgfedcba
+  delimiter: " '"
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: ["中文", "西文"]
+  - name: full_shape
+    states: ["半角", "全角"]
+  - name: ascii_punct
+    states: ["，。", "，．"]
+  - name: simplification
+    reset: 1
+    states: ["漢字", "汉字"]
+translator:
+  dictionary: luna_pinyin.extended
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
