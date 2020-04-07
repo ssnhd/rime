@@ -1,0 +1,89 @@
+patch:
+  schema/dependencies: {}
+  schema/name: 小鹤双拼
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: emoji_suggestion
+      reset: 1
+      states: [ "No", "Yes" ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      reset: 1
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+  engine/translators:
+    - punct_translator
+    - script_translator
+    - table_translator@custom_phrase
+  engine/filters:
+    - simplifier@emoji_suggestion # 不需要表情的注释这一行
+    #- simplifier@zh_simp
+    - simplifier
+    - uniquifier
+    #- charset_filter@gbk
+    #- single_char_filter
+  engine/processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  # engine/segmentors:
+  #   - ascii_segmentor
+  #   - matcher
+  #   - abc_segmentor
+  #   - punct_segmentor
+  #   - fallback_segmentor
+
+  # 不需要表情的注释下面三行
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    # tips: all
+  reverse_lookup: {}
+  punctuator:
+    # 如果修改标点上屏情况，建议在此处自定义
+    # half_shape:
+    #   ',' : { commit: ， }
+    #   '.' : { commit: 。 }
+    #   '^' : { commit: …… }
+    #   '!' : { commit: ！ }
+    #   '"' : { pair: [ '“', '”' ] }
+    #   '?' : { commit: ？ }
+    #   ';' : { commit: ； }
+    #   ':' : { commit: ： }
+    #   '~' : ～
+    #   '\' : 、
+    #   '#' : '#'
+    #   '*' : '*'
+    #   '@' : '@'
+    #   '{' : [ 『, 〖, ｛ ]
+    #   '}' : [ 』, 〗, ｝ ]
+    #   "$" : ["¥", "$", "€", "£", "¢", "¤"]
+    #   "<" : ["《", "〈", "«", "<"]
+    #   ">" : ["》", "〉", "»", ">"]
+
+  #載入朙月拼音擴充詞庫
+  "translator/dictionary": luna_pinyin.extended
+  #標點
+  'punctuator/import_preset': symbols
+  'recognizer/patterns/punct': "^/([a-z]+|[0-9])$"
+  'translator/preedit_format': {}
+  # translator/enable_correction: true
+
+  ### 双拼使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@5": table_translator@custom_phrase
