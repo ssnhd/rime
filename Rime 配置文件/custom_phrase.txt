@@ -64,7 +64,6 @@ iOS	ios
 iTunes	itunes
 koolproxy	kpr
 koolshare	ks
-禾斗学上网	kxsw
 Lightning to USB-C	ltc
 Lightning to USB	ltu
 🐂️🍺️	niubi
