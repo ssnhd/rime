@@ -15,7 +15,7 @@ patch:
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写
     switch_key:
-      Shift_L: noop
+      Shift_L: commit_code
       Shift_R: noop
       Control_L: noop
       Control_R: noop
@@ -30,7 +30,7 @@ patch:
     - { when: paging, accept: bracketleft, send: Page_Up }
     - { when: has_menu, accept: bracketright, send: Page_Down }
     - { when: paging, accept: comma, send: Page_Up }
-    - { when: has_menu, accept: period, send: Page_Down }
+    # - { when: has_menu, accept: period, send: Page_Down }
     # - {accept: "Control+p", send: Up, when: composing}
     # - {accept: "Control+n", send: Down, when: composing}
     # - {accept: "Control+b", send: Left, when: composing}

@@ -16,34 +16,25 @@
 name: luna_pinyin.extended
 version: "2014.09.07"
 sort: by_weight
+# vocabulary: essay
 use_preset_vocabulary: true
 #下面的是本词库包含的所有词库，请根据需要开启/禁用，词条前添删#号即可开启/关闭词库。
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
 import_tables:
   - luna_pinyin
-  - luna_pinyin.acg
-  - luna_pinyin.anime
-  - luna_pinyin.base
-  - luna_pinyin.classical
-  - luna_pinyin.extra_hanzi
-  - luna_pinyin.sgmain
-  - luna_pinyin.biaoqing
+  - luna_pinyin.cn_en
   - luna_pinyin.chat
-  - luna_pinyin.gd
-  - luna_pinyin.hanyu
-  - luna_pinyin.idiom
-  - luna_pinyin.net
-  - luna_pinyin.website
-  - luna_pinyin.poetry
-  - luna_pinyin.computer
-  - luna_pinyin.place
+  - luna_pinyin.sgmain
   - luna_pinyin.sgplus
   - luna_pinyin.sgplus2
-  - luna_pinyin.shopping
+  - luna_pinyin.computer
+  - luna_pinyin.idiom
   - luna_pinyin.movie
   - luna_pinyin.music
   - luna_pinyin.name
-  - luna_pinyin.cn_en
-  - luna_pinyin.english
-  - luna_pinyin.user
+  - luna_pinyin.net
+  - luna_pinyin.place
+  - luna_pinyin.poetry
+  - luna_pinyin.shopping
+  - luna_pinyin.website
 ...

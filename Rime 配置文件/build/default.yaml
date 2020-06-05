@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1586167733
+    default.custom: 1591368183
     key_bindings: 1561294610
     key_bindings.custom: 0
     punctuation: 1561294610
@@ -14,7 +14,7 @@ ascii_composer:
     Control_L: noop
     Control_R: noop
     Eisu_toggle: clear
-    Shift_L: noop
+    Shift_L: commit_code
     Shift_R: noop
 config_version: 0.40
 key_binder:
@@ -27,7 +27,6 @@ key_binder:
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
     - {accept: comma, send: Page_Up, when: paging}
-    - {accept: period, send: Page_Down, when: has_menu}
 menu:
   page_size: 8
 punctuator:

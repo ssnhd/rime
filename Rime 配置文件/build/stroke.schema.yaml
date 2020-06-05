@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1586167733
+    default.custom: 1591368183
     key_bindings: 1561294610
     key_bindings.custom: 0
     punctuation: 1561294610
@@ -42,7 +42,6 @@ key_binder:
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
     - {accept: comma, send: Page_Up, when: paging}
-    - {accept: period, send: Page_Down, when: has_menu}
   import_preset: default
 menu:
   page_size: 9

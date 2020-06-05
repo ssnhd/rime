@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     squirrel: 1561294610
-    squirrel.custom: 1586180606
+    squirrel.custom: 1591366558
 app_options:
   com.apple.Terminal:
     ascii_mode: true
@@ -14,14 +14,14 @@ preset_color_schemes:
     back_color: 0xffffff
     border_color: 0x9f62e8
     border_color_width: 0
-    border_height: 6
+    border_height: 4
     candidate_format: "%c %@  "
-    candidate_text_color: 0x333333
+    candidate_text_color: 0x4c4c4c
     corner_radius: 5
-    dborder_width: 6
+    dborder_width: 4
     font_face: PingFangSC
     font_point: 17
-    hilited_candidate_back_color: 0xD05B21
+    hilited_candidate_back_color: 0xD75A00
     hilited_candidate_label_color: 0xffffff
     hilited_corner_radius: 5
     hilited_text_color: 0xffffff
