@@ -2,8 +2,8 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1591368183
-    double_pinyin_flypy.custom: 1590034181
+    default.custom: 1591503297
+    double_pinyin_flypy.custom: 1591447634
     double_pinyin_flypy.schema: 1590034181
     easy_en: 1590034181
     easy_en.custom: 1590034181
@@ -66,12 +66,12 @@ key_binder:
   bindings:
     - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
     - {accept: "Shift+Tab", send: Page_Up, when: composing}
-    - {accept: Tab, send: Right, when: composing}
     - {accept: minus, send: Page_Up, when: paging}
     - {accept: equal, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
     - {accept: comma, send: Page_Up, when: paging}
+    - {accept: Tab, send: Page_Down, when: composing}
   import_preset: default
 menu:
   page_size: 8

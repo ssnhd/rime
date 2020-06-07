@@ -2,7 +2,7 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1591368183
+    default.custom: 1591503297
     easy_en: 1590034181
     easy_en.custom: 1590034181
     easy_en.schema: 1590034181
@@ -10,7 +10,7 @@ __build_info:
     grammar.custom: 1590034181
     key_bindings: 1561294610
     key_bindings.custom: 0
-    luna_pinyin.custom: 1590034181
+    luna_pinyin.custom: 1591457191
     luna_pinyin.schema: 1590034181
     punctuation: 1561294610
     punctuation.custom: 0
@@ -66,12 +66,12 @@ key_binder:
   bindings:
     - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
     - {accept: "Shift+Tab", send: Page_Up, when: composing}
-    - {accept: Tab, send: Right, when: composing}
     - {accept: minus, send: Page_Up, when: paging}
     - {accept: equal, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
     - {accept: comma, send: Page_Up, when: paging}
+    - {accept: Tab, send: Page_Down, when: composing}
   import_preset: default
 menu:
   page_size: 8
@@ -120,7 +120,7 @@ punctuator:
     "'": {pair: ["「", "」"]}
     "(": "（"
     ")": "）"
-    "*": "*"
+    "*": ["*", "×"]
     "+": "+"
     ",": {commit: "，"}
     "-": "-"
@@ -138,11 +138,11 @@ punctuator:
     "]": ["】", "]"]
     "^": {commit: "……"}
     _: "──"
-    "`": "`"
+    "`": ["`", "```"]
     "{": ["『", "〖", "｛"]
     "|": ["·", "・", "|", "｜", "§", "¦", "‖"]
     "}": ["』", "〗", "｝"]
-    "~": "~"
+    "~": ["~", "≈"]
   import_preset: symbols
   symbols:
     "/0": ["〇", "零", "₀", "⁰", "⓪", "⓿", "０"]
