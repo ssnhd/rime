@@ -1,7 +1,7 @@
 patch:
   schema_list:
     - schema: double_pinyin_flypy
-    - schema: luna_pinyin_simp	# 朙月拼音 简化字
+    - schema: luna_pinyin_simp  # 朙月拼音 简化字
     - schema: luna_pinyin
   switcher/hotkeys:
     - "Control+grave" # 注意是control+`，不是command+`
@@ -15,7 +15,7 @@ patch:
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写
     switch_key:
-      Shift_L: noop
+      Shift_L: commit_code
       Shift_R: noop
       Control_L: noop
       Control_R: noop

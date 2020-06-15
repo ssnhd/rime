@@ -16,9 +16,8 @@
 #
 # no comment
 
-Rime	rime	3
-中州韻輸入法引擎	rime	2
-http://rime.im/	rime	1
+Rime	rime	2
+鼠须管	rime	1
 ⌘	cm
 ⌃	ct	1
 ⌥	ot
@@ -26,15 +25,20 @@ Option	ot
 ⇧	sf
 AC86U	ac
 Apple ID	aid
-AirPods	airp	2
-AirPods Pro	airp	1
+AirPods	ej	2
+AirPods Pro	ej	1
 Apple Music	am	2
+App	app
 AiMesh	am	1
 Apple	apple	3
 	apple	2
- Pay	apple	1
+Apple Pay	apple	1
+Alipay	ap
+Apple TV	atv
 Apple Watch	aw
 Android	az
+请联系快递员送货上门，谢谢！	bz
+ClashX	cla
 Chrome	ch
 CleanMyMac X	cmm	1
 Command	cm	1
@@ -46,7 +50,9 @@ Control	ct	2
 Download	dl	1
 Edge	edge
 Enpass	enpass
-番羽墙	fanqiang
+Emoji	em
+eSir	esir
+番羽墙	fanqiang	
 Facebook	fb
 Final Cut Pro	fcp
 gfwlist	gfw
@@ -54,7 +60,16 @@ Google	gg
 GitHub Desktop	gh	1
 GitHub	gh	2
 Gmail	gm
-Return 键	huichejian
+Google Pay	gp
+Google Voice	gv
+Handoff	ho
+iCloud	ic
+Illustrator	ill
+iWork	iw	4
+Numbers	iw	3
+Pages	iw	2
+Keynote	iw	1
+KidsProtect	kp
 Firefox	ff
 macOS High Sierra	macos	2
 macOS Mojave	macos	3
@@ -66,9 +81,8 @@ koolproxy	kpr
 koolshare	ks
 Lightning to USB-C	ltc
 Lightning to USB	ltu
-🐂️🍺️	niubi
-MySQL	mysql
-Markdown	md	4	
+🐂️🍺️	nb
+Markdown	md	4
 []()	md	2
 ![]()	md	3
 :---: | :---:	md	1
@@ -90,56 +104,65 @@ iPad mini	iPad	1
 iPhone	af	5
 iPhone X	af	4
 iPhone XS Max	af	3
-iPhone 11	af	2
-iPhone 11 Pro	af	1
-iPhone 11 Pro Max	af	0
+iPhone 11 Pro	af	2
+iPhone 11 Pro Max	af	1
 iPod	ipod
 IPTV	iptv
 IPv4	ipv
 IPv6	ipv
-iCloud	icloud
 Instagram	ins
 iOS	ios
 App Store	as	2
 Apple Store	as	1
-1password	one	2
-OneDrive	one	1
+1password	one	1
+OneDrive	one	2
+openwrt	ow
 Pro	pro
 Plus	plus
 Parallels Desktop	pd
+Paragon NTFS	pn
 Photoshop	ps
+Paypal	pp
 Quantumult	quan
 Quantumult X	quanx
 readme.md	rm
-ScreenBar Plus	sb	1
-ScreenBar	sb	2
-Shadowrocket	xfj	3	
-Shadowsocks	xfj	2
-ShadowsocksX-NG-R8	xfj	1
+rixCloud	rix
+ScreenBar Plus	sbp	1
+Shadowrocket	sds	3	
+Shadowsocks	sds	2
+ShadowsocksX-NG-R8	sds	1
 Safari	sf	2
 Shift	sf	1
 SHIELD TV	stv
 SSD	ssd
-WH-1000XM2	suoniw	3
-WH-1000XM3	suoniw	2
-WF-1000XM3	suoniw	1
+Spotify	sp
+WH-1000XM2	sn	2
+WF-1000XM3	sn	1
+WhatsApp	wa
+WeChat	wc
 T恤	txu
 Type-C	tc
 Telegram	tg	2
 Telegram Lite	tg	1	
 TeamViewer	tv
+Twitter	tt
+Typora	ty
 USB-C	uc
 U盘	upan
+Up主	upzhu
 Wi-Fi	wifi
 Windows	win
 WTF	wtf	3
 什么玩意儿！	wtf	2
 What the fuck!	wtf	1
 Xbox One	xbox
-Youku	youku
 YouTube	yt
+YouTube Premium	yp
+又双叒叕	yyyy
+在【命令终端】依次输入或粘贴以下命令，按回车键。	zd
 ##	jj
 ###	jjj
+####	jjjj
 **	xx
 淼	shuishuishui
 焱	huohuohuo
@@ -159,5 +182,3 @@ YouTube	yt
 㐂	qiqiqi
 掱	shoushoushou
 犇	niuniuniu
-
-
