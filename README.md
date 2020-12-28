@@ -1,5 +1,4 @@
-# Rime 鼠须管输入法 for Mac 配置方案
-## 效果
+# Rime 输入法（鼠须管） for Mac 配置方案
 ![](图片/效果图.jpg)
 
 1. 前往 [Rime](https://rime.im/) 下载并安装好输入法。
