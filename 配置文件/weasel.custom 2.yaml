@@ -1,0 +1,96 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.29.1
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Feb 12 09:16:25 2014"
+  rime_version: 1.1
+
+patch:
+
+  # 以下软件默认英文模式
+  "app_options/gvim.exe":
+    ascii_mode: true
+  "app_options/tcmatch64.exe":
+    ascii_mode: true
+  "app_options/totalcmd64.exe":
+    ascii_mode: true
+  "app_options/findandrunrobot.exe":
+    ascii_mode: true
+    style/color_scheme: win10
+
+  # 以下修改皮肤
+  "style/display_tray_icon": true
+  "style/horizontal": true #横排显示
+  "style/font_face": "Microsoft YaHei" #字体
+  "style/font_point": 13 #字体大小
+  "style/inline_preedit": true # 嵌入式候选窗单行显示
+
+  "style/layout/border_width": 0
+  "style/layout/border": 0
+  "style/layout/margin_x": 12 #候选字左右边距
+  "style/layout/margin_y": 12 #候选字上下边距
+  "style/layout/hilite_padding": 12 #候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+  "style/layout/hilite_spacing": 3 # 序号和候选字之间的间隔
+  "style/layout/spacing": 10 #作用不明
+  "style/layout/candidate_spacing": 24 # 候选字间隔
+  "style/layout/round_corner": 0 #候选字背景色块圆角幅度
+
+  "style/color_scheme": Micosoft
+
+  preset_color_schemes:
+    "Micosoft":
+      name: "Micosoft"
+      author: "XNOM"
+      back_color: 0xffffff #候选框 背景色
+      border_color: 0xD77800 #候选框 边框颜色
+      text_color: 0x000000 #已选择字 文字颜色
+      hilited_text_color: 0x000000 #已选择字右侧拼音 文字颜色
+      hilited_back_color: 0xffffff #已选择字右侧拼音 背景色
+      hilited_candidate_text_color: 0xffffff #候选字颜色
+      hilited_candidate_back_color: 0xD77800 #候选字背景色
+      candidate_text_color: 0x000000 #未候选字颜色
+
+    "mojave_dark":
+      name: "沙漠夜／Mojave Dark"
+      author: "xiehuc <xiehuc@gmail.com>"
+      horizontal: true
+      inline_preedit: true
+      candidate_format: "%c %@"
+      corner_radius: 5
+      hilited_corner_radius: 0
+      border_height: 6
+      border_width: 12
+      border_color_width: 0
+      font_face: PingFangSC
+      font_point: 16
+      label_font_point: 13
+      text_color: 0xdedddd
+      back_color: 0x3c3c3c
+      label_color: 0x888785
+      border_color: 0x3c3c3c
+      candidate_text_color: 0xdedddd
+      hilited_text_color: 0xdedddd
+      hilited_back_color: 0x3c3c3c
+      hilited_candidate_text_color: 0xefefef
+      # hilited_candidate_back_color: 0xcb5d00
+      hilited_candidate_label_color: 0xefefef
+      comment_text_color: 0xdedddd
+    "apathy":
+      author: "LIANG Hai"
+      back_color: 0xFFFFFF
+      border_height: 0
+      border_width: 8
+      candidate_format: "%c %@ "
+      comment_text_color: 0x999999
+      corner_radius: 5
+      # font_face: PingFangSC
+      # font_face: "PingFangSC-Regular,HanaMinB"
+      font_point: 16
+      hilited_candidate_back_color: 0xFFF0E4
+      hilited_candidate_text_color: 0xEE6E00
+      horizontal: true
+      inline_preedit: true
+      # label_font_face: "STHeitiSC-Light"
+      label_font_point: 12
+      name: "冷漠／Apathy"
+      text_color: 0x424242  

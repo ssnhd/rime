@@ -1,0 +1,93 @@
+# Rime schema
+# encoding: utf-8
+patch:
+  schema/name: 自然码
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: emoji_suggestion
+      reset: 1
+      states: [ "No", "Yes" ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      reset: 1
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+  engine/translators:
+    - punct_translator
+    - script_translator
+    - table_translator@custom_phrase
+  engine/filters:
+    - simplifier@emoji_suggestion
+    #- simplifier@zh_simp
+    - simplifier
+    - uniquifier
+    #- charset_filter@gbk
+    #- single_char_filter
+  engine/processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  # engine/segmentors:
+  #   - ascii_segmentor
+  #   - matcher
+  #   - abc_segmentor
+  #   - punct_segmentor
+  #   - fallback_segmentor
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    # tips: all
+  
+  #載入朙月拼音擴充詞庫
+  "translator/dictionary": luna_pinyin.extended
+  'translator/preedit_format': {}
+  # translator/enable_correction: true
+
+  # 自定义符号上屏
+  punctuator:
+    import_preset: symbols
+    # 自定义快捷符号输入
+    # symbols:
+    #   "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
+    half_shape:
+      "#": "#"
+      "*": "*"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": ["/", "÷",]
+      '\': "、"
+      "_" : "──"
+      "'": {pair: ["「", "」"]}
+      "[": ["【", "["]
+      "]": ["】", "]"]
+      "$": ["¥", "$", "€", "£", "¢", "¤"]
+      "<": ["《", "〈", "«", "<"]
+      ">": ["》", "〉", "»", ">"]
+
+  recognizer/patterns/punct: "^/([0-9]0?|[A-Za-z]+)$"
+
+  ### 双拼使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@5": table_translator@custom_phrase
+# Rx: BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy
+  __include: easy_en:/patch
+  easy_en/enable_sentence: false # 中英文混输的设置
+# Rx: lotem/rime-octagram-data:customize:schema=luna_pinyin,model=hans
+  __include: grammar:/hant

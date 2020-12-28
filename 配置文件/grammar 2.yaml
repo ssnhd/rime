@@ -1,0 +1,34 @@
+# patch:
+#   __include: hant
+
+hant:
+  grammar:
+    language: zh-hant-t-essay-bgw
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+
+hans:
+  grammar:
+    language: zh-hans-t-essay-bgw
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+
+hant_char:
+  grammar:
+    language: zh-hant-t-essay-bgc
+    collocation_max_length: 2
+    collocation_min_length: 2
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
+
+hans_char:
+  grammar:
+    language: zh-hans-t-essay-bgc
+    collocation_max_length: 2
+    collocation_min_length: 2
+  translator/contextual_suggestions: true
+  translator/max_homophones: 7
+  translator/max_homographs: 7
