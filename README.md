@@ -17,5 +17,5 @@
 >注：按 `Control + ~` 选择 `朙月拼音`，可以切换输入法方案。
 
 
-![](图片/001.png)
+![](https://i.loli.net/2020/12/28/eMYzCETdGV3qQtB.png)
 
