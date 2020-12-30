@@ -1,0 +1,448 @@
+# Rime dictionary
+# encoding: utf-8
+# Souce: https://pinyin.sogou.com/dict/detail/index/75228
+#
+# cat luna_pinyin.kaifadashenzhuanyongciku.dict.yaml | ggrep -v -P "\t" | sponge luna_pinyin.kaifadashenzhuanyongciku.dict.yaml
+# wget 'https://pinyin.sogou.com/d/dict/download_cell.php?id=75228&name=%E5%BC%80%E5%8F%91%E5%A4%A7%E7%A5%9E%E4%B8%93%E7%94%A8%E8%AF%8D%E5%BA%93%E3%80%90%E5%AE%98%E6%96%B9%E6%8E%A8%E8%8D%90%E3%80%91&f=detail'
+# python $HOME/dev/myproject/ascel/ascel.py 开发大神专用词库【官方推荐】.scel >> luna_pinyin.kaifadashenzhuanyongciku.dict.yaml
+# rm 开发大神专用词库【官方推荐】.scel
+# version=$(date +%Y.%m.%d); gsed -i -E "s/^version: \".+\"$/version: \"$version\"/g" luna_pinyin.kaifadashenzhuanyongciku.dict.yaml
+
+---
+name: luna_pinyin.kaifadashenzhuanyongciku
+version: "2020.02.25"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+按引用传递	an yin yong chuan di
+按值传递	an zhi chuan di
+安装调试	an zhuang tiao shi
+包含文件	bao han wen jian
+报警复位	bao jing fu wei
+本地存放地址	ben di cun fang di zhi
+本地化	ben di hua
+变量	bian liang
+变量表	bian liang biao
+编码	bian ma
+编译	bian yi
+编译器	bian yi qi
+标识符	biao zhi fu
+标准配置	biao zhun pei zhi
+并发数	bing fa shu
+捕获异常	bu huo yi chang
+不可分割的	bu ke fen ge de
+参见	can jian
+参数	can shu
+参数信息	can shu xin xi
+操作符	cao zuo fu
+操作系统	cao zuo xi tong
+查错	cha cuo
+查看	cha kan
+插入位置	cha ru wei zhi
+常量	chang liang
+长整数	chang zheng shu
+超级木马	chao ji mu ma
+超文本传输协议	chao wen ben chuan shu xie yi
+程序版本号	cheng xu ban ben hao
+程序备注	cheng xu bei zhu
+程序池	cheng xu chi
+程序段	cheng xu duan
+程序集	cheng xu ji
+程序集变量	cheng xu ji bian liang
+程序类型	cheng xu lei xing
+程序名称	cheng xu ming cheng
+程序异常	cheng xu yi chang
+成员	cheng yuan
+成员方法	cheng yuan fang fa
+成员函数	cheng yuan han shu
+成员属性	cheng yuan shu xing
+重新关联名称	chong xin guan lian ming cheng
+重载	chong zai
+抽象	chou xiang
+抽象方法	chou xiang fang fa
+抽象体	chou xiang ti
+抽象物	chou xiang wu
+抽象性	chou xiang xing
+初始化	chu shi hua
+传给函式的值	chuan gei han shi de zhi
+传值参数	chuan zhi can shu
+创建对象	chuang jian dui xiang
+窗口标题	chuang kou biao ti
+窗口透明载入	chuang kou tou ming zai ru
+窗口状态控制	chuang kou zhuang tai kong zhi
+次数	ci shu
+存储技术	cun chu ji shu
+存取	cun qu
+存取函式	cun qu han shi
+存取级别	cun qu ji bie
+大数据	da shu ju
+待编码数据	dai bian ma shu ju
+带宽	dai kuan
+代码	dai ma
+单例模式	dan li mo shi
+单行注释	dan xing zhu shi
+单元测试	dan yuan ce shi
+当前进程句柄	dang qian jin cheng ju bing
+低配置	di pei zhi
+地址	di zhi
+地址总线	di zhi zong xian
+调用表	diao yong biao
+定向营销	ding xiang ying xiao
+定址空间	ding zhi kong jian
+丢包	diu bao
+动多态	dong duo tai
+动静多态	dong jing duo tai
+读内存文本	du nei cun wen ben
+读内存整数	du nei cun zheng shu
+读文本型内存	du wen ben xing nei cun
+读整数内存	du zheng shu nei cun
+读整数型内存	du zheng shu xing nei cun
+断言	duan yan
+短整数	duan zheng shu
+队列	dui lie
+多功能条	duo gong neng tiao
+多行注释	duo hang zhu shi
+多媒体技术应用	duo mei ti ji shu ying yong
+多态	duo tai
+多维数组	duo wei shu zu
+额外信息	e wai xin xi
+恶意攻击	e yi gong ji
+二叉链表	er cha lian biao
+二进制代码	er jin zhi dai ma
+二维数组	er wei shu zu
+返回值	fan hui zhi
+仿函数	fang han shu
+防火墙	fang huo qiang
+访问	fang wen
+访问函数	fang wen han shu
+访问级别	fang wen ji bie
+访问临界区	fang wen lin jie qu
+访问器	fang wen qi
+非线性链表	fei xian xing lian biao
+分布式计算	fen bu shi ji suan
+分布式因特网应用程序	fen bu shi yin te wang ying yong cheng xu
+分割字节集	fen ge zi jie ji
+分配	fen pei
+分配器	fen pei qi
+封装	feng zhuang
+父类	fu lei
+服务器	fu wu qi
+赋值	fu zhi
+赋值操作符	fu zhi cao zuo fu
+改变目录	gai bian mu lu
+改变驱动器	gai bian qu dong qi
+概要分析	gai yao fen xi
+高级选择夹	gao ji xuan ze jia
+更新机制	geng xin ji zhi
+更新配置文件地址	geng xin pei zhi wen jian di zhi
+更新文件下载目录	geng xin wen jian xia zai mu lu
+工厂模式	gong chang mo shi
+公共语言运行库	gong gong yu yan yun xing ku
+工具类	gong ju lei
+公开测试	gong kai ce shi
+共用体	gong yong ti
+构造方法	gou zao fang fa
+构造函数	gou zao han shu
+构造体	gou zao ti
+关闭进程句柄	guan bi jin cheng ju bing
+观察者模式	guan cha zhe mo shi
+关联	guan lian
+关联式容器	guan lian shi rong qi
+关联项	guan lian xiang
+函数	han shu
+函数式	han shu shi
+缓冲区	huan chong qu
+汇编	hui bian
+汇编语言	hui bian yu yan
+回溯相容	hui su xiang rong
+回调	hui tiao
+回原点	hui yuan dian
+活化	huo hua
+继承父类成员	ji cheng fu lei cheng yuan
+集成开发环境	ji cheng kai fa huan jing
+基础类别	ji chu lei bie
+基础型别	ji chu xing bie
+计次	ji ci
+集合类	ji he lei
+激活	ji huo
+基类	ji lei
+机器码	ji qi ma
+计数	ji shu
+技术可行性分析	ji shu ke xing xing fen xi
+技术支持	ji shu zhi chi
+架构	jia gou
+加密次数	jia mi ci shu
+加密结果	jia mi jie guo
+加密文本	jia mi wen ben
+剪辑历史	jian ji li shi
+监视表	jian shi biao
+箭头操作符	jian tou cao zuo fu
+脚本	jiao ben
+脚本语言	jiao ben yu yan
+交叉测试	jiao cha ce shi
+校验	jiao yan
+结构化编程	jie gou hua bian cheng
+接口	jie kou
+接口程序集	jie kou cheng xu ji
+解释程序	jie shi cheng xu
+解锁文件	jie suo wen jian
+进程句柄	jin cheng ju bing
+进程名	jin cheng ming
+静多态	jing duo tai
+精简指令集	jing jian zhi ling ji
+静态方法	jing tai fang fa
+句柄	ju bing
+局部变量	ju bu bian liang
+聚合	ju he
+开发环境	kai fa huan jing
+可互操作性	ke hu cao zuo xing
+可靠性	ke kao xing
+可理解性	ke li jie xing
+可维护性	ke wei hu xing
+可行性	ke xing xing
+可行性分析	ke xing xing fen xi
+可修改性	ke xiu gai xing
+可移植性	ke yi zhi xing
+可执行代码	ke zhi xing dai ma
+可追踪性	ke zhui zong xing
+空间资源	kong jian zi yuan
+类变量	lei bian liang
+类接口	lei jie kou
+类库	lei ku
+类体	lei ti
+类装载器	lei zhuang zai qi
+链表	lian biao
+连接池	lian jie chi
+临时子程序	lin shi zi cheng xu
+令牌环	ling pai huan
+轮询	lun xun
+逻辑运算符	luo ji yun suan fu
+逻辑值	luo ji zhi
+冒泡	mao pao
+枚举	mei ju
+枚举进程	mei ju jin cheng
+门户网站	men hu wang zhan
+面向对象	mian xiang dui xiang
+模块化	mo kuai hua
+默认按钮	mo ren an niu
+模板库	mu ban ku
+木马	mu ma
+内部测试	nei bu ce shi
+内部测试的组织实施	nei bu ce shi de zu zhi shi shi
+内核对象	nei he dui xiang
+排错	pai cuo
+排期	pai qi
+排序	pai xu
+配接器	pei jie qi
+配置	pei zhi
+配置器	pei zhi qi
+频繁分配释放资源	pin fan fen pei shi fang zi yuan
+频宽	pin kuan
+启动窗口创建完毕	qi dong chuang kou chuang jian wan bi
+启动事件	qi dong shi jian
+启动子程序	qi dong zi cheng xu
+嵌套	qian tao
+强行聊天被选择	qiang xing liao tian bei xuan ze
+清除图标	qing chu tu biao
+清空内存	qing kong nei cun
+取磁盘卷标	qu ci pan juan biao
+取磁盘剩余空间	qu ci pan sheng yu kong jian
+取磁盘总空间	qu ci pan zong kong jian
+取错误	qu cuo wu
+取地址操作符	qu di zhi cao zuo fu
+取接口	qu jie kou
+取逻辑值	qu luo ji zhi
+取数值	qu shu zhi
+取用	qu yong
+取址运算子	qu zhi yun suan zi
+全编译	quan bian yi
+全局变量	quan ju bian liang
+人工智慧	ren gong zhi hui
+人工智能	ren gong zhi neng
+人工智能与识别	ren gong zhi neng yu shi bie
+人机交互	ren ji jiao hu
+软件测试技术	ruan jian ce shi ji shu
+软件架构	ruan jian jia gou
+软件开发工具包	ruan jian kai fa gong ju bao
+软件设计方法	ruan jian she ji fang fa
+软件生命周期	ruan jian sheng ming zhou qi
+软件注册	ruan jian zhu ce
+三维数组	san wei shu zu
+筛法	shai fa
+删除数据	shan chu shu ju
+删除自身	shan chu zi shen
+设计模式	she ji mo shi
+设值	she zhi
+设置程序图标	she zhi cheng xu tu biao
+生成	sheng cheng
+生成随机颜色	sheng cheng sui ji yan se
+生成图片	sheng cheng tu pian
+生成运行	sheng cheng yun xing
+识别文本	shi bie wen ben
+实参	shi can
+释放资源	shi fang zi yuan
+事件代理	shi jian dai li
+实例	shi li
+实例变量	shi li bian liang
+实例方法	shi li fang fa
+实例化	shi li hua
+十六进制地址	shi liu jin zhi di zhi
+适配器	shi pei qi
+适配器模式	shi pei qi mo shi
+适用性	shi yong xing
+实质参数	shi zhi can shu
+手动控制模式	shou dong kong zhi mo shi
+鼠标锁定	shu biao suo ding
+输出设备	shu chu she bei
+输出字节文本	shu chu zi jie wen ben
+数据	shu ju
+数据割接	shu ju ge jie
+数据集	shu ju ji
+数据结构	shu ju jie gou
+数据库	shu ju ku
+数据库管理	shu ju ku guan li
+数据库技术研究	shu ju ku ji shu yan jiu
+数据库系统	shu ju ku xi tong
+数据类型	shu ju lei xing
+数据总线	shu ju zong xian
+属性	shu xing
+数值	shu zhi
+数组	shu zu
+双精度小数	shuang jing du xiao shu
+顺序存储的有序表	shun xu cun chu de you xu biao
+死循环	si xun huan
+私钥文本	si yao wen ben
+搜寻	sou xun
+算法	suan fa
+算术操作符	suan shu cao zuo fu
+算术运算符	suan shu yun suan fu
+索引	suo yin
+锁住文件	suo zhu wen jian
+特性音讯	te xing yin xun
+提升进程权限	ti sheng jin cheng quan xian
+体系结构	ti xi jie gou
+条件运算符	tiao jian yun suan fu
+调试	tiao shi
+调试参数行	tiao shi can shu xing
+调试和测试	tiao shi he ce shi
+同步方法	tong bu fang fa
+通常	tong chang
+统一建模语言	tong yi jian mo yu yan
+通用指令代码	tong yong zhi ling dai ma
+透明标签	tou ming biao qian
+透明窗口	tou ming chuang kou
+透明窗口的句柄	tou ming chuang kou de ju bing
+透明度	tou ming du
+图形设备	tu xing she bei
+推荐配置	tui jian pei zhi
+托管代码	tuo guan dai ma
+网卡信息	wang ka xin xi
+伪变量	wei bian liang
+微软基础类库	wei ruan ji chu lei ku
+位址	wei zhi
+位址空间	wei zhi kong jian
+文本	wen ben
+文件尺寸	wen jian chi cun
+文件地址	wen jian di zhi
+问题定义	wen ti ding yi
+无参构造函数	wu can gou zao han shu
+无限多开被选择	wu xian duo kai bei xuan ze
+析构函数	xi gou han shu
+系统崩溃	xi tong beng kui
+系统调用	xi tong diao yong
+系统分析	xi tong fen xi
+系统架构	xi tong jia gou
+系统设计	xi tong she ji
+下标	xia biao
+下载文件	xia zai wen jian
+线程调度	xian cheng diao du
+现代操作系统	xian dai cao zuo xi tong
+显式转换	xian shi zhuan huan
+线性链表	xian xing lian biao
+项目推广	xiang mu tui guang
+详细设计	xiang xi she ji
+向下兼容	xiang xia jian rong
+消息池	xiao xi chi
+消息机制	xiao xi ji zhi
+写文本型内存	xie wen ben xing nei cun
+协议栈	xie yi zhan
+写整数内存	xie zheng shu nei cun
+写整数型内存	xie zheng shu xing nei cun
+写字节集内存	xie zi jie ji nei cun
+信息框提示	xin xi kuang ti shi
+形参	xing can
+虚拟机	xu ni ji
+需求调研	xu qiu diao yan
+需求分析	xu qiu fen xi
+循环类	xun huan lei
+压力测试	ya li ce shi
+延迟	yan chi
+研究领域	yan jiu ling yu
+验收与运行	yan shou yu yun xing
+演算法	yan suan fa
+一对多	yi dui duo
+一维数组	yi wei shu zu
+引数	yin shu
+引用名	yin yong ming
+硬件体系结构	ying jian ti xi jie gou
+硬件休克	ying jian xiu ke
+硬盘信息	ying pan xin xi
+硬盘序号	ying pan xu hao
+应用	ying yong
+应用程式	ying yong cheng shi
+应用程式框架	ying yong cheng shi kuang jia
+应用程序	ying yong cheng xu
+应用程序服务器	ying yong cheng xu fu wu qi
+应用程序接口	ying yong cheng xu jie kou
+应用程序框架	ying yong cheng xu kuang jia
+应用框架	ying yong kuang jia
+用户培训	yong hu pei xun
+用户输入的注册码	yong hu shu ru de zhu ce ma
+优先级	you xian ji
+有效性	you xiao xing
+预减	yu jian
+语句	yu ju
+源程序	yuan cheng xu
+源程序安全	yuan cheng xu an quan
+元素	yuan su
+越界	yue jie
+云计算技术	yun ji suan ji shu
+运算子	yun suan zi
+运行	yun xing
+栈法	zhan fa
+栈区	zhan qu
+阵列	zhen lie
+正式精简版	zheng shi jing jian ban
+正式完整版	zheng shi wan zheng ban
+指定	zhi ding
+指派	zhi pai
+指针	zhi zhen
+指针到字节集	zhi zhen dao zi jie ji
+注册码	zhu ce ma
+助记符	zhu ji fu
+装配件	zhuang pei jian
+装饰模式	zhuang shi mo shi
+状态条	zhuang tai tiao
+自变量	zi bian liang
+子程序	zi cheng xu
+子程序参数	zi cheng xu can shu
+子程序指针	zi cheng xu zhi zhen
+自动控制模式	zi dong kong zhi mo shi
+自动运行启动	zi dong yun xing qi dong
+自动运行停止	zi dong yun xing ting zhi
+字段	zi duan
+字符串	zi fu chuan
+字节	zi jie
+字节集	zi jie ji
+字节码	zi jie ma
+子类	zi lei
+资源保留	zi yuan bao liu
+资源不释放	zi yuan bu shi fang
+资源额度不足	zi yuan e du bu zu
+总体描述	zong ti miao shu
+组合语言	zu he yu yan
+组件对象模式	zu jian dui xiang mo shi
+组件对象模型	zu jian dui xiang mo xing
+作用域	zuo yong yu
+	

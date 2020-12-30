@@ -1,0 +1,5 @@
+# encoding: utf-8
+---
+patch:
+  'engine/processors/@before 0':
+    lua_processor@select_character_processor

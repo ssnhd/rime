@@ -61,7 +61,7 @@ patch:
       "=": "="
       "/": ["/", "÷",]
       '\': "、"
-      "_" : "──"
+      # "_" : "──"
       "'": {pair: ["「", "」"]}
       "[": ["【", "["]
       "]": ["】", "]"]
@@ -84,7 +84,10 @@ patch:
   "engine/translators/@5": table_translator@custom_phrase
 
 # Rx: BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy
-  __include: easy_en:/patch
-  easy_en/enable_sentence: false
+  # __include: easy_en:/patch
+  # easy_en/enable_sentence: false
 # Rx: lotem/rime-octagram-data:customize:schema=luna_pinyin,model=hans
   __include: grammar:/hant
+# Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
+  __include: lua_select_character:/patch
+# }

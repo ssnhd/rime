@@ -117,8 +117,8 @@ patch:
     - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
 
   # 分尖團後 v => ü 的改寫條件也要相應地擴充：
-  #'translator/preedit_format':
-  #  - "xform/([nljqxyzcs])v/$1ü/"
+  'translator/preedit_format':
+   - "xform/([nljqxyzcs])v/$1ü/"
 
   switches:
     - name: ascii_mode
@@ -166,6 +166,8 @@ patch:
     opencc_config: emoji.json
     option_name: emoji_suggestion
     # tips: all
+  reverse_lookup: {}
+  
   punctuator:
     import_preset: symbols
     # 自定义快捷符号输入
@@ -173,9 +175,9 @@ patch:
     #   "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
     half_shape:
       "#": "#"
-      "*": ["*","×"]
-      "`": ["`","```"]
-      "~": ["~","≈"]
+      "*": "*"
+      "`": "`"
+      "~": ["~", "≈"]
       "@": "@"
       "=": "="
       "/": ["/", "÷",]
@@ -201,7 +203,11 @@ patch:
   "engine/translators/@5": table_translator@custom_phrase
 
 # Rx: BlindingDark/rime-easy-en:customize:schema=double_pinyin_flypy
-  __include: easy_en:/patch
-  easy_en/enable_sentence: false
+  # __include: easy_en:/patch
+  # easy_en/enable_sentence: false
 # Rx: lotem/rime-octagram-data:customize:schema=luna_pinyin,model=hans
   __include: grammar:/hant
+# Rx: BlindingDark/rime-lua-select-character:customize:schema=luna_pinyin {
+  __include: lua_select_character:/patch
+# }
+

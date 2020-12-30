@@ -2,19 +2,18 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     default: 1561294610
-    default.custom: 1609105384
-    easy_en: 1590034181
-    easy_en.custom: 1590034181
-    easy_en.schema: 1590034181
-    grammar: 1590034181
-    grammar.custom: 1590034181
+    default.custom: 1609322226
+    grammar: 1605449583
+    grammar.custom: 1605449583
     key_bindings: 1561294610
     key_bindings.custom: 0
-    luna_pinyin.custom: 1591457191
-    luna_pinyin.schema: 1590034181
+    lua_select_character: 1605449583
+    lua_select_character.custom: 0
+    luna_pinyin.custom: 1609321892
+    luna_pinyin.schema: 1605449583
     punctuation: 1561294610
     punctuation.custom: 0
-    symbols: 1590034181
+    symbols: 1605449583
     symbols.custom: 0
 custom_phrase:
   db_class: stabledb
@@ -23,14 +22,6 @@ custom_phrase:
   enable_sentence: false
   initial_quality: 1
   user_dict: custom_phrase
-easy_en:
-  comment_format:
-    - "xform/^.+$//"
-  dictionary: easy_en
-  enable_completion: true
-  enable_sentence: false
-  initial_quality: "-1"
-  spelling_hints: 9
 emoji_suggestion:
   opencc_config: emoji.json
   option_name: emoji_suggestion
@@ -40,6 +31,7 @@ engine:
     - simplifier
     - uniquifier
   processors:
+    - "lua_processor@select_character_processor"
     - ascii_composer
     - recognizer
     - key_binder
@@ -59,18 +51,16 @@ engine:
     - script_translator
     - "table_translator@custom_phrase"
     - "table_translator@custom_phrase"
-    - "table_translator@easy_en"
 grammar:
   language: "zh-hant-t-essay-bgw"
 key_binder:
   bindings:
-    - {accept: ISO_Left_Tab, send: Page_Up, when: composing}
+    - {accept: Tab, send: Right, when: composing}
     - {accept: "Shift+Tab", send: Page_Up, when: composing}
     - {accept: minus, send: Page_Up, when: paging}
     - {accept: equal, send: Page_Down, when: has_menu}
     - {accept: bracketleft, send: Page_Up, when: paging}
     - {accept: bracketright, send: Page_Down, when: has_menu}
-    - {accept: comma, send: Page_Up, when: paging}
     - {accept: Tab, send: Page_Down, when: composing}
   import_preset: default
 menu:
@@ -120,7 +110,7 @@ punctuator:
     "'": {pair: ["「", "」"]}
     "(": "（"
     ")": "）"
-    "*": ["*", "×"]
+    "*": "*"
     "+": "+"
     ",": {commit: "，"}
     "-": "-"
@@ -138,7 +128,7 @@ punctuator:
     "]": ["】", "]"]
     "^": {commit: "……"}
     _: "──"
-    "`": ["`", "```"]
+    "`": "`"
     "{": ["『", "〖", "｛"]
     "|": ["·", "・", "|", "｜", "§", "¦", "‖"]
     "}": ["』", "〗", "｝"]
@@ -351,24 +341,15 @@ recognizer:
     email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
     punct: "^/([0-9]0?|[A-Za-z]+)$"
     reverse_lookup: "`[a-z]*'?$"
-    uppercase: ""
+    uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
 reverse_lookup:
-  comment_format:
-    - "xform/([nl])v/$1ü/"
-  dictionary: stroke
-  enable_completion: true
-  preedit_format:
-    - "xlit/hspnz/一丨丿丶乙/"
-  prefix: "`"
-  suffix: "'"
-  tips: "〔筆畫〕"
+  {}
 schema:
   author:
     - "佛振 <chen.sst@gmail.com>"
   dependencies:
     - stroke
-    - easy_en
   description: |
     Rime 預設的拼音輸入方案。
     參考以下作品而創作：
@@ -391,7 +372,7 @@ speller:
     - "derive/ong$/on/"
     - "derive/ao$/oa/"
     - "derive/([iu])a(o|ng?)$/a$1$2/"
-  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_"
+  alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
 switches:
   - name: ascii_mode
@@ -414,6 +395,4 @@ translator:
   max_homographs: 7
   max_homophones: 7
   preedit_format:
-    - "xform/([nl])v/$1ü/"
-    - "xform/([nl])ue/$1üe/"
-    - "xform/([jqxy])v/$1u/"
+    - "xform/([nljqxyzcs])v/$1ü/"

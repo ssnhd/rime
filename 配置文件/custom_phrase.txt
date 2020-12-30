@@ -28,12 +28,13 @@ Apple ID	aid
 AirPods	ej	2
 AirPods Pro	ej	1
 Apple Music	am	2
+Apple Pay	ap	1
+Alipay	ap	2
+Apple	ap	3
 App	app
 AiMesh	am	1
 Apple	apple	3
 	apple	2
-Apple Pay	apple	1
-Alipay	ap
 Apple TV	atv
 Apple Watch	aw
 Android	az

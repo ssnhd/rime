@@ -2,35 +2,73 @@ __build_info:
   rime_version: 1.5.3
   timestamps:
     squirrel: 1561294610
-    squirrel.custom: 1591366558
+    squirrel.custom: 1609321606
 app_options:
+  com.agilebits.onepassword7:
+    ascii_mode: true
+  "com.agilebits.onepassword7-helper":
+    ascii_mode: true
+  com.apple.ActivityMonitor:
+    ascii_mode: true
+  com.apple.Spotlight:
+    ascii_mode: true
   com.apple.Terminal:
+    ascii_mode: true
+  com.apple.calculator:
+    ascii_mode: true
+  com.apple.dt.Xcode:
+    ascii_mode: true
+  com.apple.finder:
+    ascii_mode: true
+  com.apple.keychainaccess:
+    ascii_mode: true
+  com.apple.launchpad.launcher:
+    ascii_mode: true
+  com.apple.systempreferences:
+    ascii_mode: true
+  com.eusoft.eudic:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  com.jetbrains.datagrip:
+    ascii_mode: true
+  com.jetbrains.intellij:
+    ascii_mode: true
+  com.jetbrains.pycharm:
+    ascii_mode: true
+  com.kapeli.dashdoc:
+    ascii_mode: true
+  com.runningwithcrayons.Alfred:
+    ascii_mode: true
+  com.sequelpro.SequelPro:
+    ascii_mode: true
+  com.sublimetext.3:
+    ascii_mode: true
+  com.svend.uPic:
+    ascii_mode: true
+  io.nteract.nteract:
+    ascii_mode: true
+  io.termix.client:
     ascii_mode: true
 chord_duration: 0.1
 config_version: 0.33
 preset_color_schemes:
   apathy:
-    author: lamb
-    back_color: 0xffffff
-    border_color: 0x9f62e8
-    border_color_width: 0
-    border_height: 4
-    candidate_format: "%c %@  "
-    candidate_text_color: 0x4c4c4c
+    author: "LIANG Hai"
+    back_color: 0xFFFFFF
+    border_height: 0
+    border_width: 8
+    candidate_format: "%c %@ "
+    comment_text_color: 0x999999
     corner_radius: 5
-    dborder_width: 4
-    font_face: PingFangSC
-    font_point: 17
-    hilited_candidate_back_color: 0xD75A00
-    hilited_candidate_label_color: 0xffffff
-    hilited_corner_radius: 5
-    hilited_text_color: 0xffffff
+    font_point: 16
+    hilited_candidate_back_color: 0xFFF0E4
+    hilited_candidate_text_color: 0xEE6E00
     horizontal: true
     inline_preedit: true
-    label_color: 0x888888
     label_font_point: 12
-    name: lamb
-    text_color: 0x333333
+    name: "冷漠／Apathy"
+    text_color: 0x424242
   aqua:
     author: "佛振 <chen.sst@gmail.com>"
     back_color: 0xeeeceeee
@@ -151,6 +189,36 @@ preset_color_schemes:
     hilited_text_color: 0x7fffff
     name: "明月／Luna"
     text_color: 0xa5a5a5
+  macOS_white:
+    author: lamb
+    back_color: 0xffffff
+    border_color: 0x9f62e8
+    border_color_width: 0
+    border_height: 4
+    candidate_format: "%c %@  "
+    candidate_text_color: 0x4c4c4c
+    corner_radius: 5
+    dborder_width: 4
+    font_face: PingFangSC
+    font_point: 16
+    hilited_candidate_back_color: 0xD75A00
+    hilited_candidate_label_color: 0xffffff
+    hilited_corner_radius: 5
+    hilited_text_color: 0xffffff
+    horizontal: true
+    inline_preedit: true
+    label_color: 0x888888
+    label_font_point: 12
+    name: lamb
+    text_color: 0x333333
+  mingcheng:
+    corner_radius: 5
+    font_face: "Sarasa Mono SC Light,PingFang SC Light"
+    font_point: 20
+    horizontal: true
+    inline_preedit: true
+    line_spacing: 5
+    spacing: 10
   mojave_dark:
     author: "xiehuc <xiehuc@gmail.com>"
     back_color: 0x252320
@@ -239,5 +307,5 @@ preset_color_schemes:
 show_notifications_via_notification_center: true
 show_notifications_when: appropriate
 style:
-  color_scheme: apathy
+  color_scheme: macOS_white
 us_keyboard_layout: false
