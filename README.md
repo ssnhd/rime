@@ -1,5 +1,5 @@
 # Rime 输入法（鼠须管） for Mac 配置方案
-![](图片/效果图.jpg)
+![](https://i.loli.net/2020/12/30/8gMEchXjVxzZfya.jpg)
 
 ## 安装方法
 
