@@ -28,13 +28,12 @@ Apple ID	aid
 AirPods	ej	2
 AirPods Pro	ej	1
 Apple Music	am	2
-Apple Pay	ap	1
-Alipay	ap	2
-Apple	ap	3
 App	app
 AiMesh	am	1
 Apple	apple	3
 	apple	2
+Apple Pay	apple	1
+Alipay	ap
 Apple TV	atv
 Apple Watch	aw
 Android	az
@@ -51,10 +50,10 @@ CleanShot X	cs
 <	xy	2
 ≤	xy	1
 Download	dl	1
-DOTA2	dota
 Edge	edge
 Enpass	enpass
 Emoji	em
+eSir	esir
 Facebook	fb
 Final Cut Pro	fcp
 gfwlist	gfw
@@ -63,14 +62,10 @@ GitHub Desktop	gh	1
 GitHub	gh	2
 Gmail	gm
 Google Pay	gp
-Google Voice	gv	2
-googlevoice	gv	1
+Google Voice	gv
 Handoff	ho
-Hi	hi
-Hello	hello
 iCloud	ic
 Illustrator	ill
-iStat Menus	ism
 iWork	iw	4
 Numbers	iw	3
 Pages	iw	2
@@ -78,8 +73,10 @@ Keynote	iw	1
 National_Tsinghua	id
 KidsProtect	kp
 Firefox	ff
-macOS Big Sur	macos	3
+macOS High Sierra	macos	2
+macOS Mojave	macos	3
 macOS	macos	4
+macOS Sierra	macos	1
 iOS	ios
 iTunes	itunes
 koolproxy	kpr
@@ -87,15 +84,14 @@ koolshare	ks
 Lightning to USB-C	ltc
 Lightning to USB	ltu
 🐂️🍺️	nb
-Markdown	md	4
+Markdown	md
 Microsoft Office	mo
 Netflix	nf
 WeChat	wx	
 MacBook Pro	mbp
 MacBook Air	mba
 MacBook	macbook
-Mac	mac	4
-macOS	mac	3
+Mac	mac	3
 Mac Pro	mac	1
 Mac mini	mac	2
 iMac	imac	2
@@ -120,7 +116,6 @@ Apple Store	as	1
 1password	one	1
 OneDrive	one	2
 openwrt	ow
-outlook	ol
 Pro	pro
 Plus	plus
 Parallels Desktop	pd

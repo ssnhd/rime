@@ -4,60 +4,16 @@ patch:
 
   # 以下软件默认英文模式
   app_options:
-    com.apple.dt.Xcode:
-      ascii_mode: true
-    com.runningwithcrayons.Alfred:
-      ascii_mode: true
     com.apple.Terminal:
-      ascii_mode: true
-    com.googlecode.iterm2:
-      ascii_mode: true
-    com.apple.finder:
-      ascii_mode: true
-    com.sublimetext.3:
-      ascii_mode: true
-    com.apple.calculator:
-      ascii_mode: true
-    com.apple.launchpad.launcher:
-      ascii_mode: true
-    com.apple.systempreferences:
-      ascii_mode: true
-    com.apple.ActivityMonitor:
-      ascii_mode: true
-    com.apple.keychainaccess:
-      ascii_mode: true
-    com.apple.Spotlight:
-      ascii_mode: true
-    com.jetbrains.intellij:
-      ascii_mode: true
-    com.jetbrains.datagrip:
-      ascii_mode: true
-    com.jetbrains.pycharm:
-      ascii_mode: true
-    io.nteract.nteract:
-      ascii_mode: true
-    com.sequelpro.SequelPro:
-      ascii_mode: true
-    io.termix.client:
-      ascii_mode: true
-    com.agilebits.onepassword7:
-      ascii_mode: true
-    com.agilebits.onepassword7-helper:
-      ascii_mode: true
-    com.kapeli.dashdoc:
-      ascii_mode: true
-    com.svend.uPic:
-      ascii_mode: true
-    com.eusoft.eudic:
       ascii_mode: true
       
 
 # 如果想要修改皮肤，直接更改 color_scheme 的值即可
   style:
-    color_scheme: macOS_white
+    color_scheme: apathy
 
   preset_color_schemes:
-    macOS_white:
+    apathy:
       author: "lamb"
       name: "lamb"
       back_color: 0xffffff              #设置输入条的背景色，色值是按照BGR的形式16进制填写
@@ -66,20 +22,35 @@ patch:
       dborder_width: 4                  #设置输入条左右宽度
       border_color: 0x9f62e8            #输入条边框颜色，似乎在横向模式下不起作用
       border_color_width: 0             #输入条边框宽度
+
       candidate_format: "%c %@  "       #设置每个候选词之间的间隔距离，%c代表备选的数字，%@代表候选字，可以通过输入空格的形式来调整每个候选字之间的间隔距离
       candidate_text_color: 0x4c4c4c    #候选字颜色
       # comment_text_color: 0x808080    #提示文字颜色，全拼模式下貌似不显示
+
       font_face: PingFangSC             #字体
-      font_point: 16                    #字体大小
+      font_point: 17                    #字体大小
       text_color: 0x333333              #普通候选字的颜色，非第一候选字
       hilited_candidate_label_color: 0xffffff   #第一候选字标签颜色，也就是数字1
       hilited_text_color: 0xffffff              #第一候选字颜色
       hilited_candidate_back_color: 0xD75A00    #第一候选字高亮颜色（背景色）
       hilited_corner_radius: 5                  #第一候选字高亮颜色的圆角，当不设置时就是一整块的颜色，设置了圆角之后就带有圆角效果了
+
       horizontal: true                  #设置水平还是竖直模式
       inline_preedit: true              #设置是否双行显示
+
       label_color: 0x888888             #普通标签的颜色(非第一候选字)，也就是候选字数字
       label_font_point: 12              #普通标签的字体大小
+    aqua:
+      author: "佛振 <chen.sst@gmail.com>"
+      back_color: 0xeeeceeee
+      candidate_text_color: 0x000000
+      comment_text_color: 0x5a5a5a
+      hilited_candidate_back_color: 0xeefa3a0a
+      hilited_candidate_text_color: 0xffffff
+      hilited_comment_text_color: 0xfcac9d
+      hilited_text_color: 0x000000
+      name: "碧水／Aqua"
+      text_color: 0x606060
     mojave_dark:
       name: "沙漠夜／Mojave Dark"
       author: "xiehuc <xiehuc@gmail.com>"
@@ -105,36 +76,6 @@ patch:
       # hilited_candidate_back_color: 0xcb5d00
       hilited_candidate_label_color: 0xefefef
       comment_text_color: 0xdedddd
-    apathy:
-      author: "LIANG Hai"
-      back_color: 0xFFFFFF
-      border_height: 0
-      border_width: 8
-      candidate_format: "%c %@ "
-      comment_text_color: 0x999999
-      corner_radius: 5
-      # font_face: PingFangSC
-      # font_face: "PingFangSC-Regular,HanaMinB"
-      font_point: 16
-      hilited_candidate_back_color: 0xFFF0E4
-      hilited_candidate_text_color: 0xEE6E00
-      horizontal: true
-      inline_preedit: true
-      # label_font_face: "STHeitiSC-Light"
-      label_font_point: 12
-      name: "冷漠／Apathy"
-      text_color: 0x424242
-    aqua:
-      author: "佛振 <chen.sst@gmail.com>"
-      back_color: 0xeeeceeee
-      candidate_text_color: 0x000000
-      comment_text_color: 0x5a5a5a
-      hilited_candidate_back_color: 0xeefa3a0a
-      hilited_candidate_text_color: 0xffffff
-      hilited_comment_text_color: 0xfcac9d
-      hilited_text_color: 0x000000
-      name: "碧水／Aqua"
-      text_color: 0x606060
     azure:
       author: "佛振 <chen.sst@gmail.com>"
       back_color: 0xee8b4e01
@@ -329,11 +270,3 @@ patch:
       hilited_text_color: 0xfecb96
       name: "星際我爭霸／StarCraft"
       text_color: 0xccaa88
-    mingcheng:
-      corner_radius: 5
-      font_face: 'Sarasa Mono SC Light,PingFang SC Light'
-      font_point: 20
-      horizontal: true
-      inline_preedit: true
-      line_spacing: 5
-      spacing: 10

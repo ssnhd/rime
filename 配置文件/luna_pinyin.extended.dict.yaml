@@ -1,29 +1,8 @@
 # Rime dictionary
 # encoding: utf-8
 #
-# Luna Pinyin Extended Dictionary(Basic)  - 明月拼音擴充詞庫（基本）
+#  BetterRime词库增强包－实用版の准正式版 by @imy0823
 #
-#   瑾昀 <cokunhui@gmail.com>
-#
-# Thanks to the following works:
-#
-# * 拼音加加論壇beckyer製作的繁體詞庫
-#   http://bbs.jjol.cn/showthread.php?t=6758
-#
-# * 小麥注音輸入法詞庫
-#   https://github.com/mjhsieh/McBopomofo/tree/master/Source/Data
-#
-# * 新酷音共享詞庫
-#   Google搜尋獲得，由臺灣网友整理
-#
-# * 詞庫网
-#   http://baseterm.com/
-#
-# * 敎育部詞頻統計表
-#   http://www.edu.tw/files/site_content/m0001/pin/biau2.htm?open
-#
-# * 維基百科
-#   http://www.wikipedia.org/
 #
 # 部署位置：
 # ~/.config/ibus/rime  (Linux)
@@ -35,24 +14,27 @@
 
 ---
 name: luna_pinyin.extended
-version: "2016.06.26"
-sort: by_weight  #字典初始排序，可選original或by_weight
+version: "2014.09.07"
+sort: by_weight
+# vocabulary: essay
 use_preset_vocabulary: true
-#此處爲明月拼音擴充詞庫（基本）默認鏈接載入的詞庫，有朙月拼音官方詞庫、明月拼音擴充詞庫（漢語大詞典）、明月拼音擴充詞庫（詩詞）、明月拼音擴充詞庫（含西文的詞彙）。如果不需要加載某个詞庫請將其用「#」註釋掉。
+#下面的是本词库包含的所有词库，请根据需要开启/禁用，词条前添删#号即可开启/关闭词库。
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用。
-
 import_tables:
-  - luna_pinyin
-  - luna_pinyin.xiandaihanyu
-  - luna_pinyin.chengyusuyu
-  - luna_pinyin.popular
-  - essay
-  - luna_pinyin.computer
-  - luna_pinyin.kaifa
-  - luna_pinyin.poetry
   - luna_pinyin.chat
+  - luna_pinyin.cn_en
+  - luna_pinyin.computer
+  - luna_pinyin
+  - luna_pinyin.idiom
+  - luna_pinyin.movie
+  - luna_pinyin.music
+  - luna_pinyin.name
+  - luna_pinyin.net
   - luna_pinyin.place
+  - luna_pinyin.poetry
+  - luna_pinyin.sgmain
+  - luna_pinyin.sgplus
+  - luna_pinyin.sgplus2
   - luna_pinyin.shopping
   - luna_pinyin.website
-  - luna_pinyin.mingxing
 ...
