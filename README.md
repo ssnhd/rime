@@ -82,5 +82,5 @@ patch:
     - schema: luna_pinyin_simp   # 朙月拼音 简化字
     - schema: luna_pinyin	# 朙月拼音
   switcher/hotkeys:
-    - "Control+grave"             # 快捷键 Control + ~
+    - "Control+grave"             # 快捷键 Control + `
 ```
