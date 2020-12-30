@@ -14,7 +14,7 @@
 
 ![](https://i.loli.net/2020/12/28/eMYzCETdGV3qQtB.png)
 
-* 按 `Control + ~` 选择输入法方案。
+* 按 `Control` + `~` 选择输入法方案。
 * 将【字体】文件夹内的 2 个文件安装到 Mac【字体册】。
 
 ---
