@@ -16,3 +16,17 @@
 
 * 按 `Control + ~` 选择输入法方案。
 * 将【字体】文件夹内的 2 个文件安装到 Mac【字体册】。
+
+---
+
+## 配色
+
+少数情况下会遇到 `0x` 开头的颜色值，比如 Rime 输入法里 `hilited_candidate_back_color: 0xD05B21`，末尾的 `0xD05B21` 表示第一候选词背景颜色。如果同一颜色输入不同表示方式，那么显示就会变化。
+
+* 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共32bit。
+* Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
+* 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
+
+![](https://upload-images.jianshu.io/upload_images/12894454-3ebd276bc32059e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+* 配色方案工具：https://gjrobert.github.io/Rime-See-Me-squirrel/
