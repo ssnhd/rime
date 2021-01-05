@@ -72,7 +72,7 @@ switch_key:
       Eisu_toggle: clear
 ```
 
-### 四、快捷键
+### 四、键盘选择
 
 打开 `default.custom.yaml` 。
 ```
