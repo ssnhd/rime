@@ -140,6 +140,7 @@ patch:
     - punct_translator
     - script_translator
     - table_translator@custom_phrase
+    - lua_translator@date_translator
   engine/filters:
     - simplifier@emoji_suggestion
     #- simplifier@zh_simp
