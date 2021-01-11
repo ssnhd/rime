@@ -1,4 +1,6 @@
 # Rime 输入法（鼠须管） for Mac 配置方案
+#### Telegram 交流群：[点击加入](https://t.me/joinchat/G7mF0SxORWbgzSUS)
+
 ![](https://i.loli.net/2020/12/30/8gMEchXjVxzZfya.jpg)
 
 ## 一、安装
