@@ -50,13 +50,13 @@
 - `date` 输出日期，格式 `2021年01月11日`、 `2021-01-11`、 `01-11`、 `01-11-2021`、 `2021/01/11`
 - `time` 输出时间，格式 `14:43` 、`20210111144321`、  `14:43:21` 
 
-![mkDZyRTB7gfIzpv](https://i.loli.net/2021/01/11/mkDZyRTB7gfIzpv.png)
+![2021-01-11 at 14.38](https://tva3.sinaimg.cn/large/008aobiRgy1gmjrmufvw8j31bc07wdhj.jpg)
 
-![58X1wCRSvQT7BNk](https://i.loli.net/2021/01/11/58X1wCRSvQT7BNk.png)
+![2021-01-11 at 14.43](https://tvax4.sinaimg.cn/large/008aobiRgy1gmjrn04dwuj315e068wfz.jpg)
 
 配置里 `rime.lua` 是时间日期文件，朙月拼音码表里找到 `engine/translators`，在下面添加 `lua_translator@date_translator`。
 
-![ljFaWYPEOSMx65A](https://i.loli.net/2021/01/11/ljFaWYPEOSMx65A.png)
+![2021-01-11 at 14.28](https://tva2.sinaimg.cn/large/008aobiRgy1gmjrmjkms7j31jc0xyn82.jpg)
 
 注：部分配置文件源自Rime官方和网络。
 
