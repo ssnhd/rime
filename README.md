@@ -56,7 +56,7 @@
 
 配置里 `rime.lua` 是时间日期文件，朙月拼音码表里找到 `engine/translators`，在下面添加 `lua_translator@date_translator`。
 
-![2021-01-11 at 14.28](pic/09.png)
+![09](https://tva2.sinaimg.cn/large/008aobiRgy1gmjrwr65avj31jc0xyn82.jpg)
 
 注：部分配置文件源自Rime官方和网络。
 
