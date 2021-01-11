@@ -1,20 +1,20 @@
 # Rime 输入法（鼠须管） for Mac 配置方案
 #### Telegram 交流群：[点击加入](https://t.me/joinchat/G7mF0SxORWbgzSUS)
 
-![](https://i.loli.net/2020/12/30/8gMEchXjVxzZfya.jpg)
+![](pic/01.jpg)
 
 ## 一、安装
 
 1. 前往 [Rime](https://rime.im/) 下载并安装好输入法。
 3. 点击【用户设定】打开 Rime 目录文件夹（为防止操作不当引起错误，可将此目录文件备份）。
 
-![](https://i.loli.net/2020/12/28/SjZrkqWQNpUDi4O.png)
+![](pic/02.png)
 
 3. 将【配置文件】里所有文件粘贴覆盖到 Rime 目录文件夹内。
 4. 点击【重新部署】完成。
 
 
-![](https://i.loli.net/2020/12/28/eMYzCETdGV3qQtB.png)
+![](pic/03.png)
 
 * 按 `Control` + `~` 选择输入法方案。
 * 将【字体】文件夹内的 2 个文件安装到 Mac【字体册】。
@@ -23,7 +23,7 @@
 
 打开 `squirrel.custom.yaml` 修改皮肤参数。
 
-![](https://i.loli.net/2021/01/08/7HWvjQ52GYIlMsJ.png)
+![](pic/04.png)
 
 #### 皮肤颜色
 
@@ -33,7 +33,7 @@
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
-![](https://upload-images.jianshu.io/upload_images/12894454-3ebd276bc32059e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](pic/05.png)
 
 ### 三、按键
 
@@ -41,7 +41,7 @@
 * 开启/禁用按键
 * 翻页按键
 
-![](https://i.loli.net/2021/01/08/uVkXOGhT6sRCenr.png)
+![](pic/06.png)
 
 ### 四、输入系统 `时间` 和 `日期`
 
@@ -50,13 +50,13 @@
 - `date` 输出日期，格式 `2021年01月11日`、 `2021-01-11`、 `01-11`、 `01-11-2021`、 `2021/01/11`
 - `time` 输出时间，格式 `14:43` 、`20210111144321`、  `14:43:21` 
 
-![2021-01-11 at 14.38](https://tva3.sinaimg.cn/large/008aobiRgy1gmjrmufvw8j31bc07wdhj.jpg)
+![2021-01-11 at 14.38](pic/07.png)
 
-![2021-01-11 at 14.43](https://tvax4.sinaimg.cn/large/008aobiRgy1gmjrn04dwuj315e068wfz.jpg)
+![2021-01-11 at 14.43](pic/08.png)
 
 配置里 `rime.lua` 是时间日期文件，朙月拼音码表里找到 `engine/translators`，在下面添加 `lua_translator@date_translator`。
 
-![2021-01-11 at 14.28](https://tva2.sinaimg.cn/large/008aobiRgy1gmjrmjkms7j31jc0xyn82.jpg)
+![2021-01-11 at 14.28](pic/09.png)
 
 注：部分配置文件源自Rime官方和网络。
 
