@@ -26,6 +26,6 @@
 
 ![](pic/05.png)
 
-注：部分配置文件源自 Rime 官方和网络。
+附：配置方案来自 scomper，本文做部分修改和添加更多词库。
 
 Telegram 交流群：[加入](https://t.me/rimesquirrel)
