@@ -1,0 +1,74 @@
+# Rime schema settings
+# encoding: utf-8
+
+patch:
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: ["中文", "西文"]
+    - name: full_shape
+      states: ["半角", "全角"]
+    - name: simplification
+      reset: 0
+      states: ["汉字", "漢字"]
+    - name: show_emoji
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+
+  simplifier:
+      opencc_config: s2t.json  # 简入繁出
+
+  engine/filters:
+    - simplifier
+    - uniquifier
+    - simplifier@emoji_conversion
+
+  emoji_conversion:
+    opencc_config: emoji.json
+    option_name: show_emoji
+    tags: abc
+
+
+  "speller/max_code_length": 4 #最长4码
+  "speller/auto_select": true #顶字上屏
+  "speller/auto_select_unique_candidate": true #无重码自动上屏
+  
+  "translator/dictionary": wubi86 #加载五笔词库
+  "reverse_lookup/comment_format/@1": xform/^(\w+).*/$1/
+
+#  符号快速输入和部分符号的快速上屏
+  punctuator:
+    import_preset: symbols
+    symbols:
+      "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
+      "/bq": [😂️, 😅️, ☺️, 😱️, 😭️, 😇️, 🙃️, 🤔️, 💊️, 💯️, 👍️, 🙈️, 💩️, 😈️ ]
+      "/dn": [⌘, ⌥, ⇧, ⌃, ⎋, ⇪, , ⌫, ⌦, ↩︎, ⏎, ↑, ↓, ←, →, ↖, ↘, ⇟, ⇞]
+      "/fh": [ ©, ®, ℗, ℠, ™, ℡, ⓘ, ♂, ♀, ☉, ☊, ☋, ☌, ☍, ☐, ☑︎, ☒, ☜, ☝, ☞, ☟, ✎, ✄, ♲, ♻, ⚐, ⚑, ⚠]
+      "/xh": [ ＊, ×, ✱, ★, ☆, ✩, ✧, ❋, ❊, ❉, ❈, ❅, ✿, ✲]
+    half_shape:
+      "#": "#"
+      "*": "*"
+      "`": "`"
+      "~": "~"
+      "@": "@"
+      "=": "="
+      "/": ["/", "÷"]
+      '\': "、"
+      "_" : "──"
+      "'": {pair: ["「", "」"]}
+      "[": ["【", "["]
+      "]": ["】", "]"]
+      "$": ["¥", "$", "€", "£", "¢", "¤"]
+      "<": ["《", "〈", "«", "<"]
+      ">": ["》", "〉", "»", ">"]
+  recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
+
+# 使用自定义词典 custom_phrase.txt
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+  "engine/translators/@4": table_translator@custom_phrase

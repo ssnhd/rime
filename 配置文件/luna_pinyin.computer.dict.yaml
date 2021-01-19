@@ -1,4 +1,11 @@
-﻿按扭
+﻿---
+name: luna_pinyin.computer
+version: "2021.1.19"
+sort: by_yifang
+use_preset_vocabulary: true
+...
+
+按扭
 按扭組單選
 安全性
 按下鍵盤

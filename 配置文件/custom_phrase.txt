@@ -25,7 +25,7 @@ Option	ot
 ⇧	sf
 AC86U	ac
 Apple ID	aid
-AirPods	ej	2
+AirPods	ap
 AirPods Pro	ej	1
 Apple Music	am	2
 App	app
@@ -37,6 +37,7 @@ Alipay	ap
 Apple TV	atv
 Apple Watch	aw
 Android	az
+App Cleaner & Uninstaller	acu
 Big Sur	bs
 ClashX	cla
 Chrome	ch
@@ -50,9 +51,11 @@ CleanShot X	cs
 <	xy	2
 ≤	xy	1
 Download	dl	1
+Dear	dear
 Edge	edge
 Enpass	enpass
 Emoji	em
+Mimestream	mim
 eSir	esir
 Facebook	fb
 Final Cut Pro	fcp
@@ -66,6 +69,7 @@ Google Voice	gv
 Handoff	ho
 iCloud	ic
 Illustrator	ill
+iStat Menus	ism
 iWork	iw	4
 Numbers	iw	3
 Pages	iw	2
@@ -94,6 +98,9 @@ MacBook	macbook
 Mac	mac	3
 Mac Pro	mac	1
 Mac mini	mac	2
+Hi	hi
+Hello	hello
+HyperSwitch	hs
 iMac	imac	2
 iMac Pro	imac	1
 iPad	ipad	4
@@ -103,8 +110,8 @@ iPad mini	iPad	1
 iPhone	af	5
 iPhone 12	af	4
 iPhone XS Max	af	3
-iPhone 11 Pro	af	2
-iPhone 11 Pro Max	af	1
+iPhone 12 Pro	af	2
+iPhone 12 Pro Max	af	1
 iPod	ipod
 IPTV	iptv
 IPv4	ipv
@@ -124,6 +131,7 @@ Photoshop	ps
 Paypal	pp
 Quantumult	quan
 Quantumult X	quanx
+QQ	qq
 readme.md	rm
 rixCloud	rix
 ScreenBar Plus	sbp	1
@@ -134,7 +142,9 @@ Safari	sf	2
 Shift	sf	1
 SHIELD TV	stv
 SSD	ssd
-Spotify	sp
+Spotify	sp	1
+Spark	sp	2
+Sublime Text	sbt
 WH-1000XM2	sn	2
 WF-1000XM3	sn	1
 WhatsApp	wa
@@ -149,6 +159,7 @@ Typora	ty
 USB-C	uc
 U盘	upan
 Up主	upzhu
+V2EX	ve
 Wi-Fi	wifi
 Windows	win
 WTF	wtf	3

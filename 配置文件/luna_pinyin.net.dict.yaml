@@ -1,4 +1,11 @@
-﻿阿保之功
+﻿---
+name: luna_pinyin.net
+version: "2021.1.19"
+sort: by_yifang
+use_preset_vocabulary: true
+...
+
+阿保之功
 阿保之勞
 阿鼻地獄
 阿鼻叫喚

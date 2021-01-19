@@ -1,7 +1,14 @@
-# custom_phrase.txt 	【设置文本替换】
-# luna_pinyin.schema.yaml 	【build文件夹下，设置表情、符号、/+字母数字】
-# default.custom.yaml	【设置输入法，切换，翻页键，禁用 Shift 等】
-# squirrel.custom.yaml 	【设置皮肤，软件默认英文】
-# luna_pinyin.custom.yaml	【设置Shift自定义符号】
-# luna_pinyin.extended.dict.yaml 	【设置词库】
-# Open文件夹	【设置候选词表情】
+#🟥 custom_phrase.txt	文本替换
+
+#🟧 default.custom.yaml	全局设置：切换输入法/翻页/候选词数量/Shift键等
+
+#🟨 luna_pinyin_simp.custom.yaml	自定义快速输入/模糊音
+#🟨 部署好 build 文件夹里 luna_pinyin_simp.custom.yaml	设置更多快速输入
+
+#🟩 luna_pinyin.cn_en.dict.yaml	英文
+
+#🟦 luna_pinyin.extended.dict.yaml	扩充词库
+
+#🟪 Open文件夹	表情
+
+#⬛️ squirrel.custom.yaml	皮肤主题
