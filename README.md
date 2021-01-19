@@ -26,6 +26,6 @@
 
 ![](pic/05.png)
 
-附：配置方案来自 scomper，本文做部分修改和添加更多词库。
+附：配置方案来自 @scomper，本文添加 `tab` 键翻页、皮肤参数修改更接近 macOS UI、添加更多词库和文本替换等。
 
 Telegram 交流群：[加入](https://t.me/rimesquirrel)
