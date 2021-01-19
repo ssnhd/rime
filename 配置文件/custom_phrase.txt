@@ -23,6 +23,13 @@ Rime	rime	2
 ⌥	ot
 Option	ot
 ⇧	sf
+>	dy	2
+≥	dy	1
+<	xy	2
+≤	xy	1
+
+App Store	as	2
+Apple Store	as	1
 AC86U	ac
 Apple ID	aid
 AirPods	ap
@@ -38,7 +45,9 @@ Apple TV	atv
 Apple Watch	aw
 Android	az
 App Cleaner & Uninstaller	acu
+
 Big Sur	bs
+
 ClashX	cla
 Chrome	ch
 CleanMyMac X	cmm	1
@@ -46,19 +55,20 @@ Command	cm	1
 Control	ct	2
 CarPlay	cp	1
 CleanShot X	cs
->	dy	2
-≥	dy	1
-<	xy	2
-≤	xy	1
+
 Download	dl	1
 Dear	dear
+
 Edge	edge
 Enpass	enpass
 Emoji	em
 Mimestream	mim
 eSir	esir
+
 Facebook	fb
 Final Cut Pro	fcp
+Firefox	ff
+
 gfwlist	gfw
 Google	gg
 GitHub Desktop	gh	1
@@ -66,41 +76,18 @@ GitHub	gh	2
 Gmail	gm
 Google Pay	gp
 Google Voice	gv
+
 Handoff	ho
+Hi	hi
+Hello	hello
+HyperSwitch	hs
+
 iCloud	ic
 Illustrator	ill
 iStat Menus	ism
 iWork	iw	4
-Numbers	iw	3
-Pages	iw	2
-Keynote	iw	1
-National_Tsinghua	id
-KidsProtect	kp
-Firefox	ff
-macOS High Sierra	macos	2
-macOS Mojave	macos	3
-macOS	macos	4
-macOS Sierra	macos	1
 iOS	ios
 iTunes	itunes
-koolproxy	kpr
-koolshare	ks
-Lightning to USB-C	ltc
-Lightning to USB	ltu
-🐂️🍺️	nb
-Markdown	md
-Microsoft Office	mo
-Netflix	nf
-WeChat	wx	
-MacBook Pro	mbp
-MacBook Air	mba
-MacBook	macbook
-Mac	mac	3
-Mac Pro	mac	1
-Mac mini	mac	2
-Hi	hi
-Hello	hello
-HyperSwitch	hs
 iMac	imac	2
 iMac Pro	imac	1
 iPad	ipad	4
@@ -118,22 +105,50 @@ IPv4	ipv
 IPv6	ipv
 Instagram	ins
 iOS	ios
-App Store	as	2
-Apple Store	as	1
-1password	one	1
-OneDrive	one	2
+
+Numbers	iw	3
+Pages	iw	2
+Keynote	iw	1
+
+koolproxy	kpr
+koolshare	ks
+
+Lightning to USB-C	ltc
+Lightning to USB	ltu
+
+macOS High Sierra	macos	2
+macOS Mojave	macos	3
+macOS	macos	4
+macOS Sierra	macos	1
+Markdown	md
+Microsoft Office	mo
+Netflix	nf	
+MacBook Pro	mbp
+MacBook Air	mba
+MacBook	macbook
+Mac	mac	3
+Mac Pro	mac	1
+Mac mini	mac	2
+
+🐂️🍺️	nb
+
+1Password	one	2
+OneDrive	one	1
 openwrt	ow
+
 Pro	pro
 Plus	plus
 Parallels Desktop	pd
 Paragon NTFS	pn
 Photoshop	ps
 Paypal	pp
+
 Quantumult	quan
 Quantumult X	quanx
 QQ	qq
 readme.md	rm
 rixCloud	rix
+
 ScreenBar Plus	sbp	1
 Shadowrocket	sds	3	
 Shadowsocks	sds	2
@@ -145,10 +160,7 @@ SSD	ssd
 Spotify	sp	1
 Spark	sp	2
 Sublime Text	sbt
-WH-1000XM2	sn	2
-WF-1000XM3	sn	1
-WhatsApp	wa
-WeChat	wc
+
 T恤	txu
 Type-C	tc
 Telegram	tg	2
@@ -156,19 +168,29 @@ Telegram Lite	tg	1
 TeamViewer	tv
 Twitter	tt
 Typora	ty
+
 USB-C	uc
 U盘	upan
 Up主	upzhu
+
 V2EX	ve
+
+WH-1000XM2	sn	2
+WF-1000XM3	sn	1
+WhatsApp	wa
+WeChat	wx	1
 Wi-Fi	wifi
 Windows	win
 WTF	wtf	3
 什么玩意儿！	wtf	2
 What the fuck!	wtf	1
+
 Xbox One	xbox
+
 YouTube	yt
 YouTube Premium	yp
 又双叒叕	yyy
+
 淼	shuishuishui
 焱	huohuohuo
 垚	tututu
