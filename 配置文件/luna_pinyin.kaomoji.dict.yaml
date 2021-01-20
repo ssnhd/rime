@@ -1,0 +1,335 @@
+# Rime dictionary - kaomoji
+# encoding: utf-8
+# 搜狗颜文字 http://pinyin.sogou.com/dict/ywz/
+# no comment
+---
+name: luna_pinyin.kaomoji
+version: "1.0"
+sort: origin
+use_preset_vocabulary: true
+...
+
+w(ﾟДﾟ)w	aa	80%
+┗|｀O′|┛ 嗷~~	ao	80%
+ヾ(≧O≦)〃嗷~	ao
+(>▽<)	ao
+(ㄏ￣▽￣)ㄏbyeㄟ(￣▽￣ㄟ)	bai
+ヾ(￣▽￣)Bye~Bye~	bai
+(o_ _)ﾉ	bai le
+(๑•̀ㅂ•́)و✧	bang
+▄︻┻┳═一…… ☆（>○<）	bao tou
+o(*≧▽≦)ツ	bao xiao
+ヾ(≧▽≦*)o	bao xiao
+(～￣(OO)￣)ブ	ben
+(っ*´Д`)っ	ben dan
+o(≧口≦)o	beng kui
+ヾ(´∀`o)+	ben ren
+<(￣3￣)> 表！	biao
+(o゜▽゜)o☆[BINGO!]	bin go
+(￣ ‘i ￣;)	bi ti
+(⊙x⊙;)	bi zui
+(* ￣3)(ε￣ *)	bo bo
+(＠_＠;)	bu dong
+o(￣┰￣*)ゞ	bu hao yi si
+￣へ￣	bu kai xin
+(/▽＼)	bu kan
+(*￣︿￣)	bu man
+（＃￣～￣＃）	bu man
+ㄟ( ▔, ▔ )ㄏ	bu shi wo
+(* ￣︿￣)	bu shuang
+₍₍ ◝(　ﾟ∀ ﾟ )◟⁾⁾不送	bu song
+(￣_,￣ )	bu xie
+(+.+)(-.-)(_ _) ..zzZZ もうだめ	bu xing l
+ヽ（≧□≦）ノ	bu yao a
+不＞(￣ε￣ = ￣3￣)<要	bu yao a
+◐▽◑	bu zhi dao
+凸(艹皿艹 )	ca
+(ノへ￣、)	ca yan lei
+( *￣▽￣)((≧︶≦*)	ceng
+<)。(>	cha yao
+ψ(｀∇´)ψ	chi diao
+(((((ヾ(　o=^•ェ•)o　┏━┓	chi fan
+(*￣ω￣)	chi le
+___*( ￣皿￣)/#____	chong chu
+┌|*´∀｀|┘	chou
+(￣ε(#￣)☆╰╮o(￣皿￣///)	chou
+(o≖◡≖)	chou mei
+抽!!(￣ε(#￣)☆╰╮(￣▽￣///)	chou ni
+<( ￣^￣)(θ(θ☆( >_<	chuai
+(๐॔˃̶ᗜ˂̶๐॓)	chun ku
+→)╥﹏╥)	chuo lian
+(・-・*)	da gai
+(_ _)( - . - )(~O~) ……( - . - )	da he qian
+━┳━　━┳━	dai
+━━(￣ー￣*|||━━	dan ding
+<(ˉ^ˉ)>	dang ran
+Σ(っ °Д °;)っ	dao
+...(*￣０￣)ノ[等等我…]	deng deng
+～(￣▽￣～)(～￣▽￣)～	de se
+ʅ（´◔౪◔）ʃ	de se
+<(￣ˇ￣)/	de yi
+<(￣︶￣)>	de yi
+（￣ー￣（＿ ＿（￣ー￣（＿ ＿	dian tou
+……]((o_ _)'彡☆	die dao
+d=====(￣▽￣*)b	ding
+(。﹏。)	di tou
+＜（＾－＾）＞	dui
+（＞人＜；）	dui bu qi
+（。・＿・。）ﾉ	dui bu qi
+（○｀ 3′○）	du zui
+o(￣ε￣*)	du zui
+-________-''	eee
+(⊙﹏⊙)	eee
+（￣ー￣）ノ~~マ☆’.・.・:★	en heng
+嗯~ o(*￣▽￣*)o	en na
+(ﾟДﾟ*)ﾉ	fan dui
+○|￣|_ =3	fang pi
+||Φ|(|T|Д|T|)|Φ||	fang wo chu qu
+( ￣ ￣)σ…( ＿ ＿)ノ｜壁	fan xing
+┻━┻︵╰(‵□′)╯︵┻━┻	fan zhuo
+︿(￣︶￣)︿	fei
+(*￣3￣)╭	fei wen
+分＞(￣▽￣ = ￣︿￣)<裂	fen lie
+( ´･･)ﾉ(._.`)	fen shou
+(☆´益`)c	fu e
+...( ＿ ＿)ノ｜壁	fu qiang
+．<{=．．．．（嘎~嘎~嘎~）	ga ga
+[]~(￣▽￣)~*	gan bei
+(￣▽￣)～■干杯□～(￣▽￣)	gan bei
+(*￣▽)u┌┐ ｄ(▽￣*)	gao
+φ(゜▽゜*)♪	gao xing
+( σ'ω')σ	gao zhuang
+╰(￣▽￣)╭	gen ni shuo
+<(￣︶￣)↗[GO!]	go go
+o(￣▽￣)ｄ	good
+o(*^＠^*)o	guai
+(￫ܫ￩)	gui lian
+(￣┰￣*)	gui lian
+(～o￣▽￣)～o 。。。滚来滚去……o～(＿△＿o～) ~。。。	gun
+*´∀`)´∀`)*´∀`)*´∀`)	ha ha ha ha
+ヾ(≧∇≦*)ゝ	hai
+(｡･∀･)ﾉﾞ	hai
+(′▽`〃)	hai xiu
+(✿◡‿◡)	hai xiu
+Σ( ° △ °|||)︴	han
+(lll￢ω￢)	han si
+Σ( ° △ °|||)︴	han si
+|(*′口`)	han si
+（゜▽＾*））	hao di
+(u‿ฺu✿ฺ)	hao di
+(*^▽^*)	hao kai xin
+（*＾-＾*）	hao ke ai
+(╯▽╰ )好香~~	hao xiang
+(≧∇≦)ﾉ	hao xi huan
+ヽ(✿ﾟ▽ﾟ)ノ	hao ye
+(o゜▽゜)o☆	hao zhu yi
+(´▽`ʃ♡ƪ)	happy
+(＠￣ー￣＠)	heng heng
+o(￣ヘ￣o＃)	heng heng
+(；′⌒`)	heng heng
+Hi~ o(*￣▽￣*)ブ	ni hao
+○( ＾皿＾)っHiahiahia…	hia hia
+^O^	ho ho
+(❤´艸｀❤)	hua chi
+～(　TロT)σ	huai ren
+( ＾∀＾）／欢迎＼( ＾∀＾）	huan ying
+_〆(´Д｀ )	hua quan
+(/0￣)o [呼唤]	hu huan
+『家』 ～o(▽｀ o) =3 =3 =3	hui jia
+＼（＾∀＾）メ（＾∀＾）ノ	hui jian
+(ToT)/~~~	hui shou pa
+ヾ(￣ー￣)X(^▽^)ゞ	huo sheng
+(o ￣3)==@))゜ロ゜((@==(′ε′ )o　	jiaji
+(￣～￣) 嚼！	jiao
+(‾◡◝)	jiao ao
+(ง •_•)ง	jia you
+( ͡° ͜ʖ ͡°)	jin chi
+⊙▽⊙	jing xi
+╰(*°▽°*)╯	jing xi
+（´Д`）	jiong
+┗|*｀0′*|┛	ji rou
+o(′益`)o	jiu jie
+<(￣ ﹌ ￣)@m 就你！	jiu ni
+ヾ(●゜ⅴ゜)ﾉ	jiu shi
+( ￣ー￣)人(^▽^ )	ji zhang
+（〃｀ 3′〃）	jue zui
+o(*^▽^*)┛	ju shou
+...φ(0￣*)啦啦啦_φ(*￣0￣)′	ka la ok
+n(*≧▽≦*)n	ke ai
+（＝。＝）	ke wu
+(〃＞目＜)	ke wu
+...φ(0￣*)啦啦啦_φ(*￣0￣)	k ge
+!(*￣(￣　*)	kiss
+┌(。Д。)┐	kong bu
+(*^▽^*)	kuai le
+(￣o￣) . z Z	kun le
+( -'`-; )	kun nao
+(o-ωｑ)).oO 困	kun si le
+(p.-)(p.-)(p.-)	kun si le
+(;´༎ຶД༎ຶ`) 	ku si
+ᕕ( ᐛ )ᕗ	lai
+(～o￣▽￣)～o ~。。。	lai la
+♪(^∇^*)	la la
+...φ(0￣*)啦啦啦_φ(*￣0￣)>	la la la
+φ(≧ω≦*)♪	le
+(๑´ㅂ`๑)	le
+(≧∀≦)ゞ	le he
+（ ￣ー￣）	leng xiao
+┌( ´_ゝ` )┐	leng yan
+(°ー°〃)	leng zhu
+(*/ω＼*)	lian hong
+（。＾▽＾）	li hai
+~%?…,# *'☆&℃$︿★?	luan ma
+=￣ω￣=	mai meng
+（´v｀）	man yi
+o(*￣︶￣*)o	man zu
+(๑¯∀¯๑)	man zu
+╮（╯＿╰）╭	mei ban fa
+Ψ(￣∀￣)Ψ	mei wei
+ο(=•ω＜=)ρ⌒☆	mei yan
+(つω｀)～	mian
+( ￣ ￣)σ…( ＿ ＿)ノ｜壁	mian bi
+≡ω≡	miao wu
+o( =•ω•= )m	miao xing ren
+<(*￣▽￣*)/	mie h ha ha
+(￣_,￣ )	mie shi
+(oﾟvﾟ)ノ	ming bai
+ε(┬┬﹏┬┬)3	ming ku
+（＾∀＾●）ﾉｼ	ming tian jian
+（づ￣3￣）づ╭❤～	mua
+(*╯3╰)	mua
+(///￣皿￣)○～	na li pao
+☆{{{Д}}} ☆!! [铃铃铃]	nao zhong
+〒▽〒	nei niu man mian
+<( ‵□′)───C＜─___-)||	nie lian
+ヾ(´･ω･｀)ﾉ	ni hao
+ヾ(^▽^*)))	ni hui lai la
+<( ‵□′)>───Ｃε(┬﹏┬)3	niu er duo
+ε=怒ε=怒ε=怒ε=怒ε=( o｀ω′)ノ	nu
+ｍ(o・ω・o)ｍ	o
+ε(*´･∀･｀)зﾞ	oh yeah
+（≧0≦）//（-_-。）・・・	oo
+○|￣|_	orz
+(^&^)/	oye
+(　ﾟ∀ﾟ) ﾉ♡	oye
+””\(￣ー￣) (￣ー￣)//””	pai shou
+o(*≧▽≦)ツ┏━┓	pai zhuo
+ε=ε=ε=(~￣▽￣)~	pao
+ε = = (づ′▽`)づ	pao
+(～o￣3￣)～	piao
+(～￣▽￣)～	piao
+.....((/- -)/	piao guo
+︿(￣︶￣)︿	ppr
+(/≧▽≦)/	pu
+▄︻┻┳═一……	qiang
+※=○☆(＿＿*)Ｚｚｚ	qi chuang
+(☆▽☆)	qi dai
+(ˉ▽￣～) 切~~	qie
+~~( ﹁ ﹁ ) ~~~	qie
+（づ￣3￣）づ╭❤～	qin
+o(*￣3￣)o	qin qin
+(っ´Ι`)っ	qiu qiu ni
+(ーー゛)	qu
+φ(-ω-*)	qu
+(╬￣皿￣)＝○＃(￣＃)３￣)	quan
+(-__-)=@))> o<)	qu si
+(。・・)ノ	ruo
+*★,°*:.☆(￣▽￣)/$:*.°★* 。	sa hua
+▄︻┻┳═一∵∴∷∶∵ (∵_,∵)>>>>	san dan
+=└(┐卍^o^)卍	shan
+|(•_•) |•_•) |_•) |•) | )	shan
+✧(≖ ◡ ≖✿)	shan
+(；′⌒`)	shang xin
+(*￣▽￣)(￣▽:;.…::;.:.:::;..::;.:...	shan ren
+*<|:-) 	sheng dan
+<(－︿－)>	sheng qi
+(ー`´ー)	sheng qi
+（｀へ´）	sheng qi
+( ｀д′)	shen me dong xi
+z(-_-z)).....((s-_-)s	she quan
+(ﾟｰﾟ)	shi a
+ヾ(＠⌒ー⌒＠)ノ	shi a shi a
+(σ｀д′)σ	shi bu shi ni
+━━∑(￣□￣*|||━━	shi hua
+ԅ(¯﹃¯ԅ)	shi huai
+o(*////▽////*)q	shy
+´･∀･)乂(･∀･｀	si ba
+ㄟ(≧◇≦)ㄏ	tai bang le
+ヽ(*。>Д<)o゜	tai ke pa le
+¯\_(ツ)_/¯	tan shou
+ε=ε=ε=┏(゜ロ゜;)┛	tao
+…（⊙＿⊙；）…	tao
+ヽ(ﾟ∀ﾟ*)ﾉ━━━ｩ♪	tao
+～（□`）～	tao pao
+＼(゜ロ＼)(／ロ゜)／	tao yan
+(ノω<。)ノ))☆.。	tao yan
+( *︾▽︾)	tao zui
+o(TヘTo)	tat
+(ノへ￣、)	tat
+☆⌒(*＾-゜)v THX!!	thx
+ヽ(ヽ `д′)ヽ`д′)ヽ`д′)┌┛┌┛┌┛★)`з゜)y	ti
+♪(´∇`*)	tian a
+(。・∀・)ノ	tong yi
+(/ω＼*)……… (/ω•＼*)	tou kan
+┬┴┤_•)	tou kui
+┗( T﹏T )┛	tou xiang
+( >ρ < ”)	tu
+(ﾉ*･ω･)ﾉ	tui dao
+0＾）吞！	tun
+ヽ(゜▽゜　)－C<(/;◇;)/~	tuo zou
+(￣┰￣*)	tu she tou
+(*￣rǒ￣)	wa bi shi
+お(ノ￣0￣)ノや（o￣ ・￣）oす(。＿　＿)。みZZzzzz…	wan an
+￣O￣)ノ　	wan shang hao
+！*★,°*:.☆(￣▽￣)/$:*.°★* 。	wan sui
+(#`O′)	wei
+( *^-^)ρ(^0^* )	wei fan
+╥﹏╥...	wei qu
+(*￣;(￣ *)	wen bie
+(。﹏。*)	wo cuo le
+||ヽ(*￣▽￣*)ノミ|Ю	wo hui lai la
+~(～￣▽￣)～	wo lai le
+o(￣ヘ￣o＃)	wo qu
+↑↑↓↓←→←→ＢＡ...┗( -o-)┛	wu di
+（o´・ェ・｀o）	wu gu
+つ﹏⊂	wu lian
+(*/ω＼*)	wu lian
+╮(╯▽╰)╭	wu nai
+┭┮﹏┭┮	wu wu wu
+（＊￣（エ）￣）	wu yan
+(☄⊙ω⊙)☄	xia
+谢啦!!☆⌒(*＾-゜)v	xie
+( ﹁ ﹁ ) ~→	xie yan
+(p≧w≦q)	xing fen
+o(*￣▽￣*)o	xing fu
+( ╯▽╰)	xin wei
+(*￣(エ)￣)	xiong
+◕ฺ‿◕ฺ✿ฺ)	xiu
+(-@y@)	yan jing
+(*/ω＼*)	yan mian
+(＾－＾)V	ye
+( *⊙~⊙)	ye si
+[噎住] ( *⊙~⊙)	ye zhu
+ヽ(￣ω￣(￣ω￣〃)ゝ	yi qi
+(＾Ｕ＾)ノ~ＹＯ	yo
+(o゜▽゜)o☆	you le
+o(一︿一+)o	yuan nian
+(((φ(◎ロ◎;)φ)))	yun
+┏(＾0＾)┛	zai jian
+(。・_・)/~~~	zai jian
+(((o(*ﾟ▽ﾟ*)o)))	zan
+X﹏X	zao gao
+(╯‵□′)╯炸弹！•••*～●	zha dan
+ˋ( ° ▽、° ) (o(￣▽￣///(斩!!)	zhan
+(￣︶￣)↗	zhang
+((*・∀・）ゞ→→	zhe
+o(〃'▽'〃)o	zhen da
+(o>ε(o>ｕ(≧∩≦)	zhen fen
+o(^▽^)o	zhen hao
+(=′ー`)	zhe yang me
+^(*￣(oo)￣)^	zhu
+W(￣_￣)W	zhu a
+…〒_〒…‵ｏ′-一┳═┻︻▄	zi sha
+( ﾟдﾟ)つBye	zou la
+(*ﾟｰﾟ)	zui jiao
+ZZzz…(。-ω-)..ooO((【•:*:~夢~:*:•】))	zuo meng

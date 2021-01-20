@@ -4,6 +4,10 @@ patch:
   schema_list:
   - schema: luna_pinyin_simp      # 朙月拼音 简化字
   - schema: luna_pinyin          # 朙月拼音
+  - schema: luna_pinyin_fluency   # 语句流
+  #- schema: double_pinyin        # 自然碼雙拼
+  #- schema: double_pinyin_flypy   # 小鹤雙拼
+  #- schema: wubi_pinyin           # 五笔拼音混合輸入
 
   ascii_composer: # 设置caps、shift、control等键的作用
     good_old_caps_lock: true # 若为true，caps只切换大小写
@@ -11,7 +15,7 @@ patch:
       Caps_Lock: commit_code # Caps_Lock切换中英文
       Control_L: noop
       Control_R: noop
-      Shift_L: noop # 禁左 Shift 切换中英文
+      Shift_L: commit_code # 允许 Shift 切换中英文
       Shift_R: noop # 禁右 Shift 切换中英文
 
   key_binder/bindings: # 设置哪些键可以翻页
