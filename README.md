@@ -111,6 +111,52 @@
 ![](pic/06词库.png)
 
 ---
+### 七、搜狗词库转换方法
+打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。
+
+![](pic/071.png)
+
+下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases)　并打开。
+
+选择刚下载好的 `.scel` 词库文件，点击打开。
+
+> 注：如果工具识别不到词库，那是因为你没有选择所有格式。
+
+![](pic/072.png)
+
+选择【搜狗细胞词库 scel】→【Rime 中州韵】，编码类型选择【拼音】【macOS】，点击确定。
+
+![](pic/073.png)
+
+点击转换。
+
+![](pic/074.png)
+
+生成一个 `.txt` 文件。
+
+![](pic/075.png)
+
+点击鼠须管用户设定，新建一个 `luna_pinyin.sougou.dict.yaml` 文本，输入以下内容。
+>注：最后一行 `∙∙∙ ` 后面加一个换行
+
+```
+# Rime dictionary
+# encoding: utf-8
+# 搜狗词库 目前包含如下：
+# 成语俗语（将词库名称输入到此处，方便日后检查是否重复）
+
+---
+name: luna_pinyin.sogou
+version: "2021.01.21"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+```
+再把 `txt` 里的词库复制粘贴到下面保存，再转至<a href="六、词库设置"></a>添加词库。
+
+
+---
 
 附：配置方案来自scomper，本文做部分修改和添加词库。
 
