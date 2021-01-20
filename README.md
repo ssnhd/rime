@@ -34,13 +34,13 @@
 
 ![](pic/02用户设定.png)
 
-将本帖文件【配置文件】粘贴到鼠须管目录文件夹内。
+将本帖【配置文件】粘贴到鼠须管目录文件夹内。
 
 ![](pic/02目录.png)
 
 点击【重新部署】完成。
 
-> 注：修改任何文件，都要点击重新部署（快捷键： `Control + Option + ｀`）才能生效。
+> 注：修改任何文件，都要点击【重新部署】（快捷键： `Control + Option + ｀`）才能生效。
 
 ![](pic/02部署.png)
 
@@ -92,7 +92,7 @@
 
 
 
-示例：输入 `/dn`，输出如下图。
+示例：输入 `/dn`，输出 ⌘ ⌥ ⇧ ⌃ ⎋ ⇪  ⌫（如下图）。
 
 ![](pic/05示例.png)
 
@@ -102,11 +102,9 @@
 
 用 `luna_pinyin.extended.dict.yaml` 保存用户的设置。
 
-词库文件以 `.dict.yaml` 结尾。
+将词库放入目录文件夹后，将词库添加进去（名称去掉 `.dict.yaml`）。
 
-将词库放入目录文件夹后，添加词库时去掉 `.dict.yaml`。
-
-示例：音乐词库 `luna_pinyin.music.dict.yaml`，添加时只需输入 `- luna_pinyin.music`。
+示例：音乐词库 `luna_pinyin.music.dict.yaml` 只需输入 `- luna_pinyin.music`。
 
 ![](pic/06词库.png)
 
@@ -116,15 +114,15 @@
 
 ![](pic/071.png)
 
-下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases)　并打开。
+下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开。
 
-选择刚下载好的 `.scel` 词库文件，点击打开。
+选择 `.scel` 词库文件，点击打开。
 
-> 注：如果工具识别不到词库，那是因为你没有选择所有格式。
+> 注：如果工具识别不到词库，请选择所有格式。
 
 ![](pic/072.png)
 
-选择【搜狗细胞词库 scel】→【Rime 中州韵】，编码类型选择【拼音】【macOS】，点击确定。
+选择【搜狗细胞词库 scel】—>>【Rime 中州韵】，类型选择【拼音】【macOS】，点击确定。
 
 ![](pic/073.png)
 
@@ -132,11 +130,11 @@
 
 ![](pic/074.png)
 
-按分类生成多个 `.txt` 文件（也可以选择多个词库生成一个 `txt` 文件）。
+生成 `.txt` 文件（也可以选择多个词库生成一个 `txt` 文件）。
 
 ![](pic/075.png)
 
-点击鼠须管【用户设定】，新建一个 `luna_pinyin.sogou.dict.yaml` 文本，输入以下内容。
+点选【㞢】-【用户设定】打开目录文件，新建一个 `luna_pinyin.sogou.dict.yaml` 文本，输入以下内容。
 >注：最后一行 `∙∙∙ ` 后面加一个换行
 
 ```
