@@ -1,4 +1,6 @@
 # Rime 输入法（鼠须管） for Mac 配置方案
+![](pic/01.png)
+
 ### 安装输入法
 
 1. 前往 [rime.im](https://rime.im/) 下载，初次安装，需注销并重新登录。
