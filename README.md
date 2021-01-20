@@ -6,11 +6,11 @@
 
 ### 准备：
 
-**安装字体**：防止部分字出现乱码，而 Mac 又不包含这些字体，将本帖文件【字体】内的两个字体安装到 Mac 字体册。
+**安装字体**：防止部分字出现乱码，而 Mac 又不包含这些字体，将本帖【font】内的两个字体安装到 Mac 字体册。
 
 ![](pic/00字体.png)
 
-**代码编辑器**：方便打开配置文件，需要安装个编辑器软件，常见的有免费 Visual Studio Code，付费 Sublime Text。
+**代码编辑器**：为方便打开配置文件，需安装编辑器软件，例如：[Visual Studio Code](https://code.visualstudio.com/)（免费）或 [Sublime Text](https://www.sublimetext.com/)（收费）。
 
 ![](pic/00编辑器.png)
 
