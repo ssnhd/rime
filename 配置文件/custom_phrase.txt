@@ -16,13 +16,10 @@
 #
 # no comment
 
-Rime	rime	2
-鼠须管	rime	1
-⌘	cm
-⌃	ct	1
-⌥	ot
-Option	ot
-⇧	sf
+Rime	rime	3
+鼠须管	rime	2
+https://rime.im/	rime	1
+
 >	dy	2
 ≥	dy	1
 <	xy	2
@@ -32,15 +29,15 @@ App Store	as	2
 Apple Store	as	1
 AC86U	ac
 Apple ID	aid
-AirPods	ap
 AirPods Pro	ej	1
 Apple Music	am	2
 App	app
 AiMesh	am	1
 Apple	apple	3
-	apple	2
-Apple Pay	apple	1
-Alipay	ap
+AirPods	ap	4
+Apple Pay	ap	3
+Alipay	ap	2
+AP	ap	1
 Apple TV	atv
 Apple Watch	aw
 Android	az
@@ -86,7 +83,6 @@ iCloud	ic
 Illustrator	ill
 iStat Menus	ism
 iWork	iw	4
-iOS	ios
 iTunes	itunes
 iMac	imac	2
 iMac Pro	imac	1
@@ -95,16 +91,14 @@ iPad Air	ipad	2
 iPad Pro	ipad	3
 iPad mini	iPad	1
 iPhone	ip	5
-iPhone 12	ip	4
-iPhone XS Max	ip	3
+iPhone XS Max	ip	4
+iPhone XR	ip	3
 iPhone 12 Pro	ip	2
-iPhone 12 Pro Max	ip	1
 iPod	ipod
 IPTV	iptv
 IPv4	ipv
 IPv6	ipv
 Instagram	ins
-iOS	ios
 
 Numbers	iw	3
 Pages	iw	2
@@ -135,6 +129,7 @@ Mac mini	mac	2
 1Password	one	2
 OneDrive	one	1
 openwrt	ow
+Option	ot
 
 Pro	pro
 Plus	plus
@@ -179,6 +174,7 @@ WH-1000XM2	sn	2
 WF-1000XM3	sn	1
 WhatsApp	wa
 WeChat	wx	1
+National_Tsinghua	wx	2
 Wi-Fi	wifi
 Windows	win
 WTF	wtf	3
@@ -193,19 +189,9 @@ YouTube Premium	yp
 
 淼	shuishuishui
 焱	huohuohuo
-垚	tututu
 壵	shishishi
 孨	zizizi
-毳	maomaomao
-畾	tiantiantian
-尛	xiaoxiaoxiao
-麤	lululu
 鱻	yuyuyu
-猋	quanquanquan
-骉	mamama
 羴	yangyangyang
-龘	longlonglong
 矗	zhizhizhi
 㐂	qiqiqi
-掱	shoushoushou
-犇	niuniuniu
