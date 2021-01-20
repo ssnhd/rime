@@ -51,6 +51,10 @@
 
 ![](pic/03皮肤.png)
 
+上图参数显示效果：
+
+![](pic/03皮肤效果.png)
+
 少数情况下会遇到 `0x` 开头的颜色值，比如 `hilited_candidate_back_color: 0xD05B21`，末尾的 `0xD05B21` 表示第一候选词背景颜色。如果同一颜色输入不同表示方式，那么显示就会变化。
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共32bit。
