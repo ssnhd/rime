@@ -103,6 +103,7 @@
 将词库放入目录文件夹后，添加词库时去掉 `.dict.yaml`。
 
 示例：音乐词库 `luna_pinyin.music.dict.yaml`，添加时只需输入 `- luna_pinyin.music`。
+
 ![](pic/06词库.png)
 
 ---
