@@ -51,7 +51,7 @@
 
 可以添加自己的皮肤，格式代码详见 [Gist](https://gist.github.com/lotem/2290714)。
 
-切换皮肤主题，只要在 `style/color_scheme:` 后方修改为相应的皮肤名称。
+切换皮肤主题，只要在 `style/color_scheme:` 后方修改为相应的皮肤名称，保存并【重新部署】。
 
 ![](pic/03皮肤.png)
 
@@ -102,7 +102,7 @@
 
 用 `luna_pinyin.extended.dict.yaml` 保存用户的设置。
 
-将词库放入目录文件夹后，将词库添加进去（名称去掉 `.dict.yaml`）。
+将词库放入目录文件夹后，将词库添加进去（名称去掉 `.dict.yaml`），保存并【重新部署】。
 
 示例：音乐词库 `luna_pinyin.music.dict.yaml` 只需输入 `- luna_pinyin.music`。
 
@@ -135,7 +135,7 @@
 ![](pic/075.png)
 
 点选【㞢】-【用户设定】打开目录文件，新建一个 `luna_pinyin.sogou.dict.yaml` 文本，输入以下内容。
->注：最后一行 `∙∙∙` 后面加一个换行
+>注：最后一行 `∙∙∙` 后面加一个换行。
 
 ```
 # Rime dictionary
