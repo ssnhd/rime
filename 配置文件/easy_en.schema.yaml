@@ -5,16 +5,17 @@
 schema:
   schema_id: easy_en
   name: Easy English
-  version: "0.2"
+  version: "0.5"
   author:
     - Patrick <ipatrickmac@gmail.com>
+    - BlindingDark <blindingdark@outlook.com>
   description:
     Easy English
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ On, Off ]
+    states: [ ASCII-OFF, ASCII-ON ]
 
 engine:
   processors:
@@ -37,6 +38,7 @@ engine:
     - punct_translator
   filters:
     - uniquifier
+    - lua_filter@append_blank_filter
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-_
@@ -45,6 +47,8 @@ speller:
 translator:
   dictionary: easy_en
   spelling_hints: 9
+  comment_format:
+    - xform/^.+$//
 
 key_binder:
   import_preset: default
@@ -54,3 +58,5 @@ punctuator:
 
 recognizer:
   import_preset: default
+  patterns:
+    uppercase: ''

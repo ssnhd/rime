@@ -1,0 +1,13 @@
+# encoding: utf-8
+---
+patch:
+  schema/dependencies/@next: easy_en
+  engine/translators/@next: table_translator@easy_en
+  easy_en:
+    __include: easy_en.schema:/translator
+    enable_completion: true
+    enable_sentence: true
+    initial_quality: -1
+  recognizer/patterns/uppercase: ''
+  speller/alphabet:
+    __include: easy_en.schema:/speller/alphabet
