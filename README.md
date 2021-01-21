@@ -25,6 +25,8 @@
 
 ![](pic/01安装.png)
 
+想要更好的输入体验，例如更换皮肤，添加词库等，需要完成下面定制设置。
+
 
 ---
 
@@ -47,7 +49,7 @@
 ---
 ### 三、皮肤主题设置
 
-用 `squirrel.custom.yaml` 保存用户的设置。
+用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
 可以添加自己的皮肤，格式代码详见 [Gist](https://gist.github.com/lotem/2290714)。
 
@@ -74,7 +76,7 @@
 
 ![](pic/04输入法方案.png)
 
-用 `default.custom.yaml` 保存用户的设置。
+用 `default.custom.yaml` 保存输入方案的设置。
 
 ![](pic/04方案.png)
 
@@ -82,11 +84,9 @@
 
 ### 五、自定义快捷字符
 
-以朙月拼音简化字为例：用 `luna_pinyin_simp.custom.yaml` 保存用户的设置。
+以【朙月拼音·简化字】为例，用 `luna_pinyin_simp.custom.yaml` 保存快捷符号的设置。
 
-快捷键 `/+快捷字母` 输出快捷字符。
-
-
+快捷键 `/+快捷字母` 输出快捷字符，此处也支持 `Shift + 符号键` 设置更多候选符号。
 
 ![](pic/05自定义字符.png)
 
@@ -100,7 +100,7 @@
 
 ### 六、词库设置
 
-用 `luna_pinyin.extended.dict.yaml` 保存用户的设置。
+用 `luna_pinyin.extended.dict.yaml` 保存词库的设置。
 
 将词库放入目录文件夹后，将词库添加进去（名称去掉 `.dict.yaml`），保存并【重新部署】。
 
