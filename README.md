@@ -61,11 +61,11 @@
 
 少数情况下会遇到 `0x` 开头的颜色值，比如 `hilited_candidate_back_color: 0xD05B21`，末尾的 `0xD05B21` 表示第一候选词背景颜色。如果同一颜色输入不同表示方式，那么显示就会变化。
 
-* 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共32bit。
+* 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
-![](pic/04.png)
+![](pic/04配色表.jpg)
 
 ---
 ### 四、输入法方案
