@@ -1,5 +1,8 @@
 patch:
   show_notifications_when: appropriate # 状态通知，适当，也可设为全开（always）全关（never）
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: false
 
   #style/color_scheme: mojave_dark
   style/color_scheme: system_blue             # 方案命名，不能有空格
