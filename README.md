@@ -51,9 +51,7 @@
 
 用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
-可以添加自己的皮肤，格式代码详见 [Gist](https://gist.github.com/lotem/2290714)。
-
-切换皮肤主题，只要在 `style/color_scheme:` 后方修改为相应的皮肤名称，保存并【重新部署】。
+在 `color_scheme:` 后方输入皮肤名称来更换主题，保存并【重新部署】。
 
 ![](pic/03皮肤.png)
 
