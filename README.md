@@ -179,6 +179,6 @@ use_preset_vocabulary: true
 
 ---
 
-附：配置方案来自scomper，本文做部分修改和添加词库。
+【附】配置方案来自scomper，本篇做部分修改和添加词库，并教大家如何使用鼠须管。
 
-Telegram 交流群：[加入](https://t.me/rimesquirrel)
+Telegram 交流群：[Rime 鼠须管](https://t.me/rimesquirrel)
