@@ -1,13 +1,14 @@
 patch:
     schema_list:
         - schema: luna_pinyin_simp
+        
     menu/page_size: 6   #候选词个数
 
-    ascii_composer/good_old_caps_lock: true # 若为true，caps只切换大小写
+    ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
     ascii_composer/switch_key:
         Caps_Lock: commit_text
-        Shift_L: commit_code
-        Shift_R: commit_code
+        Shift_L: commit_code    # 允许左Shift键切换中英文
+        Shift_R: noop           # 禁右Shift切换中英文
         Control_L: noop
         Control_R: noop
 
