@@ -1,0 +1,292 @@
+# Rime dict
+# encoding: utf-8
+#
+# 潮州市公交站名
+# 詞條來源：搜狗輸入法詞庫
+# 創建者：搜狗拼音輸入法
+# 更新：2013-07-18
+# 來源：https://pinyin.sogou.com/dict/detail/index/37207
+#
+# author: Graon Chan
+# GitHub: https://github.com/grasonchan/squirrel-config
+# **不去除** 與 Rime 預設詞彙表【八股文】重複的詞彙
+# 2021-01-25
+
+---
+name: "luna_pinyin.chaozhou_gongjiaozhan"
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+庵埠鎮政府	an bu zhen zheng fu
+白茫洲	bai mang zhou
+白橋	bai qiao
+白塔	bai ta
+保健院	bao jian yuan
+寶山中學	bao shan zhong xue
+北閣佛燈	bei ge fo deng
+北關	bei guan
+北園	bei yuan
+濱江停車場	bin jiang ting che chang
+部隊路口	bu dui lu kou
+卜蜂蓮花	bu feng lian hua
+彩金亭	cai jin ting
+彩里路	cai li lu
+彩塘車站	cai tang che zhan
+彩塘華僑醫院	cai tang hua qiao yi yuan
+藏龍路口	cang long lu kou
+長春路	chang chun lu
+長美橋	chang mei qiao
+長美寨	chang mei zhai
+長美中學	chang mei zhong xue
+潮安車站	chao an che zhan
+潮安汽車站	chao an qi che zhan
+潮安縣政府	chao an xian zheng fu
+潮州賓館	chao zhou bin guan
+潮州古巷鎮	chao zhou gu xiang zhen
+潮州海關	chao zhou hai guan
+潮州醫院	chao zhou yi yuan
+城基實驗中學	cheng ji shi yan zhong xue
+城南小學	cheng nan xiao xue
+城南中英文小學	cheng nan zhong ying wen xiao xue
+城南中英文學校	cheng nan zhong ying wen xue xiao
+城新路口	cheng xin lu kou
+池湖路口	chi hu lu kou
+池湖中心站	chi hu zhong xin zhan
+春城樓	chun cheng lou
+瓷都中學	ci du zhong xue
+瓷興路口	ci xing lu kou
+大道南	da dao nan
+大橋東	da qiao dong
+大潤發	da run fa
+大新鄉	da xin xiang
+淡浮院路口	dan fu yuan lu kou
+德州路口	de zhou lu kou
+登塘	deng tang
+地稅局	di shui ju
+電力局	dian li ju
+電器市場	dian qi shi chang
+電視臺	dian shi tai
+頂鄉村	ding xiang cun
+東彩路	dong cai lu
+東海樓	dong hai lou
+東湖住宅區	dong hu zhu zhai qu
+東山	dong shan
+東山湖度假村	dong shan hu du jia cun
+發展銀行	fa zhan yin hang
+楓春市場	feng chun shi chang
+楓二工業區	feng er gong ye qu
+鳳崗	feng gang
+鳳凰塔	feng huang ta
+鳳美	feng mei
+鳳塘韓鋼	feng tang han gang
+鳳塘收費站	feng tang shou fei zhan
+鳳塘鎮	feng tang zhen
+鳳塘鎮路口	feng tang zhen lu kou
+風塘鎮路口	feng tang zhen lu kou
+鳳塘中學	feng tang zhong xue
+楓溪廣場東	feng xi guang chang dong
+楓溪廣場西	feng xi guang chang xi
+楓溪鋪尾	feng xi pu wei
+楓洋農校	feng yang nong xiao
+楓一路口	feng yi lu kou
+福安路	fu an lu
+浮崗路口	fu gang lu kou
+富麗公園	fu li gong yuan
+富麗學校	fu li xue xiao
+浮洋水電	fu yang shui dian
+浮洋鎮政府	fu yang zhen zheng fu
+婦幼保健院	fu you bao jian yuan
+崗湖村	gang hu cun
+高級中學	gao ji zhong xue
+公共汽車總站	gong gong qi che zong zhan
+工商銀行	gong shang yin hang
+宮頭村	gong tou cun
+溝南	gou nan
+古板頭	gu ban tou
+古樓	gu lou
+古巷鎮政府	gu xiang zhen zheng fu
+官塘	guan tang
+冠園	guan yuan
+關竹	guan zhu
+歸湖	gui hu
+桂坑	gui keng
+國稅局	guo shui ju
+國土局	guo tu ju
+海逸花園	hai yi hua yuan
+韓山師院	han shan shi yuan
+韓師分院	han shi fen yuan
+韓文公祠	han wen gong ci
+河北	he bei
+河塘	he tang
+河頭	he tou
+紅山森林公園	hong shan sen lin gong yuan
+洪巷	hong xiang
+後徑	hou jing
+後隴	hou long
+後隴路口	hou long lu kou
+葫蘆市	hu lu shi
+虎頭	hu tou
+湖尾	hu wei
+華金路口	hua jin lu kou
+華美	hua mei
+槐山崗	huai shan gang
+黃金塘	huang jin tang
+黃竹洋	huang zhu yang
+輝城	hui cheng
+灰路頭	hui lu tou
+匯橋大酒店	hui qiao da jiu dian
+慧如公園	hui ru gong yuan
+火車站	huo che zhan
+技工學校	ji gong xue xiao
+建設大廈	jian she da sha
+建設銀行	jian she yin hang
+金安陶瓷	jin an tao ci
+金都園	jin du yuan
+金光	jin guang
+金龍市場	jin long shi chang
+金山大橋東	jin shan da qiao dong
+金山碼頭	jin shan ma tou
+金山中學	jin shan zhong xue
+金石大道	jin shi da dao
+金樹灣	jin shu wan
+金信大廈	jin xin da sha
+鏡鴻路口	jing hong lu kou
+軍分區	jun fen qu
+開發區管委會	kai fa qu guan wei hui
+開濠	kai hao
+奎元路口	kui yuan lu kou
+坤輝花園	kun hui hua yuan
+來宜小學	lai yi xiao xue
+禮德加油站	li de jia you zhan
+驪二	li er
+裏文	li wen
+蓮華西隴	lian hua xi long
+聯通大廈	lian tong da sha
+磷畔	lin pan
+磷溪	lin xi
+磷溪農科所	lin xi nong ke suo
+磷溪農料所	lin xi nong liao suo
+磷溪溪口雨亭	lin xi xi kou yu ting
+磷溪鎮政府	lin xi zhen zheng fu
+隆都陽坑橋	long dou yang keng qiao
+龍橋路	long qiao lu
+綠榕市場	lv rong shi chang
+麻倉	ma cang
+南堤路	nan di lu
+南國明珠	nan guo ming zhu
+南隴	nan long
+南橋市場	nan qiao shi chang
+南怡園	nan yi yuan
+坪埔	ping pu
+汽車總站	qi che zong zhan
+棲風	qi feng
+千果山旅遊區	qian guo shan lv you qu
+前進路口	qian jin lu kou
+橋東車站	qiao dong che zhan
+橋東醫院	qiao dong yi yuan
+僑光中學	qiao guang zhong xue
+勤威	qin wei
+輕工業區	qing gong ye qu
+青龍頭	qing long tou
+邱厝	qiu cuo
+秋溪路口	qiu xi lu kou
+趣春花園	qu chun hua yuan
+趣春路口	qu chun lu kou
+區公安局	qu gong an ju
+區檢察院	qu jian cha yuan
+饒裏村	rao li cun
+人民廣場	ren min guang chang
+如意路口	ru yi lu kou
+沙二	sha er
+廈寺公園	sha si gong yuan
+沙一	sha yi
+山邊	shan bian
+上珂	shang ke
+商貿城	shang mao cheng
+上埔	shang pu
+上水門	shang shui men
+獅峯	shi feng
+石湖村	shi hu cun
+市疾控中心	shi ji kong zhong xin
+市交通局	shi jiao tong ju
+石牌	shi pai
+師院宿舍	shi yuan su she
+市政府	shi zheng fu
+石柱坑	shi zhu keng
+書厝樓	shu cuo lou
+書圖	shu tu
+雙崗	shuang gang
+雙美路口	shuang mei lu kou
+松昌中學	song chang zhong xue
+松林寺	song lin si
+塘邊	tang bian
+塘邊鄉	tang bian xiang
+糖廠	tang chang
+塘埔	tang pu
+陶瓷城	tao ci cheng
+陶瓷學院	tao ci xue yuan
+體育館	ti yu guan
+田東	tian dong
+田東中學	tian dong zhong xue
+鐵橋	tie qiao
+萬綠花園	wan lv hua yuan
+維蘭中學	wei lan zhong xue
+韋駱	wei luo
+文祠	wen ci
+伍全	wu quan
+烏洋	wu yang
+烏洋路口	wu yang lu kou
+西都	xi du
+西隴	xi long
+錫美	xi mei
+西榮路口	xi rong lu kou
+溪頭村	xi tou cun
+西新路口	xi xin lu kou
+西園路	xi yuan lu
+下津	xia jin
+下水門	xia shui men
+縣二中路口	xian er zhong lu kou
+縣人民醫院	xian ren min yi yuan
+仙田	xian tian
+仙洋圩	xian yang xu
+小行	xiao hang
+新春園路口	xin chun yuan lu kou
+新橋加油站	xin qiao jia you zhan
+新橋路口	xin qiao lu kou
+新橋市場	xin qiao shi chang
+新西坑	xin xi keng
+新鄉	xin xiang
+信怡園	xin yi yuan
+星光	xing guang
+雄英大廈	xiong ying da sha
+許南美	xu nan mei
+鴨背	ya bei
+洋頭村	yang tou cun
+一八八醫院	yi ba ba yi yuan
+奕東村	yi dong cun
+奕湖村	yi hu cun
+意溪壩街尾	yi xi ba jie wei
+意溪中學	yi xi zhong xue
+銀潭	yin tan
+英塘	ying tang
+永護路口	yong hu lu kou
+郵電局	you dian ju
+玉窖	yu jiao
+玉蘭園	yu lan yuan
+粵潮花園	yue chao hua yuan
+粵潮市場	yue chao shi chang
+雲英路	yun ying lu
+樟坑	zhang keng
+振興路	zhen xing lu
+正龍路口	zheng long lu kou
+中國銀行	zhong guo yin hang
+中津	zhong jin
+中心醫院	zhong xin yi yuan
+中銀大廈	zhong yin da sha
+洲達加油站	zhou da jia you zhan
+竹木門	zhu mu men
+竹圍鄉	zhu wei xiang
+莊埕	zhuang cheng
+紫蓮路口	zi lian lu kou

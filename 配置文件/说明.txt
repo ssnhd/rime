@@ -3,12 +3,11 @@
 #🟧 default.custom.yaml	全局设置：切换输入法/翻页/候选词数量/Shift键等
 
 #🟨 luna_pinyin_simp.custom.yaml	自定义快速输入/模糊音
-#🟨 部署好 build 文件夹里 luna_pinyin_simp.custom.yaml	设置更多快速输入
 
-#🟩 luna_pinyin.cn_en.dict.yaml	英文
+#🟩 luna_pinyin.extended.dict.yaml	扩充词库
 
-#🟦 luna_pinyin.extended.dict.yaml	扩充词库
+#🟦 Open文件夹	表情
 
-#🟪 Open文件夹	表情
+#🟪 squirrel.custom.yaml	皮肤主题
 
-#⬛️ squirrel.custom.yaml	皮肤主题
+#⬛️ 词库

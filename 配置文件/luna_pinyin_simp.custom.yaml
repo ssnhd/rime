@@ -1,167 +1,142 @@
-# luna_pinyin.custom.yaml
-#
-# 補靪功能：將朙月拼音的詞庫修改爲朙月拼音擴充詞庫
-#
-# 作者：瑾昀 <cokunhui@gmail.com>
-#
-# 注意：本補靪適用於所有朙月拼音系列方案（「朙月拼音」、「朙月拼音·简化字」、「朙月拼音·臺灣正體」、「朙月拼音·語句流」）。
-# 只須將本 custom.yaml 的前面名字改爲對應的輸入方案名字然後放入用戶文件夾重新部署即可。如 luna_pinyin_simp.custom.yaml。
-# 雙拼用戶請使用 double_pinyin.custom.yaml。
-#
-# 附朙月拼音系列方案與其對應的 id 一覽表：
-# 輸入方案	id
-# 朙月拼音	luna_pinyin
-# 朙月拼音·简化字	luna_pinyin_simp
-# 朙月拼音·臺灣正體	luna_pinyin_tw
-# 朙月拼音·語句流	luna_pinyin_fluency
-
 patch:
+# 添加过滤索引
+  "engine/filters/@before 1": charset_filter@gbk
+  "engine/filters/@before 2": simplifier@emj
+  "engine/filters/@before 3": simplifier@emoji-symbol
+  "engine/filters/@before 4": simplifier@money
+  "engine/filters/@before 5": simplifier@kaomoji
+  "engine/filters/@before 6": simplifier@kaomoji-tips
+  "engine/filters/@next": uniquifier
+
+# 添加过滤字段
+  emj:
+    opencc_config: emoji.json
+    option_name: emj
+  emoji-symbol:
+    opencc_config: emoji-symbol.json
+    option_name: emoji-symbol
+  money:
+    opencc_config: money.json
+    option_name: money
+    show_in_comment: true
+    comment_format:
+      - "xform/&nbsp//"
+    tips: all
+  kaomoji:
+    opencc_config: kaomoji.json
+    option_name: kaomoji
+  kaomoji-tips:
+    opencc_config: kaomoji-tips.json
+    option_name: kaomoji-tips
+    show_in_comment: true
+    comment_format:
+      - "xform/&nbsp//"
+    tips: all
+  charset_filter:
+    option_name: gbk
+    
+# 添加过滤开关
   switches:
-    - name: ascii_mode
-      reset: 0
-      states: ["中文", "西文"]
     - name: full_shape
+      reset: 0
       states: ["半角", "全角"]
-    - name: zh_simp                      # (※1) 繁简转换
+    - name: zh_simp
       reset: 1
       states: ["漢字", "汉字"]
-
-    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
-      reset: 0                           #     默认 UTF8
-      states:
-        - UTF-8
-        - GBK
-        - GB2312
-    - name: show_emoji
+    - name: gbk
       reset: 1
-      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
+    - name: emj
+      reset: 1
+      states: ["🙃️", "🙂️"]
+    - name: emoji-symbol
+      reset: 1
+    - name: money
+      reset: 1
+    - name: kaomoji
+      reset: 1
+    - name: kaomoji-tips
+      reset: 1
 
-  simplifier:
-    option_name: zh_simp
-    
-  engine/filters:
-      - simplifier
-      - simplifier@emoji_conversion
-      - uniquifier
-      - charset_filter@gbk              # (※3) GBK 过滤
-      - single_char_filter
+  # 加載 easy_en 依賴
+  "schema/dependencies/@next": easy_en
+  # 載入翻譯英文的碼表翻譯器，取名爲 english
+  "engine/translators/@next": table_translator@english
+  # english 翻譯器的設定項
+  english:
+    dictionary: easy_en
+    spelling_hints: 9
+    enable_completion: true
+    enable_sentence: false
+    initial_quality: -3
 
-  emoji_conversion:
-    opencc_config: emoji.json
-    option_name: show_emoji
-    tags: abc
-
-# 改寫拼寫運算，使得含西文的詞彙（位於 luna_pinyin.cn_en.dict.yaml 中）不影響簡拼功能（注意，此功能只適用於朙月拼音系列方案，不適用於各類雙拼方案）
-  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
-
-#  載入朙月拼音擴充詞庫
+  # 载入朙月拼音扩充词库
   "translator/dictionary": luna_pinyin.extended
-#  拼写纠错
-  "translator/enable_correction": true
+  # 改写拼音运算，使得含英文的字词（位于 luna_pinyin.cn_en.dict.yaml 中）不影响简拼功能（注意，此功能只适用于於朙月拼音系列方案，不适用于各类双拼方案）
+  # 本条补丁只在「小狼毫 0.9.30」、「鼠须管 0.9.25 」、「Rime-1.2」及更高的版本中起作用
+  "speller/algebra/@before 0": xform/^([b-df-np-z])$/$1_/
 
-#  符号快速输入和部分符号的快速上屏
+ #  符号快速上屏
   punctuator:
     import_preset: symbols
     symbols:
-      "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
-      "/bq": [😂️, 😅️, ☺️, 😱️, 😭️, 😇️, 🙃️, 🤔️, 💊️, 💯️, 👍️, 🙈️, 💩️, 😈️ ]
-      "/dn": [⌘, ⌥, ⇧, ⌃, ⎋, ⇪, , ⌫, ⌦, ↩︎, ⏎, ↑, ↓, ←, →, ↖, ↘, ⇟, ⇞]
-      "/fh": [ ©, ®, ℗, ⓘ, ℠, ™, ℡, ␡, ♂, ♀, ☉, ☊, ☋, ☌, ☍, ☐, ☑︎, ☒, ☜, ☝, ☞, ☟, ✎, ✄, ♻, ⚐, ⚑, ⚠]
-      "/xh": [ ＊, ×, ✱, ★, ☆, ✩, ✧, ❋, ❊, ❉, ❈, ❅, ✿, ✲]
+      "/bq": [/bq]
+      "/ss": [/ss]
+      "/am": [/am]
+      "/aj": [/aj]
+      "/fs": [/fs]
+      "/fh": [/fh]
+      "/xh": [/xh]
+      "/hb": [/hb]
+      
+      # 颜文字
+      "/vgx": [/vgx]        # 高兴
+      "/vmm": [/vmm]        # 卖萌
+      "/vmmd": [/vmmd]      # 么么哒
+      "/vzj": [/vzj]        # 震惊
+      "/vsq": [/vsq]        # 生气
+      "/vwn": [/vwn]        # 无奈
+      "/vyun": [/vyun]      # 晕
+      "/vdq": [/vdq]        # 道歉
+      "/vdw": [/vdw]        # 动物
+      "/vhx": [/vhx]        # 害羞
+      "/vku": [/vku]        # 哭
+      "/vsl": [/vsl]        # 睡啦
+      "/vbye": [/vbye]      # 再见
+      "/vaj": [/vaj]        # 傲娇
+      "/vch": [/vch]        # 吃货
+      "/vdy": [/vdy]        # 得意
+      "/vhp": [/vhp]        # 害怕
+      "/vjiong": [/vjiong]  # 囧
+      "/vzan": [/vzan]      # 赞
+      "/vng": [/vng]        # 难过
+      "/vjian": [/vjian]    # 贱
+      "/vqt": [/vqt]        # 其它
+      
     half_shape:
       "#": "#"
-      "*": "*"
       "`": "`"
       "~": "~"
       "@": "@"
       "=": "="
-      "/": ["/", "÷",]
+      "/": ["/", "÷"]
       '\': "、"
-      "_" : "──"
-      "'": {pair: ["「", "」"]}
-      "[": ["【", "["]
-      "]": ["】", "]"]
-      "$": ["¥", "$", "€", "£", "¢", "¤"]
-      "<": ["《", "〈", "«", "<"]
-      ">": ["》", "〉", "»", ">"]
+      "'": {pair: ["‘", "’"]}
+      "[": ["【", "「"]
+      "]": ["】", "」"]
+      "$": ["￥", "¤"]
+      "%": "°"
+      "<": ["《", "〈"]
+      ">": ["》", "〉"]
+      "*" : ["·", "×"]
   recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
 
-# 加載 easy_en 依賴
-  "schema/dependencies/+": easy_en
-# 載入翻譯英文的碼表翻譯器，取名爲 english
-  engine/translators/+: 
-    - table_translator@english
-# english 翻譯器的設定項
-  english:
-    dictionary: easy_en
-    spelling_hints: 9
-    enable_completion: false     # 是否启用英文输入联想补全
-    enable_sentence: false
-    initial_quality: -4           # 调整英文候选词的位置，如 -3 会更靠后
+  # 模糊拼音
+  # 'speller/algebra':
+    # - erase/^xx$/
 
-
-# librime-lua 输入动态时间和日期
-  engine/translators/+: 
-    - lua_translator@date_translator
-    - lua_translator@time_translator
-
-  
-# 模糊拼音
-  'speller/algebra':
-    - erase/^xx$/                      # 第一行保留
-
-    # 模糊音定義
-    # 需要哪組就刪去行首的 # 號，單雙向任選
-    #- derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
-    #- derive/^([zcs])([^h])/$1h$2/     # z, c, s => zh, ch, sh
-
-    #- derive/^n/l/                     # n => l
-    #- derive/^l/n/                     # l => n
-
-    # 這兩組一般是單向的
-    #- derive/^r/l/                     # r => l
-
-    #- derive/^ren/yin/                 # ren => yin, reng => ying
-    #- derive/^r/y/                     # r => y
-
-    # 下面 hu <=> f 這組寫法複雜一些，分情況討論
-    #- derive/^hu$/fu/                  # hu => fu
-    #- derive/^hong$/feng/              # hong => feng
-    #- derive/^hu([in])$/fe$1/          # hui => fei, hun => fen
-    #- derive/^hu([ao])/f$1/            # hua => fa, ...
-
-    #- derive/^fu$/hu/                  # fu => hu
-    #- derive/^feng$/hong/              # feng => hong
-    #- derive/^fe([in])$/hu$1/          # fei => hui, fen => hun
-    #- derive/^f([ao])/hu$1/            # fa => hua, ...
-
-    # 韻母部份
-    #- derive/^([bpmf])eng$/$1ong/      # meng = mong, ...
-    - derive/([ei])n$/$1ng/            # en => eng, in => ing
-    - derive/([ei])ng$/$1n/            # eng => en, ing => in
-
-    # 樣例足夠了，其他請自己總結……
-
-    # 模糊音定義先於簡拼定義，方可令簡拼支持以上模糊音
-    - abbrev/^([a-z]).+$/$1/           # 簡拼（首字母）
-    - abbrev/^([zcs]h).+$/$1/          # 簡拼（zh, ch, sh）
-
-    # 以下是一組容錯拼寫，《漢語拼音》方案以前者爲正
-    - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
-    - derive/^([jqxy])u/$1v/           # ju = jv,
-    - derive/un$/uen/                  # gun = guen,
-    - derive/ui$/uei/                  # gui = guei,
-    - derive/iu$/iou/                  # jiu = jiou,
+    # 以下是一組容錯拼寫
+    # - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
 
     # 自動糾正一些常見的按鍵錯誤
-    - derive/([aeiou])ng$/$1gn/        # dagn => dang 
-    - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
-    - derive/ong$/on/                  # zhonguo => zhong guo
-    - derive/ao$/oa/                   # hoa => hao
-    - derive/ua$/au/                   # shau => shua
-    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
-
-    # 分尖團後 v => ü 的改寫條件也要相應地擴充：
-    #'translator/preedit_format':
-   #  - "xform/([nljqxyzcs])v/$1ü/"
-
+    # - derive/ua$/au/                   # shau => shua
+    # - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian

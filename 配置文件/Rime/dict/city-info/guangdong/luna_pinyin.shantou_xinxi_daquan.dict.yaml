@@ -1,0 +1,2196 @@
+# Rime dict
+# encoding: utf-8
+#
+# 汕頭市信息大全
+# 詞條來源：搜狗輸入法詞庫
+# 創建者：搜狗拼音輸入法
+# 更新：2014-01-16
+# 來源：https://pinyin.sogou.com/dict/detail/index/41145
+#
+# author: Graon Chan
+# GitHub: https://github.com/grasonchan/squirrel-config
+# **不去除** 與 Rime 預設詞彙表【八股文】重複的詞彙
+# 2021-01-25
+
+---
+name: "luna_pinyin.shantou_xinxi_daquan"
+version: "2.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+阿尼陀佛	a ni tuo fo
+啊未	a wei
+愛富蘭	ai fu lan
+愛來去	ai lai qu
+愛來債	ai lai zhai
+愛魯	ai lu
+艾洛哈	ai luo ha
+愛你深深	ai ni shen shen
+艾諾瑪	ai nuo ma
+艾諾那	ai nuo na
+愛心桃	ai xin tao
+愛債	ai zhai
+愛做泥	ai zuo ni
+庵埠	an bu
+安米娜	an mi na
+按手機	an shou ji
+奧爾瑪	ao er ma
+奧飛	ao fei
+壩頭	ba tou
+壩尾	ba wei
+八月半	ba yue ban
+百百	bai bai
+白弟	bai di
+拜掉	bai diao
+佰分	bai fen
+拜好	bai hao
+拜好了	bai hao le
+百合園	bai he yuan
+百宏	bai hong
+百花路	bai hua lu
+百花路口	bai hua lu kou
+柏嘉	bai jia
+柏嘉半島	bai jia ban dao
+拜老爺	bai lao ye
+白仁仔	bai ren zai
+白傻	bai sha
+百思得	bai si de
+白雲仔	bai yun zai
+半不知人	ban bu zhi ren
+坂川	ban chuan
+半點鐘	ban dian zhong
+班主	ban zhu
+班主課	ban zhu ke
+班主說	ban zhu shuo
+傍晚好	bang wan hao
+包段	bao duan
+保險套	bao xian tao
+北國飯店	bei guo fan dian
+被你知道了	bei ni zhi dao le
+北沙灣	bei sha wan
+北山灣	bei shan wan
+背誦了	bei song le
+被他說	bei ta shuo
+逼測	bi ce
+逼過火	bi guo huo
+碧華	bi hua
+逼火	bi huo
+比較輸	bi jiao shu
+筆考	bi kao
+閉路	bi lu
+碧霞	bi xia
+碧霞莊	bi xia zhuang
+編班	bian ban
+邊布	bian bu
+便藥	bian yao
+標遠	biao yuan
+別打來	bie da lai
+別等下	bie deng xia
+別發來了	bie fa lai le
+別個太多	bie ge tai duo
+別時	bie shi
+別說破	bie shuo po
+別太晚睡	bie tai wan shui
+彬弟	bin di
+濱港路	bin gang lu
+冰璇	bing xuan
+冰瑩	bing ying
+不錯裏	bu cuo li
+不大事	bu da shi
+卜蜂蓮花	bu feng lian hua
+不好吶	bu hao na
+不合聽	bu he ting
+不會纔怪	bu hui cai guai
+不會幾天	bu hui ji tian
+不會里	bu hui li
+不會吶	bu hui na
+不會諾	bu hui nuo
+不就不	bu jiu bu
+不就好	bu jiu hao
+不肯我	bu ken wo
+不去讀	bu qu du
+不生不死	bu sheng bu si
+不生好	bu sheng hao
+不是哩	bu shi li
+不是吶	bu shi na
+不太可以	bu tai ke yi
+不太肯	bu tai ken
+不同家	bu tong jia
+不同校	bu tong xiao
+補習完	bu xi wan
+不行吶	bu xing na
+不要等下	bu yao deng xia
+不要好不好	bu yao hao bu hao
+不要喝太多	bu yao he tai duo
+不要哩	bu yao li
+不要吶	bu yao na
+不要太晚睡	bu yao tai wan shui
+不夜天	bu ye tian
+不用讀	bu yong du
+不用讀書	bu yong du shu
+不用工作	bu yong gong zuo
+不用吶	bu yong na
+不用上啊	bu yong shang a
+不在汕頭	bu zai shan tou
+不知啊	bu zhi a
+不知道里	bu zhi dao li
+不知道要不要	bu zhi dao yao bu yao
+不知咯	bu zhi ge
+不知會不會	bu zhi hui bu hui
+不知啦	bu zhi la
+不知哩	bu zhi li
+不知呢	bu zhi ne
+不知去哪	bu zhi qu na
+不知人	bu zhi ren
+不知呀	bu zhi ya
+不知要不要	bu zhi yao bu yao
+不知怎麼說	bu zhi zen me shuo
+菜補	cai bu
+纔不用	cai bu yong
+才慘	cai can
+裁牀	cai chuang
+纔會的	cai hui de
+菜頭	cai tou
+菜頭果	cai tou guo
+菜頭丸	cai tou wan
+採芝林	cai zhi lin
+餐吧	can ba
+燦彬	can bin
+燦多	can duo
+慘過	can guo
+燦輝	can hui
+燦佳	can jia
+燦傑	can jie
+慘就對	can jiu dui
+慘絕	can jue
+慘死	can si
+燦偉	can wei
+草尾	cao wei
+差不多要	cha bu duo yao
+差不多要睡了	cha bu duo yao shui le
+差點睡了	cha dian shui le
+查卷	cha juan
+插屎	cha shi
+查天氣	cha tian qi
+茶元氣	cha yuan qi
+柴頭	chai tou
+腸粉	chang fen
+腸粉了	chang fen le
+長平	chang ping
+長平路	chang ping lu
+長裝	chang zhuang
+超不出	chao bu chu
+吵到人	chao dao ren
+炒果條	chao guo tiao
+潮宏基	chao hong ji
+潮劇	chao ju
+潮南	chao nan
+潮南區	chao nan qu
+超人氣	chao ren qi
+超人死	chao ren si
+潮汕	chao shan
+潮汕的	chao shan de
+潮汕地區	chao shan di qu
+潮汕話	chao shan hua
+潮汕路	chao shan lu
+潮汕人	chao shan ren
+潮汕小品	chao shan xiao pin
+潮實	chao shi
+潮陽	chao yang
+潮陽的	chao yang de
+潮陽了	chao yang le
+潮陽區	chao yang qu
+潮陽人	chao yang ren
+潮陽一中	chao yang yi zhong
+潮職	chao zhi
+潮州	chao zhou
+潮州的	chao zhou de
+潮州了	chao zhou le
+車架碼	che jia ma
+車身價	che shen jia
+車證	che zheng
+陳純	chen chun
+陳厝合	chen cuo he
+陳店	chen dian
+陳店的	chen dian de
+陳店鎮	chen dian zhen
+陳庫	chen ku
+陳爍	chen shuo
+陳圍	chen wei
+陳香露	chen xiang lu
+成哈	cheng ha
+澄海	cheng hai
+澄海的	cheng hai de
+澄海了	cheng hai le
+澄海區	cheng hai qu
+澄海人	cheng hai ren
+澄華	cheng hua
+澄緣	cheng yuan
+澄緣似海	cheng yuan si hai
+喫飽後	chi bao hou
+喫飽未	chi bao wei
+喫冰	chi bing
+喫補	chi bu
+喫茶	chi cha
+喫腸粉	chi chang fen
+喫飯盒	chi fan he
+喫肥肥	chi fei fei
+癡糕	chi gao
+癡哥	chi ge
+喫果條	chi guo tiao
+喫好了沒	chi hao le mei
+喫好了沒有	chi hao le mei you
+喫好未	chi hao wei
+喫後	chi hou
+持家有道	chi jia you dao
+喫久	chi jiu
+喫就好	chi jiu hao
+池塊	chi kuai
+喫未	chi wei
+吃藥片	chi yao pian
+沖茶	chong cha
+臭嘴浪面	chou zui lang mian
+除疤膏	chu ba gao
+出花園	chu hua yuan
+出來裏	chu lai li
+出來去	chu lai qu
+出去外面	chu qu wai mian
+除死人	chu si ren
+楚偉	chu wei
+楚霞	chu xia
+楚璇	chu xuan
+出只	chu zhi
+吹到風	chui dao feng
+吹風筒	chui feng tong
+吹筒	chui tong
+春江路	chun jiang lu
+春梅里	chun mei li
+純霞	chun xia
+從汕頭	cong shan tou
+湊腳	cou jiao
+湊一腳	cou yi jiao
+翠峯	cui feng
+翠峯巖	cui feng yan
+翠英	cui ying
+厝邊	cuo bian
+厝邊頭尾	cuo bian tou wei
+厝合	cuo he
+搭埠	da bu
+大大隻	da da zhi
+嗒滴	da di
+大頓	da dun
+大峯	da feng
+打給我幹嘛	da gei wo gan ma
+搭公車	da gong che
+達濠	da hao
+達濠的	da hao de
+大華路	da hua lu
+搭家	da jia
+大家人	da jia ren
+大窖	da jiao
+大目	da mu
+打片	da pian
+搭去	da qu
+打去問	da qu wen
+達人會	da ren hui
+嗒軟	da ruan
+大森洋	da sen yang
+大臺北	da tai bei
+打太快	da tai kuai
+搭惜	da xi
+搭惜搭惜	da xi da xi
+打羽毛	da yu mao
+大宅	da zhai
+大賺	da zhuan
+丹鳳路	dan feng lu
+丹彤	dan tong
+丹喜	dan xi
+丹霞	dan xia
+丹霞莊	dan xia zhuang
+單肖	dan xiao
+丹璇	dan xuan
+丹陽莊	dan yang zhuang
+丹櫻	dan ying
+到汕頭	dao shan tou
+德保	de bao
+德政路	de zheng lu
+等喫	deng chi
+登峯路	deng feng lu
+等公車	deng gong che
+等今晚	deng jin wan
+等看	deng kan
+等來去	deng lai qu
+等魯	deng lu
+等沒雨	deng mei yu
+等你下來	deng ni xia lai
+等下被	deng xia bei
+等下被你	deng xia bei ni
+等下看	deng xia kan
+等下看吧	deng xia kan ba
+弟啊	di a
+滴茶	di cha
+弟弟仔	di di zai
+地豆	di dou
+地該	di gai
+地個	di ge
+滌光	di guang
+帝豪	di hao
+帝豪酒店	di hao jiu dian
+迪凱瑞	di kai rui
+地主爺	di zhu ye
+掂掂	dian dian
+電毛	dian mao
+電腦機	dian nao ji
+電腦繡	dian nao xiu
+電腦繡花	dian nao xiu hua
+顛時	dian shi
+釣妞	diao niu
+吊液	diao ye
+丟屁	diu pi
+東方公園	dong fang gong yuan
+東方園	dong fang yuan
+東方中學	dong fang zhong xue
+東廈中學	dong sha zhong xue
+東山湖	dong shan hu
+東山路口	dong shan lu kou
+東溪	dong xi
+東霞	dong xia
+東夏路	dong xia lu
+豆腐魚	dou fu yu
+肚飽	du bao
+讀不會	du bu hui
+讀不下	du bu xia
+肚困死	du kun si
+嘟你	du ni
+渡頭	du tou
+嘟我	du wo
+獨肖	du xiao
+讀中專	du zhong zhuan
+肚子好飽	du zi hao bao
+剁雞	duo ji
+鵝腸	e chang
+鵝肉飯	e rou fan
+惡汁	e zhi
+恩波路	en bo lu
+嗯嗯哈	en en ha
+嗯嗯裏	en en li
+嗯好啦	en hao la
+兒兒	er er
+耳機線	er ji xian
+二姆	er mu
+二奶街	er nai jie
+二肖	er xiao
+而已嗎	er yi ma
+二中二	er zhong er
+發來看	fa lai kan
+放點我	fang dian wo
+放掉	fang diao
+放掉你	fang diao ni
+放掉我	fang diao wo
+放屎	fang shi
+放頭髮	fang tou fa
+肥弟	fei di
+飛機棋	fei ji qi
+肥姐	fei jie
+奮發園	fen fa yuan
+粉籤	fen qian
+縫車	feng che
+峯弟	feng di
+鳳肚	feng du
+鳳窖	feng jiao
+封面女郎	feng mian nv lang
+豐盛發	feng sheng fa
+風臺	feng tai
+豐澤莊	feng ze zhuang
+輔導站	fu dao zhan
+福合埕	fu he cheng
+福合溝	fu he gou
+福晉軒	fu jin xuan
+付款好了	fu kuan hao le
+復膜	fu mo
+福萬家	fu wan jia
+複雜死	fu za si
+蓋水	gai shui
+敢敢	gan gan
+敢敢的	gan gan de
+港後	gang hou
+港頭	gang tou
+剛洗完好	gang xi wan hao
+剛洗澡好	gang xi zao hao
+剛要來	gang yao lai
+葛陳	ge chen
+歌頓	ge dun
+各人各人	ge ren ge ren
+隔水燉	ge shui dun
+咯物地個	ge wu di ge
+格子店	ge zi dian
+咯做呢	ge zuo ne
+咯做泥	ge zuo ni
+咯做年	ge zuo nian
+給魯	gei lu
+給你猜	gei ni cai
+給你請	gei ni qing
+給我裏	gei wo li
+給我請	gei wo qing
+跟你拿	gen ni na
+跟他買	gen ta mai
+跟他拿	gen ta na
+跟我拿	gen wo na
+公車卡	gong che ka
+功課表	gong ke biao
+公信路	gong xin lu
+公園頭	gong yuan tou
+狗母	gou mu
+溝頭	gou tou
+骨白	gu bai
+谷饒	gu rao
+谷饒的	gu rao de
+谷饒鎮	gu rao zhen
+古帥	gu shuai
+古溪	gu xi
+乖大	guai da
+關埠	guan bu
+冠山	guan shan
+廣澳	guang ao
+逛不到	guang bu dao
+廣東汕頭	guang dong shan tou
+廣東省汕頭市	guang dong sheng shan tou shi
+廣技師	guang ji shi
+廣祥路	guang xiang lu
+廣興村	guang xing cun
+逛衣服	guang yi fu
+鬼點	gui dian
+貴夫人	gui fu ren
+鬼甲馬	gui jia ma
+貴嶼	gui yu
+貴嶼鎮	gui yu zhen
+過慘	guo can
+過假	guo jia
+過來喝茶	guo lai he cha
+過來裏	guo lai li
+過來去	guo lai qu
+過來汕頭	guo lai shan tou
+過來我家	guo lai wo jia
+國曆	guo li
+過莫	guo mo
+過去你家	guo qu ni jia
+國水	guo shui
+果條	guo tiao
+果條面	guo tiao mian
+果條湯	guo tiao tang
+過畏	guo wei
+過無聊	guo wu liao
+國新花園	guo xin hua yuan
+過紙	guo zhi
+果汁冰	guo zhi bing
+海霸王	hai ba wang
+海濱花園	hai bin hua yuan
+海濱路	hai bin lu
+還不如睡	hai bu ru shui
+還不知呢	hai bu zhi ne
+還好裏	hai hao li
+還好吶	hai hao na
+還沒得喫	hai mei de chi
+海門的	hai men de
+海門了	hai men le
+海門人	hai men ren
+海門鎮	hai men zhen
+海石花	hai shi hua
+海是做泥	hai shi zuo ni
+海棠園	hai tang yuan
+海灣大橋	hai wan da qiao
+海璇	hai xuan
+還在汕頭	hai zai shan tou
+韓江路	han jiang lu
+韓師	han shi
+行情啊	hang qing a
+行情好	hang qing hao
+浩彬	hao bin
+好喫鬼	hao chi gui
+好喫妹	hao chi mei
+浩弟	hao di
+好果	hao guo
+好行情	hao hang qing
+浩佳	hao jia
+濠江	hao jiang
+濠江區	hao jiang qu
+好絕	hao jue
+好看裏	hao kan li
+豪客來	hao ke lai
+蠔烙	hao lao
+好哩	hao li
+好哩好哩	hao li hao li
+號碼卡	hao ma ka
+好命人	hao ming ren
+好莫	hao mo
+好目澀	hao mu se
+好吶	hao na
+好吶好吶	hao na hao na
+浩羣	hao qun
+好生仔	hao sheng zai
+好未	hao wei
+好惜	hao xi
+好笑死	hao xiao si
+合板	he ban
+禾皋	he gao
+合理是	he li shi
+河隴	he long
+和你拿	he ni na
+和平酒店	he ping jiu dian
+和平鎮	he ping zhen
+和我拿	he wo na
+河溪	he xi
+黑弟	hei di
+黑記	hei ji
+黑沙	hei sha
+黑糖水	hei tang shui
+黑心肝	hei xin gan
+很逼	hen bi
+很常	hen chang
+很大力	hen da li
+很大型	hen da xing
+很久錢	hen jiu qian
+橫隴	heng long
+鴻彬	hong bin
+紅燈路口	hong deng lu kou
+紅番茄	hong fan qie
+鴻傑	hong jie
+紅荔園	hong li yuan
+紅領巾路	hong ling jin lu
+紅磨坊	hong mo fang
+紅亭	hong ting
+紅頭船	hong tou chuan
+後回	hou hui
+後宅	hou zhai
+護堤路	hu di lu
+胡搞瞎搞	hu gao xia gao
+葫蘆市	hu lu shi
+花邊行	hua bian xing
+華里西	hua li xi
+華隆發	hua long fa
+華美莊	hua mei zhuang
+華僑大廈	hua qiao da sha
+華僑公園	hua qiao gong yuan
+華僑中學	hua qiao zhong xue
+華新城	hua xin cheng
+花園賓館	hua yuan bin guan
+花園裏	hua yuan li
+歡樂唱	huan le chang
+歡樂迪	huan le di
+環美路	huan mei lu
+歡未	huan wei
+歡喜歡喜	huan xi huan xi
+歡喜死	huan xi si
+皇都	huang du
+黃圖盛	huang tu sheng
+會不會太晚	hui bu hui tai wan
+匯翠	hui cui
+輝華	hui hua
+惠來	hui lai
+回來汕頭	hui lai shan tou
+回汕頭	hui shan tou
+回汕頭了	hui shan tou le
+會知	hui zhi
+混裝	hun zhuang
+活力工廠	huo li gong chang
+火炭	huo tan
+寄車	ji che
+幾點要去	ji dian yao qu
+積惡	ji e
+計劃生	ji hua sheng
+積火	ji huo
+雞爐	ji lu
+雞母皮	ji mu pi
+幾人去	ji ren qu
+寄上去	ji shang qu
+集味村	ji wei cun
+寄下來	ji xia lai
+激心死	ji xin si
+佳彬	jia bin
+佳純	jia chun
+嘉達	jia da
+佳弟	jia di
+嘉頓	jia dun
+嘉頓小鎮	jia dun xiao zhen
+佳峯	jia feng
+假過水	jia guo shui
+佳虹	jia hong
+甲己	jia ji
+佳佳基	jia jia ji
+家教園	jia jiao yuan
+佳晉	jia jin
+佳客來	jia ke lai
+嘉楠	jia nan
+嘉盛	jia sheng
+家庭網	jia ting wang
+佳微	jia wei
+佳璇	jia xuan
+嘉源	jia yuan
+佳芸	jia yun
+艱苦死	jian ku si
+尖米丸	jian mi wan
+堅偉	jian wei
+剪線頭	jian xian tou
+將軍爺	jiang jun ye
+腳車	jiao che
+腳好酸	jiao hao suan
+叫你醒	jiao ni xing
+叫我醒	jiao wo xing
+潔純	jie chun
+傑弟	jie di
+階段考	jie duan kao
+潔姐	jie jie
+潔璇	jie xuan
+揭陽	jie yang
+揭陽的	jie yang de
+揭陽了	jie yang le
+揭陽人	jie yang ren
+潔瑩	jie ying
+金邦	jin bang
+金墩	jin dun
+金墩園	jin dun yuan
+金鳳橋	jin feng qiao
+金鳳壇	jin feng tan
+金光路	jin guang lu
+金海鷗	jin hai ou
+金荷	jin he
+金湖路	jin hu lu
+金湖橋	jin hu qiao
+金環路	jin huan lu
+金煌	jin huang
+金皇城	jin huang cheng
+金黃路	jin huang lu
+近近	jin jin
+勁妞	jin niu
+金平	jin ping
+金平區	jin ping qu
+今日視線	jin ri shi xian
+金砂	jin sha
+金砂東	jin sha dong
+金砂東路	jin sha dong lu
+金砂公園	jin sha gong yuan
+金砂路	jin sha lu
+金砂鄉	jin sha xiang
+金山中學	jin shan zhong xue
+金實	jin shi
+錦泰	jin tai
+金泰莊	jin tai zhuang
+金湯灣	jin tang wan
+金濤莊	jin tao zhuang
+今晚不用	jin wan bu yong
+今晚得	jin wan de
+今晚來去	jin wan lai qu
+今晚沒出去	jin wan mei chu qu
+今晚去哪裏	jin wan qu na li
+今晚要不要	jin wan yao bu yao
+今晚要去	jin wan yao qu
+今晚有沒有	jin wan you mei you
+今晚在家	jin wan zai jia
+今晚再說	jin wan zai shuo
+今晚怎麼說	jin wan zen me shuo
+金味	jin wei
+金喜	jin xi
+金禧花園	jin xi hua yuan
+金新路	jin xin lu
+金葉島	jin ye dao
+金園	jin yuan
+金園路	jin yuan lu
+金珠園	jin zhu yuan
+靜去	jing qu
+驚死人	jing si ren
+靜霞	jing xia
+靜璇	jing xuan
+靜芸	jing yun
+就不會啊	jiu bu hui a
+就不要吧	jiu bu yao ba
+就不要咯	jiu bu yao ge
+就不要啦	jiu bu yao la
+就打給我	jiu da gei wo
+酒單	jiu dan
+就好哩	jiu hao li
+就好嘛	jiu hao ma
+就好吶	jiu hao na
+久久一次	jiu jiu yi ci
+就來去	jiu lai qu
+就老是	jiu lao shi
+就沒雨	jiu mei yu
+就是歡	jiu shi huan
+就是裏	jiu shi li
+就有去	jiu you qu
+巨峯寺	ju feng si
+菊園	ju yuan
+卡諾	ka nuo
+卡有用	ka you yong
+卡知	ka zhi
+開電動	kai dian dong
+凱樂迪	kai le di
+開摩托	kai mo tuo
+開摩托車	kai mo tuo che
+凱詩	kai shi
+開太快	kai tai kuai
+開只	kai zhi
+看不破	kan bu po
+看定定	kan ding ding
+看就好	kan jiu hao
+看看裏	kan kan li
+看妞	kan niu
+看破你	kan po ni
+看衰	kan shuai
+考車證	kao che zheng
+烤蠔	kao hao
+考試好	kao shi hao
+客版	ke ban
+刻苦	ke ku
+可麗愛	ke li ai
+可能沒辦法	ke neng mei ban fa
+咳嗽水	ke sou shui
+客天下	ke tian xia
+柯圍	ke wei
+可以不要嘛	ke yi bu yao ma
+可以吃了嗎	ke yi chi le ma
+可以吃了沒	ke yi chi le mei
+可以哩	ke yi li
+可以去睡了	ke yi qu shui le
+肯讓你	ken rang ni
+肯讓我	ken rang wo
+恐怖死	kong bu si
+哭爸	ku ba
+哭蔥	ku cong
+哭父	ku fu
+苦瓜湯	ku gua tang
+哭鬼	ku gui
+酷匯	ku hui
+褲頭方	ku tou fang
+塊雞	kuai ji
+快可以	kuai ke yi
+葵花園	kui hua yuan
+虧去	kui qu
+困就去	kun jiu qu
+喇叭丸	la ba wan
+拉拉雜雜	la la za za
+蠟頭	la tou
+來澄海	lai cheng hai
+來電動	lai dian dong
+萊芙	lai fu
+來給我喫	lai gei wo chi
+來喝茶	lai he cha
+來哩來哩	lai li lai li
+萊美路	lai mei lu
+來摩托	lai mo tuo
+來摩托車	lai mo tuo che
+來去	lai qu
+來去喫	lai qu chi
+來去看	lai qu kan
+來去來去	lai qu lai qu
+來去了	lai qu le
+來去裏	lai qu li
+來去買	lai qu mai
+來汕頭	lai shan tou
+來食	lai shi
+來睡了	lai shui le
+來太快	lai tai kuai
+來未	lai wei
+來載我	lai zai wo
+懶人面霜	lan ren mian shuang
+藍色河畔	lan se he pan
+藍水星	lan shui xing
+浪堵	lang du
+浪話	lang hua
+浪漫春天	lang man chun tian
+浪毛	lang mao
+浪趴	lang pa
+浪屎	lang shi
+老啊	lao a
+老矮	lao ai
+老處	lao chu
+老肥	lao fei
+佬公	lao gong
+老猴	lao hou
+老虎婆	lao hu po
+老嫲	lao ma
+老媽宮	lao ma gong
+老媽人	lao ma ren
+老人組	lao ren zu
+撈屎	lao shi
+老市區	lao shi qu
+老是下雨	lao shi xia yu
+老是要	lao shi yao
+老政府	lao zheng fu
+老姿娘	lao zi niang
+樂唱	le chang
+樂都匯	le du hui
+了歡	le huan
+樂客	le ke
+樂業園	le ye yuan
+磊口	lei kou
+利安路	li an lu
+裏對	li dui
+厲害死	li hai si
+裏好	li hao
+理家	li jia
+麗日莊	li ri zhuang
+麗珊	li shan
+麗水莊	li shui zhuang
+麗璇	li xuan
+麗瑩	li ying
+臉黑黑	lian hei hei
+蓮花等	lian hua deng
+蓮花峯	lian hua feng
+蓮藕湯	lian ou tang
+聯泰	lian tai
+蓮下鎮	lian xia zhen
+兩人去	liang ren qu
+兩三人	liang san ren
+兩肖	liang xiao
+兩英	liang ying
+兩英鎮	liang ying zhen
+林百	lin bai
+林百欣	lin bai xin
+林百姓	lin bai xing
+林純	lin chun
+淋到雨	lin dao yu
+林帆	lin fan
+林煌	lin huang
+林嘉	lin jia
+淋了一身	lin le yi shen
+林璇	lin xuan
+淋一身	lin yi shen
+林芸	lin yun
+陵海	ling hai
+靈精	ling jing
+嶺亭	ling ting
+六千館	liu qian guan
+流沙	liu sha
+六十米	liu shi mi
+六星集	liu xing ji
+隆城	long cheng
+隆弟	long di
+隆都	long dou
+龍湖	long hu
+龍湖賓館	long hu bin guan
+龍湖村	long hu cun
+龍湖的	long hu de
+龍湖溝	long hu gou
+龍湖區	long hu qu
+隆妹	long mei
+龍泉巖	long quan yan
+龍實	long shi
+隴田	long tian
+龍通	long tong
+龍眼路	long yan lu
+漏魯	lou lu
+漏屎	lou shi
+路霸	lu ba
+錄不到	lu bu dao
+魯弟	lu di
+臚崗	lu gang
+魯好	lu hao
+盧家	lu jia
+盧家媽媽	lu jia ma ma
+滷麪	lu mian
+滷你	lu ni
+陸品	lu pin
+魯是	lu shi
+臚溪	lu xi
+輪班的	lun ban de
+羅長髮	luo chang fa
+羅浮宮	luo fu gong
+洛歌	luo ge
+鑼鼓	luo gu
+羅做泥	luo zuo ni
+羅做年	luo zuo nian
+綠豆爽	lv dou shuang
+綠度	lv du
+律懷	lv huai
+綠茵莊	lv yin zhuang
+綠之島	lv zhi dao
+媽宮	ma gong
+馬窖	ma jiao
+馬騮九	ma liu jiu
+媽嶼島	ma yu dao
+買腸粉	mai chang fen
+麥哈姆	mai ha mu
+買就好	mai jiu hao
+邁邁邁	mai mai mai
+賣莫	mai mo
+邁去	mai qu
+滿幅	man fu
+慢後	man hou
+慢回	man hui
+曼珊	man shan
+曼霞	man xia
+茂發	mao fa
+茂廣	mao guang
+茂亨	mao heng
+沒辦法去	mei ban fa qu
+沒包喫	mei bao chi
+沒包郵	mei bao you
+沒便	mei bian
+沒纔怪	mei cai guai
+沒出去那	mei chu qu na
+美多基	mei duo ji
+沒公車	mei gong che
+沒行情	mei hang qing
+沒喝茶	mei he cha
+沒划算	mei hua suan
+沒景	mei jing
+沒久	mei jiu
+沒哩	mei li
+沒吶	mei na
+沒妞	mei niu
+沒去讀	mei qu du
+沒去讀書	mei qu du shu
+沒去工作	mei qu gong zuo
+沒去睡	mei qu shui
+沒去注意	mei qu zhu yi
+沒人要去	mei ren yao qu
+美森	mei sen
+沒事哩	mei shi li
+沒事吶	mei shi na
+沒廂	mei xiang
+沒消沒息	mei xiao mei xi
+美璇	mei xuan
+沒有哈哈	mei you ha ha
+沒有裏	mei you li
+沒有吶	mei you na
+沒雨	mei yu
+沒雨了	mei yu le
+梅汁	mei zhi
+美中美	mei zhong mei
+門伯	men bo
+門房	men fang
+門頁	men ye
+夢花	meng hua
+猛猛	meng meng
+猛猛來	meng meng lai
+猛猛去	meng meng qu
+猛去	meng qu
+夢之湖	meng zhi hu
+米茶樂	mi cha le
+米粉湯	mi fen tang
+米該	mi gai
+米個	mi ge
+米意思	mi yi si
+棉北	mian bei
+棉城	mian cheng
+棉城的	mian cheng de
+面牀	mian chuang
+免客氣	mian ke qi
+免錢	mian qian
+妙純	miao chun
+妙華	miao hua
+妙君	miao jun
+妙璇	miao xuan
+敏璇	min xuan
+名師高徒	ming shi gao tu
+明天讀書	ming tian du shu
+明天來去	ming tian lai qu
+明天用不用	ming tian yong bu yong
+明天怎麼說	ming tian zen me shuo
+莫死	mo si
+莫聽	mo ting
+摩托帽	mo tuo mao
+摩托鋪	mo tuo pu
+摩托去	mo tuo qu
+莫物	mo wu
+莫夏	mo xia
+莫意思	mo yi si
+莫意思死	mo yi si si
+姆北	mu bei
+姆敢	mu gan
+木康	mu kang
+木塞	mu sai
+目澀	mu se
+目澀澀	mu se se
+目澀死	mu se si
+姆是	mu shi
+姆閒	mu xian
+姆曉	mu xiao
+慕野	mu ye
+木有裏	mu you li
+木仔	mu zai
+姆知	mu zhi
+那不就好	na bu jiu hao
+那罐	na guan
+拿後	na hou
+那家人	na jia ren
+那就不要咯	na jiu bu yao ge
+那就不要啦	na jiu bu yao la
+那就不知	na jiu bu zhi
+那就對啊	na jiu dui a
+那就多了	na jiu duo le
+那就好咯	na jiu hao ge
+那就好哈	na jiu hao ha
+那就好裏	na jiu hao li
+那就去睡	na jiu qu shui
+拿來去	na lai qu
+哪裏會啊	na li hui a
+那麼會睡	na me hui shui
+那麼靜	na me jing
+那麼早醒	na me zao xing
+那去喫吧	na qu chi ba
+拿去給你	na qu gei ni
+那去看吧	na qu kan ba
+那去忙吧	na qu mang ba
+那去睡	na qu shui
+那去睡吧	na qu shui ba
+那去睡覺	na qu shui jiao
+那去玩吧	na qu wan ba
+那我來去	na wo lai qu
+那要去哪	na yao qu na
+那要去哪裏	na yao qu na li
+那也好吧	na ye hao ba
+那也好啦	na ye hao la
+那用不用	na yong bu yong
+拿只	na zhi
+奶痛	nai tong
+南澳	nan ao
+南澳島	nan ao dao
+南澳縣	nan ao xian
+南墩	nan dun
+南國	nan guo
+南國商城	nan guo shang cheng
+南徽	nan hui
+南門頭	nan men tou
+南砂	nan sha
+南沙灣	nan sha wan
+南山灣	nan shan wan
+腦膜	nao mo
+腦痛	nao tong
+內充公	nei chong gong
+內墊	nei dian
+內湖	nei hu
+內隴	nei long
+內去	nei qu
+內衣廠	nei yi chang
+你愛死	ni ai si
+你班主	ni ban zhu
+你別太晚	ni bie tai wan
+你不要太晚	ni bu yao tai wan
+你不用工作	ni bu yong gong zuo
+你才知	ni cai zhi
+你澄海	ni cheng hai
+你喫好了沒	ni chi hao le mei
+你喫好美	ni chi hao mei
+你搭	ni da
+你擔	ni dan
+逆道	ni dao
+你讀哪	ni du na
+你讀哪裏	ni du na li
+你敢敢	ni gan gan
+你還不去睡	ni hai bu qu shui
+你還有在	ni hai you zai
+你行情	ni hang qing
+你歡	ni huan
+你幾點好	ni ji dian hao
+你幾點要去	ni ji dian yao qu
+你幾歲呢	ni ji sui ne
+你就發來	ni jiu fa lai
+你就知	ni jiu zhi
+你考幾分	ni kao ji fen
+你可以去睡了	ni ke yi qu shui le
+你塊	ni kuai
+你來哩	ni lai li
+你來去	ni lai qu
+你來汕頭	ni lai shan tou
+你來載我	ni lai zai wo
+你咯做泥	ni lo zuo ni
+你們幾人	ni men ji ren
+你們要去哪	ni men yao qu na
+你們要去哪裏	ni men yao qu na li
+你們怎麼說	ni men zen me shuo
+你妞	ni niu
+你汕頭	ni shan tou
+你手機多少	ni shou ji duo shao
+你洗好了沒	ni xi hao le mei
+你洗澡好了	ni xi zao hao le
+你先去睡	ni xian qu shui
+你要就	ni yao jiu
+你要就來	ni yao jiu lai
+你要就去	ni yao jiu qu
+你要來了嗎	ni yao lai le ma
+你要來了沒	ni yao lai le mei
+你要睡了沒	ni yao shui le mei
+你要睡沒	ni yao shui mei
+你也有看	ni ye you kan
+你也有去	ni ye you qu
+你也知	ni ye zhi
+你用不用	ni yong bu yong
+你有回家	ni you hui jia
+你有加	ni you jia
+你有來	ni you lai
+你有上	ni you shang
+你有玩	ni you wan
+你在澄海	ni zai cheng hai
+你在汕頭	ni zai shan tou
+你載我	ni zai wo
+你怎麼有的	ni zen me you de
+你直	ni zhi
+你做泥	ni zuo ni
+你做知	ni zuo zhi
+年尾	nian wei
+捏手機	nie shou ji
+寧冠園	ning guan yuan
+寧和街	ning he jie
+牛皇叔	niu huang shu
+牛奶絲	niu nai si
+牛肉果	niu rou guo
+牛肉果條	niu rou guo tiao
+牛肉火鍋	niu rou huo guo
+牛肉餃	niu rou jiao
+牛肉丸	niu rou wan
+牛田洋	niu tian yang
+牛頭山	niu tou shan
+妞仔	niu zai
+弄到來	nong dao lai
+農科所	nong ke suo
+奴仔	nu zai
+哦咯	o ge
+哦噥	o nong
+哦諾	o nuo
+哦哦哈	o o ha
+歐丁	ou ding
+歐吉	ou ji
+鷗汀	ou ting
+歐香	ou xiang
+啪電	pa dian
+拍電	pai dian
+排骨粥	pai gu zhou
+派目	pai mu
+牌證	pai zheng
+泡泡小棧	pao pao xiao zhan
+跑去那	pao qu na
+跑去哪了	pao qu na le
+跑去哪裏	pao qu na li
+佩純	pei chun
+培峯	pei feng
+培浩	pei hao
+培基	pei ji
+培佳	pei jia
+培傑	pei jie
+陪女王	pei nv wang
+佩霞	pei xia
+佩璇	pei xuan
+鵬展	peng zhan
+皮膚醫院	pi fu yi yuan
+騙撲	pian pu
+品尊	pin zun
+平北	ping bei
+平碼	ping ma
+平繡	ping xiu
+平樣	ping yang
+平野	ping ye
+破家	po jia
+破胎	po tai
+撲景	pu jing
+撲領母	pu ling mu
+撲魯	pu lu
+撲母	pu mu
+撲你媽	pu ni ma
+普寧	pu ning
+悽慘	qi can
+悽慘死	qi can si
+汽車總站	qi che zong zhan
+妻膏	qi gao
+妻哥	qi ge
+七合	qi he
+牽成	qian cheng
+錢東	qian dong
+淺啡	qian fei
+千公	qian gong
+前幾晚	qian ji wan
+前美	qian mei
+前男	qian nan
+前妞	qian niu
+千樹園	qian shu yuan
+千田	qian tian
+錢紙	qian zhi
+強死	qiang si
+牆新	qiang xin
+翹尾	qiao wei
+僑校	qiao xiao
+僑中	qiao zhong
+切要	qie yao
+欽傑	qin jie
+青澳	qing ao
+青澳灣	qing ao wan
+清華城	qing hua cheng
+請魯	qing lu
+清通	qing tong
+青夜	qing ye
+青雲巖	qing yun yan
+秋瓜	qiu gua
+去拜	qu bai
+去包廂	qu bao xiang
+去擦	qu ca
+去廠	qu chang
+去潮陽	qu chao yang
+去潮州	qu chao zhou
+去澄海	qu cheng hai
+去喫去喫	qu chi qu chi
+去喫是	qu chi shi
+去到哪	qu dao na
+去到哪裏	qu dao na li
+去地塊	qu di kuai
+祛痘膏	qu dou gao
+去給人	qu gei ren
+去工作吧	qu gong zuo ba
+去海門	qu hai men
+去和平	qu he ping
+去後	qu hou
+去揭陽	qu jie yang
+去就好	qu jiu hao
+去哩	qu li
+去流沙	qu liu sha
+曲毛	qu mao
+去梅州	qu mei zhou
+娶畝	qu mu
+去吶	qu na
+去南澳	qu nan ao
+去錢	qu qian
+去汕頭	qu shan tou
+去水吧	qu shui ba
+去睡了吧	qu shui le ba
+去睡去睡	qu shui qu shui
+去睡下	qu shui xia
+去睡一下	qu shui yi xia
+去死吶	qu si na
+去峽山	qu xia shan
+去載	qu zai
+去載你	qu zai ni
+去找喫	qu zhao chi
+全級	quan ji
+全汕頭	quan shan tou
+全身汗	quan shen han
+全套齊	quan tao qi
+全訊網	quan xun wang
+缺睡	que shui
+羣網	qun wang
+羣興	qun xing
+羣兄	qun xiong
+然後今晚	ran hou jin wan
+然後要去	ran hou yao qu
+饒平	rao ping
+熱狗王	re gou wang
+人好點	ren hao dian
+人好點沒	ren hao dian mei
+人很不舒服	ren hen bu shu fu
+人款	ren kuan
+人莫	ren mo
+榮誠	rong cheng
+榮記	rong ji
+榕江	rong jiang
+榕江路	rong jiang lu
+如姐	ru jie
+入宅	ru zhai
+軟咯	ruan ge
+銳彬	rui bin
+銳冰	rui bing
+銳佳	rui jia
+銳傑	rui jie
+薩貝爾	sa bei er
+塞鼻	sai bi
+三百格	san bai ge
+散擔	san dan
+三全中	san quan zhong
+三身人	san shen ren
+三肖	san xiao
+散新	san xin
+三中二	san zhong er
+三中三	san zhong san
+桑田	sang tian
+色目	se mu
+沙茶	sha cha
+沙茶醬	sha cha jiang
+傻風	sha feng
+沙隴	sha long
+啥諾	sha nuo
+傻帕	sha pa
+啥做	sha zuo
+汕柄	shan bing
+汕大	shan da
+閃電瘦	shan dian shou
+山內	shan nei
+汕頭	shan tou
+汕頭啊	shan tou a
+汕頭吧	shan tou ba
+汕頭大學	shan tou da xue
+汕頭到	shan tou dao
+汕頭的	shan tou de
+汕頭的嘛	shan tou de ma
+汕頭咯	shan tou ge
+汕頭號	shan tou hao
+汕頭話	shan tou hua
+汕頭卡	shan tou ka
+汕頭啦	shan tou la
+汕頭了	shan tou le
+汕頭了嗎	shan tou le ma
+汕頭嗎	shan tou ma
+汕頭沒	shan tou mei
+汕頭那	shan tou na
+汕頭哪裏	shan tou na li
+汕頭呢	shan tou ne
+汕頭人	shan tou ren
+汕頭人民	shan tou ren min
+汕頭市	shan tou shi
+汕頭市區	shan tou shi qu
+汕頭臺	shan tou tai
+汕頭天氣	shan tou tian qi
+汕頭玩	shan tou wan
+汕頭呀	shan tou ya
+汕頭一中	shan tou yi zhong
+汕頭有	shan tou you
+汕頭站	shan tou zhan
+汕頭招聘	shan tou zhao pin
+汕頭招聘網	shan tou zhao pin wang
+汕頭這邊	shan tou zhe bian
+汕樟路	shan zhang lu
+汕職	shan zhi
+汕職院	shan zhi yuan
+上堡	shang bao
+上東浦	shang dong pu
+上崗考	shang gang kao
+尚格	shang ge
+尚海	shang hai
+尚海陽光	shang hai yang guang
+上華	shang hua
+上窖	shang jiao
+少斌	shao bin
+少冰	shao bing
+少純	shao chun
+少丹	shao dan
+少芳	shao fang
+少芬	shao fen
+少虹	shao hong
+燒護	shao hu
+少佳	shao jia
+少潔	shao jie
+少娟	shao juan
+少君	shao jun
+少女街	shao nv jie
+少萍	shao ping
+少羣	shao qun
+少珊	shao shan
+少霞	shao xia
+少璇	shao xuan
+少英	shao ying
+蛇粉	she fen
+深澳	shen ao
+什麼行情	shen me hang qing
+深溪	shen xi
+神仙裏	shen xian li
+生風	sheng feng
+生姑	sheng gu
+生好	sheng hao
+生好不	sheng hao bu
+生好的	sheng hao de
+生好死	sheng hao si
+升價了	sheng jia le
+生莫	sheng mo
+生莫死	sheng mo si
+勝前	sheng qian
+盛世經典	sheng shi jing dian
+盛騰	sheng teng
+食茶	shi cha
+十多人	shi duo ren
+實高	shi gao
+屎溝	shi gou
+食好	shi hao
+是歡	shi huan
+食酒	shi jiu
+石螺	shi luo
+世貿花園	shi mao hua yuan
+是莫	shi mo
+識目	shi mu
+是吶是吶	shi na shi na
+是諾	shi nuo
+石炮臺	shi pao tai
+矢崎	shi qi
+實人	shi ren
+實色	shi se
+是汕頭	shi shan tou
+市實	shi shi
+食未	shi wei
+十一合	shi yi he
+是怎麼說	shi zen me shuo
+是這樣啦	shi zhe yang la
+石珠園	shi zhu yuan
+收到回我	shou dao hui wo
+收店	shou dian
+手機多少	shou ji duo shao
+手機鋪	shou ji pu
+收盡	shou jin
+收殺	shou sha
+收書包	shou shu bao
+收洗	shou xi
+叔惡	shu e
+鼠鬼	shu gui
+輸魯	shu lu
+數碼通	shu ma tong
+熟熟的	shu shu de
+叔惡死	shu wu si
+數學老	shu xue lao
+衰雞	shuai ji
+衰死	shuai si
+衰型	shuai xing
+衰紫	shuai zi
+雙飛人	shuang fei ren
+爽客	shuang ke
+雙響炮	shuang xiang pao
+水吧	shui ba
+睡得醒	shui de xing
+睡多會	shui duo hui
+水果路	shui guo lu
+水雞	shui ji
+水龍管	shui long guan
+水容	shui rong
+睡未	shui wei
+水仙園	shui xian yuan
+睡要來	shui yao lai
+睡要去	shui yao qu
+說後	shuo hou
+說就好	shuo jiu hao
+說來聽	shuo lai ting
+說哩	shuo li
+說吶	shuo na
+說太快	shuo tai kuai
+說真的啦	shuo zhen de la
+思超	si chao
+四季樹	si ji shu
+四季鞋	si ji xie
+私價	si jia
+思潔	si jie
+司馬的	si ma de
+司馬浦	si ma pu
+四目	si mu
+四散	si san
+四順	si shun
+四肖	si xiao
+思妍	si yan
+思儀	si yi
+司中	si zhong
+宋大峯	song da feng
+素啊	su a
+蘇八	su ba
+素滴	su di
+塑料城	su liao cheng
+素呀	su ya
+算掉	suan diao
+隨便裏	sui bian li
+鎖密碼	suo mi ma
+塔拉蘇	ta la su
+他妞	ta niu
+塔山	ta shan
+他有去	ta you qu
+泰安華庭	tai an hua ting
+太大力	tai da li
+太多茶	tai duo cha
+泰和街	tai he jie
+太沒事	tai mei shi
+泰山路	tai shan lu
+太晚去	tai wan qu
+泰星	tai xing
+泰越	tai yue
+糖館	tang guan
+糖人匯	tang ren hui
+桃溪	tao xi
+陶野	tao ye
+特白	te bai
+特串	te chuan
+特肖	te xiao
+天彩	tian cai
+天地一號	tian di yi hao
+天港	tian gang
+天華美地	tian hua mei de
+天時	tian shi
+天億馬	tian yi ma
+條妞	tiao niu
+跳石	tiao shi
+跳水館	tiao shui guan
+鐵好	tie hao
+聽久	ting jiu
+同廠	tong chang
+同隊	tong dui
+同個	tong ge
+同個地方	tong ge di fang
+同個人	tong ge ren
+同個學校	tong ge xue xiao
+同亨	tong heng
+通花	tong hua
+同家	tong jia
+同家人	tong jia ren
+統碼	tong ma
+同平	tong ping
+通身	tong shen
+通套	tong tao
+銅盂	tong yu
+偷抱	tou bao
+頭份	tou fen
+頭個	tou ge
+頭家	tou jia
+頭痛死	tou tong si
+投碗	tou wan
+頭暈死	tou yun si
+塗城	tu cheng
+塗池	tu chi
+圖南	tu nan
+圖盛	tu sheng
+吐屎	tu shi
+吐血涼	tu xie liang
+吐血仔	tu xie zai
+圖月	tu yue
+退水	tui shui
+駝島	tuo dao
+拖磨	tuo mo
+瓦愛	wa ai
+哇爸	wa ba
+哇變	wa bian
+哇慘	wa can
+哇草	wa cao
+哇父	wa fu
+哇小	wa xiao
+瓦也	wa ye
+瓦知	wa zhi
+外充公	wai chong gong
+外馬路	wai ma lu
+外砂	wai sha
+外砂鎮	wai sha zhen
+外省仔	wai sheng zai
+萬福隆	wan fu long
+玩具廠	wan ju chang
+萬客隆	wan ke long
+萬盛園	wan sheng yuan
+灣頭	wan tou
+婉霞	wan xia
+碗仔面	wan zai mian
+偉標	wei biao
+偉彬	wei bin
+偉波	wei bo
+偉城	wei cheng
+偉純	wei chun
+偉弟	wei di
+偉帆	wei fan
+偉鋒	wei feng
+偉鴻	wei hong
+偉佳	wei jia
+偉堅	wei jian
+偉江	wei jiang
+偉君	wei jun
+偉凱	wei kai
+偉龍	wei long
+偉敏	wei min
+偉娜	wei na
+偉楠	wei nan
+偉鵬	wei peng
+偉欽	wei qin
+偉羣	wei qun
+胃散	wei san
+偉生	wei sheng
+畏死	wei si
+偉濤	wei tao
+畏畏	wei wei
+偉武	wei wu
+偉鑫	wei xin
+偉兄	wei xiong
+偉璇	wei xuan
+偉澤	wei ze
+偉洲	wei zhou
+文發	wen fa
+文冠	wen guan
+文冠路	wen guan lu
+文光	wen guang
+文光塔	wen guang ta
+文珊	wen shan
+文璇	wen xuan
+我愛來去	wo ai lai qu
+我班主	wo ban zhu
+我背誦	wo bei song
+我不知啊	wo bu zhi a
+我慘	wo can
+我差不多要	wo cha bu duo yao
+我澄海	wo cheng hai
+我打去	wo da qu
+我擔	wo dan
+我發去	wo fa qu
+我父	wo fu
+我很氣	wo hen qi
+我歡	wo huan
+我就不知	wo jiu bu zhi
+我就來去	wo jiu lai qu
+我刻苦	wo ke ku
+我來吃了	wo lai chi le
+我來去	wo lai qu
+我來睡覺	wo lai shui jiao
+我來睡了	wo lai shui le
+我媽不肯	wo ma bu ken
+我買過去	wo mai guo qu
+我沒妞	wo mei niu
+我們來去	wo men lai qu
+我姆	wo mu
+我目澀	wo mu se
+我哪知	wo na zhi
+我妞	wo niu
+我騎單車	wo qi dan che
+我去喫啦	wo qu chi la
+我去吃了	wo qu chi le
+我去喫咯	wo qu chi lo
+我去載	wo qu zai
+我去載你	wo qu zai ni
+我人不舒服	wo ren bu shu fu
+我汕頭	wo shan tou
+我手機沒錢	wo shou ji mei qian
+我睡不下	wo shui bu xia
+我說真的啦	wo shuo zhen de la
+我無變	wo wu bian
+我無聊死	wo wu liao si
+我洗澡好	wo xi zao hao
+我洗澡好了	wo xi zao hao le
+我先來去	wo xian lai qu
+我先去喫	wo xian qu chi
+我先去吃了	wo xian qu chi le
+我要過去了	wo yao guo qu le
+我要來去	wo yao lai qu
+我要去吃了	wo yao qu chi le
+我要用到	wo yao yong dao
+我也來去	wo ye lai qu
+我也有去	wo ye you qu
+我一向來	wo yi xiang lai
+我有帶	wo you dai
+我有跟	wo you gen
+我有回	wo you hui
+我有回你	wo you hui ni
+我有加	wo you jia
+我有叫	wo you jiao
+我有看	wo you kan
+我有看過	wo you kan guo
+我有去	wo you qu
+我有上	wo you shang
+我有聽	wo you ting
+我有問	wo you wen
+我在補習	wo zai bu xi
+我在廠	wo zai chang
+我在澄海	wo zai cheng hai
+我在喝茶	wo zai he cha
+我載你	wo zai ni
+我在汕頭	wo zai shan tou
+我在睡了	wo zai shui le
+我在峽山	wo zai xia shan
+我在這裏了	wo zai zhe li le
+我在坐	wo zai zuo
+我這陣子	wo zhe zhen zi
+我整晚	wo zheng wan
+我知道里	wo zhi dao li
+我知道吶	wo zhi dao na
+我做泥	wo zuo ni
+烏暗暈	wu an yun
+無爸	wu ba
+唔北	wu bei
+無變	wu bian
+五不中	wu bu zhong
+無大無小	wu da wu xiao
+烏弟	wu di
+無地個	wu di ge
+烏丁	wu ding
+無父	wu fu
+物個	wu ge
+烏鬼	wu gui
+無行情	wu hang qing
+烏記	wu ji
+烏窖	wu jiao
+無看	wu kan
+無聊死	wu liao si
+物米該	wu mi gai
+物咪個	wu mi ge
+無米果	wu mi guo
+無妞	wu niu
+無人愛	wu ren ai
+烏色	wu se
+無事人	wu shi ren
+無事做	wu shi zuo
+午習	wu xi
+無消無息	wu xiao wu xi
+午寫	wu xie
+無影無跡	wu ying wu ji
+唔知哩	wu zhi li
+無做泥	wu zuo ni
+無作無泥	wu zuo wu ni
+吸板	xi ban
+惜寶寶	xi bao bao
+溪北	xi bei
+細弟	xi di
+溪東	xi dong
+細姑	xi gu
+洗火炭	xi huo tan
+細姐	xi jie
+細舅	xi jiu
+溪口	xi kou
+惜啦	xi la
+惜樂	xi le
+西隴	xi long
+洗樓梯	xi lou ti
+惜魯	xi lu
+惜呂	xi lv
+惜面	xi mian
+惜吶	xi na
+溪南	xi nan
+惜你惜你	xi ni xi ni
+西岐	xi qi
+惜肉	xi rou
+惜肉肉	xi rou rou
+細嬸	xi shen
+細叔	xi shu
+溪頭	xi tou
+溪尾	xi wei
+惜我	xi wo
+惜惜	xi xi
+洗洗白	xi xi bai
+惜惜惜	xi xi xi
+細姨	xi yi
+洗澡好	xi zao hao
+洗澡好啦	xi zao hao la
+洗澡好了	xi zao hao le
+洗澡好了嗎	xi zao hao le ma
+洗澡好了沒	xi zao hao le mei
+細丈	xi zhang
+夏啊	xia a
+下布	xia bu
+下不停	xia bu ting
+下陳	xia chen
+下底	xia di
+下東	xia dong
+夏服	xia fu
+下掛	xia gua
+夏桂埔	xia gui pu
+蝦紅	xia hong
+峽華路	xia hua lu
+峽輝	xia hui
+下窖	xia jiao
+下聘	xia pin
+下岐	xia qi
+蝦色	xia se
+峽山	xia shan
+峽山的	xia shan de
+峽山了	xia shan le
+峽山鎮	xia shan zhen
+嚇衰	xia shuai
+下衰人	xia shuai ren
+下午怎麼說	xia wu zen me shuo
+夏雨來	xia yu lai
+下寨	xia zhai
+仙波	xian bo
+仙城	xian cheng
+仙港	xian gang
+先來去	xian lai qu
+先去睡	xian qu shui
+鹹澀	xian se
+想擔	xiang dan
+想定定	xiang ding ding
+香飯	xiang fan
+香菇頭	xiang gu tou
+廂號	xiang hao
+祥記	xiang ji
+想魯	xiang lu
+相莫	xiang mo
+祥園	xiang yuan
+小純	xiao chun
+小港	xiao gang
+小公園	xiao gong yuan
+小裏	xiao li
+小李死	xiao li si
+小婆	xiao po
+曉羣	xiao qun
+小日禾	xiao ri he
+曉珊	xiao shan
+小上海	xiao shang hai
+小廂	xiao xiang
+曉璇	xiao xuan
+小飲	xiao yin
+曉芸	xiao yun
+小棧	xiao zhan
+校章	xiao zhang
+協華	xie hua
+謝易初	xie yi chu
+鞋直	xie zhi
+蟹粥	xie zhou
+辛厝寮	xin cuo liao
+新大衆	xin da zhong
+信德華	xin de hua
+新工	xin gong
+新佳新	xin jia xin
+新寮	xin liao
+新梅園	xin mei yuan
+新妞	xin niu
+新奇士	xin qi shi
+心情莫	xin qing mo
+心色	xin se
+新溪	xin xi
+新溪鎮	xin xi zhen
+新新娘	xin xin niang
+新雅新	xin ya xin
+新也門	xin ye men
+醒的來	xing de lai
+星光華庭	xing guang hua ting
+星湖	xing hu
+星湖城	xing hu cheng
+星湖公園	xing hu gong yuan
+杏花街	xing hua jie
+星匯	xing hui
+行軍散	xing jun san
+星期六晚	xing qi liu wan
+繡花機	xiu hua ji
+修機	xiu ji
+旭斌	xu bin
+旭佳	xu jia
+旭偉	xu wei
+許友文	xu you wen
+璇姐	xuan jie
+璇君	xuan jun
+璇玲	xuan ling
+璇妹	xuan mei
+玄武山	xuan wu shan
+璇燕	xuan yan
+學導練	xue dao lian
+雪媚娘	xue mei niang
+學習不下	xue xi bu xia
+雪欣	xue xin
+學洋	xue yang
+雪儀	xue yi
+鴨煲	ya bao
+鴨母	ya mu
+雅姿娘	ya zi niang
+煙茶酒	yan cha jiu
+燕翅鮑	yan chi bao
+燕純	yan chun
+燕丹	yan dan
+鹽鴻	yan hong
+燕佳	yan jia
+燕娟	yan juan
+燕君	yan jun
+燕珊	yan shan
+淹水	yan shui
+淹水了	yan shui le
+燕璇	yan xuan
+洋汾陳	yang fen chen
+洋汾林	yang fen lin
+陽光海岸	yang guang hai an
+樣品房	yang pin fang
+要拜	yao bai
+要背誦	yao bei song
+要出去喫	yao chu qu chi
+要到了沒	yao dao le mei
+要回來沒	yao hui lai mei
+要幾點去	yao ji dian qu
+要嫁了	yao jia le
+要就	yao jiu
+要就過來	yao jiu guo lai
+要就快	yao jiu kuai
+要就來	yao jiu lai
+要就去	yao jiu qu
+要就有	yao jiu you
+要來喫	yao lai chi
+要來吃了	yao lai chi le
+要來了沒	yao lai le mei
+要來沒	yao lai mei
+要來去	yao lai qu
+要來睡了	yao lai shui le
+要哩	yao li
+要吶	yao na
+藥片	yao pian
+要去吃了	yao qu chi le
+要去廣州	yao qu guang zhou
+要去看醫生	yao qu kan yi sheng
+要去哪	yao qu na
+要去哪裏	yao qu na li
+要去汕頭	yao qu shan tou
+要去睡	yao qu shui
+要去睡了	yao qu shui le
+要去洗	yao qu xi
+要去洗澡	yao qu xi zao
+要去洗澡了	yao qu xi zao le
+藥散	yao san
+要睡了沒	yao shui le mei
+要睡沒	yao shui mei
+要怎麼去	yao zen me qu
+夜暗	ye an
+也不會啦	ye bu hui la
+也慘	ye can
+也好啦	ye hao la
+也好哩	ye hao li
+野酒花	ye jiu hua
+也來去	ye lai qu
+也是你說	ye shi ni shuo
+夜時尚	ye shi shang
+夜修	ye xiu
+也有來	ye you lai
+也有去	ye you qu
+夜粥	ye zhou
+夜自修	ye zi xiu
+夜總	ye zong
+奕彬	yi bin
+奕純	yi chun
+藝都	yi dou
+已讀不回	yi du bu hui
+一帆	yi fan
+藝豐	yi feng
+宜華	yi hua
+一技	yi ji
+奕佳	yi jia
+宜居華庭	yi ju hua ting
+一咖啡	yi ka fei
+益民路	yi min lu
+一起來去	yi qi lai qu
+薏仁水	yi ren shui
+一身雨	yi shen yu
+一向來	yi xiang lai
+宜馨	yi xin
+奕璇	yi xuan
+移印	yi yin
+義英	yi ying
+音樂在線	yin yue zai xian
+硬愛	ying ai
+英歌	ying ge
+硬好	ying hao
+硬虎	ying hu
+映君	ying jun
+迎老爺	ying lao ye
+映玲	ying ling
+映娜	ying na
+迎神	ying shen
+泳布	yong bu
+用不用	yong bu yong
+用不用去	yong bu yong qu
+用不用上班	yong bu yong shang ban
+用到錢	yong dao qian
+用讀	yong du
+用讀書	yong du shu
+用工作	yong gong zuo
+用加班	yong jia ban
+雍景	yong jing
+用就	yong jiu
+用上班	yong shang ban
+用上班嗎	yong shang ban ma
+有便	you bian
+有播	you bo
+有擦	you ca
+有吃藥	you chi yao
+有出去	you chu qu
+有出去嗎	you chu qu ma
+由稻裏	you dao li
+幼弟	you di
+有點輸	you dian shu
+有讀	you du
+有發給你	you fa gei ni
+有發給我	you fa gei wo
+油甘	you gan
+有跟你說	you gen ni shuo
+有跟他	you gen ta
+有跟我說	you gen wo shuo
+油果	you guo
+有過來	you guo lai
+有過去	you guo qu
+有行情	you hang qing
+有划算	you hua suan
+有回家	you hui jia
+有回家嗎	you hui jia ma
+有回你	you hui ni
+有叫他	you jiao ta
+有景	you jing
+有開車	you kai che
+有看到我	you kan dao wo
+有沒有吃藥	you mei you chi yao
+有沒有雨	you mei you yu
+有沒有在家	you mei you zai jia
+有妞	you niu
+有諾	you nuo
+有去看	you qu kan
+有去嗎	you qu ma
+有人載	you ren zai
+有誰要去	you shui yao qu
+有送貨	you song huo
+有洗	you xi
+有下來	you xia lai
+有影	you ying
+有影無	you ying wu
+有影有跡	you ying you ji
+又做泥	you zuo ni
+聿初	yu chu
+雨好大	yu hao da
+聿懷	yu huai
+裕記	yu ji
+魚膠	yu jiao
+雨來了	yu lai le
+雨那麼大	yu na me da
+裕通	yu tong
+語文老	yu wen lao
+玉璇	yu xuan
+雨這麼大	yu zhe me da
+原的	yuan de
+原來諾	yuan lai nuo
+原來呀	yuan lai ya
+圓門	yuan men
+元宵燈	yuan xiao deng
+元宵後	yuan xiao hou
+園心	yuan xin
+粵東	yue dong
+悅感	yue gan
+雲澳	yun ao
+咋知	za zhi
+在拜	zai bai
+在廠	zai chang
+在潮陽	zai chao yang
+在潮州	zai chao zhou
+在陳店	zai chen dian
+在澄海	zai cheng hai
+在達濠	zai da hao
+在等喫	zai deng chi
+在地塊	zai di kuai
+在東里	zai dong li
+在谷饒	zai gu rao
+在海門	zai hai men
+在喝茶	zai he cha
+在和平	zai he ping
+在家幫忙	zai jia bang mang
+在家坐	zai jia zuo
+在揭陽	zai jie yang
+在塊	zai kuai
+再來去	zai lai qu
+在流沙	zai liu sha
+在龍湖	zai long hu
+在棉城	zai mian cheng
+再拿給你	zai na gei ni
+載你們	zai ni men
+載你去	zai ni qu
+載去	zai qu
+在汕頭	zai shan tou
+在水吧	zai shui ba
+在睡了	zai shui le
+載我們	zai wo men
+載我去	zai wo qu
+在峽山	zai xia shan
+在做泥	zai zuo ni
+在做年	zai zuo nian
+早點醒	zao dian xing
+早嫁	zao jia
+早就來	zao jiu lai
+早死仔	zao si zai
+早死子	zao si zi
+早頭	zao tou
+早頭早市	zao tou zao shi
+澤標	ze biao
+澤斌	ze bin
+澤冰	ze bing
+澤鋒	ze feng
+澤豪	ze hao
+澤宏	ze hong
+澤輝	ze hui
+澤佳	ze jia
+澤堅	ze jian
+澤傑	ze jie
+澤君	ze jun
+澤楠	ze nan
+澤萍	ze ping
+澤強	ze qiang
+澤權	ze quan
+澤羣	ze qun
+澤森	ze sen
+澤珊	ze shan
+澤桐	ze tong
+澤偉	ze wei
+澤霞	ze xia
+澤璇	ze xuan
+澤瑩	ze ying
+怎麼個個	zen me ge ge
+怎麼有的	zen me you de
+佔隴	zhan long
+找喫	zhao chi
+招聘網	zhao pin wang
+照些	zhao xie
+朝陽莊	zhao yang zhuang
+者個	zhe ge
+這個容易	zhe ge rong yi
+這幾晚	zhe ji wan
+這家人	zhe jia ren
+這兩晚	zhe liang wan
+這樣諾	zhe yang nuo
+真的裏	zhen de li
+真的吶	zhen de na
+鎮二	zhen er
+真會睡	zhen hui shui
+珍時	zhen shi
+振業	zhen ye
+珍珠膏	zhen zhu gao
+鄭主	zheng zhu
+知不	zhi bu
+只車	zhi che
+知道哩	zhi dao li
+知道吶	zhi dao na
+直街	zhi jie
+支浪	zhi lang
+知吶	zhi na
+指南里	zhi nan li
+知生	zhi sheng
+只物	zhi wu
+止血膠布	zhi xue jiao bu
+腫肚	zhong du
+中炬	zhong ju
+中岐	zhong qi
+中區大廈	zhong qu da sha
+中心市	zhong xin shi
+中訓	zhong xun
+中寨	zhong zhai
+周吉兒	zhou ji er
+周頭	zhou tou
+豬腸	zhu chang
+珠池	zhu chi
+珠池路	zhu chi lu
+豬弟	zhu di
+住對	zhu dui
+住好	zhu hao
+豬幾	zhu ji
+豬腳飯	zhu jiao fan
+珠姐	zhu jie
+珠津	zhu jin
+豬母	zhu mu
+豬肉丸	zhu rou wan
+住是	zhu shi
+豬頭糉	zhu tou zong
+豬血湯	zhu xue tang
+抓車	zhua che
+專愛	zhuan ai
+賺有	zhuan you
+專專	zhuan zhuan
+撞頭	zhuang tou
+追貨	zhui huo
+準個	zhun ge
+捉車	zhuo che
+紫船	zi chuan
+自動機	zi dong ji
+紫個	zi ge
+紫回	zi hui
+梓楠	zi nan
+姿娘仔	zi niang zai
+自頭	zi tou
+子偉	zi wei
+紫雲莊	zi yun zhuang
+走膽	zou dan
+祖師公	zu shi gong
+做大水	zuo da shui
+做公車	zuo gong che
+做摩托	zuo mo tuo
+做尼	zuo ni
+做泥搭	zuo ni da
+做泥擔	zuo ni dan
+做泥啦	zuo ni la
+做泥吶	zuo ni na
+做泥物	zuo ni wu
+做年啦	zuo nian la
+做年物	zuo nian wu
+做玩具	zuo wan ju
+做夜	zuo ye
+做夜班	zuo ye ban
+坐夜車	zuo ye che
+作業好了	zuo ye hao le
+作業好了嗎	zuo ye hao le ma
+作業好了沒	zuo ye hao le mei
+做知	zuo zhi

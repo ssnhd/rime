@@ -5,13 +5,6 @@
 #
 #   瑾昀 <cokunhui@gmail.com>
 #
-# 部署位置：
-# ~/.config/ibus/rime  (Linux)
-# ~/Library/Rime  (Mac OS)
-# %APPDATA%\Rime  (Windows)
-#
-# 於重新部署後生效
-#
 
 ---
 name: luna_pinyin.music
