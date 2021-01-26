@@ -178,7 +178,7 @@ use_preset_vocabulary: true
 
 在 `squirrel.custom.yaml` 设置 App 默认英文输入。
 
-![](pic/08.png)
+![](pic/08app.png)
 
 
 ---

@@ -91,4 +91,4 @@ patch:
         com.apple.Spotlight:
             ascii_mode: true            # 默认英文
         com.microsoft.VSCode:
-            ascii_mode: false           # 关闭默认中文
+            ascii_mode: false           # 关闭默认英文
