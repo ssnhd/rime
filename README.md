@@ -73,7 +73,7 @@
 
 在 `color_scheme:` 后方输入皮肤名称来更换主题，保存并【重新部署】。
 
-![](pic/03皮肤.png)
+![](pic/03.png)
 
 上图参数显示效果：
 
@@ -188,9 +188,9 @@ use_preset_vocabulary: true
 
 ### 八、App 默认英文输入
 
-在 `squirrel.custom.yaml` 设置 App 默认英文输入。
+在 `squirrel.custom.yaml` 最底部设置 App 默认英文输入。
 
-![](pic/08app.png)
+![](pic/08.png)
 
 
 ---

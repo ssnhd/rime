@@ -1,94 +1,93 @@
 patch:
-    style:
-        horizontal: true
-        inline_preedit: true
-        corner_radius: 5                        # 候选条圆角
-        hilited_corner_radius: 5                # 高亮圆角
-        border_height: 4                        # 窗口边界高度，大于圆角半径才生效
-        border_width: 4                         # 窗口边界宽度，大于圆角半径才生效
-        font_face: "PingFangSC"                 # 候选词编号字体
-        font_point: 17                          # 候选文字大小
+  show_notifications_when: appropriate # 状态通知，适当，也可设为全开（always）全关（never） 
 
-        color_scheme: macos
-        # color_scheme: macos-light
-        # color_scheme: macos-dark
-        # color_scheme: psionics
-        # color_scheme: aqua
-    
-    preset_color_schemes/macos:
-        name: macOS原生蓝色/macos
-        author: "yifang <liuour@gmail.com>"     # 一方
-        text_color: 0x424242                    # 拼音行文字颜色
-        back_color: 0xFFFFFF                    # 候选条背景色，24位色值，16进制，BGR顺序
-        border_color: 0xFFFFFF                  # 边框色
-        candidate_text_color: 0x000000          # 预选项文字颜色
-        comment_text_color: 0x999999            # 拼音等提示文字颜色
-        hilited_back_color: 0xD75A00            # 第一候选项背景背景色
-        hilited_candidate_text_color: 0xFFFFFF  # 第一候选项文字颜色
-        hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
-        hilited_comment_text_color: 0x999999    # 注解文字高亮
-        hilited_text_color: 0x999999            # 高亮拼音 (需要开启内嵌编码)
-        label_color: 0x999999                   # 预选栏编号颜色
-        horizontal: true                        # 水平排列
-        inline_preedit: true                    # 单行显示，false双行显示
-        candidate_format: "%c\u2005%@"   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-        label_font_point: 13                    # 候选编号大小
-        border_color_width: 0
-        # label_font_face: "SFCompactText-Regular"# 候选词编号字体
+  style:
+    color_scheme: macos   # 如果想要修改皮肤，直接更改 color_scheme 的值即可
 
-    preset_color_schemes/macos-light:
-        name: macOS浅色/macos-light
-        author: Grason Chan
-        label_font_point: 16
-        back_color: 0xffffff
-        label_color: 0x666666
-        candidate_text_color: 0x000000
-        hilited_candidate_back_color: 0xffede1
-        hilited_candidate_label_color: 0x000000
-        hilited_candidate_text_color: 0x000000
-        comment_text_color: 0x888888
+  preset_color_schemes:
 
-    preset_color_schemes/macos-dark:
-        name: macOS黑色/macos-dark
-        author: Grason Chan
-        label_font_point: 16
-        back_color: 0x2d2826
-        label_color: 0xa09e9d
-        candidate_text_color: 0xffffff
-        hilited_candidate_back_color: 0xdd6622
-        hilited_candidate_label_color: 0xffffff
-        hilited_candidate_text_color: 0xffffff
-        comment_text_color: 0xaaaaaa
+    macos:
+      name: "macos"
+      author: "一方"    # 作者信息
+      back_color: 0xFFFFFF    # 候选条背景色，24位色值，16进制，BGR顺序
+      border_color: 0xFFFFFF    # 边框色
+      text_color: 0x424242    # 拼音行文字颜色
+      hilited_back_color: 0xD75A00    # 第一候选项背景背景色
+      hilited_candidate_text_color: 0xFFFFFF    # 第一候选项文字颜色
+      hilited_candidate_label_color: 0xFFFFFF   # 第一候选项编号颜色
+      hilited_comment_text_color: 0x999999    # 注解文字高亮
+      hilited_text_color: 0x999999    # 高亮拼音 (需要开启内嵌编码)
+      candidate_text_color: 0x3c3c3c    # 预选项文字颜色
+      comment_text_color: 0x999999    # 拼音等提示文字颜色
+      horizontal: true    # 水平排列
+      inline_preedit: true    # 单行显示，false双行显示
+      label_color: 0x999999   # 预选栏编号颜色
+      candidate_format: "%c\u2005%@"    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      font_face: "PingFangSC"   # 候选词编号字体
+      font_point: 17    # 候选文字大小
+      label_font_point: 13    # 候选编号大小
+      corner_radius: 5    # 候选条圆角
+      hilited_corner_radius: 5    # 高亮圆角
+      border_height: 4     # 窗口上下高度
+      border_width: 4   # 窗口左右宽度
+      border_color_width: 0   #输入条边框宽度
+      #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
 
 
-    preset_color_schemes/aqua:
-        name: 碧水／Aqua
-        author: 佛振 <chen.sst@gmail.com>
-        text_color: 0x606060
-        back_color: 0xeeeceeee
-        candidate_text_color: 0x000000
-        hilited_text_color: 0x000000
-        hilited_candidate_text_color: 0xffffff
-        hilited_candidate_back_color: 0xeefa3a0a
-        comment_text_color: 0x5a5a5a
-        hilited_comment_text_color: 0xfcac9d
+    mritd_dark:
+      # https://mritd.me/2019/03/23/oh-my-rime/
+      name: 漠然／mritd dark
+      author: mritd <mritd1234@gmail.com>
+      horizontal: true                          # 水平排列
+      inline_preedit: true                      # 单行显示，false双行显示
+      candidate_format: "%c\u2005%@ \u2005"     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
+      corner_radius: 5                          # 候选条圆角
+      hilited_corner_radius: 3                  # 高亮圆角
+      border_height: 6                          # 窗口边界高度，大于圆角半径才生效
+      border_width: 6                           # 窗口边界宽度，大于圆角半径才生效
+      border_color_width: 0
+      font_face: "PingFangSC"                  # 候选词字体
+      #font_face: "YaHei Monaco Hybird"          # 候选词字体
+      font_point: 16                            # 候选字词大小
+      label_font_point: 14                      # 候选编号大小
+      text_color: 0xdedddd                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
+      back_color: 0x4b4b4b                      # 候选条背景色
+      label_color: 0x888785                     # 预选栏编号颜色
+      border_color: 0x4b4b4b                    # 边框色
+      candidate_text_color: 0xffffff            # 预选项文字颜色
+      hilited_text_color: 0xdedddd              # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0x252320              # 高亮拼音 (需要开启内嵌编码)
+      hilited_candidate_text_color: 0xFFE696    # 第一候选项文字颜色
+      hilited_candidate_back_color: 0x4b4b4b    # 第一候选项背景背景色
+      hilited_candidate_label_color: 0xffffff   # 第一候选项编号颜色
+      comment_text_color: 0xdedddd              # 拼音等提示文字颜色
 
-    preset_color_schemes/psionics:
-        name: 幽能／Psionics
-        author: 雨過之後、佛振
-        text_color: 0xc2c2c2
-        back_color: 0x444444
-        candidate_text_color: 0xeeeeee
-        hilited_text_color: 0xeeeeee
-        hilited_back_color: 0x444444
-        hilited_candidate_label_color: 0xfafafa
-        hilited_candidate_text_color: 0xfafafa
-        hilited_candidate_back_color: 0xd4bc00
-        comment_text_color: 0x808080
-        hilited_comment_text_color: 0x444444
+    apathy:
+      name: 冷漠／Apathy
+      author: LIANG Hai
+      horizontal: true  # 水平排列
+      inline_preedit: true #单行显示，false双行显示
+      candidate_format: "%c\u2005%@\u2005"  # 编号 %c 和候选词 %@ 前后的空间
+      corner_radius: 5  #候选条圆角
+      border_height: 0
+      border_width: 0
+      back_color: 0xFFFFFF  #候选条背景色
+      font_face: "PingFangSC-Regular,HanaMinB"  #候选词字体
+      font_point: 16  #候选字词大小
+      text_color: 0x424242  #高亮选中词颜色
+      label_font_face: "STHeitiSC-Light"   #候选词编号字体
+      label_font_point: 12   #候选编号大小
+      hilited_candidate_text_color: 0xEE6E00  #候选文字颜色
+      hilited_candidate_back_color: 0xFFF0E4  #候选文字背景色
+      comment_text_color: 0x999999  #拼音等提示文字颜色
 
-    app_options:                        # App默认英文
-        com.apple.Spotlight:
-            ascii_mode: true            # 默认英文
-        com.microsoft.VSCode:
-            ascii_mode: false           # 关闭默认英文
+
+  app_options:    # App默认英文
+    com.apple.Spotlight:
+        ascii_mode: true      # 默认英文
+    com.microsoft.VSCode:
+        ascii_mode: false     # 关闭默认英文 
+
+
+
+
