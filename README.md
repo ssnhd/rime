@@ -183,6 +183,6 @@ use_preset_vocabulary: true
 
 ---
 
-【附】配置方案来自[grasonchan](https://github.com/grasonchan/squirrel-config)，本篇做部分修改和添加词库，并教大家如何使用鼠须管。
+【附】配置方案来自[grasonchan](https://github.com/grasonchan/squirrel-config)，本篇做部分修改，添加皮肤等，主要是教大家如何使用鼠须管输入法。
 
 Telegram 交流群：[Rime 鼠须管](https://t.me/rimesquirrel)
