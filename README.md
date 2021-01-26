@@ -124,7 +124,7 @@
 
 将词库名称去掉 `.dict.yaml` 添加进去，保存并【重新部署】。
 
-示例：音乐词库 `luna_pinyin.music.dict.yaml` 只需输入 `- luna_pinyin.music`。
+示例：搜狗词库 `luna_pinyin.sgmain.dict.yaml` 只需输入 `- luna_pinyin.sgmain`。
 
 ![](pic/06.png)
 
@@ -154,9 +154,9 @@
 
 ![](pic/075.png)
 
-将下面代码粘贴在 `txt` 文档（可以将关键词写进去，防止以后添加词库重复）里最上方，
+将下面代码粘贴在 `txt` 文档（可以将关键词写进去，防止以后添加词库重复）里最上方。
 
-【注】最后一行 `∙∙∙` 后面加一个换行，并且 `yourname` 名称要一致。
+【注】最后一行 `∙∙∙` 后面加一个换行。
 
 ```
 # Rime dictionary
@@ -165,14 +165,14 @@
 # 成语俗语（将词库名称输入到此处，方便日后检查是否重复）
 
 ---
-name: luna_pinyin.yourname
+name: luna_pinyin.sgmain
 version: "2021.01.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
 ```
-然后保存为 `luna_pinyin.yourname.dict.yaml` 并放在 Rime 目录文件内，再转至[【六、词库设置】](#六词库设置)添加。
+然后保存为 `luna_pinyin.sgmain.dict.yaml` 并放在 Rime 目录文件内，再参考[【六、词库设置】](#六词库设置)添加。
 
 ---
 
