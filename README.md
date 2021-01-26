@@ -154,8 +154,9 @@
 
 ![](pic/075.png)
 
-点选【㞢】-【用户设定】打开目录文件，新建一个 `luna_pinyin.sogou.dict.yaml` 文本，输入以下内容。
->注：最后一行 `∙∙∙` 后面加一个换行。
+将下面代码粘贴在 `txt` 文档（可以将关键词写进去，防止以后添加词库重复）里最上方，
+
+【注】最后一行 `∙∙∙` 后面加一个换行，并且 `yourname` 名称要一致。
 
 ```
 # Rime dictionary
@@ -164,14 +165,14 @@
 # 成语俗语（将词库名称输入到此处，方便日后检查是否重复）
 
 ---
-name: luna_pinyin.sogou
+name: luna_pinyin.yourname
 version: "2021.01.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
 ```
-将 `txt` 里的词库复制粘贴到下面保存，再转至[【六、词库设置】](#六词库设置)添加。
+然后保存为 `luna_pinyin.yourname.dict.yaml` 并放在 Rime 目录文件内，再转至[【六、词库设置】](#六词库设置)添加。
 
 ---
 

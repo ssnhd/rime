@@ -1,0 +1,220 @@
+# Rime dictionary
+# encoding: utf-8
+# 手机词汇
+
+---
+name: luna_pinyin.shoujicihui
+version: "2021.01.27"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+阿尔卡特	a er ka te	1
+爱国者	ai guo zhe	1
+爱酷	ai ku	1
+爱立信	ai li xin	1
+艾美讯	ai mei xun	1
+奥丁	ao ding	1
+奥盛	ao sheng	1
+百盛达	bai sheng da	1
+百兆	bai zhao	1
+宝典	bao dian	1
+宝星	bao xing	1
+贝尔丰	bei er feng	1
+奔迈	ben mai	1
+本色小爱	ben shai xiao ai	1
+波导	bo dao	1
+步步高	bu bu gao	1
+彩铃	cai ling	1
+彩信	cai xin	1
+财源道	cai yuan dao	1
+侧滑	ce hua	1
+长虹	chang hong	1
+长江	chang jiang	1
+超薄	chao bao	1
+超长待机	chao chang dai ji	1
+充电	chong dian	1
+充电器	chong dian qi	1
+储存卡	chu cun ka	1
+处理器主频	chu li qi zhu pin	1
+纯平	chun ping	1
+大唐通信	da tang tong xin	1
+大显	da xian	1
+导航手机	dao hang shou ji	1
+德国电信	de guo dian xin	1
+迪比特	di bi te	1
+第三方软件	di san fang ruan jian	1
+东信	dong xin	1
+东芝	dong zhi	1
+短信息	duan xin xi	1
+多普达	duo pu da	1
+多浦达	duo pu da	1
+翻盖	fan gai	1
+翻新机	fan xin ji	1
+飞利浦	fei li pu	1
+飞洋	fei yang	1
+分组数据	fen zu shu ju	1
+锋达通	feng da tong	1
+烽火	feng huo	1
+佛缘一号	fo yuan yi hao	1
+副摄像头	fu she xiang tou	1
+港利通	gang li tong	1
+高斯贝尔	gao si bei er	1
+谷歌	gu ge	1
+国威	guo wei	1
+国信通	guo xin tong	1
+海尔	hai er	1
+海信	hai xin	1
+悍马	han ma	1
+行货	hang huo	1
+和信	he xin	1
+黑莓	hei mei	1
+恒基伟业	heng ji wei ye	1
+恒泰	heng tai	1
+衡天越	heng tian yue	1
+宏达	hong da	1
+弘谷电	hong gu dian	1
+红外接收	hong wai jie shou	1
+滑盖	hua gai	1
+华立	hua li	1
+华龙	hua long	1
+华录	hua lu	1
+华硕	hua shuo	1
+华唐	hua tang	1
+华为	hua wei	1
+华芯	hua xin	1
+技嘉	ji jia	1
+佳通	jia tong	1
+佳信	jia xin	1
+杰特	jie te	1
+金立	jin li	1
+金鹏	jin peng	1
+京瓷	jing ci	1
+开放式手机操作系统	kai fang shi shou ji cao zuo xi tong	1
+康佳	kang jia	1
+科达	ke da	1
+科健	ke jian	1
+酷派	ku pai	1
+来电防火墙	lai dian fang huo qiang	1
+蓝特	lan te	1
+蓝天	lan tian	1
+蓝星月	lan xing yue	1
+蓝牙	lan ya	1
+蓝牙传输	lan ya chuan shu	1
+蓝牙立体	lan ya li ti	1
+蓝牙立体耳机	lan ya li ti er ji	1
+浪潮	lang chao	1
+朗星	lang xing	1
+乐华	le hua	1
+乐维	le wei	1
+联发科	lian fa ke	1
+联科	lian ke	1
+联想	lian xiang	1
+凌科	ling ke	1
+凌锐	ling rui	1
+铃声	ling sheng	1
+龙旗	long qi	1
+美贝亚祥云	mei bei ya xiang yun	1
+美腾	mei teng	1
+魅族	mei zu	1
+盟宝	meng bao	1
+明基	ming ji	1
+明基西门子	ming ji xi men zi	1
+名人	ming ren	1
+明星王	ming xing wang	1
+摩普达	mo pu da	1
+摩托罗拉	mo tuo luo la	1
+摩西	mo xi	1
+南方高科	nan fang gao ke	1
+纽曼	niu man	1
+诺基亚	nuo ji ya	1
+拍照	pai zhao	1
+拍照手机	pai zhao shou ji	1
+苹果	ping guo	1
+普莱达	pu lai da	1
+普星	pu xing	1
+琦基	qi ji	1
+奇盛	qi sheng	1
+七喜	qi xi	1
+清华紫光	qing hua zi guang	1
+日产	ri chan	1
+荣基	rong ji	1
+萨基姆	sa ji mu	1
+塞班	sai ban	1
+赛格	sai ge	1
+三和	san he	1
+三菱	san ling	1
+三星	san xing	1
+三洋	san yang	1
+桑达	sang da	1
+闪光灯	shan guang deng	1
+山寨手机	shan zhai shou ji	1
+上网	shang wang	1
+上网手机	shang wang shou ji	1
+盛隆	sheng long	1
+视频	shi pin	1
+视频播放	shi pin bo fang	1
+视频通话	shi pin tong hua	1
+首爱	shou ai	1
+手机牌照	shou ji pai zhao	1
+首相	shou xiang	1
+手写输入	shou xie shu ru	1
+首信	shou xin	1
+数源	shu yuan	1
+水货	shui huo	1
+水立方韵动	shui li fang yun dong	1
+斯达康	si da kang	1
+思码特	si ma te	1
+松下	song xia	1
+索尼	suo ni	1
+索尼爱立信	suo ni ai li xin	1
+泰迪熊	tai di xiong	1
+泰讯	tai xun	1
+天歌	tian ge	1
+天马	tian ma	1
+天诺思	tian nuo si	1
+天时达	tian shi da	1
+天语	tian yu	1
+托普	tuo pu	1
+万利达	wan li da	1
+唯开	wei kai	1
+卫星定位	wei xing ding wei	1
+沃达丰	wo da feng	1
+西门子	xi men zi	1
+厦华	xia hua	1
+夏普	xia pu	1
+夏新	xia xin	1
+线充	xian chong	1
+氙气灯	xian qi deng	1
+新基	xin ji	1
+鑫泰	xin tai	1
+信息产业部	xin xi chan ye bu	1
+熊猫	xiong mao	1
+雅马哈	ya ma ha	1
+易丰	yi feng	1
+亿和源	yi he yuan	1
+伊诺	yi nuo	1
+伊势亚	yi shi ya	1
+音乐手机	yin yue shou ji	1
+英华达	ying hua da	1
+英皇	ying huang	1
+盈泰	ying tai	1
+优冠	you guan	1
+宇达电通	yu da dian tong	1
+禹华	yu hua	1
+原装	yuan zhuang	1
+运行内存	yun xing nei cun	1
+证书	zheng shu	1
+智能操作系统	zhi neng cao zuo xi tong	1
+中电	zhong dian	1
+中国电信	zhong guo dian xin	1
+中国联通	zhong guo lian tong	1
+中国网通	zhong guo wang tong	1
+中国移动	zhong guo yi dong	1
+中恒	zhong heng	1
+中天	zhong tian	1
+中兴	zhong xing	1
+主摄像头	zhu she xiang tou	1
+自拍镜	zi pai jing	1
+组装机	zu zhuang ji	1
+座充	zuo chong	1
