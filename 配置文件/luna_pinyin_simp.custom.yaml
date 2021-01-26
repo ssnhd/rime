@@ -140,3 +140,10 @@ patch:
     # 自動糾正一些常見的按鍵錯誤
     # - derive/ua$/au/                   # shau => shua
     # - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+
+# librime-lua 输入动态时间和日期
+  engine/translators/+: 
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+
+

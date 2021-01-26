@@ -183,6 +183,31 @@ use_preset_vocabulary: true
 
 ---
 
-【附】配置方案来自[grasonchan](https://github.com/grasonchan/squirrel-config)，本篇做部分修改，添加皮肤等，主要是教大家如何使用鼠须管输入法。
+### 九、实时输出时间、日期、星期
+
+将 [rime.lua](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
+
+![](pic/09日期.png)
+
+在对应的输入方式里加入下面代码，例如，朙月拼音简化字，就添加在 `luna_pinyin_simp.custom.yaml` 里。
+
+```
+# librime-lua 输入动态时间和日期
+  engine/translators/+: 
+    - lua_translator@date_translator
+    - lua_translator@time_translator
+```
+
+![](pic/09.png)
+
+![](pic/10时间.png)
+
+![](pic/10日期.png)
+
+![](pic/10星期.png)
+
+---
+
+【附】配置方案来自[grasonchan](https://github.com/grasonchan/squirrel-config)，本篇做部分修改，添加时间、日期、星期、皮肤等，主要是教大家如何使用鼠须管输入法。
 
 Telegram 交流群：[Rime 鼠须管](https://t.me/rimesquirrel)
