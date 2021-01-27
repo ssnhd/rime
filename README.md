@@ -4,11 +4,9 @@
 
 # Rime （鼠须管）输入法 for Mac 配置方案详解
 
-相信很多人第一次安装 Rime 输入法体验下就会卸载，我也不利外，当初几分钟就放弃了（主要是不会配置😏️），再加上本人并非码农出身，更是一头雾水。
+保护个人隐私，从这里开始。
 
-随着大数据时代的到来，个人**隐私**显得尤为重要，我开始在网上找一些配置来玩，没想到会上瘾，原来这才是输入法本该有的样子。
-
-此刻，就为你讲解鼠须管输入法详细配置方法，如果你再愿意多花一点点时间，它的美就在眼前。
+---
 
 ### 目录
 
@@ -220,6 +218,16 @@ use_preset_vocabulary: true
 
 ---
 
-【附】配置方案来自 [grasonchan](https://github.com/grasonchan/squirrel-config)，本篇做部分修改，添加时间、日期、星期、皮肤等，主要是教大家如何使用鼠须管输入法。
+资源参考：
 
-Telegram 交流群：[Rime 鼠须管](https://t.me/rimesquirrel)
+* Rime 官网： https://rime.im/
+* lotem Squirrel：[https://github.com/rime/squirrel](https://github.com/rime/squirrel)
+* 皮肤：[https://github.com/rime/squirrel/blob/master/data/squirrel.yaml](https://github.com/rime/squirrel/blob/master/data/squirrel.yaml)
+* 中英切换自定义：https://gist.github.com/lotem/2981316
+* grasonchan 鼠须管朙月拼音配置文件：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
+* KyleBing Rime 五笔输入法：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+
+---
+
+Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
+
