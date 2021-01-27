@@ -227,12 +227,11 @@ use_preset_vocabulary: true
 
 在 `custom_phrase.txt` 设置文本替换。
 
-* 字段使用 Tab 键分隔。
-* 顺序：文字、编码、权重（数字越大排序越靠前，可选）。
+> 顺序：`文字` `编码` `权重`（数字越大排序越靠前，可选）。短语使用 `Tab` 键分隔。
 
 ![](pic/10wtf.png)
 
-支持叠字输入
+叠字输入。
 
 ![](pic/10long.png)
 
