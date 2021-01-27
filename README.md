@@ -196,7 +196,7 @@ use_preset_vocabulary: true
 
 ### 九、输入动态时间、日期、星期
 
-将 [rime.lua](https://github.com/KyleBing/rime-wubi86-jidian/blob/master/rime.lua) 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
+将 rime.lua 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
 
 ![](pic/09日期.png)
 
