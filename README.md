@@ -228,13 +228,15 @@ use_preset_vocabulary: true
 在 `custom_phrase.txt` 设置文本替换。
 
 * 字段使用 Tab 键分隔。
-* 顺序：文字、编码、权重（决定重码的次序、可选）。
+* 顺序：文字、编码、权重（数字越大排序越靠前，可选）。
 
-![](pic/10文本替换.png)
+![](pic/10wtf.png)
 
-输入 `as` 显示 `App Store` `Apple Store`
+支持叠字输入
 
-![](pic/10as.png)
+![](pic/10long.png)
+
+![](pic/10文本.png)
 
 ---
 
