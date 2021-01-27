@@ -31,3 +31,6 @@ import_tables:
   - luna_pinyin.wangluoliuxingci
   - luna_pinyin.xiandaihanyuchangyongcibiao
   - luna_pinyin.yixue
+    #
+  - f_myphrases
+
