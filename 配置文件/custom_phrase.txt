@@ -100,7 +100,7 @@ iPhone 12 Pro	ip	2
 iPod	ipod
 IPTV	iptv
 IPv6	ipv
-Instagram	ins
+Instagram	ig
 
 Keynote	kn
 koolproxy	kpr
@@ -149,9 +149,6 @@ QQ	qq
 
 Pages	pg
 
-readme.md	rm
-rixCloud	rix
-
 ScreenBar Plus	sbp	1
 Shadowrocket	sds	3	
 Shadowsocks	sds	2
@@ -180,8 +177,6 @@ V2EX	ve
 VMware	vm
 Visual Studio Code	vsc
 
-WH-1000XM2	sn	2
-WF-1000XM3	sn	1
 WhatsApp	wa
 WeChat	wx	1
 National_Tsinghua	wx	2
