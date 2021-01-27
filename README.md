@@ -99,7 +99,7 @@
 
 快捷键 `Control +｀` 调出方案。
 
-![](pic/04.png)
+![](pic/04切换.png)
 
 用 `default.custom.yaml` 保存输入方案的设置。
 
@@ -117,11 +117,11 @@
 
 ![](pic/05表情.png)
 
-输入 `/vmm` 输出卖萌颜文字。
+输入 `/vmm` 显示卖萌颜文字。
 
 ![](pic/05颜文字.png)
 
-输入 `/hb` 输出货币符号。
+输入 `/hb` 显示货币符号。
 
 ![](pic/05货币.png)
 
@@ -227,13 +227,12 @@ use_preset_vocabulary: true
 
 在 `custom_phrase.txt` 设置文本替换。
 
-**规则**：
-* 字段使用 Tab 键分隔，
+* 字段使用 Tab 键分隔。
 * 顺序：文字、编码、权重（决定重码的次序、可选）。
 
 ![](pic/10文本替换.png)
 
-示例：输入 `as` 输出 `App Store` `Apple Store`
+输入 `as` 显示 `App Store` `Apple Store`
 
 ![](pic/10as.png)
 
