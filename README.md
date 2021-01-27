@@ -19,6 +19,7 @@
 7. [搜狗词库转换方法](#七搜狗词库转换方法)
 8. [App 默认英文输入](#八App-默认英文输入)
 9. [输入动态时间、日期、星期](#九输入动态时间日期星期)
+10. [文本替换](#十文本替换)
 
 ---
 
@@ -32,7 +33,7 @@
 
 ![](pic/00字体.png)
 
-**代码编辑器**：为方便打开配置文件，需安装编辑器软件，例如：[Visual Studio Code](https://code.visualstudio.com/)（免费）或 [Sublime Text](https://www.sublimetext.com/)（收费）。
+**代码编辑器**：为方便编辑配置文件，需安装编辑器软件，例如 [Visual Studio Code](https://code.visualstudio.com/)（免费）或 [Sublime Text](https://www.sublimetext.com/)（收费）。
 
 ![](pic/00编辑器.png)
 
@@ -47,7 +48,7 @@
 
 ![](pic/01安装.png)
 
-想要更好的输入体验，例如更换皮肤，添加词库等，需要完成下面定制设置。
+想要更好的输入体验，例如，更换皮肤，添加词库，快捷键等，需要完成下面定制设置。
 
 
 ---
@@ -219,6 +220,22 @@ use_preset_vocabulary: true
 ![](pic/10日期.png)
 
 ![](pic/10星期.png)
+
+---
+
+### 十、文本替换
+
+在 `custom_phrase.txt` 设置文本替换。
+
+**规则**：
+* 字段使用 Tab 键分隔，
+* 顺序：文字、编码、权重（决定重码的次序、可选）。
+
+![](pic/10文本替换.png)
+
+示例：输入 `as` 输出 `App Store` `Apple Store`
+
+![](pic/10as.png)
 
 ---
 
