@@ -4,7 +4,7 @@
 
 # macOS Rime 鼠须管（Squirrel）输入法配置方案详解
 
-![](pic/rime效果图.jpg)
+![008eZBHKgy1gn43x1kgtxj31e022oqc9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43x1kgtxj31e022oqc9.jpg)
 
 ---
 
@@ -67,13 +67,13 @@
 
 在 `style/color_scheme:` 后方输入皮肤名称来更换主题。
 
-![](pic/03更换皮肤.png)
+![008eZBHKgy1gn43qrwtmtj31be0p80xe](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43qrwtmtj31be0p80xe.jpg)
 
-![](pic/03皮肤.png)
+![008eZBHKgy1gn43rdii5wj31dy048abc](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43rdii5wj31dy048abc.jpg)
 
 > 【附】更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
 
-![](pic/03皮肤参数.png)
+![008eZBHKgy1gn43s3b9g2j31be0uytfo](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43s3b9g2j31be0uytfo.jpg)
 
 **配色方法**
 
@@ -81,7 +81,7 @@
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
-![](pic/04配色.jpg)
+![008eZBHKgy1gn43sjxfvtj311r0kw12y](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43sjxfvtj311r0kw12y.jpg)
 
 - 自定配色主题，产生代码的小工具：[Rime 西米 for Squirrel](https://gjrobert.github.io/Rime-See-Me-squirrel/)
 
@@ -90,11 +90,11 @@
 
 快捷键 `Control +｀` 切换输入法方案。
 
-![](pic/04切换.png)
+![008eZBHKgy1gn43srtm6fj31dy058jsv](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43srtm6fj31dy058jsv.jpg)
 
 用 `default.custom.yaml` 保存输入方案的设置。
 
-![](pic/04方案切换.png)
+![008eZBHKgy1gn43syn3znj31be0s4gvw](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43syn3znj31be0s4gvw.jpg)
 
 ---
 
@@ -102,23 +102,23 @@
 
 以朙月拼音·简化字为例，用 `luna_pinyin_simp.custom.yaml` 保存快捷符号的设置。
 
-![](pic/05.png)
+![008eZBHKgy1gn43t472cej31p01687eq](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43t472cej31p01687eq.jpg)
 
 输入 `/bq` 显示表情。
 
-![](pic/05表情.png)
+![008eZBHKgy1gn43tab67tj31dw03qmyd](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43tab67tj31dw03qmyd.jpg)
 
 输入 `/vmm` 显示卖萌颜文字。
 
-![](pic/05颜文字.png)
+![008eZBHKgy1gn43tgaki8j31dy052wg6](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43tgaki8j31dy052wg6.jpg)
 
 输入 `/hb` 显示货币符号。
 
-![](pic/05货币.png)
+![008eZBHKgy1gn43tljv2gj31dy04wtad](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43tljv2gj31dy04wtad.jpg)
 
 在 opencc 文件夹内可以修改 Emoji、符号、颜文字、货币等。
 
-![](pic/05Emoji.png)
+![008eZBHKgy1gn43tqcvirj31hc0tok1s](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43tqcvirj31hc0tok1s.jpg)
 
 ---
 
@@ -130,13 +130,13 @@
 
 示例：词库文件 `luna_pinyin.sgmain.dict.yaml`，输入 `- luna_pinyin.sgmain` 即可。
 
-![](pic/06.png)
+![008eZBHKgy1gn43u7bpw3j31p00vi46r](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43u7bpw3j31p00vi46r.jpg)
 
 ---
 ### 七、搜狗词库转换方法
 打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。
 
-![](pic/071.png)
+![008eZBHKgy1gn43umi0r3j30yg0ng49u](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43umi0r3j30yg0ng49u.jpg)
 
 下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开。
 
@@ -144,15 +144,15 @@
 
 > 注：如果工具识别不到词库，请选择所有格式。
 
-![](pic/072.png)
+![008eZBHKgy1gn43uslomlj30yg0qxao2](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43uslomlj30yg0qxao2.jpg)
 
 选择【搜狗细胞词库 scel】—>>【Rime 中州韵】，类型选择【拼音】【macOS】，点击确定，再点击转换。
 
-![](pic/073.png)
+![008eZBHKgy1gn43uxnwmsj30yg0qoq7p](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43uxnwmsj30yg0qoq7p.jpg)
 
 生成 `.txt` 文件（也可以选择多个词库生成一个 `txt` 文件）。
 
-![](pic/075.png)
+![008eZBHKgy1gn43v308o8j31ca0nkwm7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43v308o8j31ca0nkwm7.jpg)
 
 将下面代码粘贴在 `txt` 文档（可以将关键词写进去，防止以后添加词库重复）里最上方。
 
@@ -180,7 +180,7 @@ use_preset_vocabulary: true
 
 用 `squirrel.custom.yaml` 最底部设置 App 默认英文输入。
 
-![](pic/08.png)
+![008eZBHKgy1gn43vbo3kcj31ew0eejvf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43vbo3kcj31ew0eejvf.jpg)
 
 
 ---
@@ -189,7 +189,7 @@ use_preset_vocabulary: true
 
 将 rime.lua 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
 
-![](pic/09日期.png)
+![008eZBHKgy1gn43vg4xvpj31dw12649s](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43vg4xvpj31dw12649s.jpg)
 
 在对应的输入方式里加入下面代码，例如，朙月拼音简化字，就添加在 `luna_pinyin_simp.custom.yaml` 里。
 
@@ -200,13 +200,13 @@ use_preset_vocabulary: true
     - lua_translator@time_translator
 ```
 
-![](pic/09.png)
+![008eZBHKgy1gn43vm0q51j31dw0e00wn](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43vm0q51j31dw0e00wn.jpg)
 
-![](pic/10时间.png)
+![008eZBHKgy1gn43vrlvcrj31e004owfu](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43vrlvcrj31e004owfu.jpg)
 
-![](pic/10日期.png)
+![008eZBHKgy1gn43vxvwf6j31e004s3zw](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43vxvwf6j31e004s3zw.jpg)
 
-![](pic/10星期.png)
+![008eZBHKgy1gn43w3d0fhj31dw04qdgy](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43w3d0fhj31dw04qdgy.jpg)
 
 ---
 
@@ -216,13 +216,13 @@ use_preset_vocabulary: true
 
 > 顺序：`文字` `编码` `权重`（数字越大排序越靠前，可选）。短语使用 `Tab` 键分隔。
 
-![](pic/10wtf.png)
+![008eZBHKgy1gn43w98p09j31dy04e75r](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43w98p09j31dy04e75r.jpg)
 
 叠字输入。
 
-![](pic/10long.png)
+![008eZBHKgy1gn43wf29jgj31dy04egmx](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43wf29jgj31dy04egmx.jpg)
 
-![](pic/10文本.png)
+![008eZBHKgy1gn43wk5nttj31740piq6d](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43wk5nttj31740piq6d.jpg)
 
 ---
 
@@ -232,7 +232,7 @@ use_preset_vocabulary: true
 
 去掉代码前方的 `#` 保存并重新部署即生效模糊音。
 
-![](pic/11模糊音.png)
+![008eZBHKgy1gn43wrvn8hj31be0xgdox](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43wrvn8hj31be0xgdox.jpg)
 
 ---
 
