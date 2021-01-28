@@ -4,8 +4,6 @@
 
 # macOS Rime 鼠须管（Squirrel）输入法配置方案详解
 
-如果你在寻找一款 macOS 上好用的输入法，那么现在我告诉你，聪明的输入法懂我心意，保护个人隐私，从这里开始。
-
 ![](pic/rime效果图.jpg)
 
 ---
@@ -80,9 +78,9 @@
 
 ![](pic/03更换皮肤.png)
 
-Mac仿原生亮色皮肤：
-
 ![](pic/03皮肤.png)
+
+> 【附】更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
 
 ![](pic/03皮肤参数.png)
 
@@ -94,7 +92,7 @@ Mac仿原生亮色皮肤：
 
 ![](pic/04配色.jpg)
 
-【注】更多皮肤效果请点击 [rime-pifu](https://github.com/liuour/rime-pifu)
+- 自定配色主题，产生代码的小工具：[Rime 西米 for Squirrel](https://gjrobert.github.io/Rime-See-Me-squirrel/)
 
 ---
 ### 四、输入法切换
