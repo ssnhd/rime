@@ -69,7 +69,7 @@
 
 ![008eZBHKgy1gn45h391hcj31dy048jrp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45h391hcj31dy048jrp.jpg)
 
-![008eZBHKgy1gn46dccbyij31be1t6tgq](https://ww1.sinaimg.cn/large/008eZBHKgy1gn46dccbyij31be1t6tgq.jpg)
+![008eZBHKgy1gn46lwlz2uj31be1t6ai3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn46lwlz2uj31be1t6ai3.jpg)
 
 **配色方法**
 
