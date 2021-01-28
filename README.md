@@ -20,52 +20,43 @@
 8. [App 默认英文输入](#八App-默认英文输入) ………………………………………………………………………………………………… squirrel.custom.yaml
 9. [输入动态时间、日期、星期](#九输入动态时间日期星期) ………………………………………………….. rime.lua 和 luna_pinyin_simp.custom.yaml
 10. [文本替换](#十文本替换) …………………………………………………………………………………………………………………… custom_phrase.txt
+11. [模糊音](#十一模糊音) ......……………………………………………………………………………………………....luna_pinyin_simp.custom.yaml 
 
 ---
 
 ### 准备
 
-下载解压出【font】字体和【配置文件】。
-
-![](pic/02下载.png)
-
-**安装字体**： Mac 不包含所有字体，防止个别字出现乱码，将本帖【font】内的两个字体安装到 Mac 字体册。
-
-![](pic/00字体.png)
-
-**代码编辑器**：为方便编辑配置文件，需安装编辑器软件，例如 [Visual Studio Code](https://code.visualstudio.com/)（免费）或 [Sublime Text](https://www.sublimetext.com/)（收费）。
-
-![](pic/00编辑器.png)
+1. 下载[配置文件](https://github.com/liuour/rime/archive/master.zip)并解压出【font】和【配置文件】，其他的都不需要。
+2. Mac 不包含所有字体，防止个别字出现乱码，将【font】两个字体安装到 Mac 字体册。
+3. 编辑器软件推荐使用  [Visual Studio Code](https://code.visualstudio.com/) 或 [Sublime Text](https://www.sublimetext.com/)。
 
 ---
 ### 一、安装输入法
 
-适用于 macOS 10.9+
-
-前往 [rime.im](https://rime.im/) 下载，初次安装，需注销并重新登录。
+下载 [Rime 鼠须管](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)安装包，初次安装，需注销并重新登录。
 
 点选菜单栏输入法里的【ㄓ】图标，开始使用鼠须管输入法。
 
 ![](pic/01安装.png)
 
-想要更好的输入体验，例如，更换皮肤，添加词库，快捷键等，需要完成下面定制设置。
+想要更好的输入体验，例如，更换皮肤，Emoji、添加词库、模糊音…完成下面定制设置。
 
 
 ---
 
 ### 二、定制输入法
 
-点选【用户设定】打开目录文件（防止操作错误，可将此目录文件备份）。
+点选【用户设定】打开目录文件。
 
 ![](pic/02设定.png)
 
-将本帖【配置文件】粘贴到鼠须管目录文件夹内。
+将【配置文件】粘贴到 Rime 目录文件内。
 
 ![](pic/02.png)
 
-点击【重新部署】完成。
+点击【重新部署】。
 
-> 注：修改任何文件，都要点击【重新部署】（快捷键： `Control + Option + ｀`）才能生效。
+【注】修改任何文件都要重新部署（快捷键 `Control + Option + ｀`）。
 
 ![](pic/02重新部署.png)
 
@@ -74,7 +65,7 @@
 
 用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
-在 `style/color_scheme:` 后方输入皮肤名称来更换主题，保存并【重新部署】。
+在 `style/color_scheme:` 后方输入皮肤名称来更换主题。
 
 ![](pic/03更换皮肤.png)
 
@@ -84,7 +75,7 @@
 
 ![](pic/03皮肤参数.png)
 
- `0x` 开头的颜色值，例如 `hilited_candidate_back_color: 0xD05B21`，末尾的 `0xD05B21` 表示第一候选词背景颜色。
+**配色方法**
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
@@ -97,7 +88,7 @@
 ---
 ### 四、输入法切换
 
-快捷键 `Control +｀` 调出方案。
+快捷键 `Control +｀` 切换输入法方案。
 
 ![](pic/04切换.png)
 
@@ -109,7 +100,7 @@
 
 ### 五、自定义快捷字符
 
-以【朙月拼音·简化字】为例，用 `luna_pinyin_simp.custom.yaml` 保存快捷符号的设置。
+以朙月拼音·简化字为例，用 `luna_pinyin_simp.custom.yaml` 保存快捷符号的设置。
 
 ![](pic/05.png)
 
@@ -135,9 +126,9 @@
 
 用 `luna_pinyin.extended.dict.yaml` 保存词库的设置。
 
-将词库名称去掉 `.dict.yaml` 添加进去，保存并【重新部署】。
+将词库名称去掉 `.dict.yaml` 添加进去，保存并重新部署。
 
-示例：搜狗词库 `luna_pinyin.sgmain.dict.yaml` 只需输入 `- luna_pinyin.sgmain`。
+示例：词库文件 `luna_pinyin.sgmain.dict.yaml`，输入 `- luna_pinyin.sgmain` 即可。
 
 ![](pic/06.png)
 
@@ -187,7 +178,7 @@ use_preset_vocabulary: true
 
 ### 八、App 默认英文输入
 
-在 `squirrel.custom.yaml` 最底部设置 App 默认英文输入。
+用 `squirrel.custom.yaml` 最底部设置 App 默认英文输入。
 
 ![](pic/08.png)
 
@@ -232,6 +223,16 @@ use_preset_vocabulary: true
 ![](pic/10long.png)
 
 ![](pic/10文本.png)
+
+---
+
+### 十一、模糊音
+
+在 `luna_pinyin_simp.custom.yaml ` 里设置模糊音。
+
+去掉代码前方的 `#` 保存并重新部署即生效模糊音。
+
+![](pic/11模糊音.png)
 
 ---
 
