@@ -37,7 +37,7 @@
 
 点选菜单栏输入法里的【ㄓ】图标，开始使用鼠须管输入法。
 
-![008eZBHKgy1gn4333tuhcj31e00ceacd](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4333tuhcj31e00ceacd.jpg)
+![RkrfElIXND3Kn8S](https://i.loli.net/2021/01/29/RkrfElIXND3Kn8S.jpg)
 
 想要更好的输入体验，例如，更换皮肤，Emoji、添加词库、模糊音…完成下面定制设置。
 
