@@ -37,7 +37,7 @@
 
 点选菜单栏输入法里的【ㄓ】图标，开始使用鼠须管输入法。
 
-![RkrfElIXND3Kn8S](https://i.loli.net/2021/01/29/RkrfElIXND3Kn8S.jpg)
+![008eZBHKgy1gn4333tuhcj31e00ceacd](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4333tuhcj31e00ceacd.jpg)
 
 想要更好的输入体验，例如，更换皮肤，Emoji、添加词库、模糊音…完成下面定制设置。
 
@@ -52,7 +52,7 @@
 
 将【配置文件】粘贴到 Rime 目录文件内。
 
-![](pic/02.png)
+![008eZBHKgy1gn43b8sk2cj31e20camzf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43b8sk2cj31e20camzf.jpg)
 
 点击【重新部署】。
 
