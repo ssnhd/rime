@@ -65,15 +65,11 @@
 
 用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
-在 `style/color_scheme:` 后方输入皮肤名称来更换主题。
-
-![008eZBHKgy1gn45gi991ej31be0p8goj](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45gi991ej31be0p8goj.jpg)
+在 `style/color_scheme:` 后方输入皮肤名称来更换主题，更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
 
 ![008eZBHKgy1gn45h391hcj31dy048jrp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45h391hcj31dy048jrp.jpg)
 
-【附】更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
-
-![008eZBHKgy1gn45hkvbpmj31be0uyae4](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45hkvbpmj31be0uyae4.jpg)
+![008eZBHKgy1gn46dccbyij31be1t6tgq](https://ww1.sinaimg.cn/large/008eZBHKgy1gn46dccbyij31be1t6tgq.jpg)
 
 **配色方法**
 
