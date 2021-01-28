@@ -131,15 +131,38 @@ patch:
   recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
 
   # 模糊拼音
-  # 'speller/algebra':
-    # - erase/^xx$/
+  #'speller/algebra':
+    #- erase/^xx$/                      # 第一行保留
 
-    # 以下是一組容錯拼寫
-    # - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
+    # 模糊音定義
+    # 需要哪組就刪去行首的 # 號，單雙向任選
+    #- derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
+    #- derive/^([zcs])([^h])/$1h$2/     # z, c, s => zh, ch, sh
 
-    # 自動糾正一些常見的按鍵錯誤
-    # - derive/ua$/au/                   # shau => shua
-    # - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+    #- derive/^n/l/                     # n => l
+    #- derive/^l/n/                     # l => n
+
+    # 這兩組一般是單向的
+    #- derive/^r/l/                     # r => l
+
+    #- derive/^ren/yin/                 # ren => yin, reng => ying
+    #- derive/^r/y/                     # r => y
+
+    # 下面 hu <=> f 這組寫法複雜一些，分情況討論
+    #- derive/^hu$/fu/                  # hu => fu
+    #- derive/^hong$/feng/              # hong => feng
+    #- derive/^hu([in])$/fe$1/          # hui => fei, hun => fen
+    #- derive/^hu([ao])/f$1/            # hua => fa, ...
+
+    #- derive/^fu$/hu/                  # fu => hu
+    #- derive/^feng$/hong/              # feng => hong
+    #- derive/^fe([in])$/hu$1/          # fei => hui, fen => hun
+    #- derive/^f([ao])/hu$1/            # fa => hua, ...
+
+    # 韻母部份
+    #- derive/^([bpmf])eng$/$1ong/      # meng = mong, ...
+    #- derive/([ei])n$/$1ng/            # en => eng, in => ing
+    #- derive/([ei])ng$/$1n/            # eng => en, ing => in
 
 # librime-lua 输入动态时间和日期
   engine/translators/+: 
