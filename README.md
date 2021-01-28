@@ -214,15 +214,13 @@ use_preset_vocabulary: true
 
 在 `custom_phrase.txt` 设置文本替换。
 
-> 顺序：`文字` `编码` `权重`（数字越大排序越靠前，可选）。短语使用 `Tab` 键分隔。
+顺序：`文字` `编码` `权重`（数字越大排序越靠前，可选），短语使用 `Tab` 键分隔。
+
+![008eZBHKgy1gn45wr7g5ij31740piwf9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wr7g5ij31740piwf9.jpg)
 
 ![008eZBHKgy1gn45wgynfjj31dy04egm0](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wgynfjj31dy04egm0.jpg)
 
-叠字输入。
-
 ![008eZBHKgy1gn45wm891bj31dy04e0t2](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wm891bj31dy04e0t2.jpg)
-
-![008eZBHKgy1gn45wr7g5ij31740piwf9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wr7g5ij31740piwf9.jpg)
 
 ---
 
