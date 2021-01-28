@@ -78,17 +78,15 @@
 
 在 `color_scheme:` 后方输入皮肤名称来更换主题，保存并【重新部署】。
 
-![](pic/03.png)
+![](pic/03更换皮肤.png)
 
-上图参数显示效果：
+Mac仿原生亮色皮肤：
 
 ![](pic/03皮肤.png)
 
-【附】更多皮肤主题：[rime/squirrel](https://github.com/rime/squirrel/blob/master/data/squirrel.yaml)
+![](pic/03皮肤参数.png)
 
-![](pic/aqua.png)
-
- `0x` 开头的颜色值，比如 `hilited_candidate_back_color: 0xD05B21`，末尾的 `0xD05B21` 表示第一候选词背景颜色。
+ `0x` 开头的颜色值，例如 `hilited_candidate_back_color: 0xD05B21`，末尾的 `0xD05B21` 表示第一候选词背景颜色。
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
