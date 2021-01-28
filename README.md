@@ -76,7 +76,7 @@
 
 用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
-在 `color_scheme:` 后方输入皮肤名称来更换主题，保存并【重新部署】。
+在 `style/color_scheme:` 后方输入皮肤名称来更换主题，保存并【重新部署】。
 
 ![](pic/03更换皮肤.png)
 
