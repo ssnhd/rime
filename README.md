@@ -71,7 +71,7 @@
 
 ![008eZBHKgy1gn45h391hcj31dy048jrp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45h391hcj31dy048jrp.jpg)
 
-> 【附】更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
+【附】更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
 
 ![008eZBHKgy1gn45hkvbpmj31be0uyae4](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45hkvbpmj31be0uyae4.jpg)
 
