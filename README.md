@@ -48,17 +48,17 @@
 
 点选【用户设定】打开目录文件。
 
-![](pic/02设定.png)
+![008eZBHKgy1gn43b8sk2cj31e20camzf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43b8sk2cj31e20camzf.jpg)
 
 将【配置文件】粘贴到 Rime 目录文件内。
 
-![008eZBHKgy1gn43b8sk2cj31e20camzf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43b8sk2cj31e20camzf.jpg)
+![008eZBHKgy1gn43myv77nj31ng12igv0](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43myv77nj31ng12igv0.jpg)
 
 点击【重新部署】。
 
 【注】修改任何文件都要重新部署（快捷键 `Control + Option + ｀`）。
 
-![](pic/02重新部署.png)
+![008eZBHKgy1gn43nrfg0sj31e00c80uy](https://ww1.sinaimg.cn/large/008eZBHKgy1gn43nrfg0sj31e00c80uy.jpg)
 
 ---
 ### 三、皮肤主题设置
