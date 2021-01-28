@@ -94,6 +94,8 @@ Mac仿原生亮色皮肤：
 
 ![](pic/04配色.jpg)
 
+【注】更多皮肤效果请点击 [rime-pifu](https://github.com/liuour/rime-pifu)
+
 ---
 ### 四、输入法切换
 
