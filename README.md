@@ -1,6 +1,4 @@
-在 `custom_phrase.txt` 设置文本替换。
-
-
+Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
 
 # macOS Rime 鼠须管（Squirrel）输入法配置方案详解
 
