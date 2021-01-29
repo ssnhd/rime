@@ -25,22 +25,22 @@ Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
 
 ### 准备
 
-1. 下载[档案文件](https://github.com/liuour/rime/archive/master.zip)并解压出【font】和【配置文件】，其他的都不需要。
+1. 下载[档案文件](https://github.com/liuour/rime/archive/master.zip)，解压得到【font】和【配置文件】，其他的都不需要。
 2. Mac 不包含所有字体，防止个别字出现乱码，将【font】两个字体安装到 Mac 字体册。
 3. 编辑器软件推荐使用  [Visual Studio Code](https://code.visualstudio.com/) 或 [Sublime Text](https://www.sublimetext.com/)。
 
 ---
 ### 一、安装输入法
 
-下载 [Rime 鼠须管](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
+下载 [Rime](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip) 安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
 
 ![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
 
-按组合键 `Control` + `｀` 换出输入法方案选项，切换到朙月拼音·简化字。
+按组合键 `Control+｀` 换出输入法方案选项，切换到朙月拼音·简化字。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
-获得更好的输入体验（例如，皮肤、Emoji、词库、快捷字符、模糊音等），需对输入法进行定制。
+要获得更好的输入体验（例如，皮肤、Emoji、词库、快捷字符、模糊音等），需对输入法进行定制。
 
 
 ---
@@ -57,7 +57,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 点击【重新部署】完成定制。
 
-【注】修改任何文件都要重新部署（`Control` + `Option` + `｀`）才能生效。
+【注】修改任何文件都要重新部署（`Control+Option+｀`）才能生效。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -66,13 +66,14 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
-在 `style/color_scheme:` 后方输入皮肤名称来更换主题，更多皮肤效果图：[rime-pifu](https://github.com/liuour/rime-pifu)
+在 `style/color_scheme:` 后方输入皮肤名称来更换主题。
 
 ![008eZBHKgy1gn45h391hcj31dy048jrp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45h391hcj31dy048jrp.jpg)
 
 ![008eZBHKgy1gn46otuizgj31be1rwwmf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn46otuizgj31be1rwwmf.jpg)
 
-**配色方法**
+更多皮肤效果图：[点击这里](https://github.com/liuour/rime-pifu)
+
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
@@ -80,7 +81,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 ![008eZBHKgy1gn45ifbfhnj311r0kw769](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
 
-- 自定配色主题，产生代码的小工具：[Rime 西米 for Squirrel](https://gjrobert.github.io/Rime-See-Me-squirrel/)
+- 自定配色主题，产生代码工具：[Rime 西米 for Squirrel](https://gjrobert.github.io/Rime-See-Me-squirrel/)
 
 ---
 ### 四、定制方案、候选词个数、中西文切换、翻页
@@ -133,7 +134,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 ![008eZBHKgy1gn45lqmz88j31dy04waah](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45lqmz88j31dy04waah.jpg)
 
-在 opencc 文件夹内可以修改 Emoji、符号、颜文字、货币等。
+在 opencc 文件夹内修改 Emoji、符号、颜文字、货币。
 
 ![008eZBHKgy1gn45mxec5xj31hc0togon](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45mxec5xj31hc0togon.jpg)
 
@@ -143,9 +144,9 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 用 `luna_pinyin.extended.dict.yaml` 保存词库的设置。
 
-将词库名称去掉 `.dict.yaml` 添加进去，保存并重新部署。
+将词库名称去掉 `.dict.yaml` 添加进去。
 
-示例：词库文件 `luna_pinyin.sgmain.dict.yaml`，输入 `- luna_pinyin.sgmain` 即可。
+例如，词库文件 `luna_pinyin.sgmain.dict.yaml`，输入 `- luna_pinyin.sgmain` 即可。
 
 ![008eZBHKgy1gn45nyzbefj31p00viq58](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45nyzbefj31p00viq58.jpg)
 
