@@ -50,13 +50,13 @@
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
-将【配置文件】粘贴到 Rime 目录文件内。
+Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 ![008eZBHKgy1gn45evcvwzj31ng12ijw9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45evcvwzj31ng12ijw9.jpg)
 
-点击【重新部署】。
+点击【重新部署】完成定制。
 
-【注】修改任何文件都要重新部署（快捷键 `Control + Option + ｀`）。
+> 【注】修改任何文件都要重新部署（快捷键 `Control + Option + ｀`）。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
