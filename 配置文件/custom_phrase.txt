@@ -19,11 +19,15 @@
 Rime	rime	3
 鼠须管	rime	2
 https://rime.im/	rime	1
+
 Windows	win
 WTF	wtf	3
 什么玩意儿！	wtf	2
 What the fuck!	wtf	1
+
 又双叒叕	yyy
+
+test@gmail.com	yx
 
 鑫	jinjinjin
 淼	shuishuishui
