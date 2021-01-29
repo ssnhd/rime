@@ -1,6 +1,4 @@
-Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
-
-# macOS Rime 鼠须管（Squirrel）输入法配置方案详解
+# macOS 好用的输入法 Rime 鼠须管 Squirrel 配置方案详解
 
 Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
 
