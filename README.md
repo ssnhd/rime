@@ -58,7 +58,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 点击【重新部署】完成定制。
 
-> 【注】修改任何文件都要重新部署（快捷键 `Control + Option + ｀`）。
+【注】修改任何文件都要重新部署（`Control` + `Option` + `｀`）才能生效。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -156,11 +156,9 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 ![008eZBHKgy1gn45oo6pq9j30yg0ngdjf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45oo6pq9j30yg0ngdjf.jpg)
 
-下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开。
+下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择 `.scel` 词库文件，点击打开。
 
-选择 `.scel` 词库文件，点击打开。
-
-> 注：如果工具识别不到词库，请选择所有格式。
+【注】：如果工具识别不到词库，请选择所有格式。
 
 ![008eZBHKgy1gn45p8561tj30yg0qxtde](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45p8561tj30yg0qxtde.jpg)
 
