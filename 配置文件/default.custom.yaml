@@ -5,7 +5,7 @@ patch:
         
     menu/page_size: 6   #候选词个数
 
-    ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
+    ascii_composer/good_old_caps_lock: true     # true切换大小写，noop字母大小写，false英文小写
     ascii_composer/switch_key:
         Caps_Lock: commit_text
         Shift_L: commit_code    # 允许左Shift键切换中英文

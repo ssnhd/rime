@@ -17,7 +17,7 @@
 5. [Emoji，自定义快捷字符](#五自定义快捷字符) ............................................................ Open 文件夹 和 luna_pinyin_simp.custom.yaml 
 6. [词库设置](#六词库设置) ............................................................................................................. luna_pinyin.extended.dict.yaml
 7. [搜狗词库转换方法](#七搜狗词库转换方法) ..................................................................................................... 后缀名为 `.dict.yaml` 文件
-8. [App 默认英文输入](#八App-默认英文输入) ............................................................................................................... squirrel.custom.yaml
+8. [在特定程序里关闭中文输入](#在特定程序里关闭中文输入) ......................................................................................................... squirrel.custom.yaml
 9. [输入动态时间、日期、星期](#九输入动态时间日期星期) ............................................................... rime.lua 和 luna_pinyin_simp.custom.yaml
 10. [文本替换](#十文本替换) ................................................................................................................................. custom_phrase.txt
 11. [模糊音](#十一模糊音) .................................................................................................................. luna_pinyin_simp.custom.yaml 
@@ -87,6 +87,30 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 ### 四、定制方案、候选词个数、中西文切换、翻页
 
 用 `default.custom.yaml` 保存输入方案的设置。
+
+支持在方案选单中添加双拼、五笔、粤拼、注音等，保留你需要的。
+
+例如，我用拼音输入所以只保留【朙月拼音】和【朙月拼音·简化字】。
+
+```
+- schema: luna_pinyin          # 朙月拼音
+- schema: luna_pinyin_simp     # 朙月拼音 简化字模式
+- schema: luna_pinyin_tw       # 朙月拼音 台湾正体模式
+- schema: terra_pinyin         # 地球拼音 dì qiú pīn yīn
+- schema: bopomofo             # 注音
+- schema: wubi86               # 五笔86
+- schema: wubi_pinyin          # 五笔拼音混合输入
+- schema: double_pinyin        # 自然码双拼
+- schema: double_pinyin_mspy   # 微软双拼
+- schema: double_pinyin_flypy  # 小鹤双拼
+```
+
+例如，加入 "[" 和 "]" 翻页按键绑定。
+
+```
+- { when: paging, accept: bracketleft, send: Page_Up }
+- { when: has_menu, accept: bracketright, send: Page_Down }
+```
 
 ![008eZBHKgy1gn4vqa7fyuj31be1ao79n](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4vqa7fyuj31be1ao79n.jpg)
 
@@ -170,11 +194,30 @@ use_preset_vocabulary: true
 
 ---
 
-### 八、App 默认英文输入
+### 八、在特定程序里关闭中文输入
 
-用 `squirrel.custom.yaml` 最底部设置 App 默认英文输入。
+用 `squirrel.custom.yaml` 最底部设置应用默认英文输入。
 
-![008eZBHKgy1gn45r856snj31ew0ee3zg](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45r856snj31ew0ee3zg.jpg)
+* 例如，要在 Xcode 里面默认关闭中文输入，又要在 Alfred 里面恢复开启中文输入，可如此设定：
+
+```
+patch:
+  app_options/com.apple.Xcode:
+    ascii_mode: true
+  app_options/com.alfredapp.Alfred: {}
+```
+
+【注】：一些版本的 Xcode 标识为 com.apple.dt.Xcode，请注意查看 Info.plist。
+
+* 例如，要在 聚焦搜索（Spotlight）里面默认关闭中文输入，可如此设定：
+
+```
+patch:
+	com.apple.Spotlight:
+			ascii_mode: true      # ture关闭中文输入
+```
+
+![2021-01-30-00.58.26](https://tvax3.sinaimg.cn/large/008eZBHKgy1gn524bmxf0j31820f0dgv.jpg)
 
 
 ---

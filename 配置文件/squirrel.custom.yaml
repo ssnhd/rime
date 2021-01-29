@@ -348,11 +348,11 @@ patch:
       hilited_comment_text_color: 0x8144C2 #Lab 50, 65, -5
       hilited_text_color: 0x2C8BAE #Lab 60, 10, 65
 
-  app_options:    # App默认英文
+  app_options:    # App关闭中文输入
     com.apple.Spotlight:
-        ascii_mode: true      # 默认英文
+        ascii_mode: true      # ture关闭中文输入
     com.microsoft.VSCode:
-        ascii_mode: false     # 关闭默认英文
+        ascii_mode: false     # false开启中文输入
 
 
 
