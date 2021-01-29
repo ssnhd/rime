@@ -7,7 +7,7 @@
 # `cat 现代汉语常用词表.txt | sort -t $'\t' -k3 -g | awk -F '\t' '{gsub("[1234]", "", $2)} {print $1"\t"$2"\t"}' | sed "s/'/ /g" | sed 's/，//g' | pbcopy`
 
 ---
-name: luna_pinyin.xiandaihanyuchangyongcibiao
+name: luna_pinyin.xiandaihanyu
 version: "2018.10.05"
 sort: by_weight
 use_preset_vocabulary: false
