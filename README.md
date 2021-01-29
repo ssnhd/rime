@@ -4,6 +4,8 @@
 
 # macOS Rime 鼠须管（Squirrel）输入法配置方案详解
 
+Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
+
 ![008eZBHKgy1gn456juke6j31e01y9qax](https://ww1.sinaimg.cn/large/008eZBHKgy1gn456juke6j31e01y9qax.jpg)
 
 ---
@@ -282,8 +284,4 @@ com.apple.Spotlight:
 * 中英切换：https://gist.github.com/lotem/2981316
 * grasonchan ：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
 * KyleBing Rime ：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
-
----
-
-Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
 
