@@ -201,8 +201,7 @@ use_preset_vocabulary: true
 * 例如，要在 Xcode 里面默认关闭中文输入，又要在 Alfred 里面恢复开启中文输入，可如此设定：
 
 ```
-patch:
-  app_options/com.apple.Xcode:
+app_options/com.apple.Xcode:
     ascii_mode: true
   app_options/com.alfredapp.Alfred: {}
 ```
@@ -212,9 +211,8 @@ patch:
 * 例如，要在 聚焦搜索（Spotlight）里面默认关闭中文输入，可如此设定：
 
 ```
-patch:
-	com.apple.Spotlight:
-		ascii_mode: true      # ture关闭中文输入
+com.apple.Spotlight:
+  ascii_mode: true      # ture关闭中文输入
 ```
 
 ![2021-01-30-00.58.26](https://tvax3.sinaimg.cn/large/008eZBHKgy1gn524bmxf0j31820f0dgv.jpg)
