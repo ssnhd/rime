@@ -214,7 +214,7 @@ patch:
 ```
 patch:
 	com.apple.Spotlight:
-			ascii_mode: true      # ture关闭中文输入
+		ascii_mode: true      # ture关闭中文输入
 ```
 
 ![2021-01-30-00.58.26](https://tvax3.sinaimg.cn/large/008eZBHKgy1gn524bmxf0j31820f0dgv.jpg)
