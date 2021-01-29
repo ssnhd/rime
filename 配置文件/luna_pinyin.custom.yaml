@@ -35,32 +35,6 @@ patch:
     - name: simplification
       reset: 0
       states: [ "漢字", "汉字" ]
-
-  emj:
-    opencc_config: emoji.json
-    option_name: emj
-  emoji-symbol:
-    opencc_config: emoji-symbol.json
-    option_name: emoji-symbol
-  money:
-    opencc_config: money.json
-    option_name: money
-    show_in_comment: true
-    comment_format:
-      - "xform/&nbsp//"
-    tips: all
-  kaomoji:
-    opencc_config: kaomoji.json
-    option_name: kaomoji
-  kaomoji-tips:
-    opencc_config: kaomoji-tips.json
-    option_name: kaomoji-tips
-    show_in_comment: true
-    comment_format:
-      - "xform/&nbsp//"
-    tips: all
-  charset_filter:
-    option_name: gbk
     
  #  加載 easy_en 依賴
   "schema/dependencies/@1": easy_en
