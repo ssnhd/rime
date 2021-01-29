@@ -181,7 +181,9 @@ use_preset_vocabulary: true
 
 ### 九、输入动态时间、日期、星期
 
-将 rime.lua 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
+![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
+
+将 `rime.lua` 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
 
 ![008eZBHKgy1gn45roiva7j31dw1260w6](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45roiva7j31dw1260w6.jpg)
 
@@ -196,25 +198,19 @@ use_preset_vocabulary: true
 
 ![008eZBHKgy1gn45s5d4x7j31dw0e0wfi](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45s5d4x7j31dw0e0wfi.jpg)
 
-![008eZBHKgy1gn45udnr3jj31e004o3yt](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45udnr3jj31e004o3yt.jpg)
-
-![008eZBHKgy1gn45uuu6eej31e004saad](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45uuu6eej31e004saad.jpg)
-
-![008eZBHKgy1gn45ujlfafj31dw04qdg3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ujlfafj31dw04qdg3.jpg)
-
 ---
 
 ### 十、文本替换
+
+![008eZBHKgy1gn45wgynfjj31dy04egm0](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wgynfjj31dy04egm0.jpg)
+
+![008eZBHKgy1gn45wm891bj31dy04e0t2](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wm891bj31dy04e0t2.jpg)
 
 在 `custom_phrase.txt` 设置文本替换。
 
 顺序：`文字` `编码` `权重`（数字越大排序越靠前，可选），短语使用 `Tab` 键分隔。
 
 ![008eZBHKgy1gn45wr7g5ij31740piwf9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wr7g5ij31740piwf9.jpg)
-
-![008eZBHKgy1gn45wgynfjj31dy04egm0](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wgynfjj31dy04egm0.jpg)
-
-![008eZBHKgy1gn45wm891bj31dy04e0t2](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wm891bj31dy04e0t2.jpg)
 
 ---
 
@@ -233,9 +229,9 @@ use_preset_vocabulary: true
 * Rime 官网： https://rime.im/
 * lotem Squirrel：[https://github.com/rime/squirrel](https://github.com/rime/squirrel)
 * 皮肤：[https://github.com/rime/squirrel/blob/master/data/squirrel.yaml](https://github.com/rime/squirrel/blob/master/data/squirrel.yaml)
-* 中英切换自定义：https://gist.github.com/lotem/2981316
-* grasonchan 鼠须管朙月拼音配置文件：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
-* KyleBing Rime 五笔输入法：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+* 中英切换：https://gist.github.com/lotem/2981316
+* grasonchan ：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
+* KyleBing Rime ：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 
 ---
 
