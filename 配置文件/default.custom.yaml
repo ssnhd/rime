@@ -1,17 +1,16 @@
 patch:
     schema_list:
-        - schema: luna_pinyin_simp      # 朙月拼音简化字
-        - schema: luna_pinyin       #朙月拼音（繁体）
+        - schema: luna_pinyin_simp  #朙月拼音·简化字
         
     menu/page_size: 6   #候选词个数
 
-    ascii_composer/good_old_caps_lock: true     # true切换大小写，noop字母大小写，false英文小写
+    ascii_composer/good_old_caps_lock: true
     ascii_composer/switch_key:
-        Caps_Lock: commit_text
-        Shift_L: commit_code    # 允许左Shift键切换中英文
-        Shift_R: noop           # 禁右Shift切换中英文
-        Control_L: noop
-        Control_R: noop
+      Caps_Lock: commit_code
+      Shift_L: noop     # 禁止
+      Shift_R: noop     # 禁止
+      Control_L: commit_code    # 允许
+      Control_R: noop   # 禁止
 
     # 按键绑定
     key_binder/bindings:
@@ -47,7 +46,7 @@ patch:
       # paging_with_brackets:
       - { when: paging, accept: bracketleft, send: Page_Up }
       - { when: has_menu, accept: bracketright, send: Page_Down }
-
+      
       # numbered_mode_switch:
       # - { when: always, accept: Control+Shift+1, select: .next }
       # - { when: always, accept: Control+Shift+2, toggle: ascii_mode }
