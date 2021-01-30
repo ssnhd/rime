@@ -112,7 +112,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 例如，`Control+a` 和 `Control+e` 移动光标至首尾。
 
-![2021-01-30-15.44.16](https://tva2.sinaimg.cn/large/008eZBHKgy1gn5rsd5s8vj31rc1cc7a3.jpg)
+![2021-01-30-15.44.16](https://tvax2.sinaimg.cn/large/008eZBHKgy1gn5rxl5mprj31rc1cc7a3.jpg)
 
 ---
 
