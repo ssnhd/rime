@@ -1,17 +1,16 @@
 patch:
     schema_list:
-        - schema: luna_pinyin_simp      # 朙月拼音简化字
-        - schema: luna_pinyin       #朙月拼音（繁体）
+        - schema: luna_pinyin_simp  #朙月拼音·简化字
         
     menu/page_size: 6   #候选词个数
 
-    ascii_composer/good_old_caps_lock: true     # true切换大小写，noop字母大小写，false英文小写
+    ascii_composer/good_old_caps_lock: true
     ascii_composer/switch_key:
-        Caps_Lock: commit_text
-        Shift_L: commit_code    # 允许左Shift键切换中英文
-        Shift_R: noop           # 禁右Shift切换中英文
-        Control_L: noop
-        Control_R: noop
+      Caps_Lock: commit_code
+      Shift_L: noop     # 禁止
+      Shift_R: noop     # 禁止
+      Control_L: commit_code    # 允许
+      Control_R: noop   # 禁止
 
     key_binder/bindings: # 设置翻页
       - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
@@ -21,26 +20,28 @@ patch:
       - { when: paging, accept: bracketleft, send: Page_Up }
       - { when: has_menu, accept: bracketright, send: Page_Down }
       - { when: paging, accept: comma, send: Page_Up }
-      - { when: composing, accept: Tab, send: Page_Down }
+      - { when: composing, accept: Tab, send: Page_Down }     # Tab翻页
+
+    # 快捷键  
     # - { when: has_menu, accept: period, send: Page_Down }
     # - {accept: "Control+p", send: Up, when: composing}
     # - {accept: "Control+n", send: Down, when: composing}
     # - {accept: "Control+b", send: Left, when: composing}
     # - {accept: "Control+f", send: Right, when: composing}
-    # - {accept: "Control+a", send: Home, when: composing}
-    # - {accept: "Control+e", send: End, when: composing}
-    # - {accept: "Control+d", send: Delete, when: composing}
-    # - {accept: "Control+k", send: "Shift+Delete", when: composing}
-    # - {accept: "Control+h", send: BackSpace, when: composing}
-    # - {accept: "Control+g", send: Escape, when: composing}
+    #  - {accept: "Control+a", send: Home, when: composing}    # 光标移至首
+    #  - {accept: "Control+e", send: End, when: composing}   # 光标移至尾
+    #  - {accept: "Control+d", send: Delete, when: composing}   
+    #  - {accept: "Control+k", send: "Shift+Delete", when: composing}    
+    #  - {accept: "Control+h", send: BackSpace, when: composing}   
+    #  - {accept: "Control+g", send: Escape, when: composing}
     # - {accept: "Control+bracketleft", send: Escape, when: composing}
     # - { when: has_menu, accept: semicolon, send: 2 }
     # - { when: has_menu, accept: apostrophe, send: 3 }
-    # - {accept: "Control+Shift+1", select: .next, when: always}
-    # - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}
-    # - {accept: "Control+Shift+3", toggle: full_shape, when: always}
-    # - {accept: "Control+Shift+4", toggle: simplification, when: always}
-    # - {accept: "Control+Shift+5", toggle: extended_charset, when: always}
+      - {accept: "Control+Shift+1", select: .next, when: always}    # 快速切换输入方案（例如朙月拼音切换到双拼）
+    #  - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}    # 中英文切换
+    #  - {accept: "Control+Shift+3", toggle: full_shape, when: always}     # 全角/半角切换
+      - {accept: "Control+Shift+4", toggle: simplification, when: always}   # 繁简体切换
+    #  - {accept: "Control+Shift+5", toggle: extended_charset, when: always}     # 通用/增广切换（显示生僻字）
     # - {accept: "Control+Shift+exclam", select: .next, when: always}
     # - {accept: "Control+Shift+at", toggle: ascii_mode, when: always}
     # - {accept: "Control+Shift+numbersign", toggle: full_shape, when: always}

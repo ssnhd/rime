@@ -95,12 +95,8 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 ```
 - schema: luna_pinyin          # 朙月拼音
 - schema: luna_pinyin_simp     # 朙月拼音 简化字模式
-- schema: luna_pinyin_tw       # 朙月拼音 台湾正体模式
 - schema: terra_pinyin         # 地球拼音 dì qiú pīn yīn
-- schema: bopomofo             # 注音
 - schema: wubi86               # 五笔86
-- schema: wubi_pinyin          # 五笔拼音混合输入
-- schema: double_pinyin        # 自然码双拼
 - schema: double_pinyin_mspy   # 微软双拼
 - schema: double_pinyin_flypy  # 小鹤双拼
 ```
@@ -112,7 +108,11 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 - { when: has_menu, accept: bracketright, send: Page_Down }
 ```
 
-![008eZBHKgy1gn4vqa7fyuj31be1ao79n](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4vqa7fyuj31be1ao79n.jpg)
+例如，`Control+Shift+4` 切换简繁体。
+
+例如，`Control+a` 和 `Control+e` 移动光标至首尾。
+
+![2021-01-30-15.44.16](https://tva2.sinaimg.cn/large/008eZBHKgy1gn5rsd5s8vj31rc1cc7a3.jpg)
 
 ---
 
