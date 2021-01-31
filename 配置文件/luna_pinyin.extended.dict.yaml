@@ -19,7 +19,8 @@ import_tables:
   - luna_pinyin.dianshiju
   - luna_pinyin
   - luna_pinyin.falv
-  - luna_pinyin.gushici
+  - luna_gushici_1
+  - luna_gushici_2
   - luna_pinyin.i
   - luna_pinyin.kaifa
   - luna_pinyin.mingxing
