@@ -32,7 +32,7 @@ Rime 鼠须管交流群：[Telegram](https://t.me/rimesquirrel)
 ---
 ### 一、安装输入法
 
-下载 [Rime](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip) 安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
+下载鼠须管安装包 [![Download](https://api.bintray.com/packages/rime/squirrel/release/images/download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
 
 ![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
 
