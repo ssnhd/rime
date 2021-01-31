@@ -131,7 +131,7 @@ patch:
   recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
 
   # 模糊拼音
-  #'speller/algebra/+':
+  'speller/algebra/+':
     #- erase/^xx$/                      # 第一行保留
 
     # 模糊音定義
