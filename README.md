@@ -1,6 +1,6 @@
 # macOS 好用的输入法 Rime 鼠须管 Squirrel 配置方案详解
 
-![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)
+[![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 
 ![008eZBHKgy1gn456juke6j31e01y9qax](https://ww1.sinaimg.cn/large/008eZBHKgy1gn456juke6j31e01y9qax.jpg)
 
