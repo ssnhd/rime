@@ -80,7 +80,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 ![008eZBHKgy1gn45ifbfhnj311r0kw769](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
 
 - [Rime 西米 for Squirrel](https://gjrobert.github.io/Rime-See-Me-squirrel/)
-- [鼠须管皮肤模拟器](https://github.com/LEOYoon-Tsaw/Squirrel-Designer)（推荐）
+- [鼠须管皮肤模拟器](https://github.com/LEOYoon-Tsaw/Squirrel-Designer)（推荐使用这个，安装应用后打开输入数值，直接导出皮肤）
 
 ---
 ### 四、定制方案、候选词个数、中西文切换、翻页
