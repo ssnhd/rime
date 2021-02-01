@@ -57,7 +57,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
 点击【重新部署】完成定制。
 
-【注】修改任何文件都要重新部署（`Control+Option+｀`）才能生效。
+【注】修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -108,9 +108,9 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 - { when: has_menu, accept: bracketright, send: Page_Down }
 ```
 
-例如，`Control+Shift+4` 切换简繁体。
+例如，`Control`+`Shift`+`4` 切换简繁体。
 
-例如，`Control+a` 和 `Control+e` 移动光标至首尾。
+例如，`Control`+`a` 和 `Control`+`e` 移动光标至首尾。
 
 ![2021-01-30-15.44.16](https://tvax2.sinaimg.cn/large/008eZBHKgy1gn5rxl5mprj31rc1cc7a3.jpg)
 
@@ -257,28 +257,23 @@ com.apple.Spotlight:
 
 在 `luna_pinyin_simp.custom.yaml ` 里设置模糊音。
 
-去掉代码前方的 `#` 保存并重新部署即生效模糊音。
-
 ![008eZBHKgy1gn45ww5v15j31be0xgmzp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ww5v15j31be0xgmzp.jpg)
 
 ---
 
 ### 十二、删除误上屏的错词
 
-不慎上屏了错误的词组，再打同样的编码时，那错词出现在候选栏，令有洁癖的同学十分不爽。
+不慎上屏了错误的词组，再打同样的拼音错词出现在候选栏，十分不爽。
 
-**方法**：先把选字光标（用 ↑ ↓ 或 ← → 键）移到要删除的词组上，再按下 `Shift`+`Delete` 或  `Control`+`Delete`（ 键盘用 `Shift`+`Fn`+`Delete`）。
+先把选字光标（`↑` `↓`或`←``→`）移到要删除的词组上，再按下 `Shift`+`Delete` 或  `Control`+`Delete`（ 键盘用 `Shift`+`Fn`+`Delete`）。
 
-【注】只能够从用户词典中删除词组。用于码表中原有的词组时，只会取消其调频效果。
+【注】只能够从用户词典中删除词组；用于词库里词组时，只会取消其调频效果。
 
 ---
 
-资源参考：
+资源参考
 
-* Rime 官网： https://rime.im/
-* lotem Squirrel：[https://github.com/rime/squirrel](https://github.com/rime/squirrel)
 * 皮肤：[https://github.com/rime/squirrel/blob/master/data/squirrel.yaml](https://github.com/rime/squirrel/blob/master/data/squirrel.yaml)
-* 中英切换：https://gist.github.com/lotem/2981316
-* grasonchan ：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
+* grasonchan 朙月拼音：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
 * KyleBing Rime 五笔 ：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 
