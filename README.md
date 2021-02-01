@@ -36,7 +36,7 @@
 
 ![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
 
-按组合键 `Control+｀` 换出输入法方案选项，切换到朙月拼音·简化字。
+按组合键 `Control`+`｀` 换出输入法方案选项，切换到朙月拼音·简化字。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
@@ -267,7 +267,7 @@ com.apple.Spotlight:
 
 不慎上屏了错误的词组，再打同样的编码时，那错词出现在候选栏，令有洁癖的同学十分不爽。
 
-**方法**：先把选字光标（用 ↑ ↓ 或 ← → 键）移到要删除的词组上，再按下 `Shift+Delete` 或  `Control+Delete`（ 键盘用 `Shift+Fn+Delete`）。
+**方法**：先把选字光标（用 ↑ ↓ 或 ← → 键）移到要删除的词组上，再按下 `Shift`+`Delete` 或  `Control`+`Delete`（ 键盘用 `Shift`+`Fn`+`Delete`）。
 
 【注】只能够从用户词典中删除词组。用于码表中原有的词组时，只会取消其调频效果。
 
@@ -280,5 +280,5 @@ com.apple.Spotlight:
 * 皮肤：[https://github.com/rime/squirrel/blob/master/data/squirrel.yaml](https://github.com/rime/squirrel/blob/master/data/squirrel.yaml)
 * 中英切换：https://gist.github.com/lotem/2981316
 * grasonchan ：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
-* KyleBing Rime ：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
+* KyleBing Rime 五笔 ：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
 
