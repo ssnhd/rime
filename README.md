@@ -32,7 +32,7 @@
 
 下载鼠须管安装包 [![Download](https://raw.githubusercontent.com/liuour/SVG/07680779bf57800d72e786466f26cd2d5f339826/Download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
 
-【附】想体验测试版本在这下载：https://dl.bintray.com/rime/weasel/
+【附】想体验测试版本在这下载：https://dl.bintray.com/rime/squirrel/
 
 ![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
 
