@@ -13,14 +13,13 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用
 
 import_tables:
-  - luna_pinyin.chengyusuyu
+  - luna_pinyin.chengyu
   - luna_pinyin.cn_en
   - luna_pinyin.computer
   - luna_pinyin.dianshiju
   - luna_pinyin
   - luna_pinyin.falv
-  - luna_gushici_1
-  - luna_gushici_2
+  - luna_gushici
   - luna_pinyin.i
   - luna_pinyin.kaifa
   - luna_pinyin.mingxing
