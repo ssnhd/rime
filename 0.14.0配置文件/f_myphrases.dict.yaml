@@ -1,0 +1,42 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# f_myphrases.dict.yaml
+#
+
+---
+name: f_myphrases
+version: "2019.1.12"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+# 有码表的词库
+HK	hk	10001
+Hong Kong	hk	10000
+
+# 常见符号
+°	du	10000
+℃	she shi du
+℉	hua shi du
+♂	nan	10000
+♀	nv	10000
+↑	shang	10000
+↓	xia	10000
+→	you	10000
+↗	you shang	10000
+↘	you xia	10000
+←	zuo	10000
+↖	zuo shang	10000
+↙	zuo xia	10000
+★	xing	10000
+①	yi	10000
+②	er	10000
+③	san	10000
+④	si	10000
+⑤	wu	10000
+⑥	liu	10000
+⑦	qi	10000
+⑧	ba	10000
+⑨	jiu	10000
+⑩	shi	10000

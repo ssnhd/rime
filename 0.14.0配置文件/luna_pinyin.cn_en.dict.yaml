@@ -1,0 +1,421 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Luna Pinyin Extended Dictionary(Chinese&English) - 明月拼音擴充詞庫（含西文的詞彙）
+#
+#   瑾昀 <cokunhui@gmail.com>
+#
+
+---
+name: luna_pinyin.cn_en
+version: "2016.6.19"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+
+2B	er b	100
+2B	er bi	100
+阿 Q	a q	100
+阿 Q 正傳	a q zheng zhuan	100
+單邊 z 變換	dan bian z bian huan	100
+逗 B	dou b	100
+逗 B	dou bi	100
+哆啦 A 夢	duo la a meng	100
+二 B	er b	100
+二 B	er bi	100
+卡拉 OK	ka la o k	100
+牛 B	niu b	100
+牛 B	niu bi	100
+三 K 黨	san k dang	100
+三 K 黨	san kei dang	100
+傻 B	sha b	100
+傻 B	sha bi	100
+智能 ABC	zhi neng a b c	100
+裝 B	zhuang b	100
+裝 B	zhuang bi	100
+A 股	a gu	100
+A 盤	a pan	100
+A 片	a pian	100
+AA 制	a a zhi	100
+AcFUN	ac fun	100
+Adobe	adobe	100
+AirDrop	air drop	100
+Airmail	air mail	100
+AirPlay	air play	100
+AirServer	air server	100
+Alfred	alfred	100
+Amazon	amazon	100
+AMD	amd	100
+Amphetamine	amp hetamine	100
+Android	android	100
+Android	an zhuo	100
+#AnyConnect	any connect	100
+Aperture	aperture	100
+App Store	app store	100
+App Store Marketing Guidelines	app store marketing guidelines	100
+AppFridays	app fridays	100
+Apple	apple	100
+Apple Developer	apple developer	100
+Apple File System	apple file system	100
+Apple ID	apple id	100
+Apple Music	apple music	100
+Apple News	apple news	100
+Apple Pay	apple pay	100
+Apple Store	apple store	100
+Apple TV	apple tv	100
+Apple Watch	apple watch	100
+AppleCare	apple care	100
+AppleCare+	apple care	100
+AppShopper	app shopper	100
+Arduino	arduino	100
+aText	a text	100
+ATI	ati	100
+ATM 機	atm ji	100
+Atom	a tom	100
+Axure	a xure	100
+B 超	b chao	100
+B 股	b gu	100
+B 淋巴細胞	b lin ba xi bao	100
+B 盤	b pan	100
+B 細胞	b xi bao	100
+Bartender	bartender	100
+BetterSnap Tool	better snap tool	100
+BetterTouchTool	better touch tool	100
+BetterZip	better zip	100
+Brackets	brackets	100
+BundleHunt	bundlehunt	100
+Byword	byword	100
+C 盤	c pan	100
+C 語言	c yu yan	100
+Caffeine	caffeine	100
+Calcbot	calcbot	100
+Calibre	calibre	100
+CarPlay	car play	100
+CDN	cdn	100
+Charles	charles	100
+CheatSheet	cheat sheet	100
+ChemBioDraw	chembiodraw	100
+Chrome	chrome	100
+CleanMyMac	cleanmymac	100
+Clear	clear	100
+CloudApp	cloud app	100
+CloudMagic	cloud magic	100
+Coda	coda	100
+CodeBox	code box	100
+CodeKit	code kit	100
+CodeRunner	code runner	100
+ColorSchemer	color schemer	100
+ColorSnapper	color snapper	100
+Control Center	control center	100
+Cornerstone	cornerstone	100
+Cornerstone	c s	100
+Cortana	co r tan a	100
+Curio	curio	100
+Current Mac Bundles	current mac bundles	100
+D 盤	d pan	100
+DaisyDisk	daisy disk	100
+Dash	dash	100
+Datagraph	datagraph	100
+Day One	day one	100
+Default Folder X	default folder x	100
+Desktop	desk top	100
+Developer Preview	developer preview	100
+DEVONthink	devon think	100
+Disk Utility	disk utility	100
+Diumoo	diumoo	100
+DNA	dna	100
+Dock	dock	100
+Dropbox	drop box	100
+Dropzone	drop zone	100
+DVD	dvd	100
+E 盤	e pan	100
+EI Capitan	ei capitan	100
+Endnote	endnote	100
+Entropy	entropy	100
+ePub	epub	100
+Eureka	eureka	100
+Evernote	ever note	100
+ExFAT	ex fat	100
+F 盤	f pan	100
+Fantastical	fan tastical	100
+FileVault	file vault	100
+Final Cut Pro	final cut pro	100
+Flickr	flickr	100
+Flux	flux	100
+Force Touch	force touch	100
+Forecast	fore cast	100
+ForkLift	forklift	100
+Frank DeLoupe	frank deloupe	100
+G 點	g dian	100
+G 盤	g pan	100
+Geekbench	geek bench	100
+Gemini	ge mini	100
+Gestimer	ges timer	100
+GhostNote	ghost note	100
+GhostTile	ghost tile	100
+Gif Brewery	gif brewery	100
+Gists	gists	100
+GitHub	github	100
+Gmail	gmail	100
+GoagentX	go agent x	100
+Google	google	100
+Google	gu ge	100
+Google Music	google music	100
+Graffle	graffle	100
+H 股	h gu	100
+H 盤	h pan	100
+Handoff	hang off	100
+Hazel	hazel	100
+Home	home	100
+HomeKit	home kit	100
+HTML	h t m l	100
+I 盤	i pan	100
+iA Writer	ia writer	100
+IBM	i b m	100
+iCloud	i cloud	100
+iCloud Drive	i cloud drive	100
+iExplorer	i explorer	100
+iFFmpeg	iff mpeg	100
+IFTTT	if ttt	100
+iMac	i mac	150
+iMessage	i message	100
+iMore	i more	100
+Inboard	inboard	100
+Instacast	instacast	100
+Instashare	instashare	100
+Intellij IDEA	intellij idea	100
+Intensify	intensify	100
+iOS	i os	100
+IP	i p	200
+IP 地址	i p di zhi	100
+IP 電話	i p dian hua	100
+IP 卡	i p ka	100
+IP 位址	i p wei zhi	100
+iPack	i pack	100
+iPad	i pad	120
+iPhone	i phone	150
+IPN	ipn	100
+iPod	i pod	100
+IPTV	i p tv	100
+IPv4	i p v si	100
+IPv6	i p v liu	100
+iStat Menus	istat menus	100
+iTerm	iterm	100
+iTunes	i tunes	100
+iTunes Connect	i tunes connect	100
+iTunes Match	i tunes match	100
+iWatch	i watch	100
+J 盤	j pan	100
+K 寶	k bao	100
+K 寶	kei bao	100
+K 粉	k fen	100
+K 粉	kei fen	100
+K 歌	k ge	100
+K 歌	kei ge	100
+Kaleidoscope	kaleidoscope	100
+Karabiner	karabiner	100
+Keka	keka	100
+Keyboard Maestro	keyboard maestro	100
+Keycard	key card	100
+KeyCue	key cue	100
+Knock	knock	100
+LaTeXian	latexian	100
+LaTeXian	ltx	100
+Launcher	launcher	100
+Linux	linux	100
+Little Snitch	little snitch	100
+Live Photos	live photos	100
+LiveReload	live reload	100
+LockScreen	lock screen	100
+Mac	mac	100
+Mac App Store	mac app store	100
+Mac Rumors	mac rumors	100
+MacAppDeals	mac app deals	100
+MacBook	mac book	100
+MacBook Air	mac book air	100
+MacID	mac id	100
+macOS	mac os	100
+macOS Sierra	mac os sierra	100
+MacTips	mac tips	100
+MacUpdate Desktop	mac update desktop	100
+Mailbox	mail box	100
+MAMP PRO	mamp pro	100
+Manico	manico	100
+Maple	maple	100
+MarkMyWords	mark my words	100
+MarsEdit	mars edit	100
+Mathtype	math type	100
+Microsoft	micr soft	100
+MIPS	mips	100
+Moke	moke	100
+Moneywiz	moneywiz	100
+Moom	moom	100
+MP3	mp san	100
+MP4	mp si	100
+MplayerX	mplayer x	100
+Netflix	net flix	100
+Noizio	noizio	100
+Numbers	numbers	100
+nvALT	nvalt	100
+Nvidia	nvidia	100
+Office	office	100
+OmmWriter	ommwriter	100
+OmniFocus	omni focus	100
+OmniGraffle	omni graffle	100
+OmniOutliner	omni outliner	100
+OmniPlan	omni plan	100
+OneNote	one note	100
+OS X	o s x	100
+Overcast	over cast	100
+Overflow	over flow	100
+Pages	pages	100
+PaintCode	paint code	100
+Parallels Desktop	parallels desktop	100
+Password	password	100
+Paste	paste	100
+Paw	paw	100
+PayPal	pay pal	100
+PhotoDesk	photo desk	100
+Photoshop	photo shop	100
+Picatext	pica text	100
+PingWest	ping west	100
+Pixelmator	pixel mator	100
+Play by Play	play by play	100
+PlistEdit	plist edit	100
+PopClip	pop clip	100
+POS 機	pos ji	100
+PowerPack	power pack	100
+Privoxy	privoxy	100
+Pro	pro	100
+Promotee	promotee	100
+Proxifier	proxifier	100
+Public Beta	public beta	100
+Python	python	100
+Q 幣	q bi	100
+QQ	q q	100
+QQ 號	q q hao	100
+QQ 號碼	q q hao ma	100
+QQ 會員	q q hui yuan	100
+QQ 空間	q q kong jian	100
+QQ 羣	q q qun	100
+QQ 郵箱	q q you xiang	100
+Quitter	quitter	100
+Quiver	quiver	100
+Rdio	rdio	100
+Readability	read ability	100
+Readkit	read kit	100
+Regulex	regulex	100
+Remote	remote	100
+RescueTime	rescue time	100
+Rime	rime	100
+Rime	zhong zhou yun	100
+Retina	re ti na	100
+Safari	safari	100
+Safari View Controller	safari view controller	100
+SaneDesk	sane desk	100
+#scomper@gmail.com	smail	100
+Scrapbook	scrap book	100
+ScreenFloat	screen float	100
+ScreenFlow	screen flow	100
+Scribble	scri bble	100
+Scrivener	scri vener	100
+SDK	sdk	100
+Should I Sleep	should i sleep	100
+SIM 卡	sim ka	100
+Simplenote	simple note	100
+Siri	siri	100
+Sketch	sketch	100
+Slicy	slicy	100
+Snagit	snagit	100
+Snip	snip	100
+Sparkbox	spark box	100
+Sparrow	sparrow	100
+Speedtest	speed test	100
+Spotify	spot ify	100
+Spotlight	spot light	100
+Spss	spss	100
+Squirrel	squirrel	100
+SSLEdge	ssledge	100
+StackSocial	stack social	100
+Sublime Text	sublime text	100
+Surge	surge	100
+Swift	swift	100
+Symbol	symbol	100
+T 淋巴細胞	t lin ba xi bao	100
+T 細胞	t xi bao	100
+T 型臺	t xing tai	100
+T 恤	t xu	100
+T 恤衫	t xu shan	100
+Tag	ta g	100
+TechWeb	tech web	100
+Telegram	telegram	100
+Terminal	terminal	100
+TestFlight	test flight	100
+Texshop	texshop	100
+Textastic	text astic	100
+TextExpander	text expander	100
+TextWrangler	text wrangler	100
+The Unarchiver	the unarchiver	100
+Things	things	100
+Thunder	thunder	100
+Thunderbird	thunder bird	100
+Time Capsule	time capsule	100
+Timing	timing	100
+TinkerTool	tinker tool	100
+Touch	touch	100
+Touch ID	touch id	100
+Tower	tower	100
+Trello	trello	100
+Tumblr	tumblr	100
+tvOS	tv os	100
+Tweetbot	tweet bot	100
+Twitter	twitter	100
+Typora	typora	100
+U 盾	u dun	100
+U 盤	u pan	100
+U 形管	u xing guan	100
+Uber	u ber	100
+uBlock	u block	100
+UIM 卡	uim ka	100
+Ulysses	u lysses	100
+USB	usb	100
+USIM 卡	u sim ka100
+Versions	versions	100
+VPN	vpn	100
+Watch	watch	100
+watchOS	watch os	100
+Wi-Fi	wai fai	100
+Wi-Fi	wi fi	100
+Widget	widget	100
+WiFi	wai fai	100
+WiFi	wi fi	100
+WiFi Explorer	wifi explorer	100
+WiFi Scanner	wifi scanner	100
+Window Tidy	window tidy	100
+Windows	windows	100
+Word	word	100
+Workflow	work flow	100
+WorkFlowy	work flowy	100
+WWDC	wwdc	100
+X 刀	x dao	100
+X 光	x guang	100
+X 染色體	x ran se ti	100
+X 射線	x she xian	100
+Xee	xee	100
+Xeon	xeon	100
+Xmind	x mind	100
+xScope	x scope	100
+XtraFinder	xtra finder	100
+Y 染色體	y ran se ti	100
+YouTube	you tube	100
+z 變換	z bian huan	100
+z 逆變換	z ni bian huan	100
+ZEALER	zealer	100
+α 粒子	a er fa li zi	100
+α 射線	a er fa she xian	100
+β 粒子	bei ta li zi	100
+β 射線	bei ta she xian	100
+γ 刀	ga ma dao	100
+γ 射線	ga ma she xian	100
+	apple	100

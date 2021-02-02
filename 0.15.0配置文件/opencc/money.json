@@ -1,0 +1,16 @@
+{
+  "name": "money",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "money.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "money.txt"
+    }
+  }]
+}

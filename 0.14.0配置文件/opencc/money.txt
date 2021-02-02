@@ -1,0 +1,14 @@
+CNY	人民币
+USD	美元
+HKD	港币
+JPY	日元
+TWD	新台币
+SGD	新加坡元
+EUR	欧元
+GBP	英镑
+KRW	韩元
+AUD	澳大利亚元
+CAD	加拿大元
+RUB	俄罗斯卢布
+INR	印度卢比
+NLG	荷兰盾

@@ -1,0 +1,139 @@
+# Rime dict
+# encoding: utf-8
+#
+# 深圳市地鐵站名
+# 詞條來源：搜狗輸入法詞庫
+# 創建者：搜狗拼音輸入法
+# 更新：2013-07-18
+# 來源：https://pinyin.sogou.com/dict/detail/index/37361
+#
+# author: Grason Chan
+# GitHub: https://github.com/grasonchan/squirrel-config
+# **不去除** 與 Rime 預設詞彙表【八股文】重複的詞彙
+# 2021-01-23
+
+---
+name: "luna_pinyin.shenzhen_ditiezhan"
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+愛聯	ai lian
+安託山	an tuo shan
+百鴿籠	bai ge long
+白石龍	bai shi long
+白石洲	bai shi zhou
+坂田	ban tian
+寶安中心	bao an zhong xin
+寶華	bao hua
+寶體	bao ti
+布吉	bu ji
+布心	bu xin
+草埔	cao pu
+長嶺陂	chang ling bei
+長龍	chang long
+車公廟	che gong miao
+赤灣	chi wan
+翠竹	cui zhu
+大芬	da fen
+大劇院	da ju yuan
+大新	da xin
+大學城	da xue cheng
+大運	da yun
+丹竹頭	dan zhu tou
+登良	deng liang
+東角頭	dong jiao tou
+翻身	fan shen
+福民	fu min
+福田	fu tian
+福田口岸	fu tian kou an
+崗廈	gang xia
+崗廈北	gang xia bei
+高新園	gao xin yuan
+購物公園	gou wu gong yuan
+固戍	gu shu
+國貿	guo mao
+海上世界	hai shang shi jie
+海月	hai yue
+荷坳	he ao
+橫崗	heng gang
+洪浪北	hong lang bei
+紅嶺	hong ling
+紅山	hong shan
+紅樹灣	hong shu wan
+後海	hou hai
+後瑞	hou rui
+湖貝	hu bei
+華強北	hua qiang bei
+華強路	hua qiang lu
+華僑城	hua qiao cheng
+華新	hua xin
+黃貝嶺	huang bei ling
+會展中心	hui zhan zhong xin
+機場東	ji chang dong
+吉祥	ji xiang
+景田	jing tian
+科學館	ke xue guan
+科苑	ke yuan
+老街	lao jie
+鯉魚門	li yu men
+蓮花北	lian hua bei
+蓮花村	lian hua cun
+蓮花西	lian hua xi
+臨海	lin hai
+靈芝	ling zhi
+留仙洞	liu xian dong
+六約	liu yue
+龍城廣場	long cheng guang chang
+龍華	long hua
+龍勝	long sheng
+羅湖	luo hu
+民樂	min yue
+民治	min zhi
+木棉灣	mu mian wan
+南聯	nan lian
+坪洲	ping zhou
+前海灣	qian hai wan
+僑城北	qiao cheng bei
+僑城東	qiao cheng dong
+僑香	qiao xiang
+清湖	qing hu
+曬布	shai bu
+上梅林	shang mei lin
+上水徑	shang shui jing
+上塘	shang tang
+少年宮	shao nian gong
+蛇口港	she kou gang
+深大	shen da
+深康	shen kang
+深圳北站	shen zhen bei zhan
+世界之窗	shi jie zhi chuang
+市民中心	shi min zhong xin
+石廈	shi xia
+雙龍	shuang long
+水貝	shui bei
+水灣	shui wan
+太安	tai an
+塘坑	tang keng
+塘朗	tang lang
+桃園	tao yuan
+田貝	tian bei
+通新嶺	tong xin ling
+灣廈	wan sha
+五和	wu he
+西麗	xi li
+西鄉	xi xiang
+下水徑	xia shui jing
+香梅北	xiang mei bei
+香蜜	xiang mi
+香蜜湖	xiang mi hu
+新安	xin an
+新秀	xin xiu
+興東	xing dong
+燕南	yan nan
+楊美	yang mei
+怡景	yi jing
+益田	yi tian
+永湖	yong hu
+竹子林	zhu zi lin

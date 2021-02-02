@@ -1,0 +1,263 @@
+# Rime dict
+# encoding: utf-8
+#
+# 揭陽市公交站名
+# 詞條來源：搜狗輸入法詞庫
+# 創建者：搜狗拼音輸入法
+# 更新：2013-07-18
+# 來源：https://pinyin.sogou.com/dict/detail/index/37280
+#
+# author: Graon Chan
+# GitHub: https://github.com/grasonchan/squirrel-config
+# **不去除** 與 Rime 預設詞彙表【八股文】重複的詞彙
+# 2021-01-25
+
+---
+name: "luna_pinyin.jieyang_gongjiaozhan"
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+庵後村路口	an hou cun lu kou
+安路口	an lu kou
+庵前村	an qian cun
+北門市場	bei men shi chang
+北洋村	bei yang cun
+濱淇村	bin qi cun
+伯勞村	bo lao cun
+卜蜂蓮花東山店	bu feng lian hua dong shan dian
+槎橋村路口	cha qiao cun lu kou
+潮汕機場	chao shan ji chang
+潮州路	chao zhou lu
+潮州路口	chao zhou lu kou
+陳厝村	chen cuo cun
+城西路口	cheng xi lu kou
+崇文路口	chong wen lu kou
+祠堂村	ci tang cun
+慈雲醫院路口	ci yun yi yuan lu kou
+大隴村	da long cun
+大瑤	da yao
+登崗	deng gang
+登崗中學	deng gang zhong xue
+地都鎮	di dou zhen
+吊橋	diao qiao
+頂鄉村路口	ding xiang cun lu kou
+東風廣場	dong feng guang chang
+東湖公園	dong hu gong yuan
+東山村	dong shan cun
+東山區政府	dong shan qu zheng fu
+東山信合	dong shan xin he
+東寨村路口	dong zhai cun lu kou
+鳳潮村	feng chao cun
+鳳林路口	feng lin lu kou
+鳳林橋頭	feng lin qiao tou
+鳳林市場	feng lin shi chang
+楓美	feng mei
+鳳鳴	feng ming
+鳳前	feng qian
+豐盛集團	feng sheng ji tuan
+豐溪	feng xi
+富榕賓館	fu rong bin guan
+港畔	gang pan
+溝美村	gou mei cun
+古溪市場	gu xi shi chang
+官碩路口	guan shuo lu kou
+廣安寺	guang an si
+廣百百貨商場	guang bai bai huo shang chang
+光裕	guang yu
+桂嶺鎮政府	gui ling zhen zheng fu
+果蔬批發市場	guo shu pi fa shi chang
+果蔬市場	guo shu shi chang
+海關	hai guan
+海關西	hai guan xi
+和豐國際商務酒店	he feng guo ji shang wu jiu dian
+河中村	he zhong cun
+橫山	heng shan
+宏光玻璃	hong guang bo li
+厚和陳	hou he chen
+華昌電器	hua chang dian qi
+華南大酒店	hua nan da jiu dian
+華清中隊	hua qing zhong dui
+黃歧山路口	huang qi shan lu kou
+匯康彭林店	hui kang peng lin dian
+火車站	huo che zhan
+機電大廈	ji dian da sha
+吉榮空調	ji rong kong tiao
+吉榮路口	ji rong lu kou
+江濱花園	jiang bin hua yuan
+交警支隊	jiao jing zhi dui
+蛟龍	jiao long
+揭東大圓	jie dong da yuan
+揭東技工學校	jie dong ji gong xue xiao
+揭東人民醫院	jie dong ren min yi yuan
+揭東水廠	jie dong shui chang
+揭東信合	jie dong xin he
+揭東移動	jie dong yi dong
+揭陽潮汕機場	jie yang chao shan ji chang
+揭陽電力	jie yang dian li
+揭陽二中	jie yang er zhong
+揭陽機場	jie yang ji chang
+揭陽監獄	jie yang jian yu
+揭陽樓	jie yang lou
+揭陽三中路口	jie yang san zhong lu kou
+揭陽體校	jie yang ti xiao
+揭陽衛校	jie yang wei xiao
+揭陽學院	jie yang xue yuan
+揭陽一中附中	jie yang yi zhong fu zhong
+金城步行街	jin cheng bu xing jie
+金港酒店	jin gang jiu dian
+金龍花園	jin long hua yuan
+金屬材料市場	jin shu cai liao shi chang
+進賢門	jin xian men
+進賢門市場	jin xian men shi chang
+進賢門市場西場	jin xian men shi chang xi chang
+錦鏽花園	jin xiu hua yuan
+金葉酒店	jin ye jiu dian
+巨輪股份	ju lun gu fen
+奎地村	kui di cun
+蓮塘新遼	lian tang xin liao
+劉畔村	liu pan cun
+隴埔路口	long pu lu kou
+龍珠寺	long zhu si
+路蓖路口	lu bi lu kou
+盧前市場	lu qian shi chang
+盧前停車場	lu qian ting che chang
+爐頭村	lu tou cun
+羅山大橋	luo shan da qiao
+馬牙車站	ma ya che zhan
+馬牙市場	ma ya shi chang
+馬牙市場西	ma ya shi chang xi
+梅崗中學	mei gang zhong xue
+梅雲厚洋村	mei yun hou yang cun
+梅雲鎮政府	mei yun zhen zheng fu
+棉樹村	mian shu cun
+綿鏽花園	mian xiu hua yuan
+棉洋村	mian yang cun
+明珠帝苑	ming zhu di yuan
+南潮	nan chao
+南隴	nan long
+南溪	nan xi
+牌邊村	pai bian cun
+磐東醫院	pan dong yi yuan
+磐東鎮政府	pan dong zhen zheng fu
+炮臺車站	pao tai che zhan
+炮臺電信	pao tai dian xin
+炮臺農行	pao tai nong hang
+炮臺收費站	pao tai shou fei zhan
+彭林工業區	peng lin gong ye qu
+彭林三號路口	peng lin san hao lu kou
+浦東大圓	pu dong da yuan
+埔美	pu mei
+埔田大圓	pu tian da yuan
+埔田路口	pu tian lu kou
+埔仔	pu zai
+汽車總站	qi che zong zhan
+岐山車站	qi shan che zhan
+岐山學校路口	qi shan xue xiao lu kou
+錢前	qian qian
+喬林工業區	qiao lin gong ye qu
+橋南路口	qiao nan lu kou
+喬南玉器中心	qiao nan yu qi zhong xin
+橋南玉器中心	qiao nan yu qi zhong xin
+青溪路口	qing xi lu kou
+邱金元中學	qiu jin yuan zhong xue
+邱中路口	qiu zhong lu kou
+羣記車行	qun ji che hang
+饒美村	rao mei cun
+仁輝村路口	ren hui cun lu kou
+仁義路口	ren yi lu kou
+榕城交警	rong cheng jiao jing
+榕城區政府	rong cheng qu zheng fu
+榕東大橋	rong dong da qiao
+榕東市場	rong dong shi chang
+榕東中學	rong dong zhong xue
+榕鴻賓館	rong hong bin guan
+榕江大酒店	rong jiang da jiu dian
+榕泰製藥廠	rong tai zhi yao chang
+榕西路口	rong xi lu kou
+塞一	sai yi
+三和	san he
+三友	san you
+汕揭高速	shan jie gao su
+深展實業	shen zhan shi ye
+市地稅局	shi di shui ju
+市發展銀行	shi fa zhan yin hang
+市工行	shi gong hang
+市廣播電視中心	shi guang bo dian shi zhong xin
+市技工學校	shi ji gong xue xiao
+市人民醫院路口	shi ren min yi yuan lu kou
+石頭村	shi tou cun
+實驗中學	shi yan zhong xue
+實驗中學西	shi yan zhong xue xi
+石洋村	shi yang cun
+市郵政銀行	shi you zheng yin hang
+市政府	shi zheng fu
+市中保	shi zhong bao
+市中醫院	shi zhong yi yuan
+市綜合中專	shi zong he zhong zhuan
+塔崗	ta gang
+潭蔡村	tan cai cun
+潭王村	tan wang cun
+糖廠	tang chang
+塘埔	tang pu
+塘埔村	tang pu cun
+塘埔路口	tang pu lu kou
+陶厝村路口	tao cuo cun lu kou
+桃山	tao shan
+特美思	te mei si
+田島機繡	tian dao ji xiu
+天籟電聲	tian lai dian sheng
+天美塑膠	tian mei su jiao
+萬竹園	wan zhu yuan
+望龍頭村	wang long tou cun
+烏美	wu mei
+錫場安路口	xi chang an lu kou
+錫場高速路口	xi chang gao su lu kou
+錫場交管所	xi chang jiao guan suo
+錫場鎮政府	xi chang zhen zheng fu
+西關路口	xi guan lu kou
+西湖村	xi hu cun
+西馬辦事處	xi ma ban shi chu
+西岐學校	xi qi xue xiao
+溪頭村	xi tou cun
+錫西村	xi xi cun
+西苑小區	xi yuan xiao qu
+西寨村路口	xi zhai cun lu kou
+錫中村	xi zhong cun
+下成	xia cheng
+下六村	xia liu cun
+下義村	xia yi cun
+仙滘路口	xian jiao lu kou
+仙美路口	xian mei lu kou
+仙橋大圓	xian qiao da yuan
+仙陽村	xian yang cun
+小坑	xiao keng
+新不夜城	xin bu ye cheng
+新河市場	xin he shi chang
+新亨市場	xin heng shi chang
+新滘市場	xin jiao shi chang
+新市	xin shi
+星河城	xing he cheng
+許厝村路口	xu cuo cun lu kou
+圩埔路口	xu pu lu kou
+陽光酒店	yang guang jiu dian
+陽美國際大酒店	yang mei guo ji da jiu dian
+銀珠大廈	yin zhu da sha
+郵儲銀行	you chu yin hang
+漁湖碼頭	yu hu ma tou
+漁湖鎮政府	yu hu zhen zheng fu
+漁湖中學	yu hu zhong xue
+玉滘鎮政府	yu jiao zhen zheng fu
+玉浦大廈	yu pu da sha
+漁中路口	yu zhong lu kou
+粵東貿易廣場	yue dong mao yi guang chang
+粵東鞋材城	yue dong xie cai cheng
+雲路鎮政府	yun lu zhen zheng fu
+真中路口	zhen zhong lu kou
+鍾厝洋村	zhong cuo yang cun
+鍾堂路口	zhong tang lu kou
+中興園	zhong xing yuan
+中醫院	zhong yi yuan
+自來水公司	zi lai shui gong si
+鑽寶電子廠	zuan bao dian zi chang

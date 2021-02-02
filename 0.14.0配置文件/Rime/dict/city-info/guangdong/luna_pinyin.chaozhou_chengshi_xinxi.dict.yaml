@@ -1,0 +1,2665 @@
+# Rime dict
+# encoding: utf-8
+#
+# 潮州市城市信息精選
+# 詞條來源：搜狗輸入法詞庫
+# 創建者：搜狗拼音輸入法
+# 更新：2013-07-18
+# 來源：https://pinyin.sogou.com/dict/detail/index/19494
+#
+# author: Graon Chan
+# GitHub: https://github.com/grasonchan/squirrel-config
+# **不去除** 與 Rime 預設詞彙表【八股文】重複的詞彙
+# 2021-01-25
+
+---
+name: "luna_pinyin.chaozhou_chengshi_xinxi"
+version: "2.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+阿波羅	a bo luo
+愛吧	ai ba
+艾格	ai ge
+愛美空間	ai mei kong jian
+艾莎家紡	ai sha jia fang
+愛嬰天地	ai ying tian di
+庵北派出所	an bei pai chu suo
+安邊	an bian
+庵邊	an bian
+庵埠華僑中學	an bu hua qiao zhong xue
+庵埠鎮政府	an bu zhen zheng fu
+安福堂	an fu tang
+安哥瑪麗絲	an ge ma li si
+庵後村	an hou cun
+安客隆	an ke long
+庵坑	an keng
+安民村	an min cun
+安南大酒店	an nan da jiu dian
+安平	an ping
+庵埔	an pu
+庵前	an qian
+安全村	an quan cun
+案上	an shang
+安盛花園	an sheng hua yuan
+安順加油站	an shun jia you zhan
+安踏體育	an ta ti yu
+安踏專賣	an ta zhuan mai
+安田	an tian
+庵田	an tian
+庵頭	an tou
+安溪村	an xi cun
+庵下	an xia
+案下	an xia
+凹背	ao bei
+奧康	ao kang
+奧馬眼鏡	ao ma yan jing
+鰲頭站	ao tou zhan
+凹下	ao xia
+八角樓	ba jiao lou
+八角樓村	ba jiao lou cun
+八角丘	ba jiao qiu
+壩坑	ba keng
+巴黎婚紗	ba li hun sha
+壩上	ba shang
+壩頭	ba tou
+壩下	ba xia
+八仙山	ba xian shan
+八字嶺	ba zi ling
+百合幼兒園	bai he you er yuan
+柏峻	bai jun
+百麗	bai li
+白蓮	bai lian
+白蓮庵	bai lian an
+白蓮村	bai lian cun
+白蓮湖	bai lian hu
+白馬服裝城	bai ma fu zhuang cheng
+白茫洲	bai mang zhou
+白門山	bai men shan
+白麪石	bai mian shi
+白橋	bai qiao
+白雀寺	bai que si
+白沙湖	bai sha hu
+白沙潭	bai sha tan
+白沙寨	bai sha zhai
+白石	bai shi
+白石塊	bai shi kuai
+白石嶺	bai shi ling
+白石樓	bai shi lou
+白石寺	bai shi si
+白水村	bai shui cun
+白水湖	bai shui hu
+白水橋	bai shui qiao
+白水塘	bai shui tang
+柏嵩	bai song
+白塔	bai ta
+白塔村	bai ta cun
+白塔學校	bai ta xue xiao
+白潭	bai tan
+百信超市	bai xin chao shi
+百姓茶樓	bai xing cha lou
+百姓購物	bai xing gou wu
+白葉村	bai ye cun
+白玉蘭大酒店	bai yu lan da jiu dian
+白雲庵	bai yun an
+白雲村	bai yun cun
+白雲林場	bai yun lin chang
+白雲岩	bai yun yan
+半徑村	ban jing cun
+半嶺	ban ling
+班尼路	ban ni lu
+半山	ban shan
+坂上村	ban shang cun
+半天山	ban tian shan
+邦湖	bang hu
+邦妮花園	bang ni hua yuan
+邦妮火鍋城	bang ni huo guo cheng
+蚌山	bang shan
+寶島眼鏡	bao dao yan jing
+保健藥房	bao jian yao fang
+保健院	bao jian yuan
+寶麗美容	bao li mei rong
+寶山中學	bao shan zhong xue
+鮑上	bao shang
+北厝	bei cuo
+北堤村	bei di cun
+北方飯店	bei fang fan dian
+北方餃子館	bei fang jiao zi guan
+北港	bei gang
+北閣佛燈	bei ge fo deng
+北關	bei guan
+北關村	bei guan cun
+北光	bei guang
+北京同仁堂	bei jing tong ren tang
+北坑	bei keng
+碑坑	bei keng
+陂坑	bei keng
+北坑村	bei keng cun
+北橋大廈	bei qiao da sha
+北山	bei shan
+背頭嶺	bei tou ling
+北溪	bei xi
+北溪河	bei xi he
+北新	bei xin
+北園	bei yuan
+崩崗	beng gang
+崩坎	beng kan
+崩土	beng tu
+碧豐	bi feng
+碧岡	bi gang
+筆架山	bi jia shan
+碧洲村	bi zhou cun
+蝙蝠巖	bian fu yan
+別峯古寺	bie feng gu si
+濱江停車場	bin jiang ting che chang
+伯公坳	bo gong ao
+玻璃燈具廠	bo li deng ju chang
+柏林	bo lin
+博士村	bo shi cun
+博士眼鏡	bo shi yan jing
+布袋坑	bu dai keng
+布洞	bu dong
+部隊路口	bu dui lu kou
+卜蜂蓮花	bu feng lian hua
+蔡厝	cai cuo
+彩虹花園	cai hong hua yuan
+彩金亭	cai jin ting
+蔡坑	cai keng
+彩里路	cai li lu
+蔡林	cai lin
+蔡隴	cai long
+彩山	cai shan
+彩塘車站	cai tang che zhan
+彩塘華僑醫院	cai tang hua qiao yi yuan
+蔡尾	cai wei
+彩文花園	cai wen hua yuan
+蒼光	cang guang
+藏龍路口	cang long lu kou
+草安村	cao an cun
+曹厝	cao cuo
+草坑	cao keng
+草塘村	cao tang cun
+側面虎	ce mian hu
+曾葛	ceng ge
+曾屋	ceng wu
+茶寮	cha liao
+柴橋	chai qiao
+長背	chang bei
+長城集團	chang cheng ji tuan
+長春路	chang chun lu
+長教村	chang jiao cun
+長徑	chang jing
+昌黎路小學	chang li lu xiao xue
+長嶺	chang ling
+長美	chang mei
+長美橋	chang mei qiao
+長美寨	chang mei zhai
+長美中學	chang mei zhong xue
+廠頭村	chang tou cun
+潮安車站	chao an che zhan
+潮安汽車站	chao an qi che zhan
+潮安縣	chao an xian
+潮安縣公安局	chao an xian gong an ju
+潮安縣國稅局	chao an xian guo shui ju
+潮安縣教育局	chao an xian jiao yu ju
+潮安縣龍溪中學	chao an xian long xi zhong xue
+潮安縣人事局	chao an xian ren shi ju
+潮安縣實驗學校	chao an xian shi yan xue xiao
+潮安縣政府	chao an xian zheng fu
+超苟	chao gou
+潮流集團	chao liu ji tuan
+潮流天地	chao liu tian di
+潮榮	chao rong
+潮州賓館	chao zhou bin guan
+潮州博物館	chao zhou bo wu guan
+潮州高級中學	chao zhou gao ji zhong xue
+潮州古巷鎮	chao zhou gu xiang zhen
+潮州廣播電視臺	chao zhou guang bo dian shi tai
+潮州海關	chao zhou hai guan
+潮州美食城	chao zhou mei shi cheng
+潮州汽車總站	chao zhou qi che zong zhan
+潮州日報社	chao zhou ri bao she
+潮州市	chao zhou shi
+潮州市財政局	chao zhou shi cai zheng ju
+潮州市公安局	chao zhou shi gong an ju
+潮州市公路局	chao zhou shi gong lu ju
+潮州市工商局	chao zhou shi gong shang ju
+潮州市紅十字會	chao zhou shi hong shi zi hui
+潮州市交通局	chao zhou shi jiao tong ju
+潮州市教育局	chao zhou shi jiao yu ju
+潮州市科技局	chao zhou shi ke ji ju
+潮州市勞動局	chao zhou shi lao dong ju
+潮州市民政局	chao zhou shi min zheng ju
+潮州市人事局	chao zhou shi ren shi ju
+潮州市實驗學校	chao zhou shi shi yan xue xiao
+潮州市司法局	chao zhou shi si fa ju
+潮州市統計局	chao zhou shi tong ji ju
+潮州市委	chao zhou shi wei
+潮州市衛生局	chao zhou shi wei sheng ju
+潮州市郵政局	chao zhou shi you zheng ju
+潮州市政府	chao zhou shi zheng fu
+潮州市中心醫院	chao zhou shi zhong xin yi yuan
+潮州市中醫院	chao zhou shi zhong yi yuan
+潮州醫院	chao zhou yi yuan
+潮州迎賓館	chao zhou ying bin guan
+潮州站	chao zhou zhan
+車嶺	che ling
+車嶺村	che ling cun
+車田	che tian
+車站大廈	che zhan da sha
+陳厝	chen cuo
+陳厝村	chen cuo cun
+陳東	chen dong
+陳鵝	chen e
+陳坑村	chen keng cun
+陳畔	chen pan
+陳橋	chen qiao
+陳橋村	chen qiao cun
+陳氏鞋業	chen shi xie ye
+陳陀	chen tuo
+陳屋	chen wu
+城北派出所	cheng bei pai chu suo
+城北市場	cheng bei shi chang
+城北學校	cheng bei xue xiao
+城東派出所	cheng dong pai chu suo
+城東幼兒園	cheng dong you er yuan
+城岡	cheng gang
+城崗村	cheng gang cun
+城河	cheng he
+城基實驗中學	cheng ji shi yan zhong xue
+城基中學	cheng ji zhong xue
+成林峯	cheng lin feng
+城南	cheng nan
+城南派出所	cheng nan pai chu suo
+城南實驗中學	cheng nan shi yan zhong xue
+城南小學	cheng nan xiao xue
+城南中英文小學	cheng nan zhong ying wen xiao xue
+城南中英文學校	cheng nan zhong ying wen xue xiao
+程畔村	cheng pan cun
+城西派出所	cheng xi pai chu suo
+城西衛生院	cheng xi wei sheng yuan
+城西中學	cheng xi zhong xue
+城新路口	cheng xin lu kou
+城中派出所	cheng zhong pai chu suo
+赤凹	chi ao
+池湖	chi hu
+池湖路口	chi hu lu kou
+池湖中心站	chi hu zhong xin zhan
+赤坑	chi keng
+赤坑村	chi keng cun
+赤嶺村	chi ling cun
+赤溜	chi liu
+赤樓	chi lou
+赤水	chi shui
+赤水村	chi shui cun
+赤塘	chi tang
+赤竹坑	chi zhu keng
+赤竹坪	chi zhu ping
+崇尚發藝	chong shang fa yi
+醜小鴨	chou xiao ya
+初石	chu shi
+船肚	chuan du
+川王府	chuan wang fu
+川渝人家	chuan yu ren jia
+創石	chuang shi
+春城樓	chun cheng lou
+春光大酒店	chun guang da jiu dian
+春輝旅行社	chun hui lv xing she
+春榮花園	chun rong hua yuan
+瓷都中學	ci du zhong xue
+祠西	ci xi
+瓷興路口	ci xing lu kou
+瓷苑	ci yuan
+從熙公祠	cong xi gong ci
+粗坑	cu keng
+翠華園	cui hua yuan
+村龍	cun long
+村頭村	cun tou cun
+村尾	cun wei
+村下村	cun xia cun
+厝圍	cuo wei
+厝仔	cuo zai
+大庵	da an
+大北坑	da bei keng
+大北山	da bei shan
+大埔圍	da bu wei
+大埔園	da bu yuan
+大埕	da cheng
+大埕村	da cheng cun
+大成企業	da cheng qi ye
+大成行	da cheng xing
+大厝	da cuo
+大旦	da dan
+大道南	da dao nan
+大東	da dong
+大肚林	da du lin
+大肚山	da du shan
+達芙妮	da fu ni
+大福田	da fu tian
+大港	da gang
+大光村	da guang cun
+大巷村	da hang cun
+達亨	da heng
+大湖	da hu
+大湖山	da hu shan
+大火路	da huo lu
+大尖	da jian
+大尖頂	da jian ding
+大尖山	da jian shan
+大徑	da jing
+大坑	da keng
+大坑村	da keng cun
+大坑裏	da keng li
+大坑內	da keng nei
+大坑山	da keng shan
+大坑水庫	da keng shui ku
+大坑尾	da keng wei
+大蘭	da lan
+大壢	da li
+大寮	da liao
+大寮村	da liao cun
+大嶺	da ling
+大嶺坡	da ling po
+大嶺山	da ling shan
+大嶺頭	da ling tou
+大隴	da long
+大樓	da lou
+大樓村	da lou cun
+大路頂	da lu ding
+大路嶺	da lu ling
+大路面	da lu mian
+大路下	da lu xia
+大南湖	da nan hu
+大南坑	da nan keng
+大南嶺	da nan ling
+大棚頂	da peng ding
+大片村	da pian cun
+大片裏	da pian li
+大坪	da ping
+大坪村	da ping cun
+大坪埔	da ping pu
+大坪山	da ping shan
+大坪頭	da ping tou
+大坪尾	da ping wei
+大坡	da po
+大坡樓	da po lou
+大坡下	da po xia
+大橋東	da qiao dong
+大人家	da ren jia
+大榕村	da rong cun
+大潤發	da run fa
+大潤發購物廣場	da run fa gou wu guang chang
+大山	da shan
+大山鎮	da shan zhen
+大深坑	da shen keng
+大石場	da shi chang
+大水壩	da shui ba
+大水坑	da shui keng
+大塘北	da tang bei
+大塘面	da tang mian
+打鐵坑	da tie keng
+大亭	da ting
+大頭城	da tou cheng
+大圍	da wei
+大窩	da wo
+大沃村	da wo cun
+大屋	da wu
+大吳村	da wu cun
+打仙山	da xian shan
+大謝	da xie
+大新鄉	da xin xiang
+大圩	da xu
+大洋場	da yang chang
+大洋東	da yang dong
+大窯	da yao
+大垸	da yuan
+大園村	da yuan cun
+大垸農場	da yuan nong chang
+大寨	da zhai
+大質山	da zhi shan
+大衆餐廳	da zhong can ting
+大夫地	dai fu di
+淡浮院	dan fu yuan
+淡浮院路口	dan fu yuan lu kou
+丹湖	dan hu
+擔水坑	dan shui keng
+倒背	dao bei
+倒角	dao jiao
+道蒙	dao meng
+道韻樓	dao yun lou
+德爾惠	de er hui
+德克士	de ke shi
+德盛	de sheng
+德馨樓	de xin lou
+德業村	de ye cun
+德州地產	de zhou di chan
+德州路口	de zhou lu kou
+鄧厝	deng cuo
+登慶	deng qing
+燈塔村	deng ta cun
+登塘	deng tang
+登塘村	deng tang cun
+登塘鎮	deng tang zhen
+燈盞山	deng zhan shan
+堤邊村	di bian cun
+堤腳	di jiao
+底寮	di liao
+帝牌男裝	di pai nan zhuang
+地稅局	di shui ju
+堤頭	di tou
+堤頭村	di tou cun
+第一山	di yi shan
+第一溪	di yi xi
+電力局	dian li ju
+電排站	dian pai zhan
+電器市場	dian qi shi chang
+電視臺	dian shi tai
+甸園	dian yuan
+雕刻時光	diao ke shi guang
+疊石	die shi
+頂厝	ding cuo
+頂宮	ding gong
+頂湖	ding hu
+頂坑	ding keng
+頂嶺	ding ling
+頂坪	ding ping
+頂山頂	ding shan ding
+頂鄉村	ding xiang cun
+頂新村	ding xin cun
+頂窯	ding yao
+鼎裕	ding yu
+東邊村	dong bian cun
+東彩路	dong cai lu
+東燦	dong can
+東嘗	dong chang
+東埕村	dong cheng cun
+東厝	dong cuo
+冬弟	dong di
+東二村	dong er cun
+東風埭	dong feng dai
+東鳳站	dong feng zhan
+東鳳鎮政府	dong feng zhen zheng fu
+東崗村	dong gang cun
+東港村	dong gang cun
+東崗樓	dong gang lou
+東古	dong gu
+冬瓜坪村	dong gua ping cun
+冬瓜山	dong gua shan
+冬瓜園	dong gua yuan
+東官村	dong guan cun
+東光	dong guang
+東光村	dong guang cun
+東海樓	dong hai lou
+東和村	dong he cun
+東和學校	dong he xue xiao
+東湖山莊	dong hu shan zhuang
+東湖新村	dong hu xin cun
+東湖住宅區	dong hu zhu zhai qu
+東華樓	dong hua lou
+東角	dong jiao
+東郊	dong jiao
+東津	dong jin
+東徑	dong jing
+東坑	dong keng
+東坑山	dong keng shan
+東坑洋	dong keng yang
+東梨	dong li
+東里村	dong li cun
+東麗湖大酒店	dong li hu da jiu dian
+東聯	dong lian
+東寮	dong liao
+東寮村	dong liao cun
+東隴村	dong long cun
+東龍村	dong long cun
+東門村	dong men cun
+東門市場	dong men shi chang
+東明村	dong ming cun
+東南村	dong nan cun
+東鵬陶瓷專賣店	dong peng tao ci zhuan mai dian
+東片	dong pian
+東埔	dong pu
+東埔村	dong pu cun
+洞泉村	dong quan cun
+東三村	dong san cun
+東山	dong shan
+東山村	dong shan cun
+東山湖	dong shan hu
+東山湖度假村	dong shan hu du jia cun
+東山湖農場	dong shan hu nong chang
+東山林	dong shan lin
+東山嶺	dong shan ling
+東山南	dong shan nan
+東山埔	dong shan pu
+東山前村	dong shan qian cun
+東汕頭	dong shan tou
+東山鎮政府	dong shan zhen zheng fu
+東社村	dong she cun
+東昇村	dong sheng cun
+東昇食品廠	dong sheng shi pin chang
+東石	dong shi
+東順	dong shun
+東四村	dong si cun
+東塘	dong tang
+東田公司	dong tian gong si
+東灣林場	dong wan lin chang
+東溪大橋	dong xi da qiao
+東峽村	dong xia cun
+東鄉	dong xiang
+東巷村	dong xiang cun
+東興	dong xing
+東星	dong xing
+東興村	dong xing cun
+東興樓	dong xing lou
+東旭超市	dong xu chao shi
+東陽	dong yang
+東洋村	dong yang cun
+東一村	dong yi cun
+東園	dong yuan
+東竈村	dong zao cun
+東寨村	dong zhai cun
+東莊	dong zhuang
+都會佳人	dou hui jia ren
+斗門橋	dou men qiao
+鬥文村	dou wen cun
+獨樹村	du shu cun
+渡頭村	du tou cun
+墩背	dun bei
+墩上	dun shang
+多美麗	duo mei li
+多年山	duo nian shan
+二墩	er dun
+二尖	er jian
+二尖山	er jian shan
+二茅	er mao
+二美	er mei
+二善	er shan
+法光寺	fa guang si
+發展銀行	fa zhan yin hang
+番石榴	fan shi liu
+方氏眼鏡	fang shi yan jing
+飛鵝	fei e
+飛鵝山	fei e shan
+飛鳳	fei feng
+飛鳳山	fei feng shan
+飛天燕	fei tian yan
+飛燕	fei yan
+墳前	fen qian
+鳳北村	feng bei cun
+鳳北小學	feng bei xiao xue
+鳳城賓館	feng cheng bin guan
+鳳城花園	feng cheng hua yuan
+鳳城影劇院	feng cheng ying ju yuan
+風吹嶺	feng chui ling
+楓春海鮮大排檔	feng chun hai xian da pai dang
+楓春市場	feng chun shi chang
+馮厝村	feng cuo cun
+鳳地	feng di
+鳳地山	feng di shan
+鳳東	feng dong
+鳳東村	feng dong cun
+鳳二	feng er
+楓二工業區	feng er gong ye qu
+楓二新村	feng er xin cun
+鳳崗	feng gang
+鳳崗村	feng gang cun
+鳳光村	feng guang cun
+鳳湖村	feng hu cun
+鳳凰徑	feng huang jing
+鳳凰山	feng huang shan
+鳳凰山風景區	feng huang shan feng jing qu
+鳳凰水庫	feng huang shui ku
+鳳凰塔	feng huang ta
+鳳凰臺	feng huang tai
+鳳凰影劇院	feng huang ying ju yuan
+鳳凰鎮政府	feng huang zhen zheng fu
+鳳凰中學	feng huang zhong xue
+鳳凰洲公園	feng huang zhou gong yuan
+鳳江橋	feng jiang qiao
+鳳坑	feng keng
+豐聯	feng lian
+鳳林	feng lin
+鳳嶺	feng ling
+鳳嶺村	feng ling cun
+鳳隴	feng long
+鳳美	feng mei
+鳳美村	feng mei cun
+鳳埔	feng pu
+鳳岐村	feng qi cun
+鳳三	feng san
+鳳山	feng shan
+鳳山村	feng shan cun
+鳳山樓	feng shan lou
+楓樹坪	feng shu ping
+楓樹橋	feng shu qiao
+楓樹下	feng shu xia
+風水村	feng shui cun
+鳳四	feng si
+風塘	feng tang
+鳳塘韓鋼	feng tang han gang
+鳳塘收費站	feng tang shou fei zhan
+鳳塘鎮	feng tang zhen
+鳳塘鎮路口	feng tang zhen lu kou
+風塘鎮路口	feng tang zhen lu kou
+鳳塘中學	feng tang zhong xue
+馮田村	feng tian cun
+楓頭	feng tou
+楓土	feng tu
+鳳溪	feng xi
+鳳西	feng xi
+楓溪	feng xi
+鳳溪村	feng xi cun
+鳳西村	feng xi cun
+楓溪大廈	feng xi da sha
+楓溪廣場東	feng xi guang chang dong
+楓溪廣場西	feng xi guang chang xi
+楓溪鋪尾	feng xi pu wei
+楓溪小學	feng xi xiao xue
+楓溪鎮	feng xi zhen
+鳳新村	feng xin cun
+鳳新衛生院	feng xin wei sheng yuan
+楓行	feng xing
+鳳眼	feng yan
+楓洋	feng yang
+楓洋農校	feng yang nong xiao
+鳳儀村	feng yi cun
+楓一村	feng yi cun
+楓一路口	feng yi lu kou
+豐源加油站	feng yuan jia you zhan
+鳳洲	feng zhou
+鳳洲中學	feng zhou zhong xue
+福安路	fu an lu
+富安娜家紡	fu an na jia fang
+福北	fu bei
+福北村	fu bei cun
+浮濱鎮	fu bin zhen
+福洞村	fu dong cun
+浮崗村	fu gang cun
+浮崗路口	fu gang lu kou
+福光	fu guang
+富貴鳥男裝	fu gui niao nan zhuang
+福聚	fu ju
+福居樓	fu ju lou
+富麗公園	fu li gong yuan
+富麗學校	fu li xue xiao
+富麗幼兒園	fu li you er yuan
+福南村	fu nan cun
+福慶村	fu qing cun
+浮任村	fu ren cun
+夫人宮	fu ren gong
+浮石村	fu shi cun
+福陽	fu yang
+浮洋水電	fu yang shui dian
+浮洋鎮政府	fu yang zhen zheng fu
+婦幼保健院	fu you bao jian yuan
+福園	fu yuan
+富悅園	fu yue yuan
+孚中	fu zhong
+嘎斯非兒	ga si fei er
+甘露寺	gan lu si
+趕頭	gan tou
+柑園	gan yuan
+崗背	gang bei
+港北	gang bei
+崗背上	gang bei shang
+崗湖村	gang hu cun
+港美	gang mei
+港墘	gang qian
+崗山水庫	gang shan shui ku
+港西	gang xi
+崗下村	gang xia cun
+港鑫	gang xin
+港仔	gang zai
+高背山	gao bei shan
+高埕	gao cheng
+高厝	gao cuo
+高東村	gao dong cun
+高鬥	gao dou
+高二村	gao er cun
+高峯村	gao feng cun
+高級中學	gao ji zhong xue
+高口	gao kou
+高嶺下	gao ling xia
+高樓村	gao lou cun
+高美	gao mei
+高橋子	gao qiao zi
+高泉	gao quan
+高三村	gao san cun
+高廈村	gao sha cun
+高升村	gao sheng cun
+高堂中學	gao tang zhong xue
+高田	gao tian
+高一村	gao yi cun
+高義村	gao yi cun
+高盈	gao ying
+高原村	gao yuan cun
+葛湖	ge hu
+葛口村	ge kou cun
+歌莉婭	ge li ya
+葛滕	ge teng
+葛外	ge wai
+宮邊	gong bian
+公廁	gong ce
+公共汽車總站	gong gong qi che zong zhan
+工行城建支行	gong hang cheng jian zhi hang
+工行南門支行	gong hang nan men zhi hang
+工行西河支行	gong hang xi he zhi hang
+工行西湖支行	gong hang xi hu zhi hang
+工行中山支行	gong hang zhong shan zhi hang
+宮後	gong hou
+公交賓館	gong jiao bin guan
+宮前	gong qian
+宮前市場	gong qian shi chang
+宮上	gong shang
+工商銀行	gong shang yin hang
+宮頭	gong tou
+宮頭村	gong tou cun
+公下	gong xia
+宮下村	gong xia cun
+供銷社幼兒園	gong xiao she you er yuan
+宮斜	gong xie
+溝邊村	gou bian cun
+溝腳	gou jiao
+溝美村	gou mei cun
+溝南	gou nan
+溝頭	gou tou
+狗頭嶺	gou tou ling
+溝尾	gou wei
+古庵村	gu an cun
+古板頭	gu ban tou
+古板頭村	gu ban tou cun
+古墩	gu dun
+古二村	gu er cun
+古井橋	gu jing qiao
+古隴	gu long
+古樓	gu lou
+古美	gu mei
+古美村	gu mei cun
+古三村	gu san cun
+古山村	gu shan cun
+古四村	gu si cun
+古巷鎮政府	gu xiang zhen zheng fu
+古一村	gu yi cun
+鸛巢	guan chao
+關帝廟	guan di miao
+官路村	guan lu cun
+冠南園	guan nan yuan
+官塘	guan tang
+官塘小學	guan tang xiao xue
+官田村	guan tian cun
+關西樓	guan xi lou
+觀音座蓮	guan yin zuo lian
+冠園	guan yuan
+關竹	guan zhu
+廣東龍華製藥廠	guang dong long hua zhi yao chang
+廣發樓	guang fa lou
+廣福樓	guang fu lou
+廣和樓	guang he lou
+光華招待所	guang hua zhao dai suo
+光輝食品廠	guang hui shi pin chang
+廣濟門城樓	guang ji men cheng lou
+廣濟橋	guang ji qiao
+光明農場	guang ming nong chang
+廣陽	guang yang
+廣業樓	guang ye lou
+廣源超市	guang yuan chao shi
+歸湖	gui hu
+桂花園	gui hua yuan
+桂坑	gui keng
+桂坑村	gui keng cun
+桂林村	gui lin cun
+龜山	gui shan
+貴巖	gui yan
+桂竹園	gui zhu yuan
+郭厝	guo cuo
+郭二村	guo er cun
+國酒茅臺	guo jiu mao tai
+過嶺	guo ling
+郭隴	guo long
+郭三村	guo san cun
+國稅局	guo shui ju
+郭四村	guo si cun
+國土局	guo tu ju
+國藥大藥房	guo yao da yao fang
+蛤蟆石村	ha ma shi cun
+海爾專賣店	hai er zhuan mai dian
+海瀾之家	hai lan zhi jia
+海山島	hai shan dao
+海山中學	hai shan zhong xue
+海逸花園	hai yi hua yuan
+涵碧樓	han bi lou
+韓濱園	han bin yuan
+韓江	han jiang
+韓江大橋	han jiang da qiao
+韓江林場	han jiang lin chang
+韓江西溪	han jiang xi xi
+韓江醫院	han jiang yi yuan
+韓山師範學院	han shan shi fan xue yuan
+韓山師院	han shan shi yuan
+韓師超市	han shi chao shi
+韓師分院	han shi fen yuan
+漢塘村	han tang cun
+含尾	han wei
+韓文公祠	han wen gong ci
+韓西村	han xi cun
+韓陽娃娃	han yang wa wa
+豪果	hao guo
+豪客來牛排	hao ke lai niu pai
+浩橋	hao qiao
+和安村	he an cun
+河北	he bei
+河北村	he bei cun
+何厝	he cuo
+河東	he dong
+河口村	he kou cun
+鶴隴	he long
+河美	he mei
+河南市場	he nan shi chang
+和平村	he ping cun
+鶴山	he shan
+和尚嶺	he shang ling
+合順堂	he shun tang
+河塘	he tang
+河塘村	he tang cun
+河頭	he tou
+河西	he xi
+和興加油站	he xing jia you zhan
+和陽	he yang
+黑礁	hei jiao
+亨安旅館	heng an lv guan
+恆安醫藥	heng an yi yao
+橫崗	heng gang
+橫江村	heng jiang cun
+恆康藥業	heng kang yao ye
+橫坑	heng keng
+橫路	heng lu
+橫排	heng pai
+橫山	heng shan
+恆生藥店	heng sheng yao dian
+橫田	heng tian
+橫溪村	heng xi cun
+恆源購物	heng yuan gou wu
+橫柱	heng zhu
+宏安	hong an
+鴻北	hong bei
+洪厝埔	hong cuo pu
+鴻東	hong dong
+弘法寺	hong fa si
+紅峯	hong feng
+紅豐村	hong feng cun
+鴻溝裏	hong gou li
+紅光	hong guang
+宏華	hong hua
+紅花村	hong hua cun
+紅嶺	hong ling
+紅樓	hong lou
+洪畔	hong pan
+紅旗村	hong qi cun
+紅旗農場	hong qi nong chang
+紅蜻蜓	hong qing ting
+鴻榕	hong rong
+紅砂村	hong sha cun
+紅山	hong shan
+紅山森林公園	hong shan sen lin gong yuan
+紅山醫院	hong shan yi yuan
+紅樹	hong shu
+宏偉集團	hong wei ji tuan
+宏偉藥業	hong wei yao ye
+洪巷	hong xiang
+洪巷村	hong xiang cun
+紅鞋	hong xie
+宏興藥房	hong xing yao fang
+紅巖	hong yan
+紅巖村	hong yan cun
+鴻運酒店	hong yun jiu dian
+鴻運旅行社	hong yun lv xing she
+後壁嶺	hou bi ling
+後洞	hou dong
+後港	hou gang
+後港村	hou gang cun
+後葛	hou ge
+後葛村	hou ge cun
+後郭村	hou guo cun
+後湖	hou hu
+后街	hou jie
+后街旅館	hou jie lv guan
+後徑	hou jing
+後坑	hou keng
+後寮	hou liao
+後嶺	hou ling
+後隴	hou long
+後隴路口	hou long lu kou
+後人家	hou ren jia
+後山	hou shan
+後山寨	hou shan zhai
+後塘	hou tang
+後頭村	hou tou cun
+後洋	hou yang
+後園	hou yuan
+虎北	hu bei
+湖邊村	hu bian cun
+湖濱小區	hu bin xiao qu
+湖厝	hu cuo
+胡厝	hu cuo
+湖底	hu di
+虎都男裝	hu du nan zhuang
+虎咀	hu ju
+狐狸背	hu li bei
+狐狸山	hu li shan
+湖嶺村	hu ling cun
+葫蘆廟	hu lu miao
+葫蘆山	hu lu shan
+葫蘆市	hu lu shi
+葫蘆水庫	hu lu shui ku
+湖美村	hu mei cun
+湖浦	hu pu
+虎山	hu shan
+湖水村	hu shui cun
+虎頭	hu tou
+虎頭村	hu tou cun
+虎頭山	hu tou shan
+湖尾	hu wei
+湖下	hu xia
+華帝	hua di
+華東村	hua dong cun
+華豐	hua feng
+華豐加油站	hua feng jia you zhan
+花宮村	hua gong cun
+華金路口	hua jin lu kou
+華麗超市	hua li chao shi
+華龍購物	hua long gou wu
+花樓	hua lou
+華倫天奴	hua lun tian nu
+華倫天奴世家	hua lun tian nu shi jia
+華美	hua mei
+華美加油站	hua mei jia you zhan
+華美小學	hua mei xiao xue
+華美中學	hua mei zhong xue
+花橋村	hua qiao cun
+華僑大廈	hua qiao da sha
+華僑醫院	hua qiao yi yuan
+華僑中學	hua qiao zhong xue
+華聲琴行	hua sheng qin hang
+華泰建材	hua tai jian cai
+華信大廈	hua xin da sha
+華星包裝	hua xing bao zhuang
+花藝軒	hua yi xuan
+華裕豪庭	hua yu hao ting
+花園村	hua yuan cun
+花園大酒店	hua yuan da jiu dian
+花園食府	hua yuan shi fu
+華致酒行	hua zhi jiu hang
+懷德市場	huai de shi chang
+懷恩亭	huai en ting
+槐山崗	huai shan gang
+環後	huan hou
+歡歡幼兒園	huan huan you er yuan
+環球精品	huan qiu jing pin
+黃村	huang cun
+黃洞嶺	huang dong ling
+黃岡大橋	huang gang da qiao
+黃岡河	huang gang he
+黃崗河	huang gang he
+黃岡鎮政府	huang gang zhen zheng fu
+黃尖山	huang jian shan
+黃金坑	huang jin keng
+黃金塘	huang jin tang
+黃嶺	huang ling
+黃隆	huang long
+黃麻埔	huang ma pu
+黃牛坪	huang niu ping
+黃山水	huang shan shui
+黃潭村	huang tan cun
+黃田港	huang tian gang
+黃田山	huang tian shan
+黃土墩	huang tu dun
+黃屋	huang wu
+黃正山	huang zheng shan
+黃竹徑	huang zhu jing
+黃竹坑	huang zhu keng
+黃竹溪	huang zhu xi
+黃竹洋	huang zhu yang
+輝城	hui cheng
+匯豐數碼	hui feng shu ma
+匯豐陶瓷	hui feng tao ci
+輝華購物	hui hua gou wu
+惠客隆超市	hui ke long chao shi
+匯麗	hui li
+灰路頭	hui lu tou
+匯僑大酒店	hui qiao da jiu dian
+匯橋大酒店	hui qiao da jiu dian
+慧如公園	hui ru gong yuan
+回香樓	hui xiang lou
+輝源	hui yuan
+灰寨村	hui zhai cun
+火車站	huo che zhan
+火燒山	huo shao shan
+祭鱷臺	ji e tai
+技工學校	ji gong xue xiao
+集光	ji guang
+吉利村	ji li cun
+吉林村	ji lin cun
+雞籠山	ji long shan
+吉石	ji shi
+急水村	ji shui cun
+吉祥裏	ji xiang li
+佳寶集團	jia bao ji tuan
+嘉德	jia de
+嘉佳	jia jia
+賈裏村	jia li cun
+佳隆超市	jia long chao shi
+嘉泰	jia tai
+加油站	jia you zhan
+佳緣百貨	jia yuan bai huo
+加州旅館	jia zhou lv guan
+建安花園	jian an hua yuan
+健安藥店	jian an yao dian
+尖峯	jian feng
+尖峯山	jian feng shan
+建行西湖支行	jian hang xi hu zhi hang
+建饒鎮	jian rao zhen
+尖山	jian shan
+尖山湖	jian shan hu
+尖山腳	jian shan jiao
+尖山仔	jian shan zai
+建設大廈	jian she da sha
+建設銀行	jian she yin hang
+尖石	jian shi
+尖石山	jian shi shan
+簡屋	jian wu
+建興建材	jian xing jian cai
+江厝	jiang cuo
+江東大橋	jiang dong da qiao
+江東工商所	jiang dong gong shang suo
+江東中學	jiang dong zhong xue
+將軍山	jiang jun shan
+江西田	jiang xi tian
+嬌奧衛浴	jiao ao wei yu
+交腳	jiao jiao
+蕉坑	jiao keng
+叫水坑	jiao shui keng
+教堂裏	jiao tang li
+交通旅社	jiao tong lv she
+角子裏	jiao zi li
+介仁玻璃	jie ren bo li
+金安陶瓷	jin an tao ci
+勁霸男裝	jin ba nan zhuang
+金寶麗	jin bao li
+金碧園	jin bi yuan
+金成商行	jin cheng shang hang
+金東村	jin dong cun
+金都園	jin du yuan
+金鵝	jin e
+金鵝山	jin e shan
+金峯	jin feng
+金豐村	jin feng cun
+金豐大廈	jin feng da sha
+金鳳樓	jin feng lou
+金鳳山	jin feng shan
+金光	jin guang
+金光村	jin guang cun
+金宏達	jin hong da
+金湖	jin hu
+錦華村	jin hua cun
+錦江花園	jin jiang hua yuan
+金客隆超市	jin ke long chao shi
+金麗花園	jin li hua yuan
+金龍大酒店	jin long da jiu dian
+金龍加油站	jin long jia you zhan
+金龍市場	jin long shi chang
+金龍招待所	jin long zhao dai suo
+金貿花園	jin mao hua yuan
+金橋旅社	jin qiao lv she
+金秋小區	jin qiu xiao qu
+金融信託大廈	jin rong xin tuo da sha
+金沙海岸	jin sha hai an
+金沙溪	jin sha xi
+金沙中學	jin sha zhong xue
+金山	jin shan
+金山大橋	jin shan da qiao
+金山大橋東	jin shan da qiao dong
+金山湖	jin shan hu
+金山碼頭	jin shan ma tou
+金山中學	jin shan zhong xue
+金聖堡	jin sheng bao
+金石大道	jin shi da dao
+金石中學	jin shi zhong xue
+金樹灣	jin shu wan
+金水塘	jin shui tang
+金田大廈	jin tian da sha
+金田花園	jin tian hua yuan
+金廈園	jin xia yuan
+金信大廈	jin xin da sha
+金訊數碼	jin xun shu ma
+金陽花園	jin yang hua yuan
+金陽新園	jin yang xin yuan
+金葉大廈	jin ye da sha
+金葉花園	jin ye hua yuan
+金源超市	jin yuan chao shi
+金苑大廈	jin yuan da sha
+金鐘山	jin zhong shan
+井凹	jing ao
+汫北	jing bei
+經典名剪	jing dian ming jian
+汫東	jing dong
+鏡鴻路口	jing hong lu kou
+徑腳	jing jiao
+徑口	jing kou
+徑口村	jing kou cun
+井裏村	jing li cun
+井美	jing mei
+井美村	jing mei cun
+徑南	jing nan
+汫南	jing nan
+汫平	jing ping
+荊山村	jing shan cun
+井頭	jing tou
+徑外	jing wai
+徑新村	jing xin cun
+汫洲鎮	jing zhou zhen
+九村鎮	jiu cun zhen
+九村中學	jiu cun zhong xue
+九江	jiu jiang
+九節蝦	jiu jie xia
+九坑	jiu keng
+九郎山	jiu lang shan
+舊寮	jiu liao
+舊樓	jiu lou
+舊溪	jiu xi
+舊鄉	jiu xiang
+舊寨	jiu zhai
+居隆	ju long
+菊塘	ju tang
+軍分區	jun fen qu
+軍寮	jun liao
+軍塘	jun tang
+軍寨村	jun zhai cun
+卡丹路	ka dan lu
+開發區管委會	kai fa qu guan wei hui
+開濠	kai hao
+凱利	kai li
+凱倫	kai lun
+開元寺	kai yuan si
+坎下	kan xia
+坎下村	kan xia cun
+康東村	kang dong cun
+康輝集團	kang hui ji tuan
+康美村	kang mei cun
+康美樓	kang mei lou
+康泰超市	kang tai chao shi
+康西村	kang xi cun
+克安	ke an
+柯厝	ke cuo
+可樂園	ke le yuan
+可溪	ke xi
+可溪寮	ke xi liao
+客寨	ke zhai
+坑背	keng bei
+坑池	keng chi
+坑角	keng jiao
+坑口	keng kou
+坑美村	keng mei cun
+坑門	keng men
+坑內	keng nei
+坑頭	keng tou
+坑尾	keng wei
+坑尾頭	keng wei tou
+坑巷村	keng xiang cun
+坑仔	keng zai
+坑子裏	keng zi li
+口厝	kou cuo
+口含	kou han
+口美	kou mei
+苦竹崗	ku zhu gang
+苦竹坑	ku zhu keng
+快樂幼兒園	kuai le you er yuan
+寬陽田	kuan yang tian
+葵坑	kui keng
+葵山村	kui shan cun
+葵塘	kui tang
+奎元廣場	kui yuan guang chang
+奎元路口	kui yuan lu kou
+坤輝花園	kun hui hua yuan
+崑崙山	kun lun shan
+鯤頭	kun tou
+賴厝	lai cuo
+賴厝村	lai cuo cun
+萊芙家紡	lai fu jia fang
+萊克斯頓	lai ke si dun
+來宜小學	lai yi xiao xue
+藍精靈幼兒園	lan jing ling you er yuan
+藍凌科技	lan ling ke ji
+藍屋村	lan wu cun
+蘭芝山	lan zhi shan
+老厝	lao cuo
+老大樓	lao da lou
+老虎關	lao hu guan
+老虎山	lao hu shan
+老屋下	lao wu xia
+老爺嶺	lao ye ling
+樂橋村	le qiao cun
+雷士照明	lei shi zhao ming
+黎邦	li bang
+李厝	li cuo
+李厝村	li cuo cun
+禮德加油站	li de jia you zhan
+驪二	li er
+李工坑	li gong keng
+黎光	li guang
+麗景花園	li jing hua yuan
+裏坑	li keng
+利郎男裝	li lang nan zhuang
+李寧	li ning
+李寧專賣店	li ning zhuan mai dian
+李畔	li pan
+李樹坡	li shu po
+驪塘	li tang
+禮堂村	li tang cun
+犁頭尖	li tou jian
+裏文	li wen
+裏楊	li yang
+鯉魚山	li yu shan
+李枝	li zhi
+聯發樓	lian fa lou
+蓮華西隴	lian hua xi long
+蓮花園	lian hua yuan
+聯饒中學	lian rao zhong xue
+連思科技	lian si ke ji
+蓮塘	lian tang
+聯通大廈	lian tong da sha
+聯誼大廈	lian yi da sha
+聯營加油站	lian ying jia you zhan
+蓮雲村	lian yun cun
+糧所	liang suo
+良種豬場	liang zhong zhu chang
+寮背	liao bei
+廖厝	liao cuo
+廖厝村	liao cuo cun
+瞭望山	liao wang shan
+烈火村	lie huo cun
+林厝	lin cuo
+林厝村	lin cuo cun
+林厝寮	lin cuo liao
+林二村	lin er cun
+林邁	lin mai
+林畔	lin pan
+磷畔	lin pan
+林泉村	lin quan cun
+林塢	lin wu
+林屋村	lin wu cun
+林錫	lin xi
+磷溪	lin xi
+磷溪農科所	lin xi nong ke suo
+磷溪農料所	lin xi nong liao suo
+磷溪溪口雨亭	lin xi xi kou yu ting
+磷溪鎮政府	lin xi zhen zheng fu
+磷溪中學	lin xi zhong xue
+林一村	lin yi cun
+嶺背	ling bei
+嶺邊	ling bian
+嶺後	ling hou
+嶺腳	ling jiao
+嶺門	ling men
+嶺內	ling nei
+嶺坪	ling ping
+聆濤茶館	ling tao cha guan
+嶺頭	ling tou
+嶺頭村	ling tou cun
+嶺下	ling xia
+嶺仔頭	ling zai tou
+劉厝	liu cuo
+劉厝村	liu cuo cun
+六福珠寶	liu fu zhu bao
+溜腳	liu jiao
+六畝村	liu mu cun
+劉畔	liu pan
+劉畔村	liu pan cun
+溜頭	liu tou
+隆安堂	long an tang
+隆北	long bei
+龍川公園	long chuan gong yuan
+龍船山	long chuan shan
+隆東	long dong
+隆都陽坑橋	long dou yang keng qiao
+龍鳳亭	long feng ting
+龍宮山	long gong shan
+龍光村	long guang cun
+龍湖	long hu
+龍湖古寨	long hu gu zhai
+龍虎坑	long hu keng
+龍湖小學	long hu xiao xue
+龍湖站	long hu zhan
+龍湖鎮政府	long hu zhen zheng fu
+龍湖中學	long hu zhong xue
+龍吉美村	long ji mei cun
+龍甲	long jia
+龍甲村	long jia cun
+龍坑村	long keng cun
+龍空	long kong
+龍口村	long kou cun
+隴美	long mei
+隴美村	long mei cun
+隆南	long nan
+龍橋路	long qiao lu
+龍湫寶塔	long qiu bao ta
+龍潭	long tan
+龍塘村	long tang cun
+隴頭	long tou
+龍灣	long wan
+隆西	long xi
+龍溪村	long xi cun
+龍下村	long xia cun
+龍翔	long xiang
+龍興村	long xing cun
+龍眼山莊	long yan shan zhuang
+龍巖寺	long yan si
+龍嶼	long yu
+路邊	lu bian
+盧厝	lu cuo
+鹿湖	lu hu
+麓湖	lu hu
+鹿鳴	lu ming
+爐內	lu nei
+鹿山	lu shan
+蘆莊村	lu zhuang cun
+羅厝	luo cuo
+羅萊家紡	luo lai jia fang
+落山虎	luo shan hu
+綠榕市場	lv rong shi chang
+綠怡園	lv yi yuan
+旅遊大廈	lv you da sha
+綠竹村	lv zhu cun
+綠竹苑	lv zhu yuan
+馬鞍山	ma an shan
+馬鞍山林場	ma an shan lin chang
+馬安石	ma an shi
+麻倉	ma cang
+馬得利	ma de li
+麻地下	ma di xia
+麻瘋村	ma feng cun
+馬崗	ma gang
+馬崗村	ma gang cun
+媽宮山	ma gong shan
+馬古嶺	ma gu ling
+馬金山	ma jin shan
+馬坑村	ma keng cun
+麻寮村	ma liao cun
+馬嶺	ma ling
+馬嶺腳	ma ling jiao
+馬山湖	ma shan hu
+馬頭	ma tou
+馬頭山	ma tou shan
+麻竹坑	ma zhu keng
+馬字	ma zi
+麥佳基	mai jia ji
+麥香村西餅屋	mai xiang cun xi bing wu
+麥香閣	mai xiang ge
+麥園	mai yuan
+麥園村	mai yuan cun
+麥中福	mai zhong fu
+曼德夫	man de fu
+鰻魚養殖場	man yu yang zhi chang
+芒坑	mang keng
+毛兒山	mao er shan
+茂龍村	mao long cun
+茅坪子	mao ping zi
+貓撲鼠	mao pu shu
+茂石	mao shi
+毛田	mao tian
+貓陷	mao xian
+美光	mei guang
+梅花村	mei hua cun
+美佳超市	mei jia chao shi
+梅林	mei lin
+梅林村	mei lin cun
+梅林湖	mei lin hu
+美人堂	mei ren tang
+梅樹下	mei shu xia
+梅溪村	mei xi cun
+梅西塘	mei xi tang
+美鄉村	mei xiang cun
+美音琴行	mei yin qin hang
+門口嶺	men kou ling
+門口山	men kou shan
+夢的衣裳	meng de yi shang
+蒙自源過橋米線	meng zi yuan guo qiao mi xian
+蜜雪兒	mi xue er
+面前嶺	mian qian ling
+面前山	mian qian shan
+廟山	miao shan
+苗田村	miao tian cun
+民華小學	min hua xiao xue
+民主大廈	min zhu da sha
+名邦花苑	ming bang hua yuan
+名閣	ming ge
+明廊眼鏡	ming lang yan jing
+明樓	ming lou
+明仕	ming shi
+明堂村	ming tang cun
+明星幼兒園	ming xing you er yuan
+名揚村	ming yang cun
+明珠酒店	ming zhu jiu dian
+磨石嶺	mo shi ling
+摸引	mo yin
+木井村	mu jing cun
+睦隆世家	mu long shi jia
+木堂	mu tang
+耐克專賣	nai ke zhuan mai
+南成	nan cheng
+南春路小學	nan chun lu xiao xue
+南春中學	nan chun zhong xue
+南村	nan cun
+南堤路	nan di lu
+南方村	nan fang cun
+南光	nan guang
+南國明珠	nan guo ming zhu
+南惠	nan hui
+南坑	nan keng
+南坑村	nan keng cun
+南坑水庫	nan keng shui ku
+南聯村	nan lian cun
+南寮	nan liao
+南嶺	nan ling
+南嶺後	nan ling hou
+南隴	nan long
+南隴村	nan long cun
+南門村	nan men cun
+南門橋	nan men qiao
+南門市場	nan men shi chang
+南門藥店	nan men yao dian
+楠木村	nan mu cun
+南坡	nan po
+南橋市場	nan qiao shi chang
+南山	nan shan
+南山村	nan shan cun
+南山農場	nan shan nong chang
+南山坪	nan shan ping
+南社村	nan she cun
+南塘	nan tang
+南田	nan tian
+南圍	nan wei
+南武山	nan wu shan
+南溪	nan xi
+南溪村	nan xi cun
+南新村	nan xin cun
+南興	nan xing
+南星村	nan xing cun
+南巖寺	nan yan si
+南羊	nan yang
+南洋村	nan yang cun
+南洋寨	nan yang zhai
+南怡園	nan yi yuan
+內坑	nei keng
+內坑村	nei keng cun
+內樓	nei lou
+內畔村	nei pan cun
+內屋	nei wu
+內衙	nei ya
+內洋	nei yang
+牛牯嶺	niu gu ling
+牛角灣	niu jiao wan
+牛尾山	niu wei shan
+農村信用合作社	nong cun xin yong he zuo she
+農行城南支行	nong hang cheng nan zhi hang
+農科站	nong ke zhan
+農牧場	nong mu chang
+諾貝爾磁磚	nuo bei er ci zhuan
+歐村	ou cun
+歐坑村	ou keng cun
+歐陸潔具	ou lu jie ju
+歐美陶瓷	ou mei tao ci
+歐香麪包	ou xiang mian bao
+排灌總站	pai guan zong zhan
+牌上	pai shang
+潘厝村	pan cuo cun
+潘劉村	pan liu cun
+盤石樓	pan shi lou
+潘吳村	pan wu cun
+泮洋村	pan yang cun
+炮臺山	pao tai shan
+鵬達包裝	peng da bao zhuang
+蓬萊村	peng lai cun
+鵬運	peng yun
+匹克	pi ke
+漂亮寶貝	piao liang bao bei
+坪光	ping guang
+坪坑	ping keng
+坪坑村	ping keng cun
+坪林	ping lin
+平林村	ping lin cun
+坪埔	ping pu
+坪埔村	ping pu cun
+屏山	ping shan
+坪上	ping shang
+坪頭	ping tou
+坪溪村	ping xi cun
+坪洋	ping yang
+坪洋村	ping yang cun
+婆嶺	po ling
+坡下	po xia
+埔邊	pu bian
+埔頂	pu ding
+埔東	pu dong
+埔坪	pu ping
+埔坪村	pu ping cun
+鋪前	pu qian
+埔上	pu shang
+鋪上	pu shang
+鋪頭村	pu tou cun
+普陀巖	pu tuo yan
+埔尾	pu wei
+埔屋	pu wu
+埔下村	pu xia cun
+埔仔村	pu zai cun
+汽車站	qi che zhan
+汽車總站	qi che zong zhan
+啓迪幼兒園	qi di you er yuan
+起發點	qi fa dian
+棲風	qi feng
+棲鳳村	qi feng cun
+啓明星幼兒園	qi ming xing you er yuan
+柒牌男裝	qi pai nan zhuang
+棋盤村	qi pan cun
+七匹狼	qi pi lang
+七匹狼男裝	qi pi lang nan zhuang
+七屏山	qi ping shan
+其山	qi shan
+旗山	qi shan
+岐山村	qi shan cun
+企頭	qi tou
+崎頭	qi tou
+崎頭村	qi tou cun
+砌下	qi xia
+七星俱樂部	qi xing ju le bu
+七星樓	qi xing lou
+啓智幼兒園	qi zhi you er yuan
+錢東中學	qian dong zhong xue
+前二村	qian er cun
+千果山旅遊區	qian guo shan lv you qu
+前街	qian jie
+前進路口	qian jin lu kou
+前進學校	qian jin xue xiao
+前寮村	qian liao cun
+千秋亭	qian qiu ting
+前人家	qian ren jia
+前山	qian shan
+錢塘村	qian tang cun
+前田	qian tian
+乾屋	qian wu
+前溪	qian xi
+千禧大藥房	qian xi da yao fang
+前洋	qian yang
+橋東車站	qiao dong che zhan
+橋東街道辦	qiao dong jie dao ban
+橋東醫院	qiao dong yi yuan
+僑光村	qiao guang cun
+僑光中學	qiao guang zhong xue
+橋坑	qiao keng
+僑聯大廈	qiao lian da sha
+喬林村	qiao lin cun
+橋南	qiao nan
+橋上	qiao shang
+橋頭村	qiao tou cun
+橋頭湖	qiao tou hu
+橋頭屋	qiao tou wu
+僑苑	qiao yuan
+芹菜洋	qin cai yang
+芹青	qin qing
+勤威	qin wei
+輕工業區	qing gong ye qu
+青官	qing guan
+青嵐村	qing lan cun
+青龍頭	qing long tou
+青麻山	qing ma shan
+青木三色	qing mu san se
+青山	qing shan
+青山腳	qing shan jiao
+青田裏	qing tian li
+青蛙皇子	qing wa huang zi
+青巖山	qing yan shan
+邱厝	qiu cuo
+球洞	qiu dong
+秋溪村	qiu xi cun
+秋溪路口	qiu xi lu kou
+趣春花園	qu chun hua yuan
+趣春路口	qu chun lu kou
+區公安局	qu gong an ju
+曲河	qu he
+區檢察院	qu jian cha yuan
+全福	quan fu
+全福村	quan fu cun
+全球通大廈	quan qiu tong da sha
+羣光	qun guang
+羣豪男裝	qun hao nan zhuang
+羣力村	qun li cun
+羣星村	qun xing cun
+饒豐	rao feng
+饒福	rao fu
+饒裏村	rao li cun
+饒平第二中學	rao ping di er zhong xue
+饒平縣	rao ping xian
+饒平縣第四中學	rao ping xian di si zhong xue
+饒平縣第一中學	rao ping xian di yi zhong xue
+饒平縣公安局	rao ping xian gong an ju
+饒平縣人民醫院	rao ping xian ren min yi yuan
+饒平縣人事局	rao ping xian ren shi ju
+饒砂村	rao sha cun
+饒田	rao tian
+饒洋鎮	rao yang zhen
+仁愛門診部	ren ai men zhen bu
+任爾選	ren er xuan
+仁裏村	ren li cun
+人民廣場	ren min guang chang
+人形山	ren xing shan
+榕華園	rong hua yuan
+榮順鞋業	rong shun xie ye
+儒士村	ru shi cun
+如意居	ru yi ju
+如意路口	ru yi lu kou
+三房	san fang
+三河	san he
+三紅村	san hong cun
+三湖	san hu
+三環集團	san huan ji tuan
+三角塘	san jiao tang
+三金商行	san jin shang hang
+三坑	san keng
+三孔閘	san kong zha
+三林	san lin
+三丘田	san qiu tian
+三坵田	san qiu tian
+三饒中學	san rao zhong xue
+三勝村	san sheng cun
+三吳村	san wu cun
+三巷	san xiang
+三埡	san ya
+三英村	san ying cun
+三中村	san zhong cun
+桑埔山	sang pu shan
+掃帚山	sao zhou shan
+森馬	sen ma
+沙壩黃	sha ba huang
+沙二	sha er
+沙二村	sha er cun
+杉林	sha lin
+紗帽嶺	sha mao ling
+紗帽石	sha mao shi
+沙坪	sha ping
+廈寺公園	sha si gong yuan
+沙尾	sha wei
+沙溪鎮政府	sha xi zhen zheng fu
+沙一	sha yi
+廈一村	sha yi cun
+沙一村	sha yi cun
+沙子坪	sha zi ping
+山邊	shan bian
+山邊村	shan bian cun
+山邊山	shan bian shan
+山斗村	shan dou cun
+山後	shan hou
+山後村	shan hou cun
+山湖	shan hu
+山家村	shan jia cun
+山角	shan jiao
+山梨	shan li
+山寮	shan liao
+山美	shan mei
+山美村	shan mei cun
+山門村	shan men cun
+杉坪村	shan ping cun
+山埔	shan pu
+山前村	shan qian cun
+閃橋	shan qiao
+山芹	shan qin
+山塘尾	shan tang wei
+山頭陳	shan tou chen
+山頭黃	shan tou huang
+山下	shan xia
+山下村	shan xia cun
+山霞村	shan xia cun
+山仔	shan zai
+山豬坑	shan zhu keng
+上凹	shang ao
+上壩	shang ba
+上城下	shang cheng xia
+上赤村	shang chi cun
+上春	shang chun
+上春村	shang chun cun
+上村	shang cun
+上洞	shang dong
+上東村	shang dong cun
+上肚	shang du
+上份	shang fen
+上浮山村	shang fu shan cun
+上港村	shang gang cun
+上郭	shang guo
+上河	shang he
+上湖	shang hu
+上黃村	shang huang cun
+上角	shang jiao
+上較	shang jiao
+上津	shang jin
+上井	shang jing
+上珂	shang ke
+尚客	shang ke
+上坑	shang keng
+上坑村	shang keng cun
+上葵	shang kui
+上林	shang lin
+上樓	shang lou
+商貿城	shang mao cheng
+上南村	shang nan cun
+上坪	shang ping
+上埔	shang pu
+上埔村	shang pu cun
+上饒鎮	shang rao zhen
+上饒中學	shang rao zhong xue
+上山村	shang shan cun
+上山門	shang shan men
+上善鎮	shang shan zhen
+上善中學	shang shan zhong xue
+上社	shang she
+上社村	shang she cun
+尚書村	shang shu cun
+上水門	shang shui men
+上水頭	shang shui tou
+上塘	shang tang
+上灣	shang wan
+上圍	shang wei
+上文村	shang wen cun
+上屋	shang wu
+上溪	shang xi
+上西林村	shang xi lin cun
+上鄉	shang xiang
+上肖	shang xiao
+上新村	shang xin cun
+賞心內衣	shang xin nei yi
+上洋	shang yang
+商業幼兒園	shang ye you er yuan
+上園	shang yuan
+上寨	shang zhai
+上寨村	shang zhai cun
+上洲	shang zhou
+上莊村	shang zhuang cun
+深溝	shen gou
+深坑	shen keng
+沈畔	shen pan
+神奇果園	shen qi guo yuan
+神前	shen qian
+神前村	shen qian cun
+深坵	shen qiu
+深土村	shen tu cun
+深窩	shen wo
+沈屋	shen wu
+深洋村	shen yang cun
+勝發	sheng fa
+聲合	sheng he
+盛戶村	sheng hu cun
+勝利橋	sheng li qiao
+勝聯村	sheng lian cun
+盛宇家紡	sheng yu jia fang
+聲樂大酒店	sheng yue da jiu dian
+石庵	shi an
+十八院	shi ba yuan
+石板村	shi ban cun
+石北村	shi bei cun
+石陂村	shi bei cun
+石壁	shi bi
+石壁庵	shi bi an
+石壁村	shi bi cun
+石壁嶺	shi bi ling
+石壁頭	shi bi tou
+石壁下	shi bi xia
+石壁寨	shi bi zhai
+石槽村	shi cao cun
+施厝村	shi cuo cun
+獅峯	shi feng
+石蛤	shi ge
+石古坪	shi gu ping
+石龜山	shi gui shan
+市後	shi hou
+石湖村	shi hu cun
+石湖林場	shi hu lin chang
+市疾控中心	shi ji kong zhong xin
+時間廊鐘錶	shi jian lang zhong biao
+市交通局	shi jiao tong ju
+石坑	shi keng
+十里香	shi li xiang
+石林	shi lin
+石樓	shi lou
+石門	shi men
+石門嶺	shi men ling
+石門山	shi men shan
+石南	shi nan
+石牌	shi pai
+石排嶺	shi pai ling
+石屏山	shi ping shan
+士榮	shi rong
+時尚語錄	shi shang yu lu
+時尚族	shi shang zu
+市食品公司	shi shi pin gong si
+石壇	shi tan
+石壇村	shi tan cun
+世田	shi tian
+市田	shi tian
+獅頭	shi tou
+市頭村	shi tou cun
+石頭林	shi tou lin
+獅頭嶺	shi tou ling
+獅頭山	shi tou shan
+市尾村	shi wei cun
+石甕	shi weng
+飾物園	shi wu yuan
+石牙	shi ya
+石宴	shi yan
+詩陽村	shi yang cun
+石油大廈	shi you da sha
+柿園	shi yuan
+師院宿舍	shi yuan su she
+市造船廠	shi zao chuan chang
+市政府	shi zheng fu
+石中	shi zhong
+石柱	shi zhu
+石柱坑	shi zhu keng
+石子嶺	shi zi ling
+獅子山	shi zi shan
+柿子樹下	shi zi shu xia
+獅子寺	shi zi si
+獅子頭	shi zi tou
+書厝樓	shu cuo lou
+樹腳	shu jiao
+樹人學校	shu ren xue xiao
+書圖	shu tu
+書圖村	shu tu cun
+樹下	shu xia
+雙崗	shuang gang
+雙崗村	shuang gang cun
+雙華	shuang hua
+雙坑	shuang keng
+雙羅村	shuang luo cun
+雙美路口	shuang mei lu kou
+水產站	shui chan zhan
+水東村	shui dong cun
+水井子	shui jing zi
+水口	shui kou
+水口村	shui kou cun
+水庫面	shui ku mian
+水美	shui mei
+水美村	shui mei cun
+水南村	shui nan cun
+水西村	shui xi cun
+水星家紡	shui xing jia fang
+順達加油站	shun da jia you zhan
+順平樓	shun ping lou
+四海酒店	si hai jiu dian
+司前	si qian
+四益村	si yi cun
+松柏崗	song bai gang
+松柏山	song bai shan
+松昌中學	song chang zhong xue
+松墩	song dun
+松腳	song jiao
+松坑	song keng
+松林寺	song lin si
+松樹庵	song shu an
+松樹仔	song shu zai
+松水	song shui
+松水村	song shui cun
+松下專賣店	song xia zhuan mai dian
+蘇典	su dian
+蘇二村	su er cun
+蘇三村	su san cun
+蘇山	su shan
+粟塘	su tang
+蘇屋	su wu
+蘇巷	su xiang
+蘇寨	su zhai
+穗寶牀墊	sui bao chuang dian
+所城中學	suo cheng zhong xue
+塔兜	ta dou
+塔後	ta hou
+塔後村	ta hou cun
+塔護	ta hu
+塔山	ta shan
+塔下村	ta xia cun
+太公園	tai gong yuan
+太平初級中學	tai ping chu ji zhong xue
+太平坑	tai ping keng
+太平路小學	tai ping lu xiao xue
+太石	tai shi
+泰石	tai shi
+太子洞	tai zi dong
+潭坪	tan ping
+壇頭	tan tou
+潭頭	tan tou
+譚頭	tan tou
+潭頭村	tan tou cun
+潭頭山	tan tou shan
+塘北	tang bei
+塘背	tang bei
+塘北村	tang bei cun
+塘邊	tang bian
+塘邊鄉	tang bian xiang
+糖廠	tang chang
+塘東村	tang dong cun
+湯兜	tang dou
+塘坑	tang keng
+塘南村	tang nan cun
+塘內	tang nei
+塘畔	tang pan
+塘埔	tang pu
+塘埔村	tang pu cun
+湯溪水庫	tang xi shui ku
+湯溪中學	tang xi zhong xue
+塘下	tang xia
+塘巷	tang xiang
+塘仔	tang zai
+塘子裏	tang zi li
+陶瓷城	tao ci cheng
+陶瓷學院	tao ci xue yuan
+桃花	tao hua
+桃坑	tao keng
+桃塘	tao tang
+桃西村	tao xi cun
+桃園	tao yuan
+桃園村	tao yuan cun
+桃源村	tao yuan cun
+特步	te bu
+特尼威	te ni wei
+騰達彩印	teng da cai yin
+體育館	ti yu guan
+天池山	tian chi shan
+田厝	tian cuo
+田底	tian di
+天地情	tian di qing
+田東	tian dong
+田東村	tian dong cun
+田東鎮	tian dong zhen
+田東中學	tian dong zhong xue
+天福茗茶	tian fu ming cha
+天和源	tian he yuan
+田湖村	tian hu cun
+田寮	tian liao
+天龍美容美髮	tian long mei rong mei fa
+田螺地	tian luo di
+田美村	tian mei cun
+甜蜜時光	tian mi shi guang
+天寧村	tian ning cun
+田青	tian qing
+天天樂幼兒園	tian tian le you er yuan
+天天通訊	tian tian tong xun
+田頭	tian tou
+田頭村	tian tou cun
+天王電腦	tian wang dian nao
+田尾山	tian wei shan
+田屋	tian wu
+田下	tian xia
+天下茶莊	tian xia cha zhuang
+田心	tian xin
+田洋裏	tian yang li
+田尤	tian you
+田中村	tian zhong cun
+田中學校	tian zhong xue xiao
+田中央	tian zhong yang
+天主堂	tian zhu tang
+田子山	tian zi shan
+跳石	tiao shi
+調園	tiao yuan
+鐵鋪中學	tie pu zhong xue
+鐵橋	tie qiao
+停車場	ting che chang
+亭頭村	ting tou cun
+桐樹下	tong shu xia
+童心幼兒園	tong xin you er yuan
+透龍	tou long
+頭塘	tou tang
+頭塘村	tou tang cun
+頭閘	tou zha
+塗崗	tu gang
+土坑村	tu keng cun
+塗庫	tu ku
+塗樓	tu lou
+土頭	tu tou
+團三村	tuan san cun
+瓦窯頭	wa yao tou
+外厝	wai cuo
+外寮	wai liao
+外桃	wai tao
+外文村	wai wen cun
+外沿	wai yan
+完底	wan di
+萬峯山	wan feng shan
+萬綠花園	wan lv hua yuan
+萬年糧	wan nian liang
+萬生堂藥店	wan sheng tang yao dian
+灣頭	wan tou
+完尾	wan wei
+碗窩	wan wo
+碗窯	wan yao
+碗窯村	wan yao cun
+網地	wang di
+網地村	wang di cun
+望夫山	wang fu shan
+望海嶺	wang hai ling
+旺家福超市	wang jia fu chao shi
+旺角餐廳	wang jiao can ting
+王李	wang li
+望嶺村	wang ling cun
+王畔	wang pan
+望山	wang shan
+望天獅	wang tian shi
+望天石	wang tian shi
+維迪斯	wei di si
+維蘭中學	wei lan zhong xue
+韋駱	wei luo
+韋駱村	wei luo cun
+圍上	wei shang
+圍頭	wei tou
+尾鄉	wei xiang
+文祠	wen ci
+文厝	wen cuo
+溫湖	wen hu
+文裏村	wen li cun
+文路村	wen lu cun
+文明塔	wen ming ta
+文山學校	wen shan xue xiao
+文苑	wen yuan
+翁厝村	weng cuo cun
+臥石	wo shi
+吳厝	wu cuo
+烏洞	wu dong
+五房	wu fang
+五嘉隴	wu jia long
+吳坑村	wu keng cun
+五聯村	wu lian cun
+武坪	wu ping
+伍全	wu quan
+烏石	wu shi
+武石	wu shi
+烏石坑	wu shi keng
+烏石嶺	wu shi ling
+烏石樓	wu shi lou
+烏石廟	wu shi miao
+烏石農場	wu shi nong chang
+烏石山	wu shi shan
+烏石寨	wu shi zhai
+烏潭	wu tan
+烏溪村	wu xi cun
+五鄉村	wu xiang cun
+巫許	wu xu
+烏洋	wu yang
+烏洋村	wu yang cun
+烏洋路口	wu yang lu kou
+五祉	wu zhi
+溪壩	xi ba
+溪背	xi bei
+西邊村	xi bian cun
+西城	xi cheng
+西春	xi chun
+西大樓	xi da lou
+溪底	xi di
+溪東村	xi dong cun
+西都	xi du
+西都村	xi du cun
+西豐	xi feng
+西峯	xi feng
+西港	xi gang
+西港村	xi gang cun
+西和村	xi he cun
+西湖	xi hu
+西湖公園	xi hu gong yuan
+西湖公園南門	xi hu gong yuan nan men
+西湖公園西門	xi hu gong yuan xi men
+錫華中學	xi hua zhong xue
+西郊村	xi jiao cun
+西徑	xi jing
+溪坎	xi kan
+錫康	xi kang
+喜客來	xi ke lai
+西坑	xi keng
+錫坑	xi keng
+西坑村	xi keng cun
+錫坑村	xi keng cun
+溪口村	xi kou cun
+溪口橋	xi kou qiao
+溪口四村	xi kou si cun
+希萊恩	xi lai en
+西寮	xi liao
+西林	xi lin
+西林村	xi lin cun
+西嶺	xi ling
+西隴	xi long
+西隴村	xi long cun
+錫樓	xi lou
+洗馬橋	xi ma qiao
+溪美	xi mei
+錫美	xi mei
+溪美村	xi mei cun
+錫美村	xi mei cun
+溪畔	xi pan
+西片村	xi pian cun
+西坡	xi po
+西坡山	xi po shan
+西榮路口	xi rong lu kou
+西山	xi shan
+西山村	xi shan cun
+西山學校	xi shan xue xiao
+溪上	xi shang
+西社村	xi she cun
+西盛	xi sheng
+西石村	xi shi cun
+西石小學	xi shi xiao xue
+西塘村	xi tang cun
+溪頭	xi tou
+溪頭村	xi tou cun
+溪頭裏	xi tou li
+溪尾村	xi wei cun
+溪尾山	xi wei shan
+溪西	xi xi
+溪西村	xi xi cun
+西峽村	xi xia cun
+溪心	xi xin
+西新路口	xi xin lu kou
+西巖	xi yan
+西巖山	xi yan shan
+西洋坑	xi yang keng
+西苑酒家	xi yuan jiu jia
+西園路	xi yuan lu
+西仔	xi zai
+西寨	xi zhai
+溪子	xi zi
+下安村	xia an cun
+下壩	xia ba
+下壩村	xia ba cun
+下城	xia cheng
+下城下	xia cheng xia
+下村	xia cun
+下厝	xia cuo
+下岱	xia dai
+下底	xia di
+霞東	xia dong
+霞東村	xia dong cun
+下東坑	xia dong keng
+下鬥	xia dou
+下廣村	xia guang cun
+霞光村	xia guang cun
+下河	xia he
+下紅	xia hong
+下湖	xia hu
+下湖村	xia hu cun
+下黃	xia huang
+下角	xia jiao
+下津	xia jin
+下津村	xia jin cun
+下徑	xia jing
+下科	xia ke
+下寮	xia liao
+下林	xia lin
+下林村	xia lin cun
+下劉	xia liu
+下隴村	xia long cun
+下樓	xia lou
+下樓村	xia lou cun
+霞露村	xia lu cun
+下鹿湖	xia lu hu
+下美	xia mei
+下坪	xia ping
+下坪村	xia ping cun
+下埔	xia pu
+下埔村	xia pu cun
+下善	xia shan
+下山	xia shan
+下善村	xia shan cun
+下山頂	xia shan ding
+下水門	xia shui men
+下水頭	xia shui tou
+下塔	xia ta
+下塔村	xia ta cun
+下田	xia tian
+下灣	xia wan
+下往	xia wang
+下圍	xia wei
+下尾	xia wei
+下屋	xia wu
+下巫	xia wu
+霞西村	xia xi cun
+下西坑	xia xi keng
+下鄉	xia xiang
+下肖	xia xiao
+下新厝	xia xin cuo
+下洋	xia yang
+下窯	xia yao
+下園	xia yuan
+下垸	xia yuan
+下園村	xia yuan cun
+下院村	xia yuan cun
+下寨	xia zhai
+下寨村	xia zhai cun
+下張村	xia zhang cun
+霞中村	xia zhong cun
+下洲	xia zhou
+下莊村	xia zhuang cun
+下莊學校	xia zhuang xue xiao
+現代經典	xian dai jing dian
+仙德	xian de
+縣地震局	xian di zhen ju
+縣電力局	xian dian li ju
+縣電信局	xian dian xin ju
+仙二村	xian er cun
+縣二中路口	xian er zhong lu kou
+縣福利院	xian fu li yuan
+縣公安局	xian gong an ju
+縣國土局	xian guo tu ju
+仙河村	xian he cun
+仙家	xian jia
+縣交通局	xian jiao tong ju
+縣教育局	xian jiao yu ju
+仙坑	xian keng
+仙美村	xian mei cun
+縣農科所	xian nong ke suo
+縣農校	xian nong xiao
+縣農業局	xian nong ye ju
+仙橋村	xian qiao cun
+仙人池	xian ren chi
+縣人民醫院	xian ren min yi yuan
+仙田	xian tian
+縣委黨校	xian wei dang xiao
+縣衛生局	xian wei sheng ju
+仙溪村	xian xi cun
+仙岩村	xian yan cun
+仙洋	xian yang
+仙洋村	xian yang cun
+仙洋圩	xian yang xu
+仙一村	xian yi cun
+縣郵政局	xian you zheng ju
+縣中醫醫院	xian zhong yi yi yuan
+仙洲	xian zhou
+仙洲村	xian zhou cun
+象鼻	xiang bi
+象鼻山	xiang bi shan
+象鼻頭	xiang bi tou
+巷口村	xiang kou cun
+香爐山	xiang lu shan
+巷內	xiang nei
+橡埔	xiang pu
+湘橋區	xiang qiao qu
+象山村	xiang shan cun
+象山學校	xiang shan xue xiao
+響水	xiang shui
+象頭	xiang tou
+巷頭村	xiang tou cun
+向西	xiang xi
+向陽村	xiang yang cun
+享逸園	xiang yi yuan
+翔宇數碼	xiang yu shu ma
+小庵	xiao an
+小陂	xiao bei
+小博士幼兒園	xiao bo shi you er yuan
+肖厝	xiao cuo
+小島食府	xiao dao shi fu
+小東	xiao dong
+小行	xiao hang
+小行村	xiao hang cun
+小紅山	xiao hong shan
+小靈童幼兒園	xiao ling tong you er yuan
+小龍坑	xiao long keng
+小松村	xiao song cun
+小溪村	xiao xi cun
+小雅	xiao ya
+小豬班納	xiao zhu ban na
+小莊	xiao zhuang
+謝厝	xie cuo
+蟹地	xie di
+斜角頭	xie jiao tou
+鞋屋	xie wu
+新庵	xin an
+新安村	xin an cun
+新北村	xin bei cun
+新陂村	xin bei cun
+新碧園	xin bi yuan
+新曾	xin ceng
+新城	xin cheng
+新成	xin cheng
+新城花園	xin cheng hua yuan
+新春園路口	xin chun yuan lu kou
+新村	xin cun
+新厝	xin cuo
+新厝村	xin cuo cun
+信達化工	xin da hua gong
+信達建材	xin da jian cai
+新大樓	xin da lou
+新迪斯	xin di si
+新東	xin dong
+新東村	xin dong cun
+新發加油站	xin fa jia you zhan
+新發園	xin fa yuan
+新豐村	xin feng cun
+新豐鎮政府	xin feng zhen zheng fu
+新豐中心小學	xin feng zhong xin xiao xue
+新豐中學	xin feng zhong xue
+新港航道	xin gang hang dao
+新宮內	xin gong nei
+新溝村	xin gou cun
+新光	xin guang
+新光小學	xin guang xiao xue
+新合村	xin he cun
+新和村	xin he cun
+新和裏	xin he li
+新恆安	xin heng an
+新華購書中心	xin hua gou shu zhong xin
+新華書店	xin hua shu dian
+新華照相	xin hua zhao xiang
+新暉園	xin hui yuan
+新開田	xin kai tian
+新康村	xin kang cun
+新科達	xin ke da
+新聯村	xin lian cun
+新寮	xin liao
+新寮村	xin liao cun
+新樓	xin lou
+新樓村	xin lou cun
+新民村	xin min cun
+新民學校	xin min xue xiao
+新南悅陶瓷	xin nan yue tao ci
+新埔	xin pu
+新鋪	xin pu
+新埔村	xin pu cun
+新橋	xin qiao
+新橋加油站	xin qiao jia you zhan
+新橋路口	xin qiao lu kou
+新橋市場	xin qiao shi chang
+新山村	xin shan cun
+新石村	xin shi cun
+新世紀幼兒園	xin shi ji you er yuan
+新時空大廈	xin shi kong da sha
+新塔村	xin ta cun
+新泰花園	xin tai hua yuan
+新塘村	xin tang cun
+新塘洋	xin tang yang
+新塘鎮政府	xin tang zhen zheng fu
+新塘中學	xin tang zhong xue
+新田	xin tian
+新圍	xin wei
+新屋	xin wu
+新禧花園	xin xi hua yuan
+新西坑	xin xi keng
+新霞村	xin xia cun
+新鄉	xin xiang
+新巷	xin xiang
+新鄉村	xin xiang cun
+新鄉幼兒園	xin xiang you er yuan
+新圩	xin xu
+新圩鎮政府	xin xu zhen zheng fu
+新雅園	xin ya yuan
+新洋大廈	xin yang da sha
+信怡園	xin yi yuan
+新一族	xin yi zu
+新宇花園	xin yu hua yuan
+新園	xin yuan
+新月塘	xin yue tang
+新澤裏	xin ze li
+新寨村	xin zhai cun
+新寨仔	xin zhai zai
+新中源陶瓷	xin zhong yuan tao ci
+興彬	xing bin
+興發小區	xing fa xiao qu
+星光	xing guang
+星光村	xing guang cun
+星華	xing hua
+星星傢俱	xing xing jia ju
+星星農場	xing xing nong chang
+雄英大廈	xiong ying da sha
+秀溪村	xiu xi cun
+秀英小學	xiu ying xiao xue
+徐厝	xu cuo
+許厝	xu cuo
+徐厝橋	xu cuo qiao
+許駙馬府	xu fu ma fu
+許坑村	xu keng cun
+許南美	xu nan mei
+許宅	xu zhai
+訓下	xun xia
+汛洲	xun zhou
+汛洲島	xun zhou dao
+鴨背	ya bei
+啞後	ya hou
+雅樂園	ya le yuan
+雅麗超市	ya li chao shi
+雅麗購物	ya li gou wu
+鴨麻坑	ya ma keng
+牙美	ya mei
+鴨母坑	ya mu keng
+雅妮服飾	ya ni fu shi
+亞陶	ya tao
+牙頭	ya tou
+亞下	ya xia
+亞洲人	ya zhou ren
+菸草大廈	yan cao da sha
+巖場	yan chang
+顏厝村	yan cuo cun
+煙墩山	yan dun shan
+燕坑	yan keng
+燕坑村	yan keng cun
+巖山	yan shan
+硯山村	yan shan cun
+硯田村	yan tian cun
+巖下	yan xia
+雁園	yan yuan
+巖仔	yan zai
+燕子山	yan zi shan
+楊厝	yang cuo
+洋東	yang dong
+洋洞	yang dong
+洋東村	yang dong cun
+羊肚	yang du
+陽光寶貝幼兒園	yang guang bao bei you er yuan
+陽光印務	yang guang yin wu
+陽光幼兒園	yang guang you er yuan
+養和堂大藥房	yang he tang da yao fang
+楊康村	yang kang cun
+楊美村	yang mei cun
+楊梅坑	yang mei keng
+羊山	yang shan
+養生閣	yang sheng ge
+楊桃坑	yang tao keng
+洋頭	yang tou
+洋頭村	yang tou cun
+羊頭角	yang tou jiao
+羊頭山	yang tou shan
+洋頭小學	yang tou xiao xue
+洋尾	yang wei
+洋下	yang xia
+遙遠學校	yao yuan xue xiao
+葉坑	ye keng
+野水	ye shui
+野味火鍋	ye wei huo guo
+一八八醫院	yi ba ba yi yuan
+以純	yi chun
+奕東村	yi dong cun
+意爾康	yi er kang
+逸峯大酒店	yi feng da jiu dian
+奕湖村	yi hu cun
+怡景大廈	yi jing da sha
+怡景居	yi jing ju
+億康藥店	yi kang yao dian
+宜客隆	yi ke long
+一覽亭	yi lan ting
+伊麗花園	yi li hua yuan
+益美電器	yi mei dian qi
+蟻盟	yi meng
+依米奴	yi mi nu
+一品行	yi pin xing
+益羣電器	yi qun dian qi
+伊莎萊	yi sha lai
+藝術幼兒園	yi shu you er yuan
+意溪壩街尾	yi xi ba jie wei
+意溪中學	yi xi zhong xue
+怡心	yi xin
+藝星幼兒園	yi xing you er yuan
+銀豐花園	yin feng hua yuan
+銀湖村	yin hu cun
+銀潭	yin tan
+引下	yin xia
+英才小學	ying cai xiao xue
+瑩芳	ying fang
+英港	ying gang
+櫻花衛廚	ying hua wei chu
+英坑	ying keng
+營前	ying qian
+英山村	ying shan cun
+營上	ying shang
+英塘	ying tang
+英塘村	ying tang cun
+盈業	ying ye
+永安村	yong an cun
+永安電器	yong an dian qi
+永安加油站	yong an jia you zhan
+永安裏	yong an li
+永春園	yong chun yuan
+永福寺	yong fu si
+永護路口	yong hu lu kou
+永利電器	yong li dian qi
+永善村	yong shan cun
+永盛村	yong sheng cun
+永太	yong tai
+永泰花園	yong tai hua yuan
+永興餐廳	yong xing can ting
+永義	yong yi
+油車	you che
+郵電局	you dian ju
+油麻田	you ma tian
+優美世界	you mei shi jie
+漁村鎮	yu cun zhen
+餘厝	yu cuo
+玉湖村	yu hu cun
+玉窖	yu jiao
+玉蘭幼兒園	yu lan you er yuan
+玉蘭園	yu lan yuan
+餘爐	yu lu
+玉屏村	yu ping cun
+嶼山	yu shan
+嶼山村	yu shan cun
+魚生王	yu sheng wang
+玉田村	yu tian cun
+雨亭	yu ting
+毓秀園	yu xiu yuan
+育英幼兒園	yu ying you er yuan
+渝園	yu yuan
+育智學校	yu zhi xue xiao
+遠東蘋果	yuan dong ping guo
+遠東陶瓷	yuan dong tao ci
+遠光村	yuan guang cun
+遠景幼兒園	yuan jing you er yuan
+園坪	yuan ping
+院前村	yuan qian cun
+園山村	yuan shan cun
+袁屋	yuan wu
+元巷村	yuan xiang cun
+圓元園	yuan yuan yuan
+粵潮花園	yue chao hua yuan
+粵潮市場	yue chao shi chang
+粵潮新園	yue chao xin yuan
+月明	yue ming
+月潭	yue tan
+月影人	yue ying ren
+悅園	yue yuan
+雲步村	yun bu cun
+雲光中學	yun guang zhong xue
+雲和大酒店	yun he da jiu dian
+雲裏	yun li
+雲嶺	yun ling
+雲英路	yun ying lu
+載割	zai ge
+再下	zai xia
+澤洲	ze zhou
+曾厝村	zeng cuo cun
+寨後	zhai hou
+寨內	zhai nei
+寨山	zhai shan
+寨上	zhai shang
+寨上村	zhai shang cun
+齋堂	zhai tang
+寨下	zhai xia
+寨仔	zhai zai
+詹厝	zhan cuo
+詹厝村	zhan cuo cun
+佔田	zhan tian
+張厝	zhang cuo
+樟坑	zhang keng
+張山	zhang shan
+朝霞書店	zhao xia shu dian
+朝陽電子	zhao yang dian zi
+朝陽樓	zhao yang lou
+柘林村	zhe lin cun
+柘林中學	zhe lin zhong xue
+鎮風塔	zhen feng ta
+振華學校	zhen hua xue xiao
+真維斯	zhen wei si
+振興路	zhen xing lu
+鄭厝	zheng cuo
+鄭崗村	zheng gang cun
+鄭居	zheng ju
+正坑	zheng keng
+正龍路口	zheng long lu kou
+鄭屋	zheng wu
+致祥	zhi xiang
+智信科技	zhi xin ke ji
+智勇中學	zhi yong zhong xue
+蜘蛛結網	zhi zhu jie wang
+至尊電器	zhi zun dian qi
+中百家電	zhong bai jia dian
+鍾厝	zhong cuo
+中段村	zhong duan cun
+中國銀行	zhong guo yin hang
+中行開發區支行	zhong hang kai fa qu zhi hang
+中行開元支行	zhong hang kai yuan zhi hang
+中津	zhong jin
+中聯村	zhong lian cun
+中嶺	zhong ling
+中嶺山	zhong ling shan
+中坪	zhong ping
+中山樓	zhong shan lou
+中山書店	zhong shan shu dian
+中社村	zhong she cun
+中團村	zhong tuan cun
+鍾屋	zhong wu
+中鄉	zhong xiang
+中信花園	zhong xin hua yuan
+中心醫院	zhong xin yi yuan
+中星數碼	zhong xing shu ma
+中訊數碼	zhong xun shu ma
+中央樓	zhong yang lou
+中銀大廈	zhong yin da sha
+中莊村	zhong zhuang cun
+周厝	zhou cuo
+周大福珠寶	zhou da fu zhu bao
+洲達加油站	zhou da jia you zhan
+朱厝	zhu cuo
+竹竿山	zhu gan shan
+竹篙山	zhu gao shan
+竹腳	zhu jiao
+助考書店	zhu kao shu dian
+朱坑	zhu keng
+竹坑	zhu keng
+竹藍	zhu lan
+竹林	zhu lin
+竹木門	zhu mu men
+豬山	zhu shan
+竹塔	zhu ta
+竹頭下	zhu tou xia
+竹圍	zhu wei
+竹圍村	zhu wei cun
+竹圍鄉	zhu wei xiang
+竹園背	zhu yuan bei
+竹園村	zhu yuan cun
+莊埕	zhuang cheng
+莊西隴村	zhuang xi long cun
+卓村	zhuo cun
+卓花	zhuo hua
+紫蓮路口	zi lian lu kou
+自由派	zi you pai
+紫雲村	zi yun cun
+紫雲學校	zi yun xue xiao
+祖厝	zu cuo
+佐丹奴	zuo dan nu
+左麥	zuo mai

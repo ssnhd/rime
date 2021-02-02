@@ -1,0 +1,19 @@
+🟥 custom_phrase.txt	# 文本替换
+
+🟧 default.custom.yaml	# 全局设置：切换输入法、候选词数量、切换中英文、翻页
+
+🟨 luna_pinyin_simp.custom.yaml	# （朙月拼音简化字）设置自定义快捷字符、模糊音、动态时间日期星期
+
+    luna_pinyin.custom.yaml	# （朙月拼音繁体）设置自定义快捷字符、模糊音
+
+🟩 luna_pinyin.extended.dict.yaml	# 扩充词库名称填入这里
+
+🟦 Open文件夹	# 表情，自定义字符
+
+🟪 squirrel.custom.yaml	# 皮肤主题
+
+⬛️ .dict.yaml结尾的文件	# 词库
+
+    f_myphrases.dict.yaml	# 常见符号
+
+    rime.lua		# 设置时间、日期、星期格式和快捷键

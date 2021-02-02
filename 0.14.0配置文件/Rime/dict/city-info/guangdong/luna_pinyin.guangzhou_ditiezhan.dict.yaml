@@ -1,0 +1,142 @@
+# Rime dict
+# encoding: utf-8
+#
+# 廣州市地鐵站名
+# 詞條來源：搜狗輸入法詞庫
+# 創建者：搜狗拼音輸入法
+# 更新：2013-07-18
+# 來源：https://pinyin.sogou.com/dict/detail/index/37241
+#
+# author: Graon Chan
+# GitHub: https://github.com/grasonchan/squirrel-config
+# **不去除** 與 Rime 預設詞彙表【八股文】重複的詞彙
+# 2021-01-23
+
+---
+name: "luna_pinyin.guangzhou_ditiezhan"
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+白雲大道北	bai yun da dao bei
+白雲公園	bai yun gong yuan
+白雲文化廣場	bai yun wen hua guang chang
+寶崗大道	bao gang da dao
+昌崗	chang gang
+長壽路	chang shou lu
+車陂	che bei
+車陂南	che bei nan
+陳家祠	chen jia ci
+赤崗	chi gang
+赤崗塔	chi gang ta
+大沙地	da sha di
+大沙東	da sha dong
+大石	da shi
+大塘	da tang
+大學城北站	da xue cheng bei zhan
+大學城南站	da xue cheng nan zhan
+低湧	di yong
+東圃	dong pu
+東山口	dong shan kou
+動物園	dong wu yuan
+東曉南	dong xiao nan
+東湧	dong yong
+芳村	fang cun
+飛翔公園	fei xiang gong yuan
+鳳凰新村	feng huang xin cun
+婦兒中心	fu er zhong xin
+崗頂	gang ding
+歌劇院	ge ju yuan
+公園前	gong yuan qian
+官洲	guan zhou
+廣州東站	guang zhou dong zhan
+廣州火車站	guang zhou huo che zhan
+廣州南汽車客運站	guang zhou nan qi che ke yun zhan
+廣州南站	guang zhou nan zhan
+海傍	hai bang
+海心沙	hai xin sha
+海珠廣場	hai zhu guang chang
+漢溪長隆	han xi chang long
+花城大道	hua cheng da dao
+花地灣	hua di wan
+華師	hua shi
+黃邊	huang bian
+黃村	huang cun
+黃閣	huang ge
+黃閣汽車城	huang ge qi che cheng
+黃埔大道	huang pu da dao
+黃沙	huang sha
+會江	hui jiang
+機場南	ji chang nan
+紀念堂	ji nian tang
+嘉禾望崗	jia he wang gang
+江南西	jiang nan xi
+江泰路	jiang tai lu
+江夏	jiang xia
+滘口	jiao kou
+蕉門	jiao men
+蕉門地鐵站	jiao men di tie zhan
+金洲	jin zhou
+京溪南方醫院	jing xi nan fang yi yuan
+菊樹	ju shu
+客村	ke cun
+科韻路	ke yun lu
+坑口	keng kou
+瀝滘	li jiao
+獵德	lie de
+烈士陵園	lie shi ling yuan
+林和西	lin he xi
+龍歸	long gui
+龍溪	long xi
+鷺江	lu jiang
+洛溪	luo xi
+梅花園	mei hua yuan
+磨碟沙	mo die sha
+南浦	nan pu
+南洲	nan zhou
+農講所	nong jiang suo
+琶洲	pa zhou
+番禺廣場	pan yu guang chang
+區莊	qu zhuang
+人和	ren he
+三溪	san xi
+三元里	san yuan li
+廈滘	sha jiao
+沙園	sha yuan
+石壁	shi bi
+市二宮	shi er gong
+石牌橋	shi pai qiao
+石碁	shi qi
+市橋	shi qiao
+潭村	tan cun
+坦尾	tan wei
+淘金	tao jin
+體育西路	ti yu xi lu
+體育中心	ti yu zhong xin
+體育中心南	ti yu zhong xin nan
+天河客運站	tian he ke yun zhan
+天河南	tian he nan
+同和	tong he
+萬勝圍	wan sheng wei
+文衝	wen chong
+五山	wu shan
+五羊邨	wu yang cun
+西場	xi chang
+西村	xi cun
+西朗	xi lang
+西門口	xi men kou
+小北	xiao bei
+曉港	xiao gang
+蕭崗	xiao gang
+新港東	xin gang dong
+新造	xin zao
+燕塘	yan tang
+楊箕	yang ji
+永泰	yong tai
+魚珠	yu zhu
+員村	yuan cun
+越秀公園	yue xiu gong yuan
+中大	zhong da
+中山八	zhong shan ba
+珠江新城	zhu jiang xin cheng
