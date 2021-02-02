@@ -32,6 +32,8 @@
 
 下载鼠须管安装包 [![Download](https://raw.githubusercontent.com/liuour/SVG/07680779bf57800d72e786466f26cd2d5f339826/Download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
 
+【附】想体验测试版本在这下载：https://dl.bintray.com/rime/weasel/
+
 ![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
 
 按组合键 `Control`+`｀` 换出输入法方案选项，切换到朙月拼音·简化字。
@@ -107,7 +109,7 @@ Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 - { when: has_menu, accept: bracketright, send: Page_Down }
 ```
 
-例如，`Control`+`Shift`+`4` 切换简繁体。
+例如，`Control`+`Shift`+`4` 切换繁简体。
 
 例如，`Control`+`a` 和 `Control`+`e` 移动光标至首尾。
 
