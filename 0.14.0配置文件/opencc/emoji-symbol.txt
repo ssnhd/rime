@@ -1,0 +1,29 @@
+/bq	😂 ☺️ 😏 😒 🤔 😳 😔 😱 😭 🙈️ 💩 😀 😁 🤣 😄 😅 😆 😇 😉 😊 🙂 🙃 😋 😌 😍 😘 😙 😜 😝 🤑 🤓 😎 🤗 😶 😑 🙄 😞 😟 😠 😡 😕 ☹️ 😣 😖 😫 😤 😮 😨 😰 😯 😦 😢 😥 😪 😓 🤤 😲 🤥 🤢 🤧 🤐 😷 🤒 🤕 😴 😃 😗 😚 😛 🙁 😩 😐 😧 😵 😬 🤪 🤨 🧐 🤩 🤬 🤯 🤭 🤫 🤮 🤡 🤠 😈 👿 👻 💀 👽
+/ss	👌 👍 👎 👊 🤝 ✌️ 💪 🙏 ✊ 👏 👋 🤞 ✋ 🤚 🖖 🤙 🖕 🤟 ☝️ 👆 👇 👈 👉 🤛 🤜 🤲 🤘 🙌 👐 ✍️ 💅
+/am	🐶 🐮 🐵 🙈 🙉 🙊 🐒 🐔 🐴 🐷 🐽 🐭 🦐 🦀 🐢 🐱 🐹 🐰 🐻 🐼 🐨 🐧 🐦 🐤 🐣 🐥 🐯 🦁 🐸 🐙 🦆 🦅 🦉 🦇 🐺 🐗 🦄 🐝 🐛 🦋 🐌 🐞 🐜 🕷 🦂 🐍 🦎 🦑 🐠 🐟 🐡 🐬 🐳 🐊 🐆 🐅 🐃 🐂 🐄 🐪 🐫 🐘 🦏 🦍 🐐 🐏 🐑 🐎 🐖 🐀 🐁 🐓 🦃 🕊 🐕 🐩 🐈 🐇 🐿
+/aj	⌘ ⌥ ⇧ ⌃ ⎋ ⇪  ⌫ ⌦ ↩︎ ⏎ ␣ ⏏ ↑ ↓ ← → ↖ ↘ ⇟ ⇞
+/fs	½ ⅓ ⅔ ¼ ¾ ⅒ ‰
+/fh	© ® ℗ ⓘ ℠ ™ ℡ ␡ ♂ ♀ ☉ ☊ ☋ ☌ ☍ ☐ ☑︎ ☒ ☜ ☝ ☞ ☟ ✎ ✄ ♻ ⚐ ⚑ ⚠
+/xh	＊ × ✱ ★ ☆ ✩ ✧ ❋ ❊ ❉ ❈ ❅ ✿ ✲
+/hb	CNY USD HKD JPY TWD SGD EUR GBP KRW AUD CAD RUB INR NLG
+【	【 [ 〔
+】	】 ] 〕
+￥	¥ $ ￥ € £ ¢
+°	% ° ℃ ℉ ％
+〈	〈 « <
+〉	〉 » >
+·	* ＊ · ・
+OK	👌🏻 OK
+HK	HK 🇭🇰
+cmd	Cmd Command ⌘
+ctrl	Ctrl Control ⌃
+opt	Alt Option ⌥
+shift	Shift ⇧
+cap	Cap CapsLock ⇪
+return	return Enter Ruturn ⏎
+space	Space ␣
+backspace	Backspace ⌫
+del	Del Delete ⌦
+escape	Esc Escape ⎋
+eject	Eject ⏏
+修饰键	修饰键 ⌘ ⌥ ⇧ ⌃ ⎋ ⇪  ⌫ ⌦ ↩︎ ⏎ ␣ ⏏

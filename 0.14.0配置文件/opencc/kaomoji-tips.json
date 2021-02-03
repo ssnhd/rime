@@ -1,0 +1,16 @@
+{
+  "name": "kaomoji-tips",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "kaomoji-tips.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "kaomoji-tips.txt"
+    }
+  }]
+}

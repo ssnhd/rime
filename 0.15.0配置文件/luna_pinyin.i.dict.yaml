@@ -1,0 +1,432 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# luna_pinyin.i.dict.yaml
+#
+
+---
+name: luna_pinyin.i
+version: "2019.1.13"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+# #####################################################
+
+# 中文特有名词
+笑哭	xiao ku
+傲娇	ao jiao
+补全	bu quan
+包邮	bao you
+酷安	ku an
+简书	jian shu
+校招	xiao zhao
+社招	she zhao
+众筹	zhong chou
+苹方	ping fang
+拉黑	la hei
+候选词	hou xuan ci
+修饰键	xiu shi jian
+公众号	gong zhong hao
+五险一金	wu xian yi jin
+全栈	quan zhan
+选择器	xuan ze qi
+响应式布局	xiang ying shi bu ju
+
+# 修饰键
+cmd	cmd	10000
+opt	opt	10000
+cap	cap	10000
+backspace	backs	10000
+backspace	backs pa	10000
+backspace	backs pa ce	10000
+del	del	10000
+eject	eject	10000
+
+# 常用
+知乎	zhi hu	10001
+陌陌	mo mo	10000
+拉勾	la gou	10001
+小米	mi	10001
+淘宝	tao bao	10001
+天猫	tian mao	10001
+京东	jing dong	10001
+Stack Overflow	so f	10001
+
+# 网址
+https://www.google.com/	google	10000
+github.com	github	10000
+zhihu.com	zhi hu	10000
+baidu.com	bai du	10000
+baike.baidu.com	baike	10000
+dict.youdao.com	dict	10000
+bilibili.com	b l b l	10000
+lagou.com	la gou	10000
+smartisan.com	s ma r	10001
+t.tt	s ma r	10000
+mi.com	mi	10000
+taobao.com	tao bao	10000
+tmall.com	tian mao	10000
+jd.com	jing dong	10000
+stackoverflow.com	so f	10000
+
+# 网站
+V2EX	ve	10000
+v2ex	vex	10001
+douban	dou ban
+imgur	im gur
+IMDb	im db
+Instagram	in stagram
+Instagram	in s	10000
+Baidu	bai du
+Facebook	fb
+Google	go o gle
+Google	gu ge 10000
+Google  gg
+Twitter	twitter
+Twitter	t t	10000
+Plurk	p lurk
+QCon	q con
+TED	ted
+Yahoo	ya hoo
+Youku	you ku
+YouTube	you tube
+YouTube	y t
+ZeroNet	zero net
+cnBeta	cnbeta
+infoQ	infoq
+
+# 电脑硬件厂商厂牌 & 硬件产品名
+Nvidia	n vidia
+Ruff	r u f f
+Xeon	x eon
+DJI	da jiang
+#
+PSP	p s p	10000
+Xbox	x b o x	10000
+Canon	ca non
+Nikon	ni kon
+Nikon	ni kang	10000
+Arduino	arduino
+
+# 新闻厂商厂牌
+BBC	b b c	10000
+CCTV	c c t v
+中国中央电视台	c c t v
+CNN	c n n
+
+# 电脑软件厂商厂牌 & 软件名 (民用系统、软件，开发用开源库、框架)
+Tencent	ten cent
+Oracle	o racle
+Mozilla	mo zilla
+Microsoft	mi cro soft
+Microsoft	m s	10000
+SAP	s a p
+Blizzard	bli zzard
+JetBrains	jet brains
+#
+Arch	a r c h	10000
+Firefox	fire fox	10000
+Firefox	f f	10000
+Ubuntu	u buntu
+Kubuntu	ku buntu
+Whatsapp	whatsapp
+Windows	w i n
+Xcode	x code
+Wechat	we chat
+Wordpress	word press
+Telegram	tele gram
+Telegram  t g
+VMware	v m
+Visual Studio Code	v s c
+#
+Ansible	an sible
+Chef	c h e f
+PhpStorm	php storm
+RubyMine	ruby mine
+PyCharm	p y charm
+#
+GNU	g n u
+Unix	u n i x
+Rails	r a i l s	10000
+Ruby on Rails	r o r	10000
+
+# 游戏、球队厂商厂牌
+NBA	n b a	10000
+NCAA	n c a a
+FIFA	f i f a
+GSW	g s w
+Golden State Warriors	g s w
+Olympics	olymipc
+Olympics	olymipcs
+KOF	k o f
+LOL	l o l
+WOW	w o w
+Warcraft	warcraft
+Warriors	warriors
+World of Warcraft	w o w
+
+# 文化厂商厂牌、节目与艺术家
+Wiki	w i k i	10000
+Wikipedia	wikipedia	10000
+WWYD	w w y d	10000
+MTV	m t v	10000
+#
+2Pac	t p a c
+Tupac	t p a c
+Tupac	t u p a c
+Taylor Swift	t s
+JJ	j j
+Jay	j a y
+Lam	l a m
+Chou	c h o u
+
+# 其他厂商厂牌
+
+
+# 一般技术词汇
+http	http
+HTTP	http
+https	https
+HTTPS	https
+MIPS	m i p s
+OOP	o o p
+Markdown	m d	10000
+Markdown	m a r k d o w n	10000
+API	a p i	10000
+CG	c g	10000
+FM	f m	10000
+IP	i p	10000
+LTS	l t s
+PRAM	p r a m
+RAM	r a m
+ROM	r o m
+SIM	s i m
+ToS	t o s
+Terms of Service	t o s
+TOC	t o c
+table of contents	t o c
+URL	u r l
+USB	u s b
+Wi-Fi	w i f i
+WiFi	w i f i
+#
+Ctrl	ctrl
+ctrl	ctrl
+Alt	alt
+alt	alt
+Tab	tab
+tab	tab
+Esc	Esc
+esc	esc
+#
+index	i n d e x
+inline	i n l i n e
+lock	l o c k
+ascii	a s c i i
+code	c o d e
+dev	d e v
+sudo	su do
+text	t e x t
+yum	y u m
+programming	programming
+guide	g u i d e
+W3C	w t h c
+W3C	w s c
+WWW	w w w
+Web	w e b
+World Wide Web	w w w
+IDE	i d e
+VPS	v p s
+DevOps	d e v o p s
+#-后缀名
+cpp	c p p
+css	c s s
+doc	d o c
+docx	d o c x
+erb	e r b
+html	h t m l
+js	j s
+md	m d
+node	n o d e
+php	p h p
+ppt	p p t
+pptx	p p t x
+py	p y
+rb	r b
+sh	s h
+txt	t x t
+xls	x l s
+xlsx	x l s
+#-特有名词
+状态机
+纯函数
+函数式编程
+一等公民
+高阶函数
+依赖注入
+
+# 软件技术词汇 - 前端
+JavaScript	j s	10000
+JavaScript	javascript
+CSS	c s s
+CSS3	c s s s
+CoffeeScript	coffeescript
+ERB	e r b
+Emmet	e m m e t
+HTML	h t m l
+HTML5	h t m l f
+HTML5	h f
+JSLint	j s l i n t
+
+
+# 软件技术词汇 - 后端
+C#	c s h a r p
+Maven	m a v e n
+Perl	p e r l
+Python	p y t h o n
+Ruby	r u b y
+Scala	s c a l a
+Swift	s w i f t
+Objective-C	o b j c
+C++	c p p
+J2EE	j t e e
+
+# 其他词汇
+OK	o k	10000
+TV	tv
+FBI	f b i
+CIA	c i a
+
+DNA	d n a
+DVD	d v d
+
+Alpha	a l p h a
+Beta	b e t a
+Delta	d e l t a
+Theta	t h e t a
+
+# ################## alphabet & character ###################################
+
+# Math
+∵	b e c a u s e
+∵	yin wei	1000
+∴	t h e r e f o r e
+∴	suo yi	1000
+~	s i m
+∈	i n
+⊂	s u b s e t
+⊆	s u b s e t e q
+∑	s u m
+∏	p r o d
+∫	i n t
+∮	o i n t
+∀	f o r a l l
+∃	e x i s t s
+∇	n a b l a
+∆	t r i a n g l e
+∞	i n f t y
+∞	wu xian	1000
+≐	d o t e q
+
+# Greek alphabet
+Α	a l p h a	10
+Β	b e t a	10
+Γ	g a m m a	10
+Δ	d e l t a	10
+Ε	e p s i l o n	10
+Ζ	z e t a	10
+Η	e t a	10
+Θ	t h e t a	10
+Ι	i o t a	10
+Κ	k a p p a	10
+Λ	l a m b d a	10
+Μ	m u	10
+Ν	n u	10
+Ξ	x i	10
+Ο	o m i c r o n	10
+Π	p i	10
+Ρ	r h o	10
+Σ	s i g m a	10
+Τ	t a u	10
+Υ	u p s i l o n	10
+Φ	p h i	10
+Χ	c h i	10
+Ψ	p s i	10
+Ω	o m e g a	10
+α	a l p h a	10
+β	b e t a	10
+γ	g a m m a	10
+δ	d e l t a	10
+ε	e p s i l o n	10
+ζ	z e t a	10
+η	e t a	10
+θ	t h e t a	10
+ι	i o t a	10
+κ	k a p p a	10
+λ	l a m b d a	10
+μ	m u	10
+ν	n u	10
+ξ	x i	10
+ο	o m i c r o n	10
+π	p i	10
+ρ	r h o	10
+σ	s i g m a	10
+τ	t a u	10
+υ	u p s i l o n	10
+φ	p h i	10
+χ	c h i	10
+ψ	p s i	10
+ω	o m e g a	10
+
+# ################## simple english ###################################
+abc	a b c
+ABC	a b c
+bullshit	bullshit
+can't	cant
+champion	champion
+class	class
+clear	clear
+config	config
+cookie	cookie
+couldn't	couldnt
+cup	c u p
+custom	custom
+didn't	didnt
+don't	dont
+down	down
+description	description
+dream	dream
+form	form
+fuck	fuck
+game	game
+great	great
+green	green
+ground	ground
+hadn't	hadnt
+have	have
+haven't	havent
+id	id
+ID	id
+if	i f
+in	i n
+loop	loop
+mobile	mobile
+next	next
+object	object
+on	o n
+option	option
+patch	patch
+pie	p i e
+play	p l ay
+render	render
+return	return
+round	round
+session	session
+switch	switch
+turn	turn
+up	u p
+win	w i n
+
+please	p l s
+bullshit	b s
