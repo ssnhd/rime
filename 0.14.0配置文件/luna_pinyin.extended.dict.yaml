@@ -18,17 +18,14 @@ import_tables:
   - luna_pinyin.computer
   - luna_pinyin.dianshiju
   - luna_pinyin
-  - luna_pinyin.falv
   - luna_gushici
   - luna_pinyin.i
-  - luna_pinyin.kaifa
   - luna_pinyin.mingxing
   - luna_pinyin.movie
   - luna_pinyin.music
   - luna_pinyin.poetry
   - luna_pinyin.sgmain
   - luna_pinyin.shoujicihui
-  - luna_pinyin.xiandaihanyu
   - luna_pinyin.yixue
     #
   - f_myphrases

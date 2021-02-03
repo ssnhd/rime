@@ -3,7 +3,7 @@
 # Source: https://pinyin.sogou.com/dict/detail/index/15097
 
 ---
-name: luna_pinyin.chengyusuyu
+name: luna_pinyin.chengyu
 version: "2017.03.30"
 sort: by_weight
 use_preset_vocabulary: false
