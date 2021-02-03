@@ -270,12 +270,4 @@ com.apple.Spotlight:
 
 【注】只能够从用户词典中删除词组；用于词库里词组时，只会取消其调频效果。
 
----
-
-**资源参考**
-
-* 皮肤：[https://github.com/rime/squirrel/blob/master/data/squirrel.yaml](https://github.com/rime/squirrel/blob/master/data/squirrel.yaml)
-* grasonchan 朙月拼音：[https://github.com/grasonchan/squirrel-config](https://github.com/grasonchan/squirrel-config)
-* KyleBing Rime 五笔 ：[https://github.com/KyleBing/rime-wubi86-jidian](https://github.com/KyleBing/rime-wubi86-jidian)
-
 [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
