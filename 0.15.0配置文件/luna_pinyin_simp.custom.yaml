@@ -33,10 +33,10 @@ patch:
     option_name: show_emoji
     tags: abc
 
-# 改寫拼寫運算，使得含西文的詞彙（位於 luna_pinyin.cn_en.dict.yaml 中）不影響簡拼功能（注意，此功能只適用於朙月拼音系列方案，不適用於各類雙拼方案）
+# 改写拼写运算，使得含西文的词汇（位于luna_pinyin.cn_en.dict.yaml中）不影响简拼功能（此功能只适用于朙月拼音系列方案）
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
 
-#  載入朙月拼音擴充詞庫
+#  载入朙月拼音扩充词库
   "translator/dictionary": luna_pinyin.extended
 #  拼写纠错（不建议开启）
   #"translator/enable_correction": true
@@ -44,10 +44,10 @@ patch:
 # 加載 easy_en 依賴
   "schema/dependencies/@1": easy_en
 
-# 載入翻譯英文的碼表翻譯器，取名爲 english
+# 载入翻译英文的码表翻译器，取名为 english
   "engine/translators/@4": table_translator@english
 
-# english 翻譯器的設定項
+# english 翻译器的设定项
   english:
     dictionary: easy_en
     spelling_hints: 9
