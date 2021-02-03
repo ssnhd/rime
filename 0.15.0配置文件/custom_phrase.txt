@@ -20,11 +20,6 @@ Rime	rime	3
 鼠须管	rime	2
 https://rime.im/	rime	1
 
->	dy	2
-≥	dy	1
-<	xy	2
-≤	xy	1
-
 App	app
 App Store	as	2
 Apple Store	as	1
