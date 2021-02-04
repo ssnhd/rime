@@ -4,10 +4,6 @@
 
 ---
 
-非程序员第一次看到〔配置文件〕里一堆文件可能一头雾水，没关系，下图根据颜色已列好文件的具体功能。
-
-![02](https://tvax4.sinaimg.cn/large/008eZBHKgy1gnaxst598mj31q613gq65.jpg)
-
 ### 目录
 
 1. [安装输入法](#一安装输入法)
@@ -57,7 +53,9 @@
 
 Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
 
-![008eZBHKgy1gn45evcvwzj31ng12ijw9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45evcvwzj31ng12ijw9.jpg)
+`非程序员第一次看到【配置文件】里一堆文件可能一头雾水，没关系，下图根据颜色已列好文件的具体功能。`
+
+![02](https://tvax4.sinaimg.cn/large/008eZBHKgy1gnaxst598mj31q613gq65.jpg)
 
 点击【重新部署】完成定制。
 
