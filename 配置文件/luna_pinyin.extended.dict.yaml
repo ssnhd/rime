@@ -13,6 +13,7 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用
 
 import_tables:
+  - luna_pinyin.chat
   - luna_pinyin.chengyu
   - luna_pinyin.dianshiju
   - luna_pinyin
@@ -24,8 +25,12 @@ import_tables:
   - luna_pinyin.mingxing
   - luna_pinyin.movie
   - luna_pinyin.music
+  - luna_pinyin.place
   - luna_pinyin.poetry
   - luna_pinyin.sgmain
+  - luna_pinyin.shopping
   - luna_pinyin.yixue
+  - luna_pinyin.wangluoliuxing
+  - luna_pinyin.website
   - f_myphrases
 
