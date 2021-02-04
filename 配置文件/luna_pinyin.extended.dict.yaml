@@ -20,8 +20,7 @@ import_tables:
   - luna_pinyin.cn_en
   - luna_pinyin.computer
   - luna_pinyin.dongman
-  - luna_pinyin.gushici
-  - luna_pinyin.i
+  - luna_pinyin.gushic
   - luna_pinyin.mingxing
   - luna_pinyin.movie
   - luna_pinyin.music
