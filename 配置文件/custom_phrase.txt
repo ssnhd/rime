@@ -126,6 +126,7 @@ openwrt	ow
 Option	ot
 Outlook	ol	2
 outlook.com	ol	1
+OK	ok
 
 Parallels Desktop	pd
 Paragon NTFS	pn
