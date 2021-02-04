@@ -64,9 +64,7 @@
 
 在 `style/color_scheme:` 后方输入皮肤名称来更换主题。
 
-![008eZBHKgy1gn45h391hcj31dy048jrp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45h391hcj31dy048jrp.jpg)
-
-![008eZBHKgy1gn46otuizgj31be1rwwmf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn46otuizgj31be1rwwmf.jpg)
+![GR7eBJLUvfFyw1X](https://i.loli.net/2021/02/04/GR7eBJLUvfFyw1X.png)
 
 更多皮肤效果图：[点击这里](https://github.com/liuour/rime-pifu)
 
@@ -117,23 +115,13 @@
 
 以朙月拼音·简化字为例，用 `luna_pinyin_simp.custom.yaml` 保存快捷符号的设置。
 
-![008eZBHKgy1gn45kbr23nj31p0168dii](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45kbr23nj31p0168dii.jpg)
+![u41CRwkP23o7ArJ](https://i.loli.net/2021/02/04/u41CRwkP23o7ArJ.png)
 
 输入 `/bq` 显示表情。
 
 ![008eZBHKgy1gn45lbrlxpj31dw03q74h](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45lbrlxpj31dw03q74h.jpg)
 
-输入 `/vmm` 显示卖萌颜文字。
-
-![008eZBHKgy1gn45m9js8vj31dy052jrs](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45m9js8vj31dy052jrs.jpg)
-
-输入 `/hb` 显示货币符号。
-
-![008eZBHKgy1gn45lqmz88j31dy04waah](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45lqmz88j31dy04waah.jpg)
-
-在 opencc 文件夹内修改 Emoji、符号、颜文字、货币。
-
-![008eZBHKgy1gn45mxec5xj31hc0togon](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45mxec5xj31hc0togon.jpg)
+【附】输入字符时候选词关联的Emoji表情在〔opencc〕文件夹。
 
 ---
 
