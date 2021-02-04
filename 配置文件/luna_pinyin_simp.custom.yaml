@@ -66,10 +66,6 @@ patch:
       "/bq": [😀,😁,😂,😃,😄,😅,😆,😉,😊,😋,😎,😍,😘,😗,😙,😚,😇,😐,😑,😶,😏,😣,😥,😮,😯,😪,😫,😴,😌,😛,😜,😝,😒,😓,😔,😕,😲,😷,😖,😞,😟,😤,😢,😭,😦,😧,😨,😬,😰,😱,😳,😵,😡,😠]
       "/ss": [💪,👈,👉,👆,👇,✋,👌,👍,👎,✊,👊,👋,👏,👐]
 
-# librime-lua 输入动态时间和日期
-  "engine/translators/@6": lua_translator@date_translator
-  "engine/translators/@7": lua_translator@time_translator
-
 # 模糊拼音
   #'speller/algebra':
     #- erase/^xx$/                      # 第一行保留
@@ -124,3 +120,8 @@ patch:
     #- derive/ao$/oa/                   # hoa => hao
     #- derive/ua$/au/                   # shau => shua
     #- derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian  
+    
+# librime-lua 输入动态时间和日期
+  engine/translators/+: 
+    - lua_translator@date_translator
+    - lua_translator@time_translator
