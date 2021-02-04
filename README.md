@@ -230,11 +230,9 @@ com.apple.Spotlight:
 
 ![008eZBHKgy1gn45wgynfjj31dy04egm0](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wgynfjj31dy04egm0.jpg)
 
-![008eZBHKgy1gn45wm891bj31dy04e0t2](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wm891bj31dy04e0t2.jpg)
-
 顺序：`文字` `编码` `权重`（数字越大排序越靠前），使用 `Tab` 键分隔。
 
-![2021-01-30-03.06.26](https://tva3.sinaimg.cn/large/008eZBHKgy1gn55tqlol8j317g0liq46.jpg)
+![OcBawnQiDRrFstg](https://i.loli.net/2021/02/05/OcBawnQiDRrFstg.jpg)
 
 ---
 
