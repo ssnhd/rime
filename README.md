@@ -18,21 +18,19 @@
 10. [自定义短语（文本替换）](#十自定义短语文本替换)
 11. [模糊音](#十一模糊音) 
 12. [删除误上屏的错词](#十二删除误上屏的错词)
+13. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 
 ---
 
 ### 准备
 
-1. 下载[档案文件](https://github.com/liuour/rime/archive/master.zip)，解压得到【font】和【配置文件】，其他的都不需要。
+1. 下载[档案文件](https://github.com/liuour/rime/archive/master.zip)并解压。
 2. Mac 不包含所有字体，防止个别字出现乱码，将【font】两个字体安装到 Mac 字体册。
-3. 编辑器软件推荐使用  [Visual Studio Code](https://code.visualstudio.com/) 或 [Sublime Text](https://www.sublimetext.com/)。
 
 ---
 ### 一、安装输入法
 
 下载鼠须管安装包 [![Download](https://raw.githubusercontent.com/liuour/SVG/07680779bf57800d72e786466f26cd2d5f339826/Download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
-
-【附】想体验测试版本在这下载：https://dl.bintray.com/rime/squirrel/
 
 ![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
 
@@ -47,13 +45,9 @@
 
 ### 二、定制输入法
 
-点选【用户设定】打开目录文件。
+点选【用户设定】打开目录文件，将【配置文件】粘贴进去。
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
-
-Rime 目录文件夹里内容删除清空，将【配置文件】粘贴进去。
-
-`非程序员第一次看到【配置文件】里一堆文件可能一头雾水，没关系，下图根据颜色已列好文件的具体功能。`
 
 ![02](https://tvax4.sinaimg.cn/large/008eZBHKgy1gnaxst598mj31q613gq65.jpg)
 
@@ -271,5 +265,3 @@ com.apple.Spotlight:
 先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，再按下 `Shift`+`Delete` 或  `Control`+`Delete`（ 键盘用 `Shift`+`Fn`+`Delete`）。
 
 【注】只能够从用户词典中删除词组；用于词库里词组时，只会取消其调频效果。
-
-[![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
