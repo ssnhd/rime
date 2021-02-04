@@ -1,6 +1,6 @@
 # macOS 好用的输入法 Rime 鼠须管 Squirrel 配置方案详解
 
-![008eZBHKgy1gn456juke6j31e01y9qax](https://ww1.sinaimg.cn/large/008eZBHKgy1gn456juke6j31e01y9qax.jpg)
+![EV1nySmzsxD8QZp](https://i.loli.net/2021/02/05/EV1nySmzsxD8QZp.png)
 
 ---
 
