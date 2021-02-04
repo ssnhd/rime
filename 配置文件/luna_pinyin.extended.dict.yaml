@@ -13,23 +13,20 @@ use_preset_vocabulary: true
 #雙拼不支持 luna_pinyin.cn_en 詞庫，請用戶手動禁用
 
 import_tables:
-  - luna_pinyin.chat
-  - luna_pinyin.chengyu
-  - luna_pinyin.dianshiju
   - luna_pinyin
   - luna_pinyin.cn_en
-  - luna_pinyin.computer
-  - luna_pinyin.dongman
-  - luna_pinyin.gushic
-  - luna_pinyin.mingxing
-  - luna_pinyin.movie
-  - luna_pinyin.music
-  - luna_pinyin.place
-  - luna_pinyin.poetry
-  - luna_pinyin.sgmain
-  - luna_pinyin.shopping
-  - luna_pinyin.yixue
-  - luna_pinyin.wangluoliuxing
-  - luna_pinyin.website
   - f_myphrases
+  - luna_pinyin.1chengshixinxi
+  - luna_pinyin.2zirankexue
+  - luna_pinyin.3shehuikexue
+  - luna_pinyin.4gongchengyingyong
+  - luna_pinyin.5nonglinyuchu
+  - luna_pinyin.6yixueyiyao
+  - luna_pinyin.7dianziyouxi
+  - luna_pinyin.8yishusheji
+  - luna_pinyin.9shenghuobaike
+  - luna_pinyin.10yundongxiuxian
+  - luna_pinyin.11renwenkexue
+  - luna_pinyin.12yulexiuxian
+  
 

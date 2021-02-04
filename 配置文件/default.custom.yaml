@@ -7,10 +7,10 @@ patch:
     ascii_composer/good_old_caps_lock: true
     ascii_composer/switch_key:
       Caps_Lock: commit_code
-      Shift_L: commit_code     # 允许
-      Shift_R: noop            # 禁止
-      Control_L: noop          # 禁止
-      Control_R: noop          # 禁止
+      Shift_L: noop     # 禁止
+      Shift_R: noop     # 禁止
+      Control_L: noop    # 禁止
+      Control_R: noop   # 禁止
 
     key_binder/bindings: # 设置翻页
       - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
