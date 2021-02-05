@@ -139,19 +139,15 @@
 ### 七、搜狗词库转换方法
 打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。
 
-![008eZBHKgy1gn45oo6pq9j30yg0ngdjf](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45oo6pq9j30yg0ngdjf.jpg)
+下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
 
-下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择 `.scel` 词库文件，点击打开。
+【注】如果工具识别不到词库，选择所有格式。
 
-【注】如果工具识别不到词库，请选择所有格式。
+选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
 
-![008eZBHKgy1gn45p8561tj30yg0qxtde](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45p8561tj30yg0qxtde.jpg)
+![bVyxtQvzXmBjCTP](https://i.loli.net/2021/02/05/bVyxtQvzXmBjCTP.png)
 
-选择【搜狗细胞词库 scel】—>>【Rime 中州韵】，类型选择【拼音】【macOS】，点击确定，再点击转换。
-
-![008eZBHKgy1gn45pyrlegj30yg0qotaw](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45pyrlegj30yg0qotaw.jpg)
-
-生成 `.txt` 文件（也可以选择多个词库生成一个 `txt` 文件）。
+生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt` 文件）。
 
 ![008eZBHKgy1gn45qmyev0j31ca0nkdi9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45qmyev0j31ca0nkdi9.jpg)
 
