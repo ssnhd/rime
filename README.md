@@ -1,3 +1,5 @@
+
+
 # macOS 好用的输入法 Rime 鼠须管 Squirrel 配置方案详解
 
 ![EV1nySmzsxD8QZp](https://i.loli.net/2021/02/05/EV1nySmzsxD8QZp.png)
@@ -50,7 +52,34 @@
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
-![02](https://tvax4.sinaimg.cn/large/008eZBHKgy1gnaxst598mj31q613gq65.jpg)
+| 配置文件                                 | 注释                                                       |
+| ---------------------------------------- | ---------------------------------------------------------- |
+| custom_phrase.txt                        | 自定义短语（文本替换）                                     |
+| default.custom.yaml                      | 全局配置（方案、候选词个数、中英文切换、翻页等快捷键）     |
+| easy_en.dict.yaml                        | 英文词典                                                   |
+| easy_en.schema.yaml                      | 英文词典配套文件                                           |
+| f_myphrases.dict.yaml                    | 自造短语词库                                               |
+| installation.yaml                        | 自带文件，可自定义配置文件用户同步数据                     |
+| luna_pinyin_simp.custom.yaml             | 朙月拼音·简化字配置（挂载英文、Emoji、模糊音、动态时间等） |
+| luna_pinyin.1chengshixinxi.dict.yaml     | 词库（城市信息）                                           |
+| luna_pinyin.2zirankexue.dict.yaml        | 词库（自然科学）                                           |
+| luna_pinyin.3shehuikexue.dict.yaml       | 词库（社会科学）                                           |
+| luna_pinyin.4gongchengyingyong.dict.yaml | 词库（工程应用）                                           |
+| luna_pinyin.5nonglinyuchu.dict.yaml      | 词库（农林渔畜）                                           |
+| luna_pinyin.6yixueyiyao.dict.yaml        | 词库（医学医药）                                           |
+| luna_pinyin.7dianziyouxi.dict.yaml       | 词库（电子游戏）                                           |
+| luna_pinyin.8yishusheji.dict.yaml        | 词库（艺术设计）                                           |
+| luna_pinyin.9shenghuobaike.dict.yaml     | 词库（生活百科）                                           |
+| luna_pinyin.10yundongxiuxian.dict.yaml   | 词库（运动休闲）                                           |
+| luna_pinyin.11renwenkexue.dict.yaml      | 词库（人文科学）                                           |
+| luna_pinyin.12yulexiuxian.dict.yaml      | 词库（娱乐休闲）                                           |
+| luna_pinyin.cn_en.dict.yaml              | 词库（英文）                                               |
+| luna_pinyin.dict.yaml                    | 词库（单字CC-CEDICT、三拼等）                              |
+| luna_pinyin.extended.dict.yaml           | 词库挂载配置                                               |
+| opencc                                   | Emoji 表情                                                 |
+| rime.lua                                 | 动态时间、日期、星期                                       |
+| squirrel.custom.yaml                     | 皮肤主题                                                   |
+| user.yaml                                | 自带文件                                                   |
 
 点击【重新部署】完成定制。
 
