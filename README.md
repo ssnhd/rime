@@ -152,9 +152,9 @@
 
 ![008eZBHKgy1gn45qmyev0j31ca0nkdi9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45qmyev0j31ca0nkdi9.jpg)
 
-将下面代码粘贴在 `txt` 文档（可以将关键词写进去，防止以后添加词库重复）里最上方。
+将下面代码粘贴在 `.txt` 文档内最上方， `∙∙∙` 后面加一个换行。
 
-【注】最后一行 `∙∙∙` 后面加一个换行。
+名称格式：`luna_pinyin.xxx` 
 
 ```
 # Rime dictionary
@@ -163,14 +163,14 @@
 # 成语俗语（将词库名称输入到此处，方便日后检查是否重复）
 
 ---
-name: luna_pinyin.sgmain
+name: luna_pinyin.xxx
 version: "2021.01.21"
 sort: by_weight
 use_preset_vocabulary: true
 ...
 
 ```
-然后保存为 `luna_pinyin.sgmain.dict.yaml` 并放在 Rime 目录文件内，再参考[【六、词库设置】](#六词库设置)添加。
+然后将 `.txt` 重命名为 `luna_pinyin.xxx.dict.yaml`，放在 Rime 目录文件夹内，再参考[【六、词库设置】](#六词库设置)添加。
 
 ---
 
