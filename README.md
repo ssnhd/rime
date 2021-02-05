@@ -48,10 +48,6 @@
 
 ### 二、定制输入法
 
-点选【用户设定】打开目录文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖文件。
-
-![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
-
 | 配置文件                                 | 注释                                                       |
 | ---------------------------------------- | ---------------------------------------------------------- |
 | custom_phrase.txt                        | 自定义短语（文本替换）                                     |
@@ -81,9 +77,11 @@
 | squirrel.custom.yaml                     | 皮肤主题                                                   |
 | user.yaml                                | 自带文件                                                   |
 
-点击【重新部署】完成定制。
+点选【用户设定】打开目录文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖文件。
 
-【注】修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
+![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
+
+点击【重新部署】完成定制。【注】修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
