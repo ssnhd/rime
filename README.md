@@ -75,7 +75,7 @@
 | luna_pinyin.12yulexiuxian.dict.yaml      | 词库（娱乐休闲）                                           |
 | luna_pinyin.cn_en.dict.yaml              | 词库（英文）                                               |
 | luna_pinyin.dict.yaml                    | 词库（单字CC-CEDICT、三拼等）                              |
-| luna_pinyin.extended.dict.yaml           | 词库挂载配置                                               |
+| luna_pinyin.extended.dict.yaml           | 挂载词库配置                                               |
 | opencc                                   | Emoji 表情                                                 |
 | rime.lua                                 | 动态时间、日期、星期                                       |
 | squirrel.custom.yaml                     | 皮肤主题                                                   |
