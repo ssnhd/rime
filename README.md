@@ -33,15 +33,13 @@
 ---
 ### 一、安装输入法
 
-下载鼠须管安装包 [![Download](https://raw.githubusercontent.com/liuour/SVG/07680779bf57800d72e786466f26cd2d5f339826/Download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，立即使用鼠须管输入法。
+下载鼠须管安装包 [![Download](https://raw.githubusercontent.com/liuour/SVG/07680779bf57800d72e786466f26cd2d5f339826/Download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，即可使用鼠须管输入法。
 
-![008eZBHKgy1gn45bsu72zj31e00ceak3](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45bsu72zj31e00ceak3.jpg)
-
-按组合键 `Control`+`｀` 换出输入法方案选项，切换到朙月拼音·简化字。
+按组合键 `Control`+`｀` 换出输入法方案选项。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
-要获得更好的输入体验（例如，皮肤、Emoji、词库、快捷字符、模糊音等），需对输入法进行定制。
+获得更好的输入体验，需对输入法进行定制。
 
 
 ---
@@ -81,7 +79,7 @@
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
-点击【重新部署】完成定制。【注】修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
+点击【重新部署】完成定制。注：修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -90,7 +88,7 @@
 
 用 `squirrel.custom.yaml` 保存皮肤主题的设置。
 
-在 `style/color_scheme:` 后方输入皮肤名称来更换主题。
+在 `style/color_scheme:` 后方输入皮肤名字更换主题。可以在将自己配置的皮肤添加进去。
 
 ![GR7eBJLUvfFyw1X](https://i.loli.net/2021/02/04/GR7eBJLUvfFyw1X.png)
 
@@ -102,9 +100,6 @@
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
 ![008eZBHKgy1gn45ifbfhnj311r0kw769](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
-
-- [Rime 西米 for Squirrel](https://gjrobert.github.io/Rime-See-Me-squirrel/)
-- [鼠须管皮肤模拟器](https://github.com/LEOYoon-Tsaw/Squirrel-Designer)（推荐使用这个，安装应用后打开输入数值，直接导出皮肤）
 
 ---
 ### 四、定制方案、候选词个数、中西文切换、翻页
@@ -147,11 +142,9 @@ Shift_L: commit_code     # 允
 
 以朙月拼音·简化字为例，用 `luna_pinyin_simp.custom.yaml` 保存快捷符号的设置。
 
-![u41CRwkP23o7ArJ](https://i.loli.net/2021/02/04/u41CRwkP23o7ArJ.png)
+![u9ig64xarQvAL23](https://i.loli.net/2021/02/06/u9ig64xarQvAL23.png)
 
-输入 `/bq` 显示表情。
-
-![008eZBHKgy1gn45lbrlxpj31dw03q74h](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45lbrlxpj31dw03q74h.jpg)
+![HgKrp7Fmf8jEXBd](https://i.loli.net/2021/02/06/HgKrp7Fmf8jEXBd.png)
 
 【附】输入字符时候选词关联的Emoji表情在〔opencc〕文件夹。
 
@@ -165,7 +158,7 @@ Shift_L: commit_code     # 允
 
 例如，词库文件 `luna_pinyin.sgmain.dict.yaml`，输入 `- luna_pinyin.sgmain` 即可。
 
-![008eZBHKgy1gn45nyzbefj31p00viq58](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45nyzbefj31p00viq58.jpg)
+![lb3NAMHRrKTuWXG](https://i.loli.net/2021/02/06/lb3NAMHRrKTuWXG.png)
 
 ---
 ### 七、搜狗词库转换方法
