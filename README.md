@@ -33,7 +33,7 @@
 ---
 ### 一、安装输入法
 
-下载鼠须管安装包 [![Download](https://raw.githubusercontent.com/liuour/SVG/07680779bf57800d72e786466f26cd2d5f339826/Download.svg)](https://dl.bintray.com/rime/squirrel/Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，即可使用鼠须管输入法。
+下载鼠须管 [0.15.0](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.0.zip) 安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标，即可使用鼠须管输入法。
 
 按组合键 `Control`+`｀` 换出输入法方案选项。
 
@@ -202,7 +202,7 @@ use_preset_vocabulary: true
 
 用 `squirrel.custom.yaml` 最底部设置应用默认英文输入。
 
-* 例如，要在 Xcode 里面默认关闭中文输入，又要在 Alfred 里面恢复开启中文输入，可如此设定：
+例如，要在 Xcode 里面默认关闭中文输入，又要在 Alfred 里面恢复开启中文输入，可如此设定：
 
 ```
 app_options/com.apple.Xcode:
@@ -210,9 +210,7 @@ app_options/com.apple.Xcode:
   app_options/com.alfredapp.Alfred: {}
 ```
 
-【注】：一些版本的 Xcode 标识为 com.apple.dt.Xcode，请注意查看 Info.plist。
-
-* 例如，要在 聚焦搜索（Spotlight）里面默认关闭中文输入，可如此设定：
+例如，要在聚焦搜索（Spotlight）里面默认关闭中文输入，可如此设定：
 
 ```
 com.apple.Spotlight:
