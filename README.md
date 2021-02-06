@@ -111,17 +111,19 @@
 
 用 `default.custom.yaml` 保存输入方案的设置。
 
-支持在方案选单中添加双拼、五笔、粤拼、注音等，保留你需要的。
-
-例如，我用拼音输入所以只保留【朙月拼音】和【朙月拼音·简化字】。
+例如，添加自己喜欢的输入方式。
 
 ```
 - schema: luna_pinyin          # 朙月拼音
 - schema: luna_pinyin_simp     # 朙月拼音 简化字模式
-- schema: terra_pinyin         # 地球拼音 dì qiú pīn yīn
 - schema: wubi86               # 五笔86
-- schema: double_pinyin_mspy   # 微软双拼
 - schema: double_pinyin_flypy  # 小鹤双拼
+```
+
+例如，允许左 Shift 切换中英文，如果想禁用，将 `commit_code` 改为 `noop`。
+
+```
+Shift_L: commit_code     # 允
 ```
 
 例如，加入 "[" 和 "]" 翻页按键绑定。
@@ -133,7 +135,9 @@
 
 例如，`Control`+`Shift`+`4` 切换繁简体。
 
-例如，`Control`+`a` 和 `Control`+`e` 移动光标至首尾。
+```
+- {accept: "Control+Shift+4", toggle: simplification, when: always}   # 繁简体切换
+```
 
 ![2021-01-30-15.44.16](https://tvax2.sinaimg.cn/large/008eZBHKgy1gn5rxl5mprj31rc1cc7a3.jpg)
 
