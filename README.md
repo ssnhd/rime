@@ -362,7 +362,7 @@ use_preset_vocabulary: true
 ...
 
 ```
-然后将 `.txt` 重命名为 `luna_pinyin.xxx.dict.yaml`，放在 Rime 目录文件夹内，再参考[【六、词库设置】](#六词库设置)添加。
+然后将 `.txt` 重命名为 `luna_pinyin.xxx.dict.yaml`，放在 Rime 目录文件夹内，再参考[【十一、词库设置】](#十一词库设置)添加。
 
 
 
