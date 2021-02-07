@@ -17,7 +17,6 @@
 # no comment
 
 
-
 Rime	rime	4
 鼠须管	rime	3
 https://rime.im/	rime	2
@@ -28,8 +27,6 @@ Squirrel	rime	1
 <	xy	2
 ≤	xy	1
 
-AP	ap
-App app
 App Store	as	2
 Apple Store	as	1
 AC86U	ac	2
@@ -46,6 +43,8 @@ Apple Watch	aw
 Android	az
 App Cleaner & Uninstaller	acu
 
+Chrome	ch	2
+Clubhouse	ch
 ClashX	cla
 Chrome  ch  100
 CleanMyMac X	cmm	1
@@ -72,6 +71,7 @@ GitHub	gh	2
 Gmail	gm
 Google	gg
 Google Pay	gp
+Google Play	gp	2
 Google Voice	gv
 Gboard	gb
 
@@ -150,11 +150,11 @@ Safari	sf	2
 Shift	sf	1
 SHIELD TV	stv
 SSD	ssd	2
-℃	ssd	1
 Spotify	sp	1
 Spark	sp	2
 Sublime Text	sbt
 
+Telegram	tg
 Twitter	tt
 Type-C	tc	
 Typora	ty

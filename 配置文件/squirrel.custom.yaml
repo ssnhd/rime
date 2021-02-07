@@ -113,9 +113,13 @@ patch:
 
   app_options:    # App关闭中文输入
     com.apple.Spotlight:
-        ascii_mode: true      # ture关闭中文输入
+        ascii_mode: true      # 聚焦搜索
+    com.runningwithcrayons.Alfred:
+        ascii_mode: true      # afred
+    com.apple.Terminal:
+        ascii_mode: true      # 终端
     com.microsoft.VSCode:
-        ascii_mode: false     # false开启中文输入
+        ascii_mode: false     # Visual Studio Code
 
 
 
