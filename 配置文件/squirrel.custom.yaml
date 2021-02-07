@@ -20,7 +20,11 @@ patch:
   label_font_point: 18
 
   # 修改后面的名字更换皮肤
-  style/color_scheme: macos_light   # Mac仿原生亮色
+  style:
+    color_scheme: macos_light   # macOS 浅色主题
+    # optional: define both light and dark color schemes to match system appearance
+    color_scheme: macos_light
+    color_scheme_dark: macos_dark
 
   # 皮肤主题 
   preset_color_schemes:
@@ -28,37 +32,39 @@ patch:
       name: 系統配色
 
     macos_light:
-      name: Mac仿原生亮色/macos_light
+      name: macOS 浅色主题／macOS Light
       author: 一方
-      back_color: 0xFFFFFF      # 候选条背景色，24位色值，16进制，BGR顺序
+      color_space: display_p3 # Only available on macOS 10.12+
+      back_color: 0xFFFFFF    # 候选条背景色，24位色值，16进制，BGR顺序
       border_color: 0xFFFFFF    # 边框色
-      text_color: 0x424242      # 拼音行文字颜色
+      text_color: 0x424242    # 拼音行文字颜色
       hilited_back_color: 0xD75A00    # 第一候选项背景背景色
       hilited_candidate_text_color: 0xFFFFFF    # 第一候选项文字颜色
       hilited_candidate_label_color: 0xFFFFFF   # 第一候选项编号颜色
-      hilited_comment_text_color: 0x999999      # 注解文字高亮
+      hilited_comment_text_color: 0x999999    # 注解文字高亮
       hilited_text_color: 0x999999    # 高亮拼音 (需要开启内嵌编码)
-      candidate_text_color: 0x3c3c3c  # 预选项文字颜色
+      candidate_text_color: 0x3c3c3c    # 预选项文字颜色
       comment_text_color: 0x999999    # 拼音等提示文字颜色
-      horizontal: true        # 水平排列
+      horizontal: true    # 水平排列
       inline_preedit: true    # 单行显示，false双行显示
       label_color: 0x999999   # 预选栏编号颜色
       candidate_format: "%c\u2005%@"    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-      font_face: "PingFangSC"           # 候选词编号字体
-      font_point: 17          # 候选文字大小
+      font_face: "PingFangSC"   # 候选词编号字体
+      font_point: 17    # 候选文字大小
       label_font_point: 13    # 候选编号大小
-      corner_radius: 5        # 候选条圆角
+      corner_radius: 5    # 候选条圆角
       hilited_corner_radius: 5    # 高亮圆角
-      border_height: 4        # 窗口上下高度
-      border_width: 4         # 窗口左右宽度
-      border_color_width: 0   # 输入条边框宽度
+      border_height: 4     # 窗口上下高度
+      border_width: 4   # 窗口左右宽度
+      border_color_width: 0   #输入条边框宽度
       #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
 
     macos_dark:
-      name: Mac仿原生暗色/macos_dark
+      name: macOS 深色主题／macOS Dark
       author: 一方
+      color_space: display_p3 # Only available on macOS 10.12+
       back_color: 0x252a2e    # 候选条背景色，24位色值，16进制，BGR顺序
-      border_color: 0x050505    # 边框色
+      border_color: 0x252a2e    # 边框色
       text_color: 0x424242    # 拼音行文字颜色
       hilited_back_color: 0xD75A00    # 第一候选项背景背景色
       hilited_candidate_text_color: 0xFFFFFF    # 第一候选项文字颜色
