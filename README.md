@@ -97,12 +97,12 @@ user.yaml                                # 自带文件
 * 更多方案名称参考：https://gist.github.com/lotem/2309739
 
 ```
-  schema_list:
-    - schema: luna_pinyin_simp      # 朙月拼音简化字
-  # - schema: luna_pinyin           # 朙月拼音（繁体）
-  # - schema: terra_pinyin          # 地球拼音 dì qiú pīn yīn
-  # - schema: double_pinyin_flypy   # 小鶴雙拼
-  # - schema: wubi86                # 五笔86
+schema_list:
+  - schema: luna_pinyin_simp      # 朙月拼音简化字
+# - schema: luna_pinyin           # 朙月拼音（繁体）
+# - schema: terra_pinyin          # 地球拼音 dì qiú pīn yīn
+# - schema: double_pinyin_flypy   # 小鶴雙拼
+# - schema: wubi86                # 五笔86
 ```
 
 **候选词个数**
@@ -110,7 +110,7 @@ user.yaml                                # 自带文件
 * 数字代表的是候选词个数，根据个人喜欢修改。
 
 ```
-  menu/page_size: 9   # 候选词个数
+menu/page_size: 9   # 候选词个数
 ```
 
 **切换中英文**
@@ -119,13 +119,13 @@ user.yaml                                # 自带文件
 *  `commit_code` = 启用，`noop` = 无操作。
 
 ```
-  ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
-  ascii_composer/switch_key:
-    Caps_Lock: commit_code                    
-    Shift_L: noop                             # 左Shift
-    Shift_R: noop                             # 右Shift
-    Control_L: noop                           # 左Control
-    Control_R: noop                           # 右Control
+ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
+ascii_composer/switch_key:
+  Caps_Lock: commit_code                    
+  Shift_L: noop                             # 左Shift
+  Shift_R: noop                             # 右Shift
+  Control_L: noop                           # 左Control
+  Control_R: noop                           # 右Control
 ```
 
 **翻页**
@@ -133,8 +133,8 @@ user.yaml                                # 自带文件
 * 例如， "[" 和 "]" 翻页按键。
 
 ```
-	- { when: paging, accept: bracketleft, send: Page_Up }
-	- { when: has_menu, accept: bracketright, send: Page_Down }
+- { when: paging, accept: bracketleft, send: Page_Up }
+- { when: has_menu, accept: bracketright, send: Page_Down }
 ```
 
 **快捷键**
@@ -143,9 +143,9 @@ user.yaml                                # 自带文件
 * 更多快捷键参考：https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
 
 ```
-  - {accept: "Control+a", send: Home, when: composing}    # 光标移至首
-  - {accept: "Control+e", send: End, when: composing}   # 光标移至尾
-  - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}    # 中英文切换
+ - {accept: "Control+a", send: Home, when: composing}     					# 光标移至首
+ - {accept: "Control+e", send: End, when: composing}   							# 光标移至尾
+ - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}    # 中英文切换
 ```
 
 
@@ -159,7 +159,7 @@ user.yaml                                # 自带文件
 ```
 #  载入朙月拼音扩充词库
   "translator/dictionary": luna_pinyin.extended
-#  拼写纠错（不建议开启）
+#  拼写纠错
 # "translator/enable_correction": true
 ```
 
@@ -184,10 +184,10 @@ user.yaml                                # 自带文件
 * Emoji 可以在 opencc 文件夹里修改。
 
 ```
-  emoji_conversion:
-    opencc_config: emoji.json
-    option_name: show_emoji
-    tags: abc
+emoji_conversion:
+  opencc_config: emoji.json
+  option_name: show_emoji
+  tags: abc
 ```
 
 ---
@@ -199,16 +199,16 @@ user.yaml                                # 自带文件
 * 设置快捷 Emoji。
 
 ```
-	punctuator:
-  	import_preset: symbols
-  	symbols:
-    	"/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
-    	"/xh": [ ＊, ×, ✱, ★, ☆, ✩, ✧, ❋, ❊, ❉, ❈, ❅, ✿, ✲]
-    	"/dq": [🌍,🌎,🌏,🌐,🌑,🌒,🌓,🌔,🌕,🌖]
-    	"/sg": [🍇,🍈,🍉,🍊,🍋,🍌,🍍,🍎,🍏,🍐]
-    	"/dw": [🙈,🙉,🙊,🐵,🐒,🐶,🐕,🐩,🐺,🐱]
-    	"/bq": [😀,😁,😂,😃,😄,😅,😆,😉,😊,😋]
-    	"/ss": [💪,👈,👉,👆,👇,✋,👌,👍,👎,✊]
+punctuator:
+  import_preset: symbols
+  symbols:
+    "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
+    "/xh": [ ＊, ×, ✱, ★, ☆, ✩, ✧, ❋, ❊, ❉, ❈, ❅, ✿, ✲]
+    "/dq": [🌍,🌎,🌏,🌐,🌑,🌒,🌓,🌔,🌕,🌖]
+    "/sg": [🍇,🍈,🍉,🍊,🍋,🍌,🍍,🍎,🍏,🍐]
+    "/dw": [🙈,🙉,🙊,🐵,🐒,🐶,🐕,🐩,🐺,🐱]
+    "/bq": [😀,😁,😂,😃,😄,😅,😆,😉,😊,😋]
+    "/ss": [💪,👈,👉,👆,👇,✋,👌,👍,👎,✊]
 ```
 
 ![u9ig64xarQvAL23](https://i.loli.net/2021/02/06/u9ig64xarQvAL23.png)
@@ -216,23 +216,23 @@ user.yaml                                # 自带文件
 * 默认一个按键会显示多个符号，可根据喜欢修改，例如直接上屏。
 
   ```
-      half_shape:
-        "#": "#"
-        "*": "*"
-        "`": "`"
-        "~": "~"
-        "@": "@"
-        "=": "="
-        '\': "、"
-        "/": ["/", "÷"]
-        "'": { pair: ["「", "」"] }
-        "[": "【"
-        "]": "】"
-        "<": "《"
-        ">": "》"
-        "*": "*"
-        "|": ["｜", "|", "·", "・"]
-    recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
+  half_shape:
+    "#": "#"
+    "*": "*"
+    "`": "`"
+    "~": "~"
+    "@": "@"
+    "=": "="
+    '\': "、"
+    "/": ["/", "÷"]
+    "'": { pair: ["「", "」"] }
+    "[": "【"
+    "]": "】"
+    "<": "《"
+    ">": "》"
+    "*": "*"
+    "|": ["｜", "|", "·", "・"]
+  recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
   ```
 
 
