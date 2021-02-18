@@ -1,12 +1,8 @@
 
 
-# macOS 好用的输入法 Rime 鼠须管 Squirrel 配置方案详解
+# Rime 鼠须管 Squirrel 配置文件详解——Mac 上较好用的输入法
 
 ![EV1nySmzsxD8QZp](https://i.loli.net/2021/02/05/EV1nySmzsxD8QZp.png)
-
----
-
-很多人使用鼠须管没坚持下去，最大的原因可能就是词库和词频，对于一款无云联想的输入法而言，鼠须管需要坚持使用，时间越久它越香，或许你还会爱上书写✍🏻️，祝君使用愉快。
 
 ---
 
