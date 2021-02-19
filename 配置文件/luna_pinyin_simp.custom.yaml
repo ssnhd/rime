@@ -119,4 +119,3 @@ patch:
 
 # librime-lua 输入动态时间和日期
   "engine/translators/@6": lua_translator@date_translator
-  "engine/translators/@7": lua_translator@time_translator
