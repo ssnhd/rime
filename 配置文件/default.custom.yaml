@@ -8,7 +8,7 @@ patch:
   ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
   ascii_composer/switch_key:
     Caps_Lock: commit_code                    
-    Shift_L: noop                             # 左Shift
+    Shift_L: commit_code                      # 左Shift切换中英文
     Shift_R: noop                             # 右Shift
     Control_L: noop                           # 左Control
     Control_R: noop                           # 右Control
