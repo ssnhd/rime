@@ -1,8 +1,12 @@
 
 
-# Rime 鼠须管 Squirrel 配置文件详解——Mac 上较好用的输入法
+# Rime 鼠须管 Squirrel 配置文件详解
 
 ![EV1nySmzsxD8QZp](https://i.loli.net/2021/02/05/EV1nySmzsxD8QZp.png)
+
+---
+
+**闲暇时间折腾蛮好玩，但是我没用 Rime，理由很简单：输入法是电脑上最基本的功能，如果仍需花太多时间，都不值得使用或推荐。**
 
 ---
 
