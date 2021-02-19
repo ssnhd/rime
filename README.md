@@ -38,6 +38,10 @@
 
 下载[档案文件](https://github.com/liuour/rime/archive/master.zip)并解压，首先将【font】两个字体安装到 Mac 字体册。
 
+点选【用户设定】打开目录文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖文件。
+
+![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
+
 ```
 # 配置文件介绍
 custom_phrase.txt                        # 自定义短语（文本替换）             
@@ -68,11 +72,6 @@ rime.lua                                 # 动态时间、日期、星期
 squirrel.custom.yaml                     # 皮肤主题                      
 user.yaml                                # 自带文件    
 ```
-
-
-点选【用户设定】打开目录文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖文件。
-
-![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
 点击【重新部署】完成定制。注：修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
 
