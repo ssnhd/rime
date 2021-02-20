@@ -21,7 +21,8 @@
 11. [词库设置（本配置包含约200万个词组👍）](#十一词库设置)
 12. [搜狗词库转换方法](#十二搜狗词库转换方法)
 13. [删除误上屏的错词](#十三删除误上屏的错词)
-14. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+14. [智能纠错](#十四智能纠错)
+15. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
 ### 一、安装输入法
 
@@ -372,4 +373,24 @@ use_preset_vocabulary: true
 先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift`+`Fn`+`Delete` 键（第三方键盘按   `Control`+`Delete`）。
 
 【注】只能从用户词典中删除词组；词库里词组只会取消其调频效果。
+
+---
+
+### 十四、智能纠错
+
+打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
+
+```
+# 智能纠错，需要哪组就刪去行首的 # 号
+- derive/(^[zcs])h([aeiou])ng$/$1hn$2g/   # chnegji = chengji
+#- derive/ao$/oa/                          # oa = ao
+#- derive/([iu])a(o|ng?)$/a$1$2/           # aio = iao; aing = iang; aung = uang
+#- derive/([aeiou])ng$/$1gn/               # gn = ng
+#- derive/un$/uen/                         # uen = un
+#- derive/ui$/uei/                         # uei = ui
+#- derive/iu$/iou/                         # iou = ui
+#- derive/tie$/tei/                        # tei = tie
+#- derive/i$/ii/                           # ii = i  # i 不小心按两下
+#- derive/u$/uu/                           # ui = u  # u 不小心按两下
+```
 
