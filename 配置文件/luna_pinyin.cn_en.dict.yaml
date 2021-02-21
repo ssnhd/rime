@@ -5,7 +5,7 @@
 #
 
 ---
-name: pinyin_simp.cn_en.dict
+name: luna_pinyin.cn_en
 version: "2021.02.21"
 sort: by_weight
 use_preset_vocabulary: true
