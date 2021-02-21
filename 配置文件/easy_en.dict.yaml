@@ -16,6 +16,79 @@ sort: by_weight
 use_preset_vocabulary: false
 ...
 
+# 自定义
+AirDrop	airdrop
+Airmail	airmail
+AirPlay	airplay
+AirServer	airserver
+Android	android
+Android	anzhuo
+App Store	appstore
+Apple ID	appleid
+BetterZip	betterzip
+CarPlay	carplay
+CleanMyMac	cleanmymac
+CheatSheet	cheatsheet
+Chrome	chrome
+DaisyDisk	daisydisk
+DOTA	dota
+DOTA2	dota
+Dropbox	dropbox
+Enpass	enpass
+Evernote	evernote
+ExFAT	exfat
+Final Cut Pro	finalcutpro
+Geekbench	geekbench
+Google	google
+Google	guge
+Handoff	hangoff
+HomeKit	homekit
+HTML	html
+iCloud	icloud
+IP	ip
+iPod	ipod
+IPTV	iptv
+IPv4	ipv
+IPv6	ipv
+iTunes	itunes
+GitHub	github
+Gmail	gmail
+Keka	keka
+Launcher	launcher
+Linux	linux
+Moom	moom
+Netflix	netflix
+Nvidia	nvidia
+OneNote	onenote
+PayPal	paypal
+Photoshop	photoshop
+PopClip	popclip
+Retina	retina
+Siri	siri
+Snagit	snagit
+Snip	snip
+TestFlight	testflight
+Telegram	telegram
+Things	things
+Touch ID	touchid
+Tumblr	tumblr
+Twitter	twitter
+Typora	typora
+Uber	uber
+uBlock	ublock
+Ulysses	ulysses
+USB	usb
+VPN	vpn
+Windows	windows
+WWDC	wwdc
+Wi-Fi	wifi
+WiFi	wifi
+Window Tidy	windowtidy
+Workflow	workflow
+Xmind	xmind
+YouTube	youtube
+
+# 英文
 aaron	aaron
 abandoned	abandoned
 abide	abide
@@ -113,6 +186,7 @@ admire	admire
 admission	admission
 admit	admit
 adobe	adobe
+Adobe	adobe
 adolescent	adolescent
 adopt	adopt
 adoption	adoption
@@ -189,6 +263,7 @@ alex	alex
 alexander	alexander
 alexandria	alexandria
 alfred	alfred
+Alfred	alfred
 algebra	algebra
 algeria	algeria
 algorithm	algorithm
@@ -231,6 +306,7 @@ amanda	amanda
 amateur	amateur
 amazing	amazing
 amazon	amazon
+Amazon	amazon
 ambassador	ambassador
 ambiente	ambiente
 ambitious	ambitious
@@ -306,6 +382,9 @@ apache	apache
 apart	apart
 apartment	apartment
 apollo	apollo
+Aperture	aperture
+App	app
+APP	app
 apparel	apparel
 apparent	apparent
 appeal	appeal
@@ -314,6 +393,7 @@ appear	appear
 appearance	appearance
 appendix	appendix
 apple	apple
+Apple	apple
 appliance	appliance
 applicable	applicable
 applicant	applicant
@@ -420,6 +500,7 @@ atlas	atlas
 atmosphere	atmosphere
 atmospheric	atmospheric
 atom	atom
+Atom	atom
 atomic	atomic
 attach	attach
 attached	attached
@@ -771,6 +852,9 @@ brunswick	brunswick
 brush	brush
 brussels	brussels
 bryan	bryan
+Brackets	brackets
+BundleHunt	bundlehunt
+Byword	byword
 bubble	bubble
 buck	buck
 bucks	bucks
@@ -819,6 +903,9 @@ cable	cable
 cache	cache
 cadre	cadre
 cafe	cafe
+Caffeine	caffeine
+Calcbot	calcbot
+Calibre	calibre
 cake	cake
 calcium	calcium
 calculate	calculate
@@ -967,6 +1054,7 @@ charged	charged
 charitable	charitable
 charity	charity
 charles	charles
+Charles	charles
 charleston	charleston
 charlie	charlie
 charlotte	charlotte
@@ -997,6 +1085,7 @@ childhood	childhood
 children	children
 chile	chile
 china	china
+China	china
 chinese	chinese
 chip	chip
 chocolate	chocolate
@@ -1056,6 +1145,7 @@ cleaner	cleaner
 cleaning	cleaning
 cleanup	cleanup
 clear	clear
+Clear	clear
 clearance	clearance
 clearing	clearing
 clearinghouse	clearinghouse
@@ -1491,9 +1581,11 @@ dark	dark
 darkness	darkness
 darwin	darwin
 dash	dash
+Dash	dash
 dashboard	dashboard
 data	data
 database	database
+Datagraph	datagraph
 date	date
 dated	dated
 daughter	daughter
@@ -1623,6 +1715,7 @@ desire	desire
 desired	desired
 desk	desk
 desktop	desktop
+Desktop	desktop
 desperate	desperate
 despite	despite
 destination	destination
@@ -1745,6 +1838,7 @@ distribution	distribution
 distributor	distributor
 district	district
 disturbing	disturbing
+Diumoo	diumoo
 dive	dive
 divers	divers
 diverse	diverse
@@ -1756,6 +1850,7 @@ division	division
 divorce	divorce
 djibouti	djibouti
 dock	dock
+Dock	dock
 doctor	doctor
 doctorate	doctorate
 doctrine	doctrine
@@ -2187,6 +2282,7 @@ family	family
 famous	famous
 fancy	fancy
 fantastic	fantastic
+Fantastical	fantastical
 fantasy	fantasy
 fare	fare
 farm	farm
@@ -2238,6 +2334,7 @@ figure	figure
 figured	figured
 fiji	fiji
 file	file
+FileVault	filevault
 filings	filings
 fill	fill
 filling	filling
@@ -2296,6 +2393,7 @@ flower	flower
 flowing	flowing
 fluid	fluid
 flux	flux
+Flux	flux
 flyer	flyer
 flying	flying
 focal	focal
@@ -2321,6 +2419,7 @@ force	force
 forced	forced
 ford	ford
 forecast	forecast
+Forecast	forecast
 forefront	forefront
 foreign	foreign
 foremost	foremost
@@ -2349,6 +2448,7 @@ forty	forty
 forum	forum
 forward	forward
 forwarding	forwarding
+ForkLift	forklift
 fossil	fossil
 foster	foster
 fought	fought
@@ -2726,6 +2826,7 @@ hollywood	hollywood
 holmes	holmes
 holy	holy
 home	home
+Home	home
 homeland	homeland
 homeless	homeless
 hometown	hometown
@@ -2842,6 +2943,7 @@ impressive	impressive
 imprint	imprint
 improve	improve
 improvement	improvement
+iMessage	imessage
 in	i n
 inability	inability
 inadequate	inadequate
@@ -3191,6 +3293,7 @@ klein	klein
 knew	knew
 knight	knight
 knock	knock
+Knock	knock
 know	know
 knowing	knowing
 knowledge	knowledge
@@ -3504,6 +3607,7 @@ manuscript	manuscript
 many	many
 map	map
 maple	maple
+Maple	maple
 mapping	mapping
 marathon	marathon
 marc	marc
@@ -3961,6 +4065,7 @@ nuclear	nuclear
 null	null
 number	number
 numbers	numbers
+Numbers	numbers
 numerical	numerical
 numerous	numerous
 nurse	nurse
@@ -3998,12 +4103,15 @@ offensive	offensive
 offer	offer
 offering	offering
 office	office
+Office	office
 officer	officer
 official	official
 offset	offset
 offshore	offshore
 often	often
 ohio	ohio
+ok	ok
+OK	ok
 okay	okay
 Oklahoma	oklahoma
 older	older
@@ -4118,6 +4226,7 @@ packed	packed
 packet	packet
 packing	packing
 page	page
+Pages	pages
 paid	paid
 pain	pain
 painful	painful
@@ -4185,8 +4294,10 @@ passionate	passionate
 passive	passive
 passport	passport
 password	password
+Password	password
 past	past
 paste	paste
+Paste	paste
 patch	patch
 patent	patent
 path	path
@@ -4206,6 +4317,7 @@ pause	pause
 payable	payable
 payment	payment
 payroll	payroll
+Paw	paw
 peace	peace
 peaceful	peaceful
 peak	peak
@@ -4597,6 +4709,7 @@ push	push
 pushing	pushing
 puzzle	puzzle
 python	python
+Python	python
 qatar	qatar
 qualification	qualification
 qualified	qualified
@@ -4785,6 +4898,7 @@ remember	remember
 remind	remind
 reminder	reminder
 remote	remote
+Remote	remote
 removal	removal
 remove	remove
 removed	removed
@@ -4976,6 +5090,7 @@ sacramento	sacramento
 sacred	sacred
 sacrifice	sacrifice
 safari	safari
+Safari	safari
 safe	safe
 safeguard	safeguard
 safety	safety
@@ -5243,6 +5358,7 @@ sixty	sixty
 size	size
 sized	sized
 sketch	sketch
+Sketch	sketch
 skiing	skiing
 skill	skill
 skilled	skilled
@@ -5329,6 +5445,7 @@ span	span
 spanish	spanish
 spare	spare
 spark	spark
+Spark	spark
 spatial	spatial
 speak	speak
 speaker	speaker
@@ -5550,6 +5667,7 @@ surf	surf
 surface	surface
 surfing	surfing
 surge	surge
+Surge	surge
 surgery	surgery
 surgical	surgical
 suriname	suriname
@@ -5577,6 +5695,7 @@ sweden	sweden
 swedish	swedish
 sweet	sweet
 swift	swift
+Swift	swift
 swim	swim
 swimming	swimming
 swing	swing
@@ -5586,6 +5705,7 @@ switzerland	switzerland
 sydney	sydney
 syllabus	syllabus
 symbol	symbol
+Symbol	symbol
 symbolic	symbolic
 symphony	symphony
 symposium	symposium
@@ -5675,6 +5795,7 @@ tenure	tenure
 teresa	teresa
 term	term
 terminal	terminal
+Terminal	terminal
 terminate	terminate
 termination	termination
 terminology	terminology
@@ -5766,6 +5887,7 @@ thru	thru
 thumb	thumb
 thumbnail	thumbnail
 thunder	thunder
+Thunder	thunder
 thursday	thursday
 thus	thus
 ticker	ticker
@@ -5781,6 +5903,7 @@ timely	timely
 times	times
 timetable	timetable
 timing	timing
+Timing	timing
 timor	timor
 timothy	timothy
 tiny	tiny
@@ -5821,6 +5944,7 @@ torture	torture
 total	total
 totally	totally
 touch	touch
+Touch	touch
 touched	touched
 touching	touching
 tough	tough
@@ -5832,6 +5956,7 @@ tours	tours
 tout	tout
 toward	toward
 tower	tower
+Tower	tower
 town	town
 toxic	toxic
 toyota	toyota
@@ -5998,7 +6123,7 @@ until	until
 untitled	untitled
 unusual	unusual
 unwanted	unwanted
-up	u p
+up	up
 upcoming	upcoming
 update	update
 upgrade	upgrade
@@ -6168,6 +6293,8 @@ wash	wash
 washington	washington
 waste	waste
 watch	watch
+Watch	watch
+watchOS	watchos
 water	water
 waters	waters
 watson	watson
@@ -6280,6 +6407,7 @@ wood	wood
 wooden	wooden
 woods	woods
 word	word
+Word	word
 work	work
 worked	worked
 worker	worker
