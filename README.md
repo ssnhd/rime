@@ -78,7 +78,11 @@ squirrel.custom.yaml                     # 皮肤主题
 user.yaml                                # 自带文件    
 ```
 
-点击【重新部署】完成定制。注：修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
+点击【重新部署】完成定制。
+
+注1：修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
+
+注2：本配置文件包含约 200 万个词库，重新部署时间可能会稍长，介意的话可以删除自己不喜欢的词库。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
