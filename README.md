@@ -2,7 +2,7 @@
 
 # Rime 鼠须管 Squirrel 配置文件详解
 
-![1d8wqVfLreA9uYh](https://i.loli.net/2021/02/20/1d8wqVfLreA9uYh.png)
+![](https://i.loli.net/2021/02/22/gqMZF8Loa51XWVy.png)
 
 ---
 
