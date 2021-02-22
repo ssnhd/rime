@@ -185,7 +185,9 @@ ascii_composer/switch_key:
 
 **载入 Emoji 表情**
 
-* Emoji 可以在 opencc 文件夹里修改。
+* opencc 文件夹内 `emoji_word.txt` 即 Emoji，根据自己喜好修改。
+
+注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，花痴=😍，你得词典里必须先输入【花痴】才会显示【😍】
 
 ```
 emoji_conversion:
