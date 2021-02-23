@@ -46,12 +46,11 @@
 ```
 # 配置文件介绍
 custom_phrase.txt                        # 自定义短语（文本替换）             
-default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页等快捷键）    
-easy_en.dict.yaml                        # 英文词典                       
-easy_en.schema.yaml                      # 英文词典配套文件               
-f_myphrases.dict.yaml                    # 词库（常用符号）                    
+default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键）    
+easy_en.dict.yaml                        # 词库（英文）                       
+easy_en.schema.yaml                      # 英文词典配套文件                                   
 installation.yaml                        # 自带文件，可自定义配置文件用户同步数据
-luna_pinyin_simp.custom.yaml             # 朙月拼音·简化字配置（挂载中英文、Emoji、模糊音等）
+luna_pinyin_simp.custom.yaml             # 朙月拼音·简化字配置（挂载中英文、Emoji、快捷符号、模糊音、动态日期）
 luna_pinyin_simp.schema.yaml             # 朙月拼音·简化字文件
 luna_pinyin.1chengshixinxi.dict.yaml     # 词库（城市信息）              
 luna_pinyin.2zirankexue.dict.yaml        # 词库（自然科学）                
@@ -65,13 +64,12 @@ luna_pinyin.9shenghuobaike.dict.yaml     # 词库（生活百科）
 luna_pinyin.10yundongxiuxian.dict.yaml   # 词库（运动休闲）                
 luna_pinyin.11renwenkexue.dict.yaml      # 词库（人文科学）                
 luna_pinyin.12yulexiuxian.dict.yaml      # 词库（娱乐休闲）                
-luna_pinyin.cn_en.dict.yaml              # 词库（英文）                    
-luna_pinyin.dict.yaml                    # 词库（单字CC-CEDICT、三拼等）    
-luna_pinyin.extended.dict.yaml           # 挂载词库配置                    
+luna_pinyin.cn_en.dict.yaml              # 词库（英文和特殊符号）                    
+luna_pinyin.dict.yaml                    # 词库（汉字）    
+luna_pinyin.extended.dict.yaml           # 外挂词库                    
 opencc                                   # Emoji                    
 rime.lua                                 # 动态时间、日期、星期            
-squirrel.custom.yaml                     # 皮肤主题                      
-user.yaml                                # 自带文件    
+squirrel.custom.yaml                     # 皮肤                         
 ```
 
 点击【重新部署】完成定制。
@@ -94,59 +92,28 @@ user.yaml                                # 自带文件
 **切换输入方案**
 
 * 我只是用拼音，所以只保留朙月拼音·简化字，你可以将自己喜欢的输入方案添加进去，例如五笔、双拼、注音等。
-* 更多方案名称参考：https://gist.github.com/lotem/2309739
+* 更多输入方案参考：https://gist.github.com/lotem/2309739
 
-```
-schema_list:
-  - schema: luna_pinyin_simp      # 朙月拼音简化字
-# - schema: luna_pinyin           # 朙月拼音（繁体）
-# - schema: terra_pinyin          # 地球拼音 dì qiú pīn yīn
-# - schema: double_pinyin_flypy   # 小鶴雙拼
-# - schema: wubi86                # 五笔86
-```
+![BblXHY6ucgoT7La](https://i.loli.net/2021/02/23/BblXHY6ucgoT7La.png)
 
 **候选词个数**
 
-* 数字代表的是候选词个数，根据个人喜欢修改。
-
-```
-menu/page_size: 9   # 候选词个数
-```
+![E3eQ5gKHFNhPS8d](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
 
 **切换中英文**
 
-* 我将鼠须管设置只输入中文。下面代码表示 `caps_lock` 键只切换大小写，其他键禁用。
-*  `commit_code` = 启用，`noop` = 无操作。
-
-```
-ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
-ascii_composer/switch_key:
-  Caps_Lock: commit_code                    
-  Shift_L: noop                             # 左Shift
-  Shift_R: noop                             # 右Shift
-  Control_L: noop                           # 左Control
-  Control_R: noop                           # 右Control
-```
+![ogPE4mBitAzcZ5U](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
 **翻页**
 
-* 例如， "[" 和 "]" 翻页按键。
-
-```
-- { when: paging, accept: bracketleft, send: Page_Up }
-- { when: has_menu, accept: bracketright, send: Page_Down }
-```
+![截屏2021-02-23 下午6.33.18](https://tvax4.sinaimg.cn/large/008eZBHKly1gnxngud3kij31ao0a641s.jpg)
 
 **快捷键**
 
 * 例如，`Control`+`Shift`+`4` 切换繁简体。
 * 更多快捷键参考：https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
 
-```
- - {accept: "Control+a", send: Home, when: composing}     					# 光标移至首
- - {accept: "Control+e", send: End, when: composing}   							# 光标移至尾
- - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}    # 中英文切换
-```
+![yI5XAYwr9mg23ES](https://i.loli.net/2021/02/23/yI5XAYwr9mg23ES.png)
 
 
 ---
@@ -154,88 +121,23 @@ ascii_composer/switch_key:
 
 打开 `luna_pinyin_simp.custom.yaml` 。
 
-**载入词库**
+**载入Emoji、中、英文词库**
 
-```
-#  载入朙月拼音扩充词库
-  "translator/dictionary": luna_pinyin.extended
-#  拼写纠错
-# "translator/enable_correction": true
-```
+![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
-**载入英文词库**
+opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
-```
-# 加载easy_en依赖
-  "schema/dependencies/@1": easy_en
-# 载入翻译英文的码表翻译器，取名为 english
-  "engine/translators/@4": table_translator@english
-# english翻译器的设定项
-  english:
-    dictionary: easy_en
-    spelling_hints: 9
-    enable_completion: false     # 是否启用英文输入联想补全
-    enable_sentence: false
-    initial_quality: -4           # 调整英文候选词的位置，如 -3 会更靠后
-```
+注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼=😆，你得词典里必须先输入【眯眼】才会显示【😆】
 
-**载入 Emoji 表情**
-
-* opencc 文件夹内 `emoji_word.txt` 即 Emoji，根据自己喜好修改。
-
-注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，花痴=😍，你得词典里必须先输入【花痴】才会显示【😍】
-
-```
-emoji_conversion:
-  opencc_config: emoji.json
-  option_name: show_emoji
-  tags: abc
-```
+![En4YBoRqs2gkbxp](https://i.loli.net/2021/02/23/En4YBoRqs2gkbxp.png)
 
 ---
 
 ### 五、自定义快捷字符
 
-打开 `luna_pinyin_simp.custom.yaml` 。
+打开 `luna_pinyin_simp.custom.yaml` 修改快捷 Emoji 和符号。
 
-* 设置快捷 Emoji。
-
-```
-punctuator:
-  import_preset: symbols
-  symbols:
-    "/fs": [½, ‰, ¼, ⅓, ⅔, ¾, ⅒ ]
-    "/xh": [ ＊, ×, ✱, ★, ☆, ✩, ✧, ❋, ❊, ❉, ❈, ❅, ✿, ✲]
-    "/dq": [🌍,🌎,🌏,🌐,🌑,🌒,🌓,🌔,🌕,🌖]
-    "/sg": [🍇,🍈,🍉,🍊,🍋,🍌,🍍,🍎,🍏,🍐]
-    "/dw": [🙈,🙉,🙊,🐵,🐒,🐶,🐕,🐩,🐺,🐱]
-    "/bq": [😀,😁,😂,😃,😄,😅,😆,😉,😊,😋]
-    "/ss": [💪,👈,👉,👆,👇,✋,👌,👍,👎,✊]
-```
-
-![u9ig64xarQvAL23](https://i.loli.net/2021/02/06/u9ig64xarQvAL23.png)
-
-* 默认一个按键会显示多个符号，可根据喜欢修改，例如直接上屏。
-
-  ```
-  half_shape:
-    "#": "#"
-    "*": "*"
-    "`": "`"
-    "~": "~"
-    "@": "@"
-    "=": "="
-    '\': "、"
-    "/": ["/", "÷"]
-    "'": { pair: ["「", "」"] }
-    "[": "【"
-    "]": "】"
-    "<": "《"
-    ">": "》"
-    "*": "*"
-    "|": ["｜", "|", "·", "・"]
-  recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
-  ```
+![iNUSQxemPdycoRg](https://i.loli.net/2021/02/23/iNUSQxemPdycoRg.png)
 
 
 ---

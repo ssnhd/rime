@@ -112,7 +112,7 @@ patch:
     #- derive/([ei])n$/$1ng/            # en => eng, in => ing
     #- derive/([ei])ng$/$1n/            # eng => en, ing => in
     
-    # 智能纠错
+  # 智能纠错
     #- derive/(^[zcs])h([aeiou])ng$/$1hn$2g/   # chnegji = chengji
     #- derive/ao$/oa/                          # oa = ao
     #- derive/([iu])a(o|ng?)$/a$1$2/           # aio = iao; aing = iang; aung = uang
