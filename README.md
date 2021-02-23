@@ -26,7 +26,7 @@
 ---
 ### 一、安装输入法
 
-下载鼠须管 [安装包](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 换出输入法方案选项，到这一步，已经可以使用输入法。
+下载[安装包](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
@@ -79,7 +79,7 @@ squirrel.custom.yaml                     # 皮肤
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
-到这里可以近乎完美地使用输入法了，如果你想对更多细节进行调整，继续往下看。
+到这里可以近乎完美地使用输入法了，如果要对细节进行调整，继续往下看。
 
 ---
 ### 三、输入方案、候选词个数、中英文切换、翻页、快捷键
@@ -88,7 +88,7 @@ squirrel.custom.yaml                     # 皮肤
 
 **切换输入方案**
 
-更多输入方案参考：https://gist.github.com/lotem/2309739
+更多输入方案参考：[点击这里](https://gist.github.com/lotem/2309739)
 
 ![BblXHY6ucgoT7La](https://i.loli.net/2021/02/23/BblXHY6ucgoT7La.png)
 
@@ -122,7 +122,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼 = 😆，词典里需包含〔眯眼〕才会显示〔😆〕。
 
-![En4YBoRqs2gkbxp](https://i.loli.net/2021/02/23/En4YBoRqs2gkbxp.png)
+![1yGouCUvIeFhSDn](https://i.loli.net/2021/02/23/1yGouCUvIeFhSDn.png)
 
 ---
 
