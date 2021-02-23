@@ -149,7 +149,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
 
-打开 `rime.lua`，根据自己喜好修改时间、日期、星期快捷词语，例如，我设置的时 `rq` = `日期`。
+打开 `rime.lua`，根据自己喜好修改时间、日期、星期快捷词语，例如，我设置 `rq` = `日期`。
 
 ![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
 
