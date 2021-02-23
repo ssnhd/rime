@@ -85,14 +85,11 @@ squirrel.custom.yaml                     # 皮肤
 ---
 ### 三、输入方案、候选词个数、中英文切换、翻页、快捷键
 
-打开 `default.custom.yaml` 。
-
-![2021-01-30-15.44.16](https://tvax2.sinaimg.cn/large/008eZBHKgy1gn5rxl5mprj31rc1cc7a3.jpg)
+打开 `default.custom.yaml` 
 
 **切换输入方案**
 
-* 我只是用拼音，所以只保留朙月拼音·简化字，你可以将自己喜欢的输入方案添加进去，例如五笔、双拼、注音等。
-* 更多输入方案参考：https://gist.github.com/lotem/2309739
+更多输入方案参考：https://gist.github.com/lotem/2309739
 
 ![BblXHY6ucgoT7La](https://i.loli.net/2021/02/23/BblXHY6ucgoT7La.png)
 
@@ -110,8 +107,7 @@ squirrel.custom.yaml                     # 皮肤
 
 **快捷键**
 
-* 例如，`Control`+`Shift`+`4` 切换繁简体。
-* 更多快捷键参考：https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml
+* 更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ![yI5XAYwr9mg23ES](https://i.loli.net/2021/02/23/yI5XAYwr9mg23ES.png)
 
