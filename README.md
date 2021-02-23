@@ -149,11 +149,11 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
 
-打开 `rime.lua`，根据自己喜好修改时间、日期、星期快捷词语，例如，我设置 `rq` = `日期`。
+打开 `Rime.lua`，可修改显示方式和快捷编码，例如，我设置 `rq` = `日期`。
 
 ![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
 
-在对应的输入方式里加入下面代码生效动态时间日期星期。
+最后在对应的输入方式里加入下面代码生效。
 
 例如，我使用朙月拼音·简化字，就添加在 `luna_pinyin_simp.custom.yaml` 里。
 
