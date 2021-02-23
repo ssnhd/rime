@@ -225,7 +225,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 例如，艺术设计词库，name：`luna_pinyin.yishusheji` ，根据自己喜好命名。
 
-![6ZGWubDLeXtQ5O4](https://i.loli.net/2021/02/23/6ZGWubDLeXtQ5O4.png)
+![G6ns2wzAcD9tPbm](https://i.loli.net/2021/02/23/G6ns2wzAcD9tPbm.png)
 
 然后将 `.txt` 重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[【十一、词库设置】](#十一词库设置)添加。
 
