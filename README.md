@@ -85,7 +85,7 @@ squirrel.custom.yaml                     # 皮肤
 ---
 ### 三、输入方案、候选词个数、中英文切换、翻页、快捷键
 
-打开 `default.custom.yaml` 
+打开 `default.custom.yaml`。
 
 **切换输入方案**
 
@@ -107,7 +107,7 @@ squirrel.custom.yaml                     # 皮肤
 
 **快捷键**
 
-* 更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
+更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ![yI5XAYwr9mg23ES](https://i.loli.net/2021/02/23/yI5XAYwr9mg23ES.png)
 
@@ -115,9 +115,7 @@ squirrel.custom.yaml                     # 皮肤
 ---
 ### 四、载入词库和Emoji
 
-打开 `luna_pinyin_simp.custom.yaml` 。
-
-**载入Emoji、中、英文词库**
+打开 `luna_pinyin_simp.custom.yaml` 载入Emoji、中、英文词库
 
 ![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
