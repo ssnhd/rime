@@ -115,13 +115,13 @@ squirrel.custom.yaml                     # 皮肤
 ---
 ### 四、载入词库和Emoji
 
-打开 `luna_pinyin_simp.custom.yaml` 载入Emoji、中、英文词库。
+打开 `luna_pinyin_simp.custom.yaml` 载入 Emoji、中/英文词库。
 
 ![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
 opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
-注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼=😆，你得词典里必须先输入【眯眼】才会显示【😆】
+注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼 = 😆，词典里需包含〔眯眼〕才会显示〔😆〕。
 
 ![En4YBoRqs2gkbxp](https://i.loli.net/2021/02/23/En4YBoRqs2gkbxp.png)
 
