@@ -6,6 +6,10 @@
 
 ---
 
+⚠️ 建议使用 0.14.0 版本，请勿升级至0.15.0或更高版本，原因是新版本候选框高度存在大小不一问题（如上图，仔细观察会发现纯中文、Emoji、星号、箭头等显示高度都不一致），不介意的请无视。
+
+---
+
 ### 目录
 
 1. [安装输入法](#一安装输入法)
@@ -26,7 +30,7 @@
 ---
 ### 一、安装输入法
 
-下载[安装包](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
+下载安装包 [0.14.0](https://dl.bintray.com/rime/squirrel/:Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
