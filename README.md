@@ -146,7 +146,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 打开 `luna_pinyin_simp.custom.yaml `，去掉前面的 ` #` 开启模糊音。 
 
-![008eZBHKgy1gn45ww5v15j31be0xgmzp](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ww5v15j31be0xgmzp.jpg)
+![jXRH9aq3iAlIOhW](https://i.loli.net/2021/02/23/jXRH9aq3iAlIOhW.png)
 
 
 
@@ -156,42 +156,38 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
 
-将 `rime.lua` 文件添加在 Rime 目录文件内（本配置文件里已包含），可根据自己喜好修改时间、日期、星期快捷词语。
+打开 `rime.lua`，根据自己喜好修改时间、日期、星期快捷词语，例如，我设置的时 `rq` = `日期`。
 
-![008eZBHKgy1gn45roiva7j31dw1260w6](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45roiva7j31dw1260w6.jpg)
+![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
 
-在对应的输入方式里加入下面代码，例如，朙月拼音简化字，就添加在 `luna_pinyin_simp.custom.yaml` 里。
+在对应的输入方式里加入下面代码生效动态时间日期星期。
 
-```
-# librime-lua 输入动态时间和日期
-  "engine/translators/@6": lua_translator@date_translator
-  "engine/translators/@7": lua_translator@time_translator
-```
+例如，我使用朙月拼音·简化字，就添加在 `luna_pinyin_simp.custom.yaml` 里。
+
+![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
 ---
 
 ### 八、自定义短语（文本替换）
 
-在 `custom_phrase.txt` 设置文本替换。
+打开 `custom_phrase.txt` 设置自定义短语。
 
-![008eZBHKgy1gn45wgynfjj31dy04egm0](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45wgynfjj31dy04egm0.jpg)
+![S3z1lxFm8Kws6nW](https://i.loli.net/2021/02/23/S3z1lxFm8Kws6nW.png)
 
-顺序：`文字` `编码` `权重`（数字越大排序越靠前），使用 `Tab` 键分隔。
+规则：`文字`  +  `编码` +  `权重`，使用 `Tab` 键分隔。
 
-![OcBawnQiDRrFstg](https://i.loli.net/2021/02/05/OcBawnQiDRrFstg.jpg)
+![RhHwdz9GT3NAlx7](https://i.loli.net/2021/02/23/RhHwdz9GT3NAlx7.png)
 
 
 
 ---
 ### 九、皮肤主题
 
-用 `squirrel.custom.yaml` 保存皮肤主题的设置。
+打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后方输入皮肤名字更换主题。
 
-在 `style/color_scheme:` 后方输入皮肤名字更换主题。可以在将自己配置的皮肤添加进去。
+更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)
 
-![GR7eBJLUvfFyw1X](https://i.loli.net/2021/02/04/GR7eBJLUvfFyw1X.png)
-
-更多皮肤效果图：[点击这里](https://github.com/liuour/rime-pifu)
+![GSyDz7sZP5nO3jY](https://i.loli.net/2021/02/23/GSyDz7sZP5nO3jY.png)
 
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
@@ -204,75 +200,40 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ### 十、在特定程序里关闭中文输入
 
-用 `squirrel.custom.yaml` 最底部设置应用默认英文输入。
+打开 `squirrel.custom.yaml` 进行添加修改设置。
 
-例如，要在 Xcode 里面默认关闭中文输入，又要在 Alfred 里面恢复开启中文输入，可如此设定：
-
-```
-app_options/com.apple.Xcode:
-    ascii_mode: true
-  app_options/com.alfredapp.Alfred: {}
-```
-
-例如，要在聚焦搜索（Spotlight）里面默认关闭中文输入，可如此设定：
-
-```
-com.apple.Spotlight:
-    ascii_mode: true      # ture关闭中文输入
-```
-
-![2021-01-30-00.58.26](https://tvax3.sinaimg.cn/large/008eZBHKgy1gn524bmxf0j31820f0dgv.jpg)
+![HIL4Jevp8tulaBk](https://i.loli.net/2021/02/23/HIL4Jevp8tulaBk.png)
 
 
 ---
 
 ### 十一、词库设置
 
-用 `luna_pinyin.extended.dict.yaml` 保存词库的设置。
+打开 `luna_pinyin.extended.dict.yaml`，将以 `.dict.yaml` 结尾的词库添加进去。
 
-将词库名称去掉 `.dict.yaml` 添加进去。
+例如，英文词库 `luna_pinyin.cn_en.dict.yaml`，输入 `- luna_pinyin.cn_en` 即可。
 
-例如，词库文件 `luna_pinyin.sgmain.dict.yaml`，输入 `- luna_pinyin.sgmain` 即可。
-
-![lb3NAMHRrKTuWXG](https://i.loli.net/2021/02/06/lb3NAMHRrKTuWXG.png)
+![osE3gXnyJriLCuK](https://i.loli.net/2021/02/23/osE3gXnyJriLCuK.png)
 
 ---
 ### 十二、搜狗词库转换方法
-打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。
+1）打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
 
-下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
+注：如果工具识别不到词库，选择所有格式。
 
-【注】如果工具识别不到词库，选择所有格式。
-
-选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
+2）选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
 
 ![bVyxtQvzXmBjCTP](https://i.loli.net/2021/02/05/bVyxtQvzXmBjCTP.png)
 
-生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt` 文件）。
+3）生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt` 文件）。
 
-![008eZBHKgy1gn45qmyev0j31ca0nkdi9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45qmyev0j31ca0nkdi9.jpg)
+4）将下面代码粘贴在 `.txt` 文档内最上方， `∙∙∙` 后面加一个换行。
 
-将下面代码粘贴在 `.txt` 文档内最上方， `∙∙∙` 后面加一个换行。
+例如，艺术设计词库，name：`luna_pinyin.yishusheji` ，根据自己喜好命名。
 
-名称格式：`luna_pinyin.xxx` 
+![6ZGWubDLeXtQ5O4](https://i.loli.net/2021/02/23/6ZGWubDLeXtQ5O4.png)
 
-```
-# Rime dictionary
-# encoding: utf-8
-# 搜狗词库 目前包含如下：
-# 成语俗语（将词库名称输入到此处，方便日后检查是否重复）
-
----
-name: luna_pinyin.xxx
-version: "2021.01.21"
-sort: by_weight
-use_preset_vocabulary: true
-...
-
-```
-然后将 `.txt` 重命名为 `luna_pinyin.xxx.dict.yaml`，放在 Rime 目录文件夹内，再参考[【十一、词库设置】](#十一词库设置)添加。
-
-
+然后将 `.txt` 重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[【十一、词库设置】](#十一词库设置)添加。
 
 ---
 
@@ -288,17 +249,5 @@ use_preset_vocabulary: true
 
 打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
 
-```
-# 智能纠错，需要哪组就刪去行首的 # 号
-- derive/(^[zcs])h([aeiou])ng$/$1hn$2g/   # chnegji = chengji
-#- derive/ao$/oa/                          # oa = ao
-#- derive/([iu])a(o|ng?)$/a$1$2/           # aio = iao; aing = iang; aung = uang
-#- derive/([aeiou])ng$/$1gn/               # gn = ng
-#- derive/un$/uen/                         # uen = un
-#- derive/ui$/uei/                         # uei = ui
-#- derive/iu$/iou/                         # iou = ui
-#- derive/tie$/tei/                        # tei = tie
-#- derive/i$/ii/                           # ii = i  # i 不小心按两下
-#- derive/u$/uu/                           # ui = u  # u 不小心按两下
-```
+![AFIO56cLTDiGo2d](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
 
