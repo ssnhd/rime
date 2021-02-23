@@ -49,7 +49,6 @@ custom_phrase.txt                        # 自定义短语（文本替换）
 default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键）    
 easy_en.dict.yaml                        # 词库（英文）                       
 easy_en.schema.yaml                      # 英文词典配套文件                                   
-installation.yaml                        # 自带文件，可自定义配置文件用户同步数据
 luna_pinyin_simp.custom.yaml             # 朙月拼音·简化字配置（挂载中英文、Emoji、快捷符号、模糊音、动态日期）
 luna_pinyin_simp.schema.yaml             # 朙月拼音·简化字文件
 luna_pinyin.1chengshixinxi.dict.yaml     # 词库（城市信息）              
