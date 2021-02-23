@@ -115,7 +115,7 @@ squirrel.custom.yaml                     # 皮肤
 ---
 ### 四、载入词库和Emoji
 
-打开 `luna_pinyin_simp.custom.yaml` 载入Emoji、中、英文词库
+打开 `luna_pinyin_simp.custom.yaml` 载入Emoji、中、英文词库。
 
 ![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
