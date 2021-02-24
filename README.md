@@ -255,4 +255,6 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 按 `Control` + `｀`  组合键切换输入方式，选择〔朙月拼音·简化字〕，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
 
+注：这里也可以选择设置半角和全角符号，中文过滤等。
+
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
