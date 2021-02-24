@@ -13,9 +13,6 @@
       "dicts": [{
         "type": "text",
         "file": "emoji_word.txt"
-      }, {
-        "type": "text",
-        "file": "emoji_category.txt"
       }]
     }
   }]

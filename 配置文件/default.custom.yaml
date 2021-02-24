@@ -1,32 +1,34 @@
 patch:
-    schema_list:
-        - schema: luna_pinyin_simp  #朙月拼音·简化字
+  schema_list:
+    - schema: luna_pinyin_simp      # 朙月拼音简化字
+  # - schema: luna_pinyin           # 朙月拼音（繁体）
         
-    menu/page_size: 9   #候选词个数
+  menu/page_size: 9   #候选词个数
 
-    ascii_composer/good_old_caps_lock: true
-    ascii_composer/switch_key:
-      Caps_Lock: commit_code
-      Shift_L: commit_code     # 允
-      Shift_R: commit_code     # 允
-      Control_L: noop    # 禁
-      Control_R: noop   # 禁
+  ascii_composer/good_old_caps_lock: true     # 若为true，caps只切换大小写
+  ascii_composer/switch_key:
+    Caps_Lock: commit_code                    
+    Shift_L: commit_code                      # 左Shift切换中英文
+    Shift_R: noop                             # 右Shift
+    Control_L: noop                           # 左Control
+    Control_R: noop                           # 右Control
 
-    key_binder/bindings: # 设置翻页
-      #- { when: composing, accept: ISO_Left_Tab, send: Page_Up }
-      - { when: composing, accept: Shift+Tab, send: Page_Up }
-      - { when: paging, accept: minus, send: Page_Up }
-      - { when: has_menu, accept: equal, send: Page_Down }
-      - { when: paging, accept: bracketleft, send: Page_Up }
-      - { when: has_menu, accept: bracketright, send: Page_Down }
-      - { when: paging, accept: comma, send: Page_Up }
-      - { when: composing, accept: Tab, send: Page_Down }     # Tab翻页
+  key_binder/bindings: # 设置翻页
+    - { when: composing, accept: ISO_Left_Tab, send: Page_Up }
+    - { when: composing, accept: Shift+Tab, send: Page_Up }
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+    - { when: paging, accept: bracketleft, send: Page_Up }
+    - { when: has_menu, accept: bracketright, send: Page_Down }
+    - { when: paging, accept: comma, send: Page_Up }
+    - { when: composing, accept: Tab, send: Page_Down }     # Tab翻页
 
-    # 快捷键  
-    #  - {accept: "Control+a", send: Home, when: composing}    # 光标移至首
-    #  - {accept: "Control+e", send: End, when: composing}   # 光标移至尾
-      - {accept: "Control+Shift+1", select: .next, when: always}    # 快速切换输入方案（例如朙月拼音切换到双拼）
-    #  - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}    # 中英文切换
-    #  - {accept: "Control+Shift+3", toggle: full_shape, when: always}     # 全角/半角切换
-      - {accept: "Control+Shift+4", toggle: simplification, when: always}   # 繁简体切换
-    #  - {accept: "Control+Shift+5", toggle: extended_charset, when: always}     # 通用/增广切换（显示生僻字）
+# 快捷键  
+  # - {accept: "Control+a", send: Home, when: composing}    # 光标移至首
+  # - {accept: "Control+e", send: End, when: composing}   # 光标移至尾
+    - {accept: "Control+Shift+1", select: .next, when: always}    # 快速切换输入方案（例如朙月拼音切换到双拼）
+  # - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}    # 中英文切换
+  # - {accept: "Control+Shift+3", toggle: full_shape, when: always}     # 全角/半角切换
+    - {accept: "Control+Shift+4", toggle: simplification, when: always}   # 繁简体切换
+    - {accept: "Control+Shift+5", toggle: extended_charset, when: always}     # 通用/增广切换（显示生僻字）
+
