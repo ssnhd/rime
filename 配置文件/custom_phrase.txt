@@ -17,9 +17,6 @@
 # no comment
 
 
-V2EX	ve	2
-v2ex.com	ve	1
-
 
 Rime	rime	4
 鼠须管	rime	3
@@ -31,6 +28,8 @@ Squirrel	rime	1
 <	xy	2
 ≤	xy	1
 
+AP	ap
+App app
 App Store	as	2
 Apple Store	as	1
 AC86U	ac	2
@@ -47,8 +46,6 @@ Apple Watch	aw
 Android	az
 App Cleaner & Uninstaller	acu
 
-Chrome	ch	2
-Clubhouse	ch
 ClashX	cla
 Chrome  ch  100
 CleanMyMac X	cmm	1
@@ -75,7 +72,6 @@ GitHub	gh	2
 Gmail	gm
 Google	gg
 Google Pay	gp
-Google Play	gp	2
 Google Voice	gv
 Gboard	gb
 
@@ -92,6 +88,16 @@ iWork	iw	4
 iTunes	itunes
 iMac	imac	2
 iMac Pro	imac	1	
+iPad	ipad	4
+iPad Air	ipad	3
+iPad Pro	ipad	2
+iPhone	ip	5
+iPhone XS Max	ip	4
+iPhone XR	ip	3
+iPhone 12 Pro	ip	2
+iPod	ipod
+IPTV	iptv
+IPv6	ipv
 
 Keynote	kn
 koolproxy	kpr
@@ -105,8 +111,6 @@ LINE	line
 Mac	mac	2
 Mac mini	mac	1
 
-macOS	macos	2
-macOS BigSur	macos	1
 Markdown	md
 Microsoft	mic	2
 Microsoft Office	mic	1
@@ -130,10 +134,9 @@ Parallels Desktop	pd
 Paragon NTFS	pn
 Photoshop	ps
 Paypal	pp
-Pro	pro
 
-QQ	qq
 Quantumult	quan
+QQ	qq
 
 Pages	pg
 
@@ -147,24 +150,21 @@ Safari	sf	2
 Shift	sf	1
 SHIELD TV	stv
 SSD	ssd	2
+℃	ssd	1
 Spotify	sp	1
 Spark	sp	2
 Sublime Text	sbt
 
-Telegram	tg
 Twitter	tt
 Type-C	tc	
 Typora	ty
 TeamViewer  tv
-
 USB-C	uc
 Up主	upzhu
-U盘	upan
 
 WH-1000XM2	sn
 WhatsApp	wa
 WeChat	wc	2
-Windows	win
 
 YouTube	yt
 YouTube Premium	yp
