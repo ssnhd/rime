@@ -17,13 +17,14 @@
 7. [输入动态时间、日期、星期](#七输入动态时间日期星期)
 8. [自定义短语（文本替换）](#八自定义短语文本替换)
 9. [皮肤主题](#九皮肤主题)
-10. [在特定程序里关闭中文输入](#十在特定程序里关闭中文输入)
+10. [特定程序里关闭中文输入](#十特定程序里关闭中文输入)
 11. [词库设置（本配置包含约200万个词组👍）](#十一词库设置)
 12. [搜狗词库转换方法](#十二搜狗词库转换方法)
 13. [删除误上屏的错词](#十三删除误上屏的错词)
 14. [智能纠错](#十四智能纠错)
 15. [关闭 Emoji](#十五关闭-Emoji)
-16. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+16. [特定程序里中文状态输入英文标点](#十六特定程序里中文状态输入英文标点)
+17. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
 ### 一、安装输入法
 
@@ -194,7 +195,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 十、在特定程序里关闭中文输入
+### 十、特定程序里关闭中文输入
 
 打开 `squirrel.custom.yaml` 进行添加修改设置。
 
@@ -269,3 +270,14 @@ use_preset_vocabulary: false
 注：这里也可以选择设置半角和全角符号，中文过滤等。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
+
+---
+
+### 十六、特定程序里中文状态输入英文标点
+
+打开 `squirrel.custom.yaml`，在指定程序里加入 `ascii_punct: true` 即可。
+
+例如，下图里是 Visual Studio Code 里中文状态输入标点是英文符号。
+
+![UWnEmVLXvazqDAj](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
+
