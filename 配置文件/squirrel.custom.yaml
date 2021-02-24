@@ -121,7 +121,7 @@ patch:
   app_options:    # App关闭中文输入
     com.apple.Spotlight:            # 聚焦搜索
         ascii_mode: true
-    com.runningwithcrayons.Alfred:  # afred
+    com.runningwithcrayons.Alfred:  # alfred
         ascii_mode: true
     com.apple.Terminal:             # 终端
         ascii_mode: true
