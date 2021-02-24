@@ -26,7 +26,8 @@
 12. [搜狗词库转换方法](#十二搜狗词库转换方法)
 13. [删除误上屏的错词](#十三删除误上屏的错词)
 14. [智能纠错](#十四智能纠错)
-15. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+15. [关闭 Emoji](#十五关闭Emoji)
+16. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
 ### 一、安装输入法
 
@@ -248,3 +249,10 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ![AFIO56cLTDiGo2d](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
 
+---
+
+### 十五、关闭 Emoji
+
+按 `Control` + `｀`  组合键切换输入方式，选择〔朙月拼音·简化字〕，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
+
+![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
