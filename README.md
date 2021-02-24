@@ -26,7 +26,7 @@
 12. [搜狗词库转换方法](#十二搜狗词库转换方法)
 13. [删除误上屏的错词](#十三删除误上屏的错词)
 14. [智能纠错](#十四智能纠错)
-15. [关闭 Emoji](#十五关闭Emoji)
+15. [关闭 Emoji](#十五关闭-Emoji)
 16. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
 ### 一、安装输入法
