@@ -227,6 +227,19 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 4）将下面代码粘贴在 `.txt` 文档内最上方， `∙∙∙` 后面加一个换行。
 
+```
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: luna_pinyin.name
+version: "2021.02.05"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+```
+
 例如，艺术设计词库，name：`luna_pinyin.yishusheji` ，根据自己喜好命名。
 
 ![G6ns2wzAcD9tPbm](https://i.loli.net/2021/02/23/G6ns2wzAcD9tPbm.png)
