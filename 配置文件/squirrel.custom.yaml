@@ -119,14 +119,15 @@ patch:
 # 皮肤效果请参考：https://github.com/liuour/rime-pifu
 
   app_options:    # App关闭中文输入
-    com.apple.Spotlight:
-        ascii_mode: true      # 聚焦搜索
-    com.runningwithcrayons.Alfred:
-        ascii_mode: true      # afred
-    com.apple.Terminal:
-        ascii_mode: true      # 终端
-    com.microsoft.VSCode:
-        ascii_mode: false     # Visual Studio Code
+    com.apple.Spotlight:            # 聚焦搜索
+        ascii_mode: true
+    com.runningwithcrayons.Alfred:  # afred
+        ascii_mode: true
+    com.apple.Terminal:             # 终端
+        ascii_mode: true
+    com.microsoft.VSCode:           # Visual Studio Code
+        ascii_mode: false           # 开启中文输入
+        ascii_punct: true           # 半角符号即中文状态输入英文标点
 
 
 
