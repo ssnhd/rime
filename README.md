@@ -28,9 +28,11 @@
 ---
 ### 一、安装输入法
 
-下载安装包 [0.14.0](https://dl.bintray.com/rime/squirrel/:Squirrel-0.14.0.zip)，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
+打开[ Rime 官网](https://rime.im/)下载安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
 
-注：不建议升级至 `0.15.0 `或更高版本，行高会不一致（如效果图所示，仔细观察会发现纯中文、中文里带 Emoji、声调、箭头等）。
+更多版本下载：[点击这里](https://dl.bintray.com/rime/squirrel/)
+
+> 注：0.15.0 或更高版本，字符不同时行高不一致（等待后续优化），介意的可安装 0.14.0 版本，不介意的请无视。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
@@ -216,7 +218,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 ### 十二、搜狗词库转换方法
 1）打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
 
-注：如果工具识别不到词库，选择所有格式。
+> 注：如果工具识别不到词库，选择所有格式。
 
 2）选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
 
@@ -251,7 +253,7 @@ use_preset_vocabulary: false
 
 先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift`+`Fn`+`Delete` 键（第三方键盘按   `Control`+`Delete`）。
 
-【注】只能从用户词典中删除词组；词库里词组只会取消其调频效果。
+> 注：只能从用户词典中删除词组；词库里词组只会取消其调频效果。
 
 ---
 
@@ -267,7 +269,7 @@ use_preset_vocabulary: false
 
 按 `Control` + `｀`  组合键切换输入方式，选择〔朙月拼音·简化字〕，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
 
-注：这里也可以选择设置半角和全角符号，中文过滤等。
+> 注：这里也可以选择设置半角和全角符号，中文过滤等。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
