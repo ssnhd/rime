@@ -50,7 +50,10 @@
 ```
 # 配置文件介绍
 custom_phrase.txt                        # 自定义短语（文本替换）             
-default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键）    
+default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键） 
+double_pinyin_flypy.custom.yaml					 # 双拼
+double_pinyin_flypy.schema.yaml					 # 双拼
+double_pinyin.schema.yaml      					 # 双拼
 easy_en.dict.yaml                        # 词库（英文）                       
 easy_en.schema.yaml                      # 英文词典配套文件                                   
 luna_pinyin_simp.custom.yaml             # 朙月拼音·简化字配置（挂载中英文、Emoji、快捷符号、模糊音、动态日期）
@@ -70,7 +73,8 @@ luna_pinyin.12yulexiuxian.dict.yaml      # 词库（娱乐休闲）
 luna_pinyin.cn_en.dict.yaml              # 词库（英文和特殊符号）                    
 luna_pinyin.dict.yaml                    # 词库（汉字）    
 luna_pinyin.extended.dict.yaml           # 外挂词库                    
-opencc                                   # Emoji                    
+opencc                                   # Emoji
+pinyin_simp.dict.yaml										 # 词库（单字+词组）
 rime.lua                                 # 动态时间、日期、星期            
 squirrel.custom.yaml                     # 皮肤                         
 ```
@@ -94,7 +98,7 @@ squirrel.custom.yaml                     # 皮肤
 
 更多输入方案参考：[点击这里](https://gist.github.com/lotem/2309739)
 
-![BblXHY6ucgoT7La](https://i.loli.net/2021/02/23/BblXHY6ucgoT7La.png)
+![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
 **候选词个数**
 
