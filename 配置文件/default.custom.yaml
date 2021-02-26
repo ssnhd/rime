@@ -1,7 +1,8 @@
 patch:
   schema_list:
-    - schema: luna_pinyin_simp      # 朙月拼音简化字
-  # - schema: luna_pinyin           # 朙月拼音（繁体）
+    - schema: luna_pinyin_simp      # 朙月拼音 简化字
+    - schema: luna_pinyin           # 朙月拼音 繁体
+    - schema: double_pinyin_flypy   # 小鹤雙拼
         
   menu/page_size: 9   #候选词个数
 
