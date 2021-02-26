@@ -74,7 +74,7 @@ luna_pinyin.cn_en.dict.yaml              # 词库（英文和特殊符号）
 luna_pinyin.dict.yaml                    # 词库（汉字）    
 luna_pinyin.extended.dict.yaml           # 外挂词库                    
 opencc                                   # Emoji
-pinyin_simp.dict.yaml										 # 词库（单字+词组）
+pinyin_simp.dict.yaml                    # 词库（单字+词组）
 rime.lua                                 # 动态时间、日期、星期            
 squirrel.custom.yaml                     # 皮肤                         
 ```
