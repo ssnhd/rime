@@ -24,7 +24,8 @@
 14. [智能纠错](#十四智能纠错)
 15. [关闭 Emoji](#十五关闭-Emoji)
 16. [特定程序里中文状态输入英文标点](#十六特定程序里中文状态输入英文标点)
-17. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+17. [卸载鼠须管方法](#卸载鼠须管方法)
+18. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
 ### 一、安装输入法
 
@@ -282,3 +283,11 @@ use_preset_vocabulary: false
 
 ![UWnEmVLXvazqDAj](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
 
+---
+
+### 卸载鼠须管方法
+
+1. 打开系统盘好设置 - 键盘 - 输入法，移除〔鼠须管〕。
+2. 打开访达并按下 `command` + `shift` + `G` 前往 `/Library/Input Methods` 文件夹，移除〔Squirrel.app〕。
+3. 如上，前往 `~/Library` 并移除文件夹〔Rime〕。
+4. 重新登入系统，确保清理完毕。
