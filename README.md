@@ -18,9 +18,9 @@
 8. [自定义短语（文本替换）](#自定义短语文本替换)
 9. [皮肤主题](#皮肤主题)
 10. [特定程序里关闭中文输入](#特定程序里关闭中文输入)
-11. 区委
+11. [词库](#词库)
 12. [挂载词库](#挂载词库)
-13. [搜狗词库转换方法](#搜狗词库转换方法)
+13. [搜狗词库转换方法](#搜狗词库转换)
 14. [删除误上屏的错词](#删除误上屏的错词)
 15. [智能纠错](#智能纠错)
 16. [关闭 Emoji](#关闭-Emoji)
@@ -209,16 +209,55 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 外挂词库
+### 词库
 
-打开 `luna_pinyin.extended.dict.yaml`，将以 `.dict.yaml` 结尾的词库添加进去。
+Rime 的词库文件，命名为 <词库名>.dict.yaml，包含一份码表及对应的规则说明。 词库文件的前半部份为一份 YAML 文档：
+
+```
+# 注意这里以 --- ... 分别标记出 YAML 文档的起始与结束位置
+# 在 ... 标记之后的部份就不会作 YAML 文档来解读
+
+---
+name: luna_pinyin
+version: "0.9"
+sort: by_weight
+use_preset_vocabulary: true
+...
+```
+
+解释：
+
+- `name`: 词典名，内部使用，命名原则同“方案标识”；可以与配套的输入方案标识一致，也可不同；
+- `version`: 管理词典的版本，规则同输入方案定义文件的版本号；
+- `sort`: 词条初始排序方式，可选填 `by_weight`（按词频高低排序）或 `original`（保持原码表中的顺序）；
+- `use_preset_vocabulary`: 填 `true` 或 `false`，选择是否导入预设词汇表【八股文】。
+
+码表：格式每行定义一条〔文字－编码〕，字符与码表之间使用 `tab` 键，码表之间使用空格键。
+
+```
+# 单字
+你	ni
+我	wo
+
+# 词组
+你的
+天地	tian di
+目的地	mu di di
+```
+
+
+---
+
+### 挂载词库
+
+打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
 例如，英文词库 `luna_pinyin.cn_en.dict.yaml`，输入 `- luna_pinyin.cn_en` 即可。
 
 ![osE3gXnyJriLCuK](https://i.loli.net/2021/02/23/osE3gXnyJriLCuK.png)
 
 ---
-### 搜狗词库转换方法
+### 搜狗词库转换
 1）打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
 
 > 注：如果工具识别不到词库，选择所有格式。
@@ -248,7 +287,7 @@ use_preset_vocabulary: false
 
 ![G6ns2wzAcD9tPbm](https://i.loli.net/2021/02/23/G6ns2wzAcD9tPbm.png)
 
-然后将 `.txt` 重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[【十一、词库设置】](#十一词库设置)添加。
+然后将 `.txt` 重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[【挂载词库】](#挂载词库)添加。
 
 ---
 
