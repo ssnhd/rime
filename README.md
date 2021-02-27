@@ -8,26 +8,27 @@
 
 ### 目录
 
-1. [安装输入法](#一安装输入法)
-2. [定制输入法](#二定制输入法)
-3. [输入方案、候选词个数、中英文切换、翻页、快捷键](#三输入方案候选词个数中英文切换翻页快捷键)
-4. [载入词库和Emoji](#四载入词库和Emoji)
-5. [自定义快捷字符](#五自定义快捷字符)
-6. [模糊音](#六模糊音)
-7. [输入动态时间、日期、星期](#七输入动态时间日期星期)
-8. [自定义短语（文本替换）](#八自定义短语文本替换)
-9. [皮肤主题](#九皮肤主题)
-10. [特定程序里关闭中文输入](#十特定程序里关闭中文输入)
-11. [词库设置（本配置包含约200万个词组👍）](#十一词库设置)
-12. [搜狗词库转换方法](#十二搜狗词库转换方法)
-13. [删除误上屏的错词](#十三删除误上屏的错词)
-14. [智能纠错](#十四智能纠错)
-15. [关闭 Emoji](#十五关闭-Emoji)
-16. [特定程序里中文状态输入英文标点](#十六特定程序里中文状态输入英文标点)
-17. [卸载鼠须管方法](#卸载鼠须管方法)
-18. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+1. [安装输入法](#安装输入法)
+2. [定制输入法](#定制输入法)
+3. [输入方案、候选词个数、中英文切换、翻页、快捷键](#输入方案候选词个数中英文切换翻页快捷键)
+4. [载入词库和Emoji](#载入词库和Emoji)
+5. [自定义快捷字符](#自定义快捷字符)
+6. [模糊音](#模糊音)
+7. [输入动态时间、日期、星期](#输入动态时间日期星期)
+8. [自定义短语（文本替换）](#自定义短语文本替换)
+9. [皮肤主题](#皮肤主题)
+10. [特定程序里关闭中文输入](#特定程序里关闭中文输入)
+11. 区委
+12. [挂载词库](#挂载词库)
+13. [搜狗词库转换方法](#搜狗词库转换方法)
+14. [删除误上屏的错词](#删除误上屏的错词)
+15. [智能纠错](#智能纠错)
+16. [关闭 Emoji](#关闭-Emoji)
+17. [特定程序里中文状态输入英文标点](#特定程序里中文状态输入英文标点)
+18. [卸载鼠须管方法](#卸载鼠须管方法)
+19. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
-### 一、安装输入法
+### 安装输入法
 
 打开[ Rime 官网](https://rime.im/)下载安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
 
@@ -38,7 +39,7 @@
 
 ---
 
-### 二、定制输入法
+### 定制输入法
 
 下载[档案文件](https://github.com/liuour/rime/archive/master.zip)并解压，首先将【font】两个字体安装到 Mac 字体册。
 
@@ -86,7 +87,7 @@ squirrel.custom.yaml                     # 皮肤
 到这里可以近乎完美地使用输入法了，对细节进行调整，继续往下看。
 
 ---
-### 三、输入方案、候选词个数、中英文切换、翻页、快捷键
+### 输入方案、候选词个数、中英文切换、翻页、快捷键
 
 打开 `default.custom.yaml`。
 
@@ -120,7 +121,7 @@ squirrel.custom.yaml                     # 皮肤
 
 
 ---
-### 四、载入词库和Emoji
+### 载入词库和Emoji
 
 打开 `luna_pinyin_simp.custom.yaml` 载入 Emoji、中/英文词库。
 
@@ -134,7 +135,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 五、自定义快捷字符
+### 自定义快捷字符
 
 打开 `luna_pinyin_simp.custom.yaml` 修改快捷 Emoji 和符号。
 
@@ -143,7 +144,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 六、模糊音
+### 模糊音
 
 打开 `luna_pinyin_simp.custom.yaml `，去掉前面的 ` #` 开启模糊音。 
 
@@ -153,7 +154,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 七、输入动态时间、日期、星期
+### 输入动态时间、日期、星期
 
 ![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
 
@@ -169,7 +170,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 八、自定义短语（文本替换）
+### 自定义短语（文本替换）
 
 打开 `custom_phrase.txt` 设置自定义短语。
 
@@ -182,7 +183,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 
 ---
-### 九、皮肤主题
+### 皮肤主题
 
 打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后方输入皮肤名字更换主题。
 
@@ -199,7 +200,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 十、特定程序里关闭中文输入
+### 特定程序里关闭中文输入
 
 打开 `squirrel.custom.yaml` 进行添加修改设置。
 
@@ -208,7 +209,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ---
 
-### 十一、词库设置
+### 外挂词库
 
 打开 `luna_pinyin.extended.dict.yaml`，将以 `.dict.yaml` 结尾的词库添加进去。
 
@@ -217,7 +218,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 ![osE3gXnyJriLCuK](https://i.loli.net/2021/02/23/osE3gXnyJriLCuK.png)
 
 ---
-### 十二、搜狗词库转换方法
+### 搜狗词库转换方法
 1）打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
 
 > 注：如果工具识别不到词库，选择所有格式。
@@ -251,7 +252,7 @@ use_preset_vocabulary: false
 
 ---
 
-### 十三、删除误上屏的错词
+### 删除误上屏的错词
 
 先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift`+`Fn`+`Delete` 键（第三方键盘按   `Control`+`Delete`）。
 
@@ -259,7 +260,7 @@ use_preset_vocabulary: false
 
 ---
 
-### 十四、智能纠错
+### 智能纠错
 
 打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
 
@@ -267,7 +268,7 @@ use_preset_vocabulary: false
 
 ---
 
-### 十五、关闭 Emoji
+### 关闭 Emoji
 
 按 `Control` + `｀`  组合键切换输入方式，选择〔朙月拼音·简化字〕，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
 
@@ -277,7 +278,7 @@ use_preset_vocabulary: false
 
 ---
 
-### 十六、特定程序里中文状态输入英文标点
+### 特定程序里中文状态输入英文标点
 
 打开 `squirrel.custom.yaml`，在指定程序里加入 `ascii_punct: true` 即可。
 
