@@ -1,12 +1,12 @@
 patch:
   switches:
     - name: ascii_mode
-      reset: 0
-      states: ["中文", "西文"]
-    - name: full_shape
-      states: ["半角", "全角"]
-    - name: zh_simp                      # 繁简转换
-      reset: 1
+      reset: 0                           # reset 0 的作用是当从其他输入方案切换到本方案时,
+      states: ["中文", "西文"]            # 重设为指定的状态，而不保留在前一个方案中设定的状态.
+    - name: full_shape                  # 选择输入方案后通常需要立即输入中文，故重设 ascii_mode = 0；
+      states: ["半角", "全角"]            # 而全／半角则可沿用之前方案中的用法。
+    - name: zh_simp                     
+      reset: 1                          # 增加这一行：默认启用“繁→简”转换。
       states: ["漢字", "汉字"]
     - options: ["utf8", "gbk", "gb2312"] # 字符集选单
       reset: 0                           # 默认 UTF8
