@@ -287,7 +287,7 @@ use_preset_vocabulary: false
 
 ### 卸载鼠须管方法
 
-1. 打开系统盘好设置 - 键盘 - 输入法，移除〔鼠须管〕。
-2. 打开访达并按下 `command` + `shift` + `G` 前往 `/Library/Input Methods` 文件夹，移除〔Squirrel.app〕。
-3. 如上，前往 `~/Library` 并移除文件夹〔Rime〕。
+1. 打开系统盘好设置 - 键盘 - 输入法，移除【鼠须管】。
+2. 打开访达并按下 `command` + `shift` + `G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
+3. 如上，前往 `~/Library` 并删除文件夹【Rime】。
 4. 重新登入系统，确保清理完毕。
