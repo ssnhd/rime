@@ -21,29 +21,30 @@ switches:
     states: [ 漢字, 汉字 ]
 
 
-engine:
-  processors:
-    - ascii_composer
-    - recognizer
-    - key_binder
-    - speller
-    - punctuator
-    - selector
-    - navigator
-    - express_editor
-  segmentors:
-    - ascii_segmentor
-    - matcher
-    - abc_segmentor
-    - punct_segmentor
-    - fallback_segmentor
-  translators:
-    - punct_translator
-    - table_translator@custom_phrase
-    - script_translator
-  filters:
-    - simplifier
-    - uniquifier
+engine:                    # 输入引擎设定，即挂接组件的“处方”
+  processors:              # 一、这批组件处理各类按键消息
+    - ascii_composer       # ※ 处理西文模式及中西文切换
+    - recognizer           # ※ 与 matcher 搭配，处理符合特定规则的输入码，如网址、反查等
+    - key_binder           # ※ 在特定条件下将按键绑定到其他按键，如重定义逗号、句号为候选翻页键
+    - speller              # ※ 拼写处理器，接受字符按键，编辑输入码
+    - punctuator           # ※ 句读处理器，将单个字符按键直接映射为文字符号
+    - selector             # ※ 选字处理器，处理数字选字键、上、下候选定位、换页键
+    - navigator            # ※ 处理输入栏内的光标移动键
+    - express_editor       # ※ 编辑器，处理空格、回车上屏、回退键等
+  segmentors:              # 二、这批组件识别不同内容类型，将输入码分段
+    - ascii_segmentor      # ※ 标识西文段落
+    - matcher              # ※ 标识符合特定规则的段落，如网址、反查等
+    - abc_segmentor        # ※ 标识常规的文字段落
+    - punct_segmentor      # ※ 标识句读段落
+    - fallback_segmentor   # ※ 标识其他未标识段落
+  translators:             # 三、这批组件翻译特定类型的编码段为一组候选文字
+    - echo_translator      # ※ 没有其他候选字时，回显输入码
+    - punct_translator     # ※ 转换标点符号
+    - script_translator    # ※ 脚本翻译器，用于拼音等基于音节表的输入方案
+    - reverse_lookup_translator  # ※ 反查翻译器，用另一种编码方案查码
+  filters:                 # 四、这批组件过滤翻译的结果
+    - simplifier           # ※ 繁简转换
+    - uniquifier           # ※ 过滤重复的候选字，有可能来自繁简转换
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
