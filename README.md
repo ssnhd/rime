@@ -101,6 +101,8 @@ squirrel.custom.yaml                     # 皮肤
 
 **切换中英文**
 
+> 注：Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
+
 ![ogPE4mBitAzcZ5U](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
 **翻页**
