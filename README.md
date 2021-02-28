@@ -29,7 +29,7 @@
 13. [搜狗词库转换方法](#搜狗词库转换)
 14. [删除误上屏的错词](#删除误上屏的错词)
 15. [智能纠错](#智能纠错)
-16. [关闭 Emoji](#关闭-Emoji)
+16. [Emoji 开启关闭](#Emoji-开启关闭)
 17. [特定程序里中文状态输入英文标点](#特定程序里中文状态输入英文标点)
 18. [卸载鼠须管方法](#卸载鼠须管方法)
 19. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
@@ -315,11 +315,11 @@ use_preset_vocabulary: false
 
 ---
 
-### 关闭 Emoji
+### Emoji 开启关闭
 
 按 `Control` + `｀`  组合键切换输入方式，选择〔朙月拼音·简化字〕，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
 
-> 注：这里也可以选择设置半角和全角符号，中文过滤等。
+> 注：这里也可以设置半角和全角符号，中文过滤等。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
