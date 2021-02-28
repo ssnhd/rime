@@ -47,9 +47,9 @@
 
 ### 定制输入法
 
-下载[档案文件](https://github.com/liuour/rime/archive/master.zip)并解压，首先将【font】两个字体安装到 Mac 字体册。
+下载[档案文件](https://github.com/liuour/rime/archive/master.zip)并解压，为防止候选词出现乱码，将【花园明朝字体】里的 2 个字体安装至 Mac 字体册。
 
-点选【用户设定】打开目录文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖文件。
+点选【用户设定】打开 Rime 文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖。
 
 > 注：覆盖前建议先备份原文件。
 
@@ -86,9 +86,9 @@ squirrel.custom.yaml                     # 皮肤
 
 点击【重新部署】完成定制。
 
-> 注1：修改任何文件都要重新部署（快捷键 `Control`+`Option`+`｀`）生效。
+> 注1：修改任何文件都要点击重新部署（快捷键 `Control`+`Option`+`｀`）生效。
 >
-> 注2：本配置包含约 200 万个词库，重新部署时间可能会稍长。
+> 注2：本配置包含约 200 万词库，重新部署时间可能会稍长，请耐心等待。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
