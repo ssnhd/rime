@@ -340,7 +340,7 @@ use_preset_vocabulary: false
 2. 然后，再添加下面一行代码，意思是同步和备份到 iCloud 云盘 Rime 文件夹内。
 
 ```
- sync_dir: "/Users/lucasliu/Library/Mobile Documents/com~apple~CloudDocs/Rime"
+ sync_dir: "/Users/用户名/Library/Mobile Documents/com~apple~CloudDocs/Rime"
 ```
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
