@@ -345,7 +345,7 @@ use_preset_vocabulary: false
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
-3. 点选右上角【㞢】图标，再点击【同步用户数据】，然后打开 iCloud 云盘，会看到备份文件。
+3. 点选右上角【㞢】-【同步用户数据】，然后打开 iCloud 云盘，会看到备份文件。
 
 ![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
