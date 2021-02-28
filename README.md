@@ -20,14 +20,14 @@
 4. [载入词库和 Emoji](#载入词库和-Emoji)
 5. [自定义快捷字符](#自定义快捷字符)
 6. [模糊音](#模糊音)
-7. [输入动态时间、日期、星期](#输入动态时间日期星期)
 8. [自定义短语（文本替换）](#自定义短语文本替换)
 9. [皮肤主题](#皮肤主题)
 10. [特定程序里关闭中文输入](#特定程序里关闭中文输入)
-11. [特定程序里中文状态输入英文标点](#特定程序里中文状态输入英文标点)
-12. [词库](#词库)
-13. [挂载词库](#挂载词库)
-14. [搜狗词库转换方法](#搜狗词库转换)
+10. [特定程序里中文状态输入英文标点](#特定程序里中文状态输入英文标点)
+11. [词库](#词库)
+12. [挂载词库](#挂载词库)
+13. [搜狗词库转换方法](#搜狗词库转换)
+14. [输入动态时间、日期、星期](#输入动态时间日期星期)
 15. [删除误上屏的错词](#删除误上屏的错词)
 16. [智能纠错](#智能纠错)
 17. [Emoji 开启关闭](#Emoji-开启关闭)
@@ -157,24 +157,6 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 打开 `luna_pinyin_simp.custom.yaml `，去掉前面的 ` #` 开启模糊音。 
 
 ![jXRH9aq3iAlIOhW](https://i.loli.net/2021/02/23/jXRH9aq3iAlIOhW.png)
-
-
-
----
-
-### 输入动态时间、日期、星期
-
-![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
-
-打开 `Rime.lua`，可修改显示方式和快捷编码，例如，我设置 `rq` = `日期`。
-
-![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
-
-最后在对应的输入方式里加入下面代码生效。
-
-例如，我使用朙月拼音·简化字，就添加在 `luna_pinyin_simp.custom.yaml` 里。
-
-![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
 ---
 
@@ -306,6 +288,22 @@ use_preset_vocabulary: false
 ![G6ns2wzAcD9tPbm](https://i.loli.net/2021/02/23/G6ns2wzAcD9tPbm.png)
 
 然后将 `.txt` 重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[【挂载词库】](#挂载词库)添加。
+
+---
+
+### 输入动态时间、日期、星期
+
+![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
+
+打开 `Rime.lua`，可修改格式和快捷编码，例如，`rq` = `日期`。
+
+![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
+
+最后在对应的输入方式里加入下面代码生效。
+
+例如，朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
+
+![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
 ---
 
