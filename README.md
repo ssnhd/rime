@@ -37,7 +37,7 @@
 ---
 ### 安装输入法
 
-打开[ Rime 官网](https://rime.im/)下载安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control`+`｀` 切换输入方案，到这一步，已经可以使用。
+打开[ Rime 官网](https://rime.im/)下载安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control+｀` 切换输入方案，到这一步，已经可以使用。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
 
@@ -87,7 +87,7 @@ squirrel.custom.yaml                     # 皮肤
 
 点击【重新部署】完成定制。
 
-> 注1：修改任何文件都要点击重新部署（快捷键 `Control`+`Option`+`｀`）生效。
+> 注1：修改任何文件都要点击重新部署（快捷键 `Control+Option+｀`）生效。
 >
 > 注2：本配置包含约 200 万词库，重新部署时间可能会稍长，请耐心等待。
 
@@ -354,6 +354,6 @@ use_preset_vocabulary: false
 ### 卸载鼠须管方法
 
 1. 打开系统盘好设置 - 键盘 - 输入法，移除【鼠须管】。
-2. 打开访达并按下 `command` + `shift` + `G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
+2. 打开访达并按下 `command+shift+G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
 3. 如上，前往 `~/Library` 并删除文件夹【Rime】。
 4. 重新登入系统，确保清理完毕。
