@@ -336,8 +336,8 @@ use_preset_vocabulary: false
 
 ### 同步和备份
 
-1. 打开 ` installation.yaml`，将 `installation_id` 后面的一串密钥修改为自己喜欢的名称，例如，设置为 `mac`。
-2. 然后，再添加下面一行代码，意思是同步和备份到 iCloud 云盘 Rime 文件夹内。
+1. 打开 ` installation.yaml`，将 `installation_id` 后面一串字符改为自己喜欢的名称，例如 `mac`。
+2. 再添加下面一行代码（同步和备份到 iCloud 云盘 Rime 文件夹内）。
 
 ```
  sync_dir: "/Users/用户名/Library/Mobile Documents/com~apple~CloudDocs/Rime"
@@ -345,11 +345,7 @@ use_preset_vocabulary: false
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
-3. 点击【同步用户数据】。
-
-![NXYhrPAUscSKJHI](https://i.loli.net/2021/03/01/NXYhrPAUscSKJHI.png)
-
-4. 打开 iCloud 云盘，看到 Rime 下生成一个〔mac〕即备份。
+3. 点选右上角【㞢】图标，再点击【同步用户数据】，然后打开 iCloud 云盘，会看到备份文件。
 
 ![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
