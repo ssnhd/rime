@@ -31,8 +31,9 @@
 15. [删除误上屏的错词](#删除误上屏的错词)
 16. [智能纠错](#智能纠错)
 17. [Emoji 开启关闭](#Emoji-开启关闭)
-18. [卸载鼠须管方法](#卸载鼠须管方法)
-19. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+18. [同步和备份](#同步和备份)
+19. [卸载鼠须管方法](#卸载鼠须管方法)
+20. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
 ---
 ### 安装输入法
 
@@ -330,6 +331,27 @@ use_preset_vocabulary: false
 > 注：这里也可以设置半角和全角符号，中文过滤等。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
+
+---
+
+### 同步和备份
+
+1. 打开 ` installation.yaml`，将 `installation_id` 后面的一串密钥修改为自己喜欢的名称，例如，设置为 `mac`。
+2. 然后，再添加下面一行代码，意思是同步和备份到 iCloud 云盘 Rime 文件夹内。
+
+```
+ sync_dir: "/Users/lucasliu/Library/Mobile Documents/com~apple~CloudDocs/Rime"
+```
+
+![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
+
+3. 点击【同步用户数据】。
+
+![NXYhrPAUscSKJHI](https://i.loli.net/2021/03/01/NXYhrPAUscSKJHI.png)
+
+4. 打开 iCloud 云盘，看到 Rime 下生成一个〔mac〕即备份。
+
+![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
 ---
 
