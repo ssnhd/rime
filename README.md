@@ -310,7 +310,7 @@ use_preset_vocabulary: false
 
 ### 删除误上屏的错词
 
-先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift`+`Fn`+`Delete` 键（第三方键盘按   `Control`+`Delete`）。
+先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift+Fn+Delete` 键（第三方键盘按   `Control+Delete`）。
 
 > 注：只能从用户词典中删除词组；词库里词组只会取消其调频效果。
 
