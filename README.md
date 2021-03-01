@@ -86,9 +86,8 @@ squirrel.custom.yaml                     # 皮肤
 
 点击【重新部署】完成定制。
 
-> 注1：修改任何文件都要点击重新部署（快捷键 `Control+Option+｀`）生效。
+> 注：修改任何配置都要重新部署（快捷键 `Control+Option+｀`）才会生效。
 >
-> 注2：本配置包含约 200 万词库，重新部署时间可能会稍长，请耐心等待。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -211,7 +210,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ### 词库
 
-Rime 的词库文件，命名为 <词库名>.dict.yaml，包含一份码表及对应的规则说明。 词库文件的前半部份为一份 YAML 文档：
+文件命名为 <词库名>.dict.yaml。 词库文件的前半部份为一份 YAML 文档：
 
 ```
 # 注意这里以 --- ... 分别标记出 YAML 文档的起始与结束位置
@@ -227,8 +226,8 @@ use_preset_vocabulary: true
 
 解释：
 
-- `name`: 词典名，内部使用，命名原则同“方案标识”；可以与配套的输入方案标识一致，也可不同；
-- `version`: 管理词典的版本，规则同输入方案定义文件的版本号；
+- `name`: 词库名；
+- `version`: 词典版本，规则同输入方案定义文件的版本号；
 - `sort`: 词条初始排序方式，可选填 `by_weight`（按词频高低排序）或 `original`（保持原码表中的顺序）；
 - `use_preset_vocabulary`: 填 `true` 或 `false`，选择是否导入预设词汇表【八股文】。
 
@@ -244,7 +243,7 @@ use_preset_vocabulary: true
 天地	tian di
 目的地	mu di di
 ```
-
+>注：本配置包含约 200 万词库，修改词库重新部署时间会稍长，修改其他配置不受影响。
 
 ---
 
