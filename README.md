@@ -336,7 +336,7 @@ use_preset_vocabulary: false
 
 ### 同步和备份
 
-1. 打开 ` installation.yaml`，将 `installation_id` 后面一串字符改为自己喜欢的名称，例如 `mac`。
+1. 打开 ` installation.yaml`，将 `installation_id` 后面的随机 UUID 改为自己喜欢的名称，例如 `mac`。
 2. 再添加下面一行代码（同步和备份到 iCloud 云盘 Rime 文件夹内）。
 
 ```
@@ -345,9 +345,11 @@ use_preset_vocabulary: false
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
-3. 点选右上角【㞢】-【同步用户数据】，然后打开 iCloud 云盘，会看到备份文件。
+3. 点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘生成备份文件。
 
 ![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
+
+更多设备同步请参考：[点击这里](https://github.com/rime/home/wiki/UserGuide#%E5%90%8C%E6%AD%A5%E7%94%A8%E6%88%B6%E8%B3%87%E6%96%99)
 
 ---
 
