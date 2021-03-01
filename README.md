@@ -337,7 +337,7 @@ use_preset_vocabulary: false
 ### 同步和备份
 
 1. 打开 ` installation.yaml`，将 `installation_id` 后面的随机 UUID 改为自己喜欢的名称，例如 `mac`。
-2. 再添加下面一行代码（同步和备份到 iCloud 云盘 Rime 文件夹内）。
+2. 示例：同步和备份到 iCloud 云盘，在 iCloud 新建一个 Rime 文件夹，再添加下面一行路径代码。
 
 ```
  sync_dir: "/Users/用户名/Library/Mobile Documents/com~apple~CloudDocs/Rime"
