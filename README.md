@@ -1,6 +1,6 @@
 
 
-# Rime 鼠须管 Squirrel 配置文件详解
+# Rime 鼠须管（Squirrel）配置方案｜配置文件详解
 
 ![](https://i.loli.net/2021/02/22/gqMZF8Loa51XWVy.png)
 
