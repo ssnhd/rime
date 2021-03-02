@@ -98,7 +98,7 @@ squirrel.custom.yaml                     # 皮肤
 
 **切换输入方案**
 
-更多输入方案参考：[点击这里](https://gist.github.com/lotem/2309739)
+> 注：如使用小鹤双拼，五笔等方案，请参考[方案名称](https://gist.github.com/lotem/2309739)和[方案配置](https://github.com/rime/plum)。
 
 ![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
