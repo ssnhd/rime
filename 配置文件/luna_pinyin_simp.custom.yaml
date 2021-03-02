@@ -1,22 +1,22 @@
 patch:
   switches:
     - name: ascii_mode
-      reset: 0                           # reset 0 的作用是当从其他输入方案切换到本方案时,
-      states: ["中文", "西文"]            # 重设为指定的状态，而不保留在前一个方案中设定的状态.
-    - name: full_shape                  # 选择输入方案后通常需要立即输入中文，故重设 ascii_mode = 0；
-      states: ["半角", "全角"]            # 而全／半角则可沿用之前方案中的用法。
+      reset: 0                           
+      states: ["中文", "西文"]          
+    - name: full_shape                
+      states: ["半角", "全角"]           
     - name: zh_simp                     
-      reset: 1                          # 增加这一行：默认启用“繁→简”转换。
+      reset: 1                           # 默认启用“繁→简”转换
       states: ["漢字", "汉字"]
+    - name: show_emoji
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
     - options: ["utf8", "gbk", "gb2312"] # 字符集选单
       reset: 0                           # 默认 UTF8
       states:
         - UTF-8
         - GBK
         - GB2312
-    - name: show_emoji
-      reset: 1
-      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
 
   simplifier:
     option_name: zh_simp
@@ -27,13 +27,13 @@ patch:
       - uniquifier
       - charset_filter@gbk              # GBK 过滤
       - single_char_filter
-
+　　　　
   emoji_conversion:
     opencc_config: emoji.json
     option_name: show_emoji
     tags: abc
 
-# 改写拼写运算，使得含西文的词汇（luna_pinyin.cn_en.dict.yaml）不影响简拼功能
+# 改写拼写运算，含英文的词汇（luna_pinyin.cn_en.dict.yaml）不影响简拼
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
 
 #  载入朙月拼音扩充词库
@@ -47,7 +47,7 @@ patch:
   english:
     dictionary: easy_en
     spelling_hints: 9
-    enable_completion: false     # 是否启用英文输入联想补全
+    enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false
     initial_quality: -1           # 调整英文候选词的位置
 
