@@ -6,9 +6,13 @@
 
 ---
 
-优点：速度快，占用资源少，不联网（保护个人隐私），高度DIY；约200万词库。
-
-缺点：上手难度大；前期个人词库精准度低；需要维护（例如，苹果更新 Emoji，需要自己添加进去）。
+|          优点          |                缺点                 |
+| :--------------------: | :---------------------------------: |
+|         速度快         |             上手难度大              |
+|       占用资源少       |        前期个人词库精准度低         |
+| 不联网（保护个人隐私） | 维护（例如更新 Emoji，需手动载入） |
+|        高度DIY         |                                     |
+|   本配置约200万词库    |                                     |
 
 ---
 
@@ -61,7 +65,7 @@
 custom_phrase.txt                        # 自定义短语（文本替换）             
 default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键） 
 easy_en.dict.yaml                        # 词库（英文）                       
-easy_en.schema.yaml                      # 词典（英文）方案定义                                   
+easy_en.schema.yaml                      # 词库（英文）方案定义                                   
 luna_pinyin_simp.custom.yaml             # 朙月拼音·简化字（载入词库、Emoji、快捷符号、模糊音、动态日期）
 luna_pinyin_simp.schema.yaml             # 朙月拼音·简化字方案定义
 luna_pinyin.1chengshixinxi.dict.yaml     # 词库（城市信息）              
