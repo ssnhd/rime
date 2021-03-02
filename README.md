@@ -33,7 +33,7 @@
 17. [Emoji 开启关闭](#Emoji-开启关闭)
 18. [同步和备份](#同步和备份)
 19. [卸载鼠须管方法](#卸载鼠须管方法)
-20. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)
+20. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/rimesquirrel)[![Twitter](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Twitter.svg)](https://twitter.com/yifangme)
 ---
 ### 安装输入法
 
