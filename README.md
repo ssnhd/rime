@@ -343,7 +343,7 @@ use_preset_vocabulary: false
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
-3. 点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘生成备份文件。
+3. 点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘会看到 `备份文件 mac`已完成。
 
 ![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
