@@ -6,9 +6,7 @@
 
 ---
 
-优点：速度快、占用资源少、不联网保护隐私、高度DIY、本配置包含约200万词库。
-
-缺点：上手难度大、前期个人词库精准度低、维护（例如更新 Emoji 需手动载入）。
+**过玩游戏可能会上瘾，那你听说过打字上瘾吗？**
 
 ---
 
@@ -37,18 +35,18 @@
 ---
 ### 安装输入法
 
-打开[ Rime 官网](https://rime.im/)下载安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。按组合键 `Control+｀` 切换输入方案，到这一步，已经可以使用。
+打开[ Rime 官网](https://rime.im/)下载安装包，初次安装，需注销并重新登录，点选菜单栏【ㄓ】图标。立即使用鼠须管输入法。
+
+按 `Control+｀` 切换输入方案，要获得更好的输入体验，需对输入法进行定制。
 
 ![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
-
-获得更好的输入体验，需对输入法进行定制。
 
 
 ---
 
 ### 定制输入法
 
-档案文件 [![档案文件](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Download.svg)](https://github.com/liuour/rime/archive/master.zip) 并解压得到【配置文件】和【花园明朝字体】两个文件，首先将 2 个字体安装至 Mac 字体册。
+下载档案文件 [![档案文件](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Download.svg)](https://github.com/liuour/rime/archive/master.zip) 并解压得到【配置文件】和【花园明朝字体】两个文件，首先将字体安装到 Mac 字体册。
 
 点选【用户设定】打开 Rime 文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖。
 
