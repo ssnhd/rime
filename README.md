@@ -48,7 +48,7 @@
 
 ### 定制输入法
 
-档案文件[![档案文件](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Download.svg)](https://github.com/liuour/rime/archive/master.zip)并解压，为防止候选词出现乱码，将【花园明朝字体】里的 2 个字体安装至 Mac 字体册。
+档案文件[![档案文件](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Download.svg)](https://github.com/liuour/rime/archive/master.zip)并解压得到【配置文件】和【花园明朝字体】两个文件，首先将 2 个字体安装至 Mac 字体册。
 
 点选【用户设定】打开 Rime 文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖。
 
