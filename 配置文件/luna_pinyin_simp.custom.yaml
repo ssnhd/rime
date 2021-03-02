@@ -1,22 +1,22 @@
 patch:
   switches:
     - name: ascii_mode
-      reset: 0                           
-      states: ["中文", "西文"]          
-    - name: full_shape                
-      states: ["半角", "全角"]           
-    - name: zh_simp                     
-      reset: 1                           # 默认启用“繁→简”转换
-      states: ["漢字", "汉字"]
-    - name: show_emoji
+      reset: 0
+      states: ["中文", "西文"]
+    - name: full_shape
+      states: ["半角", "全角"]
+    - name: zh_simp                      # (※1) 繁简转换
       reset: 1
-      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
-    - options: ["utf8", "gbk", "gb2312"] # 字符集选单
-      reset: 0                           # 默认 UTF8
+      states: ["漢字", "汉字"]
+    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
+      reset: 0                           #     默认 UTF8
       states:
         - UTF-8
         - GBK
         - GB2312
+    - name: show_emoji
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
 
   simplifier:
     option_name: zh_simp
@@ -25,9 +25,9 @@ patch:
       - simplifier
       - simplifier@emoji_conversion
       - uniquifier
-      - charset_filter@gbk              # GBK 过滤
+      - charset_filter@gbk              # (※3) GBK 过滤
       - single_char_filter
-　　　　
+
   emoji_conversion:
     opencc_config: emoji.json
     option_name: show_emoji
