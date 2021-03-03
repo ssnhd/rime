@@ -5,11 +5,11 @@ patch:
       states: ["中文", "西文"]
     - name: full_shape
       states: ["半角", "全角"]
-    - name: zh_simp                      # 繁简转换
+    - name: zh_simp                      # (※1) 繁简转换
       reset: 1
       states: ["漢字", "汉字"]
-    - options: ["utf8", "gbk", "gb2312"] # 字符集选单
-      reset: 0                           # 默认 UTF8
+    - options: ["utf8", "gbk", "gb2312"] # (※2)字符集选单
+      reset: 0                           #     默认 UTF8
       states:
         - UTF-8
         - GBK
@@ -25,7 +25,7 @@ patch:
       - simplifier
       - simplifier@emoji_conversion
       - uniquifier
-      - charset_filter@gbk              # GBK 过滤
+      - charset_filter@gbk              # (※3) GBK 过滤
       - single_char_filter
 
   emoji_conversion:
@@ -33,7 +33,7 @@ patch:
     option_name: show_emoji
     tags: abc
 
-# 改写拼写运算，使得含西文的词汇（luna_pinyin.cn_en.dict.yaml）不影响简拼功能
+# 改写拼写运算，含英文的词汇（luna_pinyin.cn_en.dict.yaml）不影响简拼
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
 
 #  载入朙月拼音扩充词库
@@ -47,7 +47,7 @@ patch:
   english:
     dictionary: easy_en
     spelling_hints: 9
-    enable_completion: false     # 是否启用英文输入联想补全
+    enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false
     initial_quality: -1           # 调整英文候选词的位置
 

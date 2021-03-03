@@ -9,7 +9,6 @@ schema:
     - 佛振 <chen.sst@gmail.com>
   description: |
     朙月拼音，簡化字輸出模式。
-
 switches:
   - name: ascii_mode
     reset: 0
