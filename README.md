@@ -359,3 +359,5 @@ use_preset_vocabulary: false
 2. 打开访达并按下 `command+shift+G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
 3. 如上，前往 `~/Library` 并删除文件夹【Rime】。
 4. 重新登入系统，确保清理完毕。
+
+[🔝返回顶部](#Mac上好用的第三方输入法-Rime 鼠须管配置方案-配置文件详解)
