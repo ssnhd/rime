@@ -1,6 +1,6 @@
 
 
-# Mac 第三方输入法｜Rime 鼠须管（Squirrel）配置方案详解
+# Mac 第三方输入法｜Rime 鼠须管（Squirrel）配置详解
 
 ![](https://i.loli.net/2021/02/22/gqMZF8Loa51XWVy.png)
 
