@@ -1,0 +1,26 @@
+# Rime dictionary
+# encoding: utf-8
+# Luna Pinyin Extended Dictionary(Basic)  - 明月拼音擴充詞庫（基本）
+
+---
+name: luna_pinyin.extended
+version: "2021.02.07"
+sort: by_weight  #字典初始排序，可選original或by_weight
+use_preset_vocabulary: true
+#雙拼不支持 luna_pinyin.cn_en 詞庫
+
+import_tables:
+  - luna_pinyin
+  - luna_pinyin.cn_en
+  - luna_pinyin.1csxx
+  - luna_pinyin.2zrkx
+  - luna_pinyin.3shkx
+  - luna_pinyin.4gcyy
+  - luna_pinyin.5nlyc
+  - luna_pinyin.6yxyy
+  - luna_pinyin.7dzyx
+  - luna_pinyin.8yssj
+  - luna_pinyin.9shbk
+  - luna_pinyin.10ydxx
+  - luna_pinyin.11rwkx
+  - luna_pinyin.12ylxx
