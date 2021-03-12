@@ -60,7 +60,7 @@
 
 ```
 # 配置文件介绍
-custom_phrase.txt                 # 自定义短语（文本替换）             
+custom_phrase.txt                 # 自定义短语           
 default.custom.yaml               # 全局配置 
 easy_en.dict.yaml                 # 词库（英文）                       
 easy_en.schema.yaml               # 词库（英文）方案定义                                   
