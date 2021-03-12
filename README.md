@@ -69,7 +69,7 @@ luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
 luna_pinyin.1csxx.dict.yaml       # 词库（城市信息）              
 luna_pinyin.2zrkx.dict.yaml       # 词库（自然科学）                
 luna_pinyin.3shkx.dict.yaml       # 词库（社会科学）                
-luna_pinyin.4gcyy.dict.yaml 			# 词库（工程应用）                
+luna_pinyin.4gcyy.dict.yaml       # 词库（工程应用）                
 luna_pinyin.5nlyc.dict.yaml       # 词库（农林渔畜）                
 luna_pinyin.6yxyy.dict.yaml       # 词库（医学医药）                
 luna_pinyin.7dzyx.dict.yaml       # 词库（电子游戏）                
