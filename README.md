@@ -66,7 +66,7 @@ easy_en.dict.yaml                 # 词库（英文）
 easy_en.schema.yaml               # 词库（英文）方案定义                                   
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
-luna_pinyin.1csxx.dict.yaml     	# 词库（城市信息）              
+luna_pinyin.1csxx.dict.yaml       # 词库（城市信息）              
 luna_pinyin.2zrkx.dict.yaml       # 词库（自然科学）                
 luna_pinyin.3shkx.dict.yaml       # 词库（社会科学）                
 luna_pinyin.4gcyy.dict.yaml 			# 词库（工程应用）                
@@ -74,13 +74,13 @@ luna_pinyin.5nlyc.dict.yaml       # 词库（农林渔畜）
 luna_pinyin.6yxyy.dict.yaml       # 词库（医学医药）                
 luna_pinyin.7dzyx.dict.yaml       # 词库（电子游戏）                
 luna_pinyin.8yssj.dict.yaml       # 词库（艺术设计）                
-luna_pinyin.9shbk.dict.yaml     	# 词库（生活百科）                
-luna_pinyin.10ydxx.dict.yaml   		# 词库（运动休闲）                
+luna_pinyin.9shbk.dict.yaml       # 词库（生活百科）                
+luna_pinyin.10ydxx.dict.yaml      # 词库（运动休闲）                
 luna_pinyin.11rwkx.dict.yaml      # 词库（人文科学）                
 luna_pinyin.12ylxx.dict.yaml      # 词库（娱乐休闲）                
 luna_pinyin.cn_en.dict.yaml       # 词库（自定义）                    
 luna_pinyin.dict.yaml             # 词库（汉字）    
-luna_pinyin.extended.dict.yaml		# 外挂词库                    
+luna_pinyin.extended.dict.yaml    # 外挂词库                    
 opencc                            # Emoji
 rime.lua                          # 动态时间、日期、星期            
 squirrel.custom.yaml              # 皮肤                         
