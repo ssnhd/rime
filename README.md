@@ -61,7 +61,7 @@
 ```
 # 配置文件介绍
 custom_phrase.txt                 # 自定义短语（文本替换）             
-default.custom.yaml               # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键） 
+default.custom.yaml               # 全局配置 
 easy_en.dict.yaml                 # 词库（英文）                       
 easy_en.schema.yaml               # 词库（英文）方案定义                                   
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
