@@ -60,30 +60,30 @@
 
 ```
 # 配置文件介绍
-custom_phrase.txt                        # 自定义短语（文本替换）             
-default.custom.yaml                      # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键） 
-easy_en.dict.yaml                        # 词库（英文）                       
-easy_en.schema.yaml                      # 词库（英文）方案定义                                   
-luna_pinyin_simp.custom.yaml             # 朙月拼音·简化字（载入词库、Emoji、快捷符号、模糊音、动态日期）
-luna_pinyin_simp.schema.yaml             # 朙月拼音·简化字方案定义
-luna_pinyin.1chengshixinxi.dict.yaml     # 词库（城市信息）              
-luna_pinyin.2zirankexue.dict.yaml        # 词库（自然科学）                
-luna_pinyin.3shehuikexue.dict.yaml       # 词库（社会科学）                
-luna_pinyin.4gongchengyingyong.dict.yaml # 词库（工程应用）                
-luna_pinyin.5nonglinyuchu.dict.yaml      # 词库（农林渔畜）                
-luna_pinyin.6yixueyiyao.dict.yaml        # 词库（医学医药）                
-luna_pinyin.7dianziyouxi.dict.yaml       # 词库（电子游戏）                
-luna_pinyin.8yishusheji.dict.yaml        # 词库（艺术设计）                
-luna_pinyin.9shenghuobaike.dict.yaml     # 词库（生活百科）                
-luna_pinyin.10yundongxiuxian.dict.yaml   # 词库（运动休闲）                
-luna_pinyin.11renwenkexue.dict.yaml      # 词库（人文科学）                
-luna_pinyin.12yulexiuxian.dict.yaml      # 词库（娱乐休闲）                
-luna_pinyin.cn_en.dict.yaml              # 词库（英文和特殊符号）                    
-luna_pinyin.dict.yaml                    # 词库（汉字）    
-luna_pinyin.extended.dict.yaml           # 外挂词库                    
-opencc                                   # Emoji
-rime.lua                                 # 动态时间、日期、星期            
-squirrel.custom.yaml                     # 皮肤                         
+custom_phrase.txt                 # 自定义短语（文本替换）             
+default.custom.yaml               # 全局配置（方案、候选词个数、中英文切换、翻页、快捷键） 
+easy_en.dict.yaml                 # 词库（英文）                       
+easy_en.schema.yaml               # 词库（英文）方案定义                                   
+luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
+luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
+luna_pinyin.1csxx.dict.yaml     	# 词库（城市信息）              
+luna_pinyin.2zrkx.dict.yaml       # 词库（自然科学）                
+luna_pinyin.3shkx.dict.yaml       # 词库（社会科学）                
+luna_pinyin.4gcyy.dict.yaml 			# 词库（工程应用）                
+luna_pinyin.5nlyc.dict.yaml       # 词库（农林渔畜）                
+luna_pinyin.6yxyy.dict.yaml       # 词库（医学医药）                
+luna_pinyin.7dzyx.dict.yaml       # 词库（电子游戏）                
+luna_pinyin.8yssj.dict.yaml       # 词库（艺术设计）                
+luna_pinyin.9shbk.dict.yaml     	# 词库（生活百科）                
+luna_pinyin.10ydxx.dict.yaml   		# 词库（运动休闲）                
+luna_pinyin.11rwkx.dict.yaml      # 词库（人文科学）                
+luna_pinyin.12ylxx.dict.yaml      # 词库（娱乐休闲）                
+luna_pinyin.cn_en.dict.yaml       # 词库（自定义）                    
+luna_pinyin.dict.yaml             # 词库（汉字）    
+luna_pinyin.extended.dict.yaml		# 外挂词库                    
+opencc                            # Emoji
+rime.lua                          # 动态时间、日期、星期            
+squirrel.custom.yaml              # 皮肤                         
 ```
 
 点击【重新部署】完成定制。
