@@ -240,7 +240,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
-例如，英文词库 `luna_pinyin.cn_en.dict.yaml`，输入 `- luna_pinyin.cn_en` 即可。
+例如：艺术设计词库 `luna_pinyin.yishusheji.dict.yaml`，输入 `- luna_pinyin.yishusheji` 即可。
 
 ![osE3gXnyJriLCuK](https://i.loli.net/2021/02/23/osE3gXnyJriLCuK.png)
 
