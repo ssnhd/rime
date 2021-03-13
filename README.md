@@ -219,35 +219,22 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ```
 # 注意这里以 --- ... 分别标记出 YAML 文档的起始与结束位置
-# 在 ... 标记之后的部份就不会作 YAML 文档来解读
+# 在 ... 下方空一行
 
 ---
-name: luna_pinyin
-version: "0.9"
-sort: by_weight
-use_preset_vocabulary: true
+name: luna_pinyin            # 词库名
+version: "0.9"               # 版本
+sort: by_weight              # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
+use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇表【八股文】
 ...
-```
 
-解释：
-
-- `name`: 词库名；
-- `version`: 词典版本，规则同输入方案定义文件的版本号；
-- `sort`: 词条初始排序方式，可选填 `by_weight`（按词频高低排序）或 `original`（保持原码表中的顺序）；
-- `use_preset_vocabulary`: 填 `true` 或 `false`，选择是否导入预设词汇表【八股文】。
-
-码表：格式每行定义一条〔文字－编码〕，字符与码表之间使用 `tab` 键，码表之间使用空格键。
-
-```
-# 单字
+# 格式每行定义一条〔文字－编码〕，字符与码表之间使用 tab 键，码表之间使用空格键。
 你	ni
 我	wo
-
-# 词组
-你的
 天地	tian di
 目的地	mu di di
 ```
+
 ---
 
 ### 挂载词库
