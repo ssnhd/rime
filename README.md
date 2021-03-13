@@ -229,9 +229,8 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ...
 
 # 格式每行定义一条〔文字－编码〕，字符与码表之间使用 tab 键，码表之间使用空格键。
-你	ni
-我	wo
-天地	tian di
+测	ce
+测试	ce shi
 目的地	mu di di
 ```
 
