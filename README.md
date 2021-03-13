@@ -256,7 +256,21 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 3）生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt` 文件）。
 
-4）将下面[词库](#词库)代码粘贴在 `txt` 文档最上方。
+4）将下面词库代码粘贴在 `txt` 文档最上方（词库上方空一行）。
+
+```
+# 可以将包含哪些词库写在此处，方便日后查看是否有重复。
+
+---
+name: luna_pinyin.name            # 词库名
+version: "0.9"               
+sort: by_weight              
+use_preset_vocabulary: false
+...
+
+```
+
+
 
 例如，艺术设计词库，name：`luna_pinyin.yishusheji` ，根据自己喜好命名。
 
