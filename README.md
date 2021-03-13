@@ -54,7 +54,7 @@
 
 点选【用户设定】打开 Rime 文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖。
 
-> 注：覆盖前建议先备份原文件。
+> 注意：覆盖前建议先备份原文件。
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
@@ -101,15 +101,13 @@ squirrel.custom.yaml              # 皮肤
 
 打开 `default.custom.yaml`。
 
-**切换输入方案**
-
-> 注：如使用小鹤双拼，五笔等方案，请参考[方案名称](https://gist.github.com/lotem/2309739)和[方案配置](https://github.com/rime/plum)。
+**输入方案**
 
 ![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
 **候选词个数**
 
-默认每页至多显示 5 个候选项，而允许的范围是 1～9（个别 Rime 发行版可支持10个候选）。
+默认每页至多显示 5 个候选项，而允许的范围是 1～9。
 
 ![E3eQ5gKHFNhPS8d](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
 
@@ -117,7 +115,7 @@ squirrel.custom.yaml              # 皮肤
 
 Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
 
-> 注：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
+> 注意：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
 
 ![ogPE4mBitAzcZ5U](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
@@ -166,7 +164,7 @@ opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
 ### 自定义短语
 
-打开 `custom_phrase.txt` 编辑短语，规则：`文字`  +  `编码` +  `权重`，使用 `Tab` 键分隔。
+打开 `custom_phrase.txt` 编辑短语，规则：文字 + 编码 + 权重，使用 `Tab` 键分隔。
 
 > 注意：自定义短语始终会显示在第一候选词。
 
@@ -248,17 +246,17 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ---
 ### 搜狗词库转换
-1）打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库，点击打开。
+➊打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库并点击打开。
 
-> 注：如果工具识别不到词库，选择所有格式。
+> 注意：如果工具识别不到词库，选择所有格式。
 
-2）选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
+➋选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
 
 ![bVyxtQvzXmBjCTP](https://i.loli.net/2021/02/05/bVyxtQvzXmBjCTP.png)
 
-3）生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt` 文件）。
+➌生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt`）。
 
-4）将下面词库代码粘贴在 `txt` 文档最上方（词库上方空一行），并重命名。
+➍将下面代码粘贴在 `.txt` 文档最上方（`...` 下面空一行），再修改词库名并保存。
 
 ```
 # 可以将包含哪些词库写在此处，方便日后查看是否有重复。
@@ -272,13 +270,11 @@ use_preset_vocabulary: false
 
 ```
 
-
-
-例如，艺术设计词库，name：`luna_pinyin.yishusheji` ，根据自己喜好命名。
+例如：艺术设计词库，name：`luna_pinyin.yishusheji` 
 
 ![G6ns2wzAcD9tPbm](https://i.loli.net/2021/02/23/G6ns2wzAcD9tPbm.png)
 
-然后将 `.txt` 重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[【挂载词库】](#挂载词库)添加。
+然后将 `.txt` 文件重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[外挂词库](#外挂词库)载入。
 
 ---
 
@@ -292,7 +288,7 @@ use_preset_vocabulary: false
 
 最后在对应的输入方式里加入下面代码生效。
 
-例如，朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
+例如：朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
 
 ![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
@@ -316,9 +312,9 @@ use_preset_vocabulary: false
 
 ### Emoji 开启关闭
 
-按 `Control` + `｀`  组合键切换输入方式，选择〔朙月拼音·简化字〕，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
+按 `Control + ｀`  组合键切换输入方式，选择朙月拼音·简化字，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
 
-> 注：这里也可以设置半角和全角符号，中文过滤等。
+> 注意：此处也可以设置半/全角符号，中文过滤等。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
