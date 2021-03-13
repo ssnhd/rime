@@ -88,8 +88,9 @@ squirrel.custom.yaml              # 皮肤
 
 点击【重新部署】完成定制。
 
-> 注：修改任何配置都要重新部署（快捷键 `Control+Option+｀`）才会生效。
+> 注意1：修改任何配置都要重新部署（快捷键 `Control+Option+｀`）才会生效。
 >
+> 注意2：本配置包含词库较大（约200万），重新部署时间会稍长，请耐心等待。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -254,8 +255,6 @@ use_preset_vocabulary: true
 打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
 例如，英文词库 `luna_pinyin.cn_en.dict.yaml`，输入 `- luna_pinyin.cn_en` 即可。
-
-> 注：本配置包含约 200 万词库，修改词库重新部署时间会稍长，修改其他配置不受影响。
 
 ![osE3gXnyJriLCuK](https://i.loli.net/2021/02/23/osE3gXnyJriLCuK.png)
 
