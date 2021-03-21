@@ -64,18 +64,7 @@ easy_en.dict.yaml                 # 词库（英文）
 easy_en.schema.yaml               # 词库（英文）方案定义                                   
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
-luna_pinyin.1csxx.dict.yaml       # 词库（城市信息）              
-luna_pinyin.2zrkx.dict.yaml       # 词库（自然科学）                
-luna_pinyin.3shkx.dict.yaml       # 词库（社会科学）                
-luna_pinyin.4gcyy.dict.yaml       # 词库（工程应用）                
-luna_pinyin.5nlyc.dict.yaml       # 词库（农林渔畜）                
-luna_pinyin.6yxyy.dict.yaml       # 词库（医学医药）                
-luna_pinyin.7dzyx.dict.yaml       # 词库（电子游戏）                
-luna_pinyin.8yssj.dict.yaml       # 词库（艺术设计）                
-luna_pinyin.9shbk.dict.yaml       # 词库（生活百科）                
-luna_pinyin.10ydxx.dict.yaml      # 词库（运动休闲）                
-luna_pinyin.11rwkx.dict.yaml      # 词库（人文科学）                
-luna_pinyin.12ylxx.dict.yaml      # 词库（娱乐休闲）                
+luna_pinyin.sogou.dict.yaml       # 搜狗词库（包含十二大分类，约200万）                              
 luna_pinyin.cn_en.dict.yaml       # 词库（自定义）                    
 luna_pinyin.dict.yaml             # 词库（汉字）    
 luna_pinyin.extended.dict.yaml    # 外挂词库                    
@@ -238,9 +227,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
-例如：艺术设计词库 `luna_pinyin.yishusheji.dict.yaml`，输入 `- luna_pinyin.yishusheji` 即可。
+例如：艺术设计词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 即可。
 
-![osE3gXnyJriLCuK](https://i.loli.net/2021/02/23/osE3gXnyJriLCuK.png)
+![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
 
 ---
 ### 搜狗词库转换
@@ -260,7 +249,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 # 可以将包含哪些词库写在此处，方便日后查看是否有重复。
 
 ---
-name: luna_pinyin.name            # 词库名
+name: luna_pinyin.sogou            # 词库名
 version: "0.9"               
 sort: by_weight              
 use_preset_vocabulary: false
@@ -268,11 +257,11 @@ use_preset_vocabulary: false
 
 ```
 
-例如：艺术设计词库，name：`luna_pinyin.yishusheji` 
+例如：艺术设计词库，name：`luna_pinyin.sogou` 
 
-![G6ns2wzAcD9tPbm](https://i.loli.net/2021/02/23/G6ns2wzAcD9tPbm.png)
+![](https://tvax1.sinaimg.cn/large/008eZBHKly1gorgs3g02fj31ao0e6q3d.jpg)
 
-然后将 `.txt` 文件重命名为 `luna_pinyin.yishusheji.dict.yaml`，放在 Rime 目录文件夹内，再参考[外挂词库](#外挂词库)载入。
+然后将 `.txt` 文件重命名为 `luna_pinyin.sogou.dict.yaml`，放在 Rime 目录文件夹内，再参考[外挂词库](#外挂词库)载入。
 
 ---
 
