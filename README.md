@@ -48,7 +48,7 @@
 
 ### 定制输入法
 
-下载档案文件 [![档案文件](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Download.svg)](https://github.com/liuour/rime/archive/master.zip) 并解压得到【配置文件】和【花园明朝字体】两个文件，将字体安装到 Mac 字体册。
+下载 [档案文件](https://github.com/liuour/rime/archive/master.zip) 解压出【配置文件】和【花园明朝字体】，将字体安装到 Mac 字体册。
 
 点选【用户设定】打开 Rime 文件夹，将【配置文件】里的所有文件粘贴进去，并选择覆盖。
 
@@ -58,19 +58,19 @@
 
 ```
 # 配置文件介绍
-custom_phrase.txt                 # 自定义短语           
-default.custom.yaml               # 全局配置 
-easy_en.dict.yaml                 # 词库（英文）                       
-easy_en.schema.yaml               # 词库（英文）方案定义                                   
+custom_phrase.txt                 # 自定义短语
+default.custom.yaml               # 全局配置
+easy_en.dict.yaml                 # 英文
+easy_en.schema.yaml               # 英文方案定义
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
-luna_pinyin.sogou.dict.yaml       # 词库（搜狗）                              
-luna_pinyin.cn_en.dict.yaml       # 词库（自定义）                    
-luna_pinyin.dict.yaml             # 词库（汉字）    
-luna_pinyin.extended.dict.yaml    # 外挂词库                    
+luna_pinyin.extended.dict.yaml    # 外挂词库
+luna_pinyin.dict.yaml             # 词库（汉字）
+luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
+luna_pinyin.zonghe.dict.yaml      # 词库（综合）
 opencc                            # Emoji
-rime.lua                          # 动态时间、日期、星期            
-squirrel.custom.yaml              # 皮肤                         
+rime.lua                          # 动态时间、日期、星期
+squirrel.custom.yaml              # 皮肤
 ```
 
 点击【重新部署】完成定制。

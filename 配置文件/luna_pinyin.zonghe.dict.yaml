@@ -6,7 +6,7 @@
 name: luna_pinyin.zonghe
 version: "2021.02.21"
 sort: by_weight
-use_preset_vocabulary: true
+use_preset_vocabulary: false
 ...
 
 # 常见中英词汇
