@@ -64,7 +64,7 @@ easy_en.dict.yaml                 # 词库（英文）
 easy_en.schema.yaml               # 词库（英文）方案定义                                   
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
-luna_pinyin.sogou.dict.yaml       # 搜狗词库（包含十二大分类，约200万）                              
+luna_pinyin.sogou.dict.yaml       # 搜狗词库                              
 luna_pinyin.cn_en.dict.yaml       # 词库（自定义）                    
 luna_pinyin.dict.yaml             # 词库（汉字）    
 luna_pinyin.extended.dict.yaml    # 外挂词库                    
