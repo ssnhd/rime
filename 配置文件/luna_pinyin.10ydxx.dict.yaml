@@ -10,7 +10,7 @@
 # Source: https://pinyin.sogou.com/dict/cate/index/367
 
 ---
-name: luna_pinyin.10yundongxiuxian
+name: luna_pinyin.10ydxx
 version: "2021.02.05"
 sort: by_weight
 use_preset_vocabulary: false
