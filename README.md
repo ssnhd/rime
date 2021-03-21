@@ -90,7 +90,7 @@ squirrel.custom.yaml              # 皮肤
 
 **输入方案**
 
-注意：本配置不包含小鹤双拼，五笔输入方案，更多输入方案配置可参考 [rime/plum](https://github.com/rime/plum)。
+注意：本配置不包含双拼，五笔输入方案，更多输入方案配置可参考 [rime/plum](https://github.com/rime/plum)。
 
 ![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
