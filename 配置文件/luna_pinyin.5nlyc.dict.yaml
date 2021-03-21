@@ -7,7 +7,7 @@
 # Source: https://pinyin.sogou.com/dict/cate/index/127
 
 ---
-name: luna_pinyin.5nonglinyuchu
+name: luna_pinyin.5nlyc
 version: "2021.02.05"
 sort: by_weight
 use_preset_vocabulary: false

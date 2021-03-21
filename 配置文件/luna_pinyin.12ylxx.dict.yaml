@@ -11,7 +11,7 @@
 # Source: https://pinyin.sogou.com/dict/cate/index/403
 
 ---
-name: luna_pinyin.12yulexiuxian
+name: luna_pinyin.12ylxx
 version: "2021.02.05"
 sort: by_weight
 use_preset_vocabulary: false

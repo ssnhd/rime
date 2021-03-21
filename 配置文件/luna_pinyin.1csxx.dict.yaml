@@ -10,7 +10,7 @@
 # Source: https://pinyin.sogou.com/dict/cate/index/167
 
 ---
-name: luna_pinyin.1chengshixinxi
+name: luna_pinyin.1csxx
 version: "2021.02.05"
 sort: by_weight
 use_preset_vocabulary: false

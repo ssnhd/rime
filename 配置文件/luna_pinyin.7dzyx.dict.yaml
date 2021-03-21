@@ -9,7 +9,7 @@
 # Source: https://pinyin.sogou.com/dict/cate/index/436
 
 ---
-name: luna_pinyin.7dianziyouxi
+name: luna_pinyin.7dzyx
 version: "2021.02.05"
 sort: by_weight
 use_preset_vocabulary: false
