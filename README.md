@@ -75,9 +75,9 @@ squirrel.custom.yaml              # 皮肤
 
 点击【重新部署】完成定制。
 
-> 注意1：修改任何配置都要重新部署（快捷键 `Control+Option+｀`）才会生效。
+> 注1：修改任何配置都要重新部署（快捷键 `Control+Option+｀`）才会生效。
 >
-> 注意2：本配置包含词库较大（约150万），重新部署时间会稍长，请耐心等待。
+> 注2：本配置搜狗词库较大（约150万），重新部署时间会稍长（待能输入中文时即部署完成）请耐心等待。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
