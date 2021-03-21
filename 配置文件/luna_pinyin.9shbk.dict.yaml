@@ -9,7 +9,7 @@
 # Source: https://pinyin.sogou.com/dict/cate/index/389
 
 ---
-name: luna_pinyin.9shenghuobaike
+name: luna_pinyin.9shbk
 version: "2021.02.05"
 sort: by_weight
 use_preset_vocabulary: false
