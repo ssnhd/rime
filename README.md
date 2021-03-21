@@ -90,7 +90,7 @@ squirrel.custom.yaml              # 皮肤
 
 **输入方案**
 
-注意：本配置不包含双拼，五笔输入方案，更多输入方案配置可参考 [rime/plum](https://github.com/rime/plum)。
+> 注意：本配置不包含双拼，五笔输入方案，更多输入方案配置可参考 [rime/plum](https://github.com/rime/plum)。
 
 ![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
@@ -128,7 +128,7 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 
 opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
 
-注：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼 = 😆，词典里需包含〔眯眼〕才会显示〔😆〕。
+> 注意：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼 = 😆，词典里需包含〔眯眼〕才会显示〔😆〕。
 
 ![1yGouCUvIeFhSDn](https://i.loli.net/2021/02/23/1yGouCUvIeFhSDn.png)
 
@@ -283,7 +283,7 @@ use_preset_vocabulary: false
 
 先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift+Fn+Delete` 键（第三方键盘按   `Control+Delete`）。
 
-> 注：只能从用户词典中删除词组；词库里词组只会取消其调频效果。
+> 注意：只能从用户词典中删除词组；词库里词组只会取消其调频顺序。
 
 ---
 
