@@ -96,7 +96,7 @@ squirrel.custom.yaml              # 皮肤
 
 **候选词个数**
 
-默认每页至多显示 5 个候选项，而允许的范围是 1～9。
+数字表示候选词数量。
 
 ![E3eQ5gKHFNhPS8d](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
 
