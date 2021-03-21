@@ -227,23 +227,19 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
-例如：艺术设计词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 即可。
+例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
 
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
 
 ---
 ### 搜狗词库转换
-➊打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库并点击打开。
+➊ 打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库并点击打开。
 
-> 注意：如果工具识别不到词库，选择所有格式。
-
-➋选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
+➋ 选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
 
 ![bVyxtQvzXmBjCTP](https://i.loli.net/2021/02/05/bVyxtQvzXmBjCTP.png)
 
-➌生成 `.txt` 文件（也可以选择多个词库生成一个 `.txt`）。
-
-➍将下面代码粘贴在 `.txt` 文档最上方（`...` 下面空一行），再修改词库名并保存。
+➌ 生成 `.txt` 文件，将下面代码粘贴在 `.txt` 文档最上方（`...` 下面空一行），再修改词库名并保存。
 
 ```
 # 可以将包含哪些词库写在此处，方便日后查看是否有重复。
@@ -257,11 +253,11 @@ use_preset_vocabulary: false
 
 ```
 
-例如：艺术设计词库，name：`luna_pinyin.sogou` 
+例如：name: luna_pinyin.sogou
 
 ![](https://tvax1.sinaimg.cn/large/008eZBHKly1gorgs3g02fj31ao0e6q3d.jpg)
 
-然后将 `.txt` 文件重命名为 `luna_pinyin.sogou.dict.yaml`，放在 Rime 目录文件夹内，再参考[外挂词库](#外挂词库)载入。
+然后将 `.txt` 文件重命名为 `luna_pinyin.sogou.dict.yaml`，放在 Rime 目录文件夹内，再依照[外挂词库](#外挂词库)载入。
 
 ---
 
