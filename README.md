@@ -34,7 +34,7 @@
 18. [智能纠错](#智能纠错)
 19. [同步和备份](#同步和备份)
 20. [卸载鼠须管方法](#卸载鼠须管方法)
-21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1) [![Twitter](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Twitter.svg)](https://twitter.com/yifangme)
+21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
 ---
 ### 安装输入法
 
