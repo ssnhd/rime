@@ -29,9 +29,9 @@
 13. [词库文档格式](#词库文档格式)
 14. [外挂词库](#外挂词库)
 15. [搜狗词库转换](#搜狗词库转换)
-16. [动态时间、日期、星期](#动态时间日期星期)
 17. [删除误上屏的错词](#删除误上屏的错词)
-18. [智能纠错](#智能纠错)
+17. [智能纠错](#智能纠错)
+18. [动态时间、日期、星期](#动态时间日期星期)
 19. [同步和备份](#同步和备份)
 20. [卸载](#卸载鼠须管)
 21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
@@ -276,22 +276,6 @@ use_preset_vocabulary: false
 
 ---
 
-### 动态时间、日期、星期
-
-![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
-
-打开 `Rime.lua`，可修改格式和快捷编码，例如，`rq` = `日期`。
-
-![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
-
-最后在对应的输入方式里加入下面代码生效。
-
-例如：朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
-
-![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
-
----
-
 ### 删除误上屏的错词
 
 先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift+Fn+Delete` 键（第三方键盘按   `Control+Delete`）。
@@ -305,6 +289,22 @@ use_preset_vocabulary: false
 打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
 
 ![AFIO56cLTDiGo2d](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
+
+---
+
+### 动态时间、日期、星期
+
+![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
+
+打开 `Rime.lua`，可修改格式和快捷编码，例如，`rq` = `日期`。
+
+![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
+
+最后在对应的输入方式里加入下面代码生效。
+
+例如：朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
+
+![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
 ---
 
