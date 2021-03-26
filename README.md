@@ -244,6 +244,8 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
 
+> 注意：本配置里的搜狗词库较大，喜欢单独分类的参考[这里](https://github.com/liuour/rime-dict)。
+
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
 
 ---
