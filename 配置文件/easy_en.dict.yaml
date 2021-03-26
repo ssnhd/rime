@@ -46,7 +46,6 @@ HomeKit	homekit
 HTML	html
 iCloud	icloud
 IP	ip
-iPod	ipod
 IPTV	iptv
 IPv4	ipv
 IPv6	ipv
@@ -56,6 +55,7 @@ Gmail	gmail
 Keka	keka
 Launcher	launcher
 Linux	linux
+liuour	liuour
 Moom	moom
 Netflix	netflix
 Nvidia	nvidia
@@ -77,16 +77,40 @@ Typora	typora
 Uber	uber
 uBlock	ublock
 Ulysses	ulysses
+USA	usa
 USB	usb
 VPN	vpn
 Windows	windows
 WWDC	wwdc
 Wi-Fi	wifi
 WiFi	wifi
+win	win
 Window Tidy	windowtidy
 Workflow	workflow
 Xmind	xmind
 YouTube	youtube
+
+#品牌
+Adidas	adidas
+BenQ	benq
+BMW	bmw
+BVLGARI	bvlgari
+Cartier	cartier
+CHANEL	chanel
+Chaumet	chaumet
+CONVERSE	converse
+Dior	dior
+FRED	fred
+GAP	gap
+Givenchy	givenchy
+Gucci	gucci
+Hermès	hermes
+Nokia	nokia
+Lenovo	lenovo
+Sony	sony
+Tiffany	tiffany
+Versace	versace
+ZARA	zara
 
 # 英文
 aaron	aaron
@@ -267,13 +291,13 @@ Alfred	alfred
 algebra	algebra
 algeria	algeria
 algorithm	algorithm
-#alias	alias
-#alice	alice
-#alien	alien
-#align	align
-#alignment	alignment
-#alike	alike
-#alive	alive
+alias	alias
+alice	alice
+alien	alien
+align	align
+alignment	alignment
+alike	alike
+alive	alive
 all	all
 allan	allan
 alleged	alleged
@@ -622,6 +646,7 @@ batman	batman
 battery	battery
 battle	battle
 battlefield	battlefield
+BBC	bbc
 be	be
 beach	beach
 beam	beam
@@ -863,6 +888,7 @@ buddy	buddy
 budget	budget
 buffalo	buffalo
 buffer	buffer
+BUG	bug
 bugs	bugs
 build	build
 builder	builder
@@ -920,6 +946,7 @@ calgary	calgary
 calif	calif
 california	california
 call	call
+Callkit	callkit
 calling	calling
 calm	calm
 cambodia	cambodia
@@ -1027,6 +1054,7 @@ certificate	certificate
 certification	certification
 certified	certified
 chad	chad
+CNN	cnn
 chain	chain
 chair	chair
 chairman	chairman
@@ -1494,6 +1522,8 @@ courtesy	courtesy
 cover	cover
 coverage	coverage
 covering	covering
+covid	covid
+COVID	covid
 crack	crack
 craft	craft
 craig	craig
@@ -2396,6 +2426,7 @@ flux	flux
 Flux	flux
 flyer	flyer
 flying	flying
+Flyme	flyme
 focal	focal
 focus	focus
 foia	foia
@@ -2897,6 +2928,7 @@ hypertext	hypertext
 hypothesis	hypothesis
 iceland	iceland
 icon	icon
+ICU	icu
 idaho	idaho
 idea	idea
 ideal	ideal
@@ -4006,7 +4038,7 @@ night	night
 nightlife	nightlife
 nightmare	nightmare
 nights	nights
-nike	nike
+Nike	nike
 nikon	nikon
 nine	nine
 nineteenth	nineteenth
@@ -4015,6 +4047,7 @@ ninth	ninth
 nitrogen	nitrogen
 niue	niue
 no	no
+No	no
 noaa	noaa
 nobel	nobel
 noble	noble
@@ -4709,6 +4742,7 @@ puzzle	puzzle
 python	python
 Python	python
 qatar	qatar
+QR code	qrcode
 qualification	qualification
 qualified	qualified
 qualify	qualify
@@ -5725,7 +5759,6 @@ tactics	tactics
 tail	tail
 tailor	tailor
 tailored	tailored
-taiwan	taiwan
 tajikistan	tajikistan
 take	take
 taken	taken
@@ -5897,6 +5930,7 @@ tight	tight
 tile	tile
 till	till
 time	time
+Time	time
 timely	timely
 times	times
 timetable	timetable
@@ -6026,6 +6060,7 @@ trio	trio
 trip	trip
 triple	triple
 triumph	triumph
+Triumph	triumph
 trivia	trivia
 trivial	trivial
 trois	trois
