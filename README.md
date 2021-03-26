@@ -124,11 +124,11 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 
 ![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
-opencc 文件夹内 `emoji_word.txt` 可修改 Emoji。
+opencc 文件夹内 `emoji_word.txt` 修改 Emoji。
 
-> 注意：候选词如果不显示某个 Emoji，原因是词典里没包含 Emoji 中文编码。例如，眯眼 = 😆，词典里需包含〔眯眼〕才会显示〔😆〕。
+> 注意：词库里需有中文编码才会显示 Emoji。例如，眯眼 = 😆，词库里需包含〔眯眼〕才会显示〔😆〕。
 
-![1yGouCUvIeFhSDn](https://i.loli.net/2021/02/23/1yGouCUvIeFhSDn.png)
+![截屏2021-03-26 下午6.05.33](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
 
 ---
 
