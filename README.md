@@ -18,22 +18,23 @@
 2. [定制输入法](#定制输入法)
 3. [输入方案、候选词个数、中英文切换、翻页、快捷键](#输入方案候选词个数中英文切换翻页快捷键)
 4. [载入词库和 Emoji](#载入词库和-Emoji)
-5. [自定义快捷字符](#自定义快捷字符)
-6. [模糊音](#模糊音)
-8. [自定义短语](#自定义短语)
-9. [皮肤主题](#皮肤主题)
-10. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
-10. [特定程序里中文状态输入英文标点](#特定程序里中文状态输入英文标点)
-11. [词库文档格式](#词库文档格式)
-12. [外挂词库](#外挂词库)
-13. [搜狗词库转换](#搜狗词库转换)
-14. [动态时间、日期、星期](#动态时间日期星期)
-15. [删除误上屏的错词](#删除误上屏的错词)
-16. [智能纠错](#智能纠错)
-17. [Emoji 开启关闭](#Emoji-开启关闭)
-18. [同步和备份](#同步和备份)
-19. [卸载鼠须管方法](#卸载鼠须管方法)
-20. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1) [![Twitter](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Twitter.svg)](https://twitter.com/yifangme)
+5. [修改 Emoji](#修改-emoji)
+6. [开启关闭 Emoji、半角、全角](#开启关闭-Emoji-半角-全角)
+7. [自定义快捷字符](#自定义快捷字符)
+8. [模糊音](#模糊音)
+9. [自定义短语](#自定义短语)
+10. [皮肤主题](#皮肤主题)
+11. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
+12. [特定程序里中文状态输入英文标点](#特定程序里中文状态输入英文标点)
+13. [词库文档格式](#词库文档格式)
+14. [外挂词库](#外挂词库)
+15. [搜狗词库转换](#搜狗词库转换)
+16. [动态时间、日期、星期](#动态时间日期星期)
+17. [删除误上屏的错词](#删除误上屏的错词)
+18. [智能纠错](#智能纠错)
+19. [同步和备份](#同步和备份)
+20. [卸载鼠须管方法](#卸载鼠须管方法)
+21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1) [![Twitter](https://raw.githubusercontent.com/liuour/SVG/f93511e17567a2144c0833cb0e09bb0b7b487093/Twitter.svg)](https://twitter.com/yifangme)
 ---
 ### 安装输入法
 
@@ -124,11 +125,25 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 
 ![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
-opencc 文件夹内 `emoji_word.txt` 修改 Emoji。
+### 修改 Emoji
+
+打开 opencc 文件夹内 `emoji_word.txt` 修改。
+
+规则：文字+文字+Emoji，文字之间用 `tab` 键分隔，文字和表情之间用 `空格` 键分隔。
 
 > 注意：词库里需有中文编码才会显示 Emoji。例如，眯眼 = 😆，词库里需包含〔眯眼〕才会显示〔😆〕。
 
 ![截屏2021-03-26 下午6.05.33](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
+
+---
+
+### 开启关闭 Emoji、半角、全角
+
+按 `Control + ｀`  组合键切换输入方式，选择朙月拼音·简化字，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
+
+> 注意：此处也可以设置半/全角符号，中文过滤等。
+
+![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
 ---
 
@@ -290,16 +305,6 @@ use_preset_vocabulary: false
 打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
 
 ![AFIO56cLTDiGo2d](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
-
----
-
-### Emoji 开启关闭
-
-按 `Control + ｀`  组合键切换输入方式，选择朙月拼音·简化字，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
-
-> 注意：此处也可以设置半/全角符号，中文过滤等。
-
-![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
 ---
 
