@@ -121,7 +121,7 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 ---
 ### 载入词库和 Emoji
 
-打开 `luna_pinyin_simp.custom.yaml` 载入 Emoji、中/英文词库。
+打开 `luna_pinyin_simp.custom.yaml` 载入中/英文词库和 Emoji。
 
 ![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
