@@ -108,13 +108,13 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 
 **翻页**
 
-![截屏2021-02-23 下午6.33.18](https://tvax4.sinaimg.cn/large/008eZBHKly1gnxngud3kij31ao0a641s.jpg)
+![截屏2021-03-26 下午6.17.58](https://tva4.sinaimg.cn/large/008eZBHKly1goxh6033qlj31ao08c74x.jpg)
 
 **快捷键**
 
 更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
-![yI5XAYwr9mg23ES](https://i.loli.net/2021/02/23/yI5XAYwr9mg23ES.png)
+![截屏2021-03-26 下午6.17.09](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
 
 
 ---
