@@ -77,7 +77,7 @@ squirrel.custom.yaml              # 皮肤
 
 > 注1：修改配置需要重新部署（快捷键 `Control+Option+｀`）生效。
 >
-> 注2：搜狗词库较大（24MB约150万个单词），重新部署时间会稍长请耐心等待。
+> 注2：搜狗词库较大（约150万个单词），重新部署时间会稍长请耐心等待。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
