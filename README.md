@@ -33,7 +33,7 @@
 17. [删除误上屏的错词](#删除误上屏的错词)
 18. [智能纠错](#智能纠错)
 19. [同步和备份](#同步和备份)
-20. [卸载鼠须管方法](#卸载鼠须管方法)
+20. [卸载](#卸载鼠须管)
 21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
 ---
 ### 安装输入法
@@ -327,7 +327,7 @@ use_preset_vocabulary: false
 
 ---
 
-### 卸载鼠须管方法
+### 卸载鼠须管
 
 1. 打开系统盘好设置 - 键盘 - 输入法，移除【鼠须管】。
 2. 打开访达并按下 `command+shift+G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
