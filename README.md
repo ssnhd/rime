@@ -60,28 +60,26 @@
 # 配置文件介绍
 custom_phrase.txt                 # 自定义短语
 default.custom.yaml               # 全局配置
-easy_en.dict.yaml                 # 英文
-easy_en.schema.yaml               # 英文方案定义
+easy_en.dict.yaml                 # 英文词典
+easy_en.schema.yaml               # 英文词典方案定义
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
-luna_pinyin.extended.dict.yaml    # 外挂词库
+luna_pinyin.extended.dict.yaml    # 词库（外挂）
 luna_pinyin.dict.yaml             # 词库（汉字）
-luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
+luna_pinyin.sogou.dict.yaml       # 词库（搜狗12个分类）
 luna_pinyin.zonghe.dict.yaml      # 词库（综合）
 opencc                            # Emoji
 rime.lua                          # 动态时间、日期、星期
 squirrel.custom.yaml              # 皮肤
 ```
 
-点击【重新部署】完成定制。
+点击【重新部署】完成定制，如对细节进行调整，继续往下看。
 
-> 注1：修改任何配置都要重新部署（快捷键 `Control+Option+｀`）才会生效。
+> 注1：修改配置需要重新部署（快捷键 `Control+Option+｀`）生效。
 >
-> 注2：本配置搜狗词库较大（约150万），重新部署时间会稍长（待能输入中文时即部署完成）请耐心等待。
+> 注2：搜狗词库较大（约150万），重新部署时间会稍长请耐心等待。
 
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
-
-到这里可以近乎完美地使用输入法了，对细节进行调整，继续往下看。
 
 ---
 ### 输入方案、候选词个数、中英文切换、翻页、快捷键
