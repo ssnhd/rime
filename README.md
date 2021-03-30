@@ -30,7 +30,6 @@
 12. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
 13. [词库文档格式](#词库文档格式)
 14. [外挂词库](#外挂词库)
-15. [搜狗词库转换](#搜狗词库转换)
 17. [删除误上屏的错词](#删除误上屏的错词)
 17. [智能纠错](#智能纠错)
 18. [动态时间、日期、星期](#动态时间日期星期)
@@ -246,37 +245,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
 
-> 注意：本配置里的搜狗词库较大，喜欢单独分类的参考[这里](https://github.com/liuour/rime-dict)。
+> 注意：本配置搜狗词库将12个分类放在一起，如想单独**分类**和**搜狗词库转换方法**的请点击[这里](https://github.com/liuour/rime-dict)。
 
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
-
----
-### 搜狗词库转换
-➊ 打开[搜狗词库](https://pinyin.sogou.com/dict/)下载 `.scel` 词库文件。下载深蓝词库转换工具 [imewlconverter_Windows.zip](https://github.com/studyzy/imewlconverter/releases) 并打开，选择词库并点击打开。
-
-➋ 选择【搜狗细胞词库 scel】-【无拼音纯汉字】，再点击转换保存在本地。
-
-![bVyxtQvzXmBjCTP](https://i.loli.net/2021/02/05/bVyxtQvzXmBjCTP.png)
-
-➌ 生成 `.txt` 文件，将下面代码粘贴在 `.txt` 文档最上方（`...` 下面空一行），再修改词库名并保存。
-
-```
-# 可以将包含哪些词库写在此处，方便日后查看是否有重复。
-
----
-name: luna_pinyin.sogou            # 词库名
-version: "0.9"               
-sort: by_weight              
-use_preset_vocabulary: false
-...
-
-```
-
-例如：name: luna_pinyin.sogou
-
-![](https://tvax1.sinaimg.cn/large/008eZBHKly1gorgs3g02fj31ao0e6q3d.jpg)
-
-然后将 `.txt` 文件重命名为 `luna_pinyin.sogou.dict.yaml`，放在 Rime 目录文件夹内，再依照[外挂词库](#外挂词库)载入。
 
 ---
 
