@@ -16,24 +16,28 @@
 
 1. [安装输入法](#安装输入法)
 2. [定制输入法](#定制输入法)
-3. [输入方案 / 候选词个数 / 中英文切换 / 翻页 / 快捷键](#输入方案候选词个数中英文切换翻页快捷键)
-4. [词库文档格式](#词库文档格式)
-5. [外挂词库](#外挂词库)
-6. [修改 Emoji](#修改-emoji)
-7. [载入词库和 Emoji](#载入词库和-Emoji)
-8. [关闭开启 Emoji / 半 / 全角](#关闭开启-Emoji半角全角)
-9. [自定义快捷字符](#自定义快捷字符)
-10. [模糊音](#模糊音)
-11. [自定义短语](#自定义短语)
-12. [皮肤](#皮肤)
-13. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
-14. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
-15. [删除误上屏的错词](#删除误上屏的错词)
-16. [智能纠错](#智能纠错)
-17. [动态时间 / 日期 / 星期](#动态时间日期星期)
-18. [同步](#同步)
-19. [卸载](#卸载鼠须管)
-20. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
+3. [输入方案](#输入方案)
+4. [候选词个数](#候选词个数)
+5. [中英文切换](#中英文切换)
+6. [翻页键](#翻页键)
+7. [常见快捷键](#常见快捷键)
+8. [词库文档格式](#词库文档格式)
+9. [外挂词库](#外挂词库)
+10. [修改 Emoji](#修改-emoji)
+11. [载入词库和 Emoji](#载入词库和-Emoji)
+12. [关闭开启 Emoji / 半 / 全角](#关闭开启-Emoji半角全角)
+13. [自定义快捷字符](#自定义快捷字符)
+14. [模糊音](#模糊音)
+15. [自定义短语](#自定义短语)
+16. [皮肤](#皮肤)
+17. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
+18. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
+19. [删除误上屏的错词](#删除误上屏的错词)
+20. [智能纠错](#智能纠错)
+21. [动态时间 / 日期 / 星期](#动态时间日期星期)
+22. [同步](#同步)
+23. [卸载](#卸载鼠须管)
+24. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
 ---
 ### 安装输入法
 
@@ -82,37 +86,43 @@ squirrel.custom.yaml              # 皮肤
 ![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
 ---
-### ｜输入方案、候选词个数、中英文切换、翻页、快捷键
+### 输入方案
 
-打开 `default.custom.yaml`。
-
-**输入方案**
+打开 `default.custom.yaml`，添加输入方案。
 
 > 注意：本配置不包含双拼，五笔输入方案，更多输入方案配置可参考 [rime/plum](https://github.com/rime/plum)。
 
 ![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
-**候选词个数**
+### 候选词个数
 
-数字表示候选词数量。
+打开 `default.custom.yaml`，修改数字即候选词数量。
+
+```
+menu/page_size: 9
+```
 
 ![E3eQ5gKHFNhPS8d](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
 
-**切换中英文**
+### 中英文切换
 
-Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
+打开 `default.custom.yaml`，设置开启和禁用切换中英文。
 
-> 注意：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
+> 注意1：Mac 上鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
+>
+> 注意2：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
 
 ![ogPE4mBitAzcZ5U](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
-**翻页**
+### 翻页键
+
+打开 `default.custom.yaml`，设置翻页，如不需要在前面添加 `#` 号。
 
 ![截屏2021-03-26 下午6.17.58](https://tva4.sinaimg.cn/large/008eZBHKly1goxh6033qlj31ao08c74x.jpg)
 
-**快捷键**
+### 常见快捷键
 
-更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
+打开 `default.custom.yaml`，设置快捷键，更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ![截屏2021-03-26 下午6.17.09](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
 
