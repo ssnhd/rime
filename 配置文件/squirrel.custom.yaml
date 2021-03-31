@@ -24,7 +24,7 @@ patch:
       label_color: 0x999999                     # 预选栏编号颜色
       candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_face: "PingFangSC"                   # 候选词编号字体
-      font_point: 17              # 候选文字大小
+      font_point: 16              # 候选文字大小
       label_font_point: 13        # 候选编号大小
       corner_radius: 5            # 候选条圆角
       hilited_corner_radius: 5    # 高亮圆角
