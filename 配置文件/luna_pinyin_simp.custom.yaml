@@ -5,6 +5,9 @@ patch:
       states: ["中文", "西文"]
     - name: full_shape
       states: ["半角", "全角"]
+    - name: show_emoji
+      reset: 1
+      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
     - name: zh_simp                      # (※1) 繁简转换
       reset: 1
       states: ["漢字", "汉字"]
@@ -14,9 +17,6 @@ patch:
         - UTF-8
         - GBK
         - GB2312
-    - name: show_emoji
-      reset: 1
-      states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
 
   simplifier:
     option_name: zh_simp
@@ -49,7 +49,7 @@ patch:
     spelling_hints: 9
     enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false
-    initial_quality: -1           # 调整英文候选词的位置
+    initial_quality: 0           # 调整英文候选词的位置
 
  # 符号快速输入和部分符号的快速上屏
   punctuator:
