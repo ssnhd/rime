@@ -293,7 +293,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
-点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘即可查看同步文件，可多台设备同步。
+点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘查看同步文件，可多台设备同步。
 
 ![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
