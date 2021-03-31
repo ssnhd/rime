@@ -25,11 +25,11 @@
 9. [外挂词库](#外挂词库)
 10. [修改 Emoji](#修改-emoji)
 11. [载入词库和 Emoji](#载入词库和-Emoji)
-12. [关闭开启 Emoji｜半/全角](#关闭开启-Emoji半角全角)
 13. [自定义快捷字符](#自定义快捷字符)
 14. [模糊音](#模糊音)
 15. [自定义短语](#自定义短语)
 16. [皮肤](#皮肤)
+16. [关闭开启 Emoji｜半/全角](#关闭开启-Emoji半角全角)
 17. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
 18. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
 19. [删除误上屏的错词](#删除误上屏的错词)
@@ -173,16 +173,6 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ---
 
-### 关闭开启 Emoji、半角、全角
-
-按 `Control + ｀`  组合键切换输入方式，选择朙月拼音·简化字，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
-
-> 注意：此处也可以设置半/全角符号，中文过滤等。
-
-![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
-
----
-
 ### 载入词库和 Emoji
 
 打开 `luna_pinyin_simp.custom.yaml` 载入中/英文词库和 Emoji。
@@ -237,6 +227,16 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
 ![008eZBHKgy1gn45ifbfhnj311r0kw769](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
+
+---
+
+### 关闭开启 Emoji、半角、全角
+
+按 `Control + ｀`  组合键切换输入方式，选择朙月拼音·简化字，再选择〔🈶→🈚️〕。反之选择〔🈚️→🈶〕。
+
+> 注意：此处也可以设置半/全角符号，中文过滤等。
+
+![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
 ---
 
