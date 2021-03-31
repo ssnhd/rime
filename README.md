@@ -23,7 +23,7 @@
 7. [自定义快捷字符](#自定义快捷字符)
 8. [模糊音](#模糊音)
 9. [自定义短语](#自定义短语)
-10. [皮肤主题](#皮肤主题)
+10. [皮肤](#皮肤)
 11. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
 12. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
 13. [词库文档格式](#词库文档格式)
@@ -31,7 +31,7 @@
 17. [删除误上屏的错词](#删除误上屏的错词)
 17. [智能纠错](#智能纠错)
 18. [动态时间｜日期｜星期](#动态时间日期星期)
-19. [同步和备份](#同步和备份)
+19. [同步](#同步)
 20. [卸载](#卸载鼠须管)
 21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
 ---
@@ -178,7 +178,7 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 
 
 ---
-### 皮肤主题
+### 皮肤
 
 打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后方输入皮肤名字更换主题。
 
@@ -279,10 +279,13 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ---
 
-### 同步和备份
+### 同步
 
-1. 打开 ` installation.yaml`，将 `installation_id` 后面的随机 UUID 改为自己喜欢的名称，例如 `mac`。
-2. 示例：同步和备份到 iCloud 云盘，在 iCloud 新建一个 Rime 文件夹，再添加下面一行路径代码。
+示例：同步到 iCloud 云盘，在 iCloud 云盘内新建个文件夹（例如叫 Rime）。
+
+1. 打开 ` installation.yaml`，修改 `installation_id` 的 UUID（例如叫 mac）。
+
+2. 再输入或粘贴以下代码。
 
 ```
  sync_dir: "/Users/用户名/Library/Mobile Documents/com~apple~CloudDocs/Rime"
@@ -290,11 +293,11 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
-3. 点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘会看到 `备份文件 mac`已完成。
+点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘即可查看同步文件，可多台设备同步。
 
 ![3WGFzIevCr69j8n](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
-更多设备同步请参考：[点击这里](https://github.com/rime/home/wiki/UserGuide#%E5%90%8C%E6%AD%A5%E7%94%A8%E6%88%B6%E8%B3%87%E6%96%99)
+更多同步方案请参考：[点击这里](https://github.com/rime/home/wiki/UserGuide#%E5%90%8C%E6%AD%A5%E7%94%A8%E6%88%B6%E8%B3%87%E6%96%99)
 
 ---
 
