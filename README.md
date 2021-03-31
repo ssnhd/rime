@@ -234,9 +234,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 按 `Control + ｀` 组合键显示输入方案。
 
-**开启/关闭 Emoji**：选择`🈶→🈚️`，反之选择`🈚️→🈶`。
+* 开启/关闭 Emoji：选择〔🈶→🈚️〕，反之选择〔🈚️→🈶〕。
 
-**中文模式输入英文标点**：选择 `全角→半角`，反之选择 `半角→全角`。
+* 中文模式输入英文标点：选择〔半角→半角〕，反之选择〔半角→全角〕。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
 
