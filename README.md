@@ -17,23 +17,23 @@
 1. [安装输入法](#安装输入法)
 2. [定制输入法](#定制输入法)
 3. [输入方案｜候选词个数｜中英文切换｜翻页｜快捷键](#输入方案候选词个数中英文切换翻页快捷键)
-4. [载入词库和 Emoji](#载入词库和-Emoji)
-5. [修改 Emoji](#修改-emoji)
-6. [关闭开启 Emoji｜半角｜全角](#关闭开启-Emoji半角全角)
-7. [自定义快捷字符](#自定义快捷字符)
-8. [模糊音](#模糊音)
-9. [自定义短语](#自定义短语)
-10. [皮肤](#皮肤)
-11. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
-12. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
-13. [词库文档格式](#词库文档格式)
-14. [外挂词库](#外挂词库)
-17. [删除误上屏的错词](#删除误上屏的错词)
-17. [智能纠错](#智能纠错)
-18. [动态时间｜日期｜星期](#动态时间日期星期)
-19. [同步](#同步)
-20. [卸载](#卸载鼠须管)
-21. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
+4. [词库文档格式](#词库文档格式)
+5. [外挂词库](#外挂词库)
+6. [修改 Emoji](#修改-emoji)
+7. [载入词库和 Emoji](#载入词库和-Emoji)
+8. [关闭开启 Emoji｜半/全角](#关闭开启-Emoji半角全角)
+9. [自定义快捷字符](#自定义快捷字符)
+10. [模糊音](#模糊音)
+11. [自定义短语](#自定义短语)
+12. [皮肤](#皮肤)
+13. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
+14. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
+15. [删除误上屏的错词](#删除误上屏的错词)
+16. [智能纠错](#智能纠错)
+17. [动态时间｜日期｜星期](#动态时间日期星期)
+18. [同步](#同步)
+19. [卸载](#卸载鼠须管)
+20. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
 ---
 ### 安装输入法
 
@@ -116,13 +116,40 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 
 ![截屏2021-03-26 下午6.17.09](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
 
+---
+
+### 词库文档格式
+
+文件命名为 <词库名>.dict.yaml。 词库文件的前半部份为一份 YAML 文档：
+
+```
+# 注意这里以 --- ... 分别标记出 YAML 文档的起始与结束位置
+# 在 ... 下方空一行
 
 ---
-### 载入词库和 Emoji
+name: luna_pinyin            # 词库名
+version: "0.9"               # 版本
+sort: by_weight              # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
+use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇表【八股文】
+...
 
-打开 `luna_pinyin_simp.custom.yaml` 载入中/英文词库和 Emoji。
+# 格式每行定义一条〔文字－编码〕，字符与码表之间使用 tab 键，码表之间使用空格键。
+测	ce
+测试	ce shi
+目的地	mu di di
+```
 
-![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
+---
+
+### 外挂词库
+
+打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。本配置搜狗词库将12个分类放在一起，如想单独**分类**和**搜狗词库转换方法**的请点击[这里](https://github.com/liuour/rime-dict)。
+
+例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
+
+![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
+
+---
 
 ### 修改 Emoji
 
@@ -143,6 +170,14 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 > 注意：此处也可以设置半/全角符号，中文过滤等。
 
 ![zqf5LdKeXMsocEt](https://i.loli.net/2021/02/24/zqf5LdKeXMsocEt.png)
+
+---
+
+### 载入词库和 Emoji
+
+打开 `luna_pinyin_simp.custom.yaml` 载入中/英文词库和 Emoji。
+
+![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
 ---
 
@@ -212,38 +247,6 @@ Mac 系统上的鼠须管不能区分左、右 Shift ，因此左、右 Shift �
 ![UWnEmVLXvazqDAj](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
 
 
----
-
-### 词库文档格式
-
-文件命名为 <词库名>.dict.yaml。 词库文件的前半部份为一份 YAML 文档：
-
-```
-# 注意这里以 --- ... 分别标记出 YAML 文档的起始与结束位置
-# 在 ... 下方空一行
-
----
-name: luna_pinyin            # 词库名
-version: "0.9"               # 版本
-sort: by_weight              # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
-use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇表【八股文】
-...
-
-# 格式每行定义一条〔文字－编码〕，字符与码表之间使用 tab 键，码表之间使用空格键。
-测	ce
-测试	ce shi
-目的地	mu di di
-```
-
----
-
-### 外挂词库
-
-打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。本配置搜狗词库将12个分类放在一起，如想单独**分类**和**搜狗词库转换方法**的请点击[这里](https://github.com/liuour/rime-dict)。
-
-例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
-
-![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
 
 ---
 
