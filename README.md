@@ -153,11 +153,13 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 外挂词库
 
-打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。本配置搜狗词库将12个分类放在一起，如想单独**分类**和**搜狗词库转换方法**的请点击[这里](https://github.com/liuour/rime-dict)。
+打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
 例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
 
-![](https://tva2.sinaimg.cn/large/008eZBHKly1gorgo7s6paj31ao0563yd.jpg)
+> 注：本配置外挂的搜狗词库汇集在一起，需要单独分类和转换方法的[点击这里](https://github.com/liuour/rime-dict)。
+
+![截屏2021-04-01 下午6.58.06](https://tvax1.sinaimg.cn/large/008eZBHKly1gp4g1qlgxwj31ao048745.jpg)
 
 ---
 
