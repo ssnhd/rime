@@ -227,8 +227,6 @@ macos_light:
   author: 一方
 ```
 
-更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)
-
 ![GSyDz7sZP5nO3jY](https://i.loli.net/2021/02/23/GSyDz7sZP5nO3jY.png)
 
 
@@ -237,6 +235,8 @@ macos_light:
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
 ![008eZBHKgy1gn45ifbfhnj311r0kw769](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
+
+更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)。
 
 ---
 
