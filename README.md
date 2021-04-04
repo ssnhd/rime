@@ -217,7 +217,15 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ---
 ### 皮肤
 
-打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后方输入皮肤名字更换主题。
+打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后方输入主题名称。
+
+例如：下面代码里 `macos_light` 为皮肤名称。
+
+```
+macos_light:
+	name: macOS亮色/macos_light
+	author: 一方
+```
 
 更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)
 
