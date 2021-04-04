@@ -27,7 +27,7 @@
 #### 2021-03-21
 
 * 原搜狗词库（12个类别）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)
-* 删除搜狗词库里重复词典（原来约200万词条，现在约150万）
+* 删除搜狗词库里重复词条（原来约200万词条，现在约150万）
 
 #### 2021-02-23
 
