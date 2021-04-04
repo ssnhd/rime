@@ -223,8 +223,8 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ```
 macos_light:
-	name: macOS亮色/macos_light
-	author: 一方
+  name: macOS亮色/macos_light
+  author: 一方
 ```
 
 更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)
