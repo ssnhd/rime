@@ -12,6 +12,32 @@
 
 ---
 
+### 【配置文件】更新日志
+
+#### 2021-04-05
+
+* 搜狗词库 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml) 由原来的纯汉字，更新为汉字加拼音
+
+#### 2021-04-01
+
+* 候选词个数默认为 7 个
+
+#### 2021-03-30
+
+* Emoji更新：支持更多中文编码，修复个别编码不准确问题
+
+#### 2021-03-21
+
+* 原搜狗词库（12个类）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)
+* 删除搜狗词库里重复词典（原来约200万词条，现在约150万个）
+
+#### 2021-02-23
+
+* 动态日期里删除美式日期显示格式
+* 动态时间里删除候选词里显示含日期
+
+---
+
 ### 目录
 
 1. [安装输入法](#安装输入法)
