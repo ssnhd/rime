@@ -16,7 +16,7 @@
 
 #### 2021-04-04
 
-* 搜狗词库 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml) 由原来的纯汉字（部分词条载入失败），更新为汉字加拼音
+* 搜狗词库 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml) 由纯汉字（部分词条载入失败）更新为汉字加拼音
 
 #### 2021-04-01
 
