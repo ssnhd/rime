@@ -24,6 +24,10 @@
 
 * Emoji 支持更多中文编码，修改一些编码不准确
 
+#### 2021-03-22
+
+* 原 `luna_pinyin.cn_en.dict.yaml` 更改为综合词库 [luna_pinyin.zonghe.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.zonghe.dict.yaml) 
+
 #### 2021-03-21
 
 * 搜狗词库（十二个类别）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)
