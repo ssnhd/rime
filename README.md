@@ -23,12 +23,8 @@
 
 #### 2021-03-22
 
+* 搜狗词库（十二个类别）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)，并删除重复词条
 * 原 `luna_pinyin.cn_en.dict.yaml` 更改为综合词库 [luna_pinyin.zonghe.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.zonghe.dict.yaml) 
-
-#### 2021-03-21
-
-* 搜狗词库（十二个类别）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)
-* 搜狗词库删除重复词条（原来约200万，现在约150万）
 
 #### 2021-02-23
 
