@@ -16,16 +16,16 @@
 
 #### 2021-04-04
 
-* 搜狗词库 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml) 由纯汉字（部分词条载入失败）更新为汉字加拼音
+* 搜狗词库 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml) 由纯汉字（缺点是部分词条载入失败）更新为汉字加拼音
 
 #### 2021-04-01
 
-* Emoji 支持更多中文编码，修改一些编码不准确
+* Emoji 支持更多中文编码，并修改部分中文编码不准确问题
 * 候选词个数默认为 7
 
 #### 2021-03-22
 
-* 搜狗词库（十二个类别）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)，并删除重复词条
+* 搜狗词库（十二个分类）合并为一个 [luna_pinyin.sogou.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.sogou.dict.yaml)，并删除重复词条
 * 原 `luna_pinyin.cn_en.dict.yaml` 更改为综合词库 [luna_pinyin.zonghe.dict.yaml](https://github.com/liuour/rime/blob/master/配置文件/luna_pinyin.zonghe.dict.yaml) 
 
 #### 2021-02-23
