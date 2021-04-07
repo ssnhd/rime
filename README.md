@@ -2,7 +2,7 @@
 
 # Mac 第三方输入法｜Rime 鼠须管（Squirrel）配置详解
 
-![](https://i.loli.net/2021/02/22/gqMZF8Loa51XWVy.png)
+![](https://tva1.sinaimg.cn/large/008eZBHKly1gpbthsx77hj31jk1k1tem.jpg)
 
 ---
 
