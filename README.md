@@ -12,6 +12,8 @@
 
 [Telegram 交流群](https://t.me/shurufa1)
 
+[Twitter](https://twitter.com/yifangme)
+
 ---
 
 ### 【配置文件】更新日志
