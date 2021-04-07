@@ -10,6 +10,8 @@
 
 **缺点**：上手难度大、无云输入（前期词库/词频准确度低）、后期维护（例如苹果更新 Emoji 需手动添加）。
 
+[Telegram 交流群](https://t.me/shurufa1)
+
 ---
 
 ### 【配置文件】更新日志
@@ -61,7 +63,6 @@
 22. [动态时间｜日期｜星期](#动态时间日期星期)
 23. [同步](#同步)
 24. [卸载](#卸载鼠须管)
-25. [![Telegram交流群](https://raw.githubusercontent.com/liuour/SVG/aee8b7c77bb0aff2171f5c4b11caba849fc90768/Telegram.svg)](https://t.me/shurufa1)
 ---
 ### 安装输入法
 
