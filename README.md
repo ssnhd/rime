@@ -6,13 +6,17 @@
 
 ---
 
-**优点**：开源、隐私保护、速度快、高度自定义、纯朙月拼音输入方案、词库大（本配置约150万搜狗词条）。
+#### 特点
 
-**缺点**：上手难度大、无云输入（前期词库/词频准确度低）、后期维护（例如苹果更新 Emoji 需手动添加）。
-
-[Telegram 交流群](https://t.me/shurufa1)
-
-[Twitter](https://twitter.com/yifangme)
+* 朙月拼音简化字
+* 开源，隐私保护
+* 速度快
+* Emoji 同步
+* 动态输入时间、日期、星期
+* 高度自定义
+* 150万搜狗词条
+* [Telegram 交流群](https://t.me/shurufa1)
+* [Twitter](https://twitter.com/yifangme)
 
 ---
 
