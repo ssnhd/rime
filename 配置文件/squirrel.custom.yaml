@@ -1,13 +1,13 @@
 patch:
   show_notifications_when: appropriate # 状态通知，可设为全开（always）全关（never）  
 
-  # 修改后面的名字更换皮肤
-  style/color_scheme: macos_light      # macOS亮色
+  # 更换皮肤
+  style/color_scheme: macos_light
 
   # 皮肤主题 
   preset_color_schemes:
+  
     macos_light:
-      name: macOS亮色/macos_light
       author: 一方
       back_color: 0xFFFFFF                      # 候选条背景色，24位色值，16进制，BGR顺序
       border_color: 0xFFFFFF                    # 边框色
@@ -31,10 +31,8 @@ patch:
       border_height: 4            # 窗口上下高度
       border_width: 4             # 窗口左右宽度
       border_color_width: 0       # 输入条边框宽度
-      #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
 
     macos_dark:
-      name: macOS暗色/macos_dark
       author: 一方
       back_color: 0x252a2e                      # 候选条背景色，24位色值，16进制，BGR顺序
       border_color: 0x050505                    # 边框色
@@ -51,78 +49,66 @@ patch:
       label_color: 0x999999                     # 预选栏编号颜色
       candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_face: "PingFangSC"                   # 候选词编号字体
-      font_point: 17              # 候选文字大小
+      font_point: 16              # 候选文字大小
       label_font_point: 13        # 候选编号大小
       corner_radius: 5            # 候选条圆角
       hilited_corner_radius: 5    # 高亮圆角
       border_height: 4            # 窗口上下高度
       border_width: 4             # 窗口左右宽度
-      border_color_width: 0       #输入条边框宽度
-      #label_font_face: "SFCompactText-Regular"  # 候选词编号字体
+      border_color_width: 0       # 输入条边框宽度
 
-    system_blue:
-      author: "scomper <scomper@gmail.com>"   # 作者信息
-      color_space: display_p3 # Only available on macOS 10.12+
-      back_color: 0xFFFFFF                    # 候选条背景色，24位色值，16进制，BGR顺序
-      border_color: 0xFFFFFF                  # 边框色
+    psionics:
+      author: 雨過之後、佛振
+      text_color: 0xc2c2c2                    # 拼音行文字颜色
+      back_color: 0x444444                    # 候选条背景色，24位色值，16进制，BGR顺序
+      candidate_text_color: 0xeeeeee          # 预选项文字颜色
+      hilited_text_color: 0xeeeeee            # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0x444444            # 第一候选项背景背景色
+      hilited_candidate_label_color: 0xfafafa
+      hilited_candidate_text_color: 0xfafafa  # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xd4bc00  # 候选文字背景色
+      comment_text_color: 0x808080            # 拼音等提示文字颜色
+      hilited_comment_text_color: 0x444444    # 注解文字高亮
+
+    win10:
       candidate_text_color: 0x000000          # 预选项文字颜色
-      comment_text_color: 0x999999            # 拼音等提示文字颜色
-      hilited_back_color: 0xF8AA4D            # 第一候选项背景背景色
-      hilited_candidate_text_color: 0xFFFFFF  # 第一候选项文字颜色
-      hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
-      hilited_comment_text_color: 0x999999    # 注解文字高亮
-      hilited_text_color: 0x999999            # 高亮拼音 (需要开启内嵌编码)
-      name: "系统蓝／System Blue"
-      text_color: 0x424242                    # 拼音行文字颜色
-      label_color: 0x999999                   # 预选栏编号颜色
-      horizontal: true                        # 水平排列
-      inline_preedit: true                    # 单行显示，false双行显示
-      candidate_format: "%c\u2005%@ \u2005"   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间的。
-      font_face: "PingFangSC"# 候选词编号字体
-      font_point: 16                          # 候选文字大小
-      label_font_point: 14                    # 候选编号大小
-      label_font_face: "SFCompactText-Regular"# 候选词编号字体
-      corner_radius: 6                        # 候选条圆角
-      hilited_corner_radius: 4                # 高亮圆角
-      border_height: 4                        # 窗口边界高度，大于圆角半径才生效
-      border_width: 4                         # 窗口边界宽度，大于圆角半径才生效
-    # border_color_width: 0
-
-    mritd_dark:
-      name: 漠然／mritd dark
-      author: mritd <mritd1234@gmail.com>
-      horizontal: true                          # 水平排列
-      inline_preedit: true                      # 单行显示，false双行显示
-      candidate_format: "%c\u2005%@ \u2005"     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间。
-      corner_radius: 6                          # 候选条圆角
-      hilited_corner_radius: 4                  # 高亮圆角
-      border_height: 4                          # 窗口边界高度，大于圆角半径才生效
-      border_width: 4                           # 窗口边界宽度，大于圆角半径才生效
-      border_color_width: 0
-      font_face: "PingFangSC"                   # 候选词字体
-      #font_face: "YaHei Monaco Hybird"         # 候选词字体
-      font_point: 16                            # 候选字词大小
-      label_font_point: 14                      # 候选编号大小
-      text_color: 0xdedddd                      # 拼音行文字颜色，24位色值，16进制，BGR顺序
-      back_color: 0x4b4b4b                      # 候选条背景色
-      label_color: 0x888785                     # 预选栏编号颜色
-      border_color: 0x4b4b4b                    # 边框色
-      candidate_text_color: 0xffffff            # 预选项文字颜色
-      hilited_text_color: 0xdedddd              # 高亮拼音 (需要开启内嵌编码)
-      hilited_back_color: 0x252320              # 高亮拼音 (需要开启内嵌编码)
-      hilited_candidate_text_color: 0xFFE696    # 第一候选项文字颜色
-      hilited_candidate_back_color: 0x4b4b4b    # 第一候选项背景背景色
-      hilited_candidate_label_color: 0xffffff   # 第一候选项编号颜色
-      comment_text_color: 0xdedddd              # 拼音等提示文字颜色
+      comment_text_color: 0x888888            # 拼音等提示文字颜色
+      text_color: 0x000000                    # 拼音行文字颜色
+      back_color: 0xffffff                    # 候选条背景色，24位色值，16进制，BGR顺序
+      hilited_text_color: 0x000000            # 高亮拼音 (需要开启内嵌编码)
+      hilited_back_color: 0xffffff            # 第一候选项背景背景色
+      hilited_candidate_text_color: 0xffffff  # 第一候选项文字颜色
+      hilited_candidate_back_color: 0xcc8f29  # 候选文字背景色
+      hilited_comment_text_color: 0xffffff    # 注解文字高亮
+      hilited_label_color: 0xffffff           # 已选字的数字的颜色
+      label_color: 0x888888       # 预选栏编号颜色
+      label_format: "%s"
+      font_point: 16              # 候选文字大小
+      label_font_point: 16        # 候选编号大小
+      corner_radius: 0            # 候选条圆角
+      inline_preedit: true        # 单行显示，false双行显示
+      min_width: 160
+      min_height: 0
+      border_width: 6             # 窗口左右宽度
+      border_height: 6            # 窗口左右高度
+      margin_x: 12                # 字起始距左边距离
+      margin_y: 12                # 字上下边距
+      spacing: 10                 # 间距
+      candidate_spacing: 24       # 候选字间隔
+      hilite_spacing: 8           # 序号和候选字之间的间隔
+      hilite_padding: 12          # 候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
+      round_corner: 0             # 候选字背景色块圆角幅度
+      horizontal: true            # 横排显示
+      candidate_format: "%c %@  " # 候选格式
 
 # 更多皮肤请参考：https://github.com/rime/squirrel/blob/69112996441fdae1d1778ac9a32eb98f6a8e7841/data/squirrel.yaml    
 # 皮肤效果请参考：https://github.com/liuour/rime-pifu
 
-  app_options:    # App关闭开启中文输入 true=关闭，false=开启
-    com.apple.Spotlight:            # 聚焦搜索
-        ascii_mode: true
-    com.runningwithcrayons.Alfred:  # alfred
-        ascii_mode: true
+  app_options:    # App关闭中文输入
+    #com.apple.Spotlight:            # 聚焦搜索
+        #ascii_mode: true
+    #com.runningwithcrayons.Alfred:  # afred
+        #ascii_mode: true
     com.apple.Terminal:             # 终端
         ascii_mode: true
     com.microsoft.VSCode:           # Visual Studio Code
