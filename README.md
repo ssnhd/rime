@@ -24,7 +24,8 @@
 
 #### 2021-04-09
 
-* 添加[回车清码](#回车清码)功能，默认是关闭状态。
+* 添加[回车清码](#回车清码)功能，默认是关闭状态
+* 添加 win10 皮肤
 
 #### 2021-04-04
 
@@ -271,17 +272,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ---
 ### 皮肤
 
-打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后方输入主题名称。
+打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后面更改主题名称，例如：`macos_light`。
 
-例如：下面代码里 `macos_light` 为皮肤名称。
-
-```
-macos_light:
-  name: macOS亮色/macos_light
-  author: 一方
-```
-
-![GSyDz7sZP5nO3jY](https://i.loli.net/2021/02/23/GSyDz7sZP5nO3jY.png)
+![截屏2021-04-10 上午5.21.25](https://tvax4.sinaimg.cn/large/008eZBHKly1gpe70qhu7nj31ao0ummzd.jpg)
 
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
