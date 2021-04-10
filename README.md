@@ -89,7 +89,9 @@
 
 ### 定制输入法
 
-下载 [档案文件](https://github.com/liuour/rime/archive/master.zip) 解压出【配置文件】和【花园明朝字体】，将字体安装到 Mac 字体册。
+下载 [档案文件](https://github.com/liuour/rime/archive/master.zip) 解压出【配置文件】和【花园明朝字体】，首先将字体安装到 Mac 字体册。
+
+![2021-04-10-15.38.40](https://tva2.sinaimg.cn/large/008eZBHKly1gpeowyisfbj31ie0swwhz.jpg)
 
 点选**用户设定**打开 Rime 目录文件夹，将【配置文件】里所有文件粘贴进去，并选择覆盖。
 
@@ -125,9 +127,9 @@ squirrel.custom.yaml              # 皮肤
 ---
 ### 输入方案
 
-打开 `default.custom.yaml`，添加输入方案。
+打开 `default.custom.yaml` 文件，添加输入方案。
 
-> 注意：本配置不包含双拼，五笔输入方案，更多输入方案配置可参考 [rime/plum](https://github.com/rime/plum)。
+> 注意：本配置不包含双拼，五笔等输入方案，更多方案可参考 [东风破](https://github.com/rime/plum)。
 
 ![1r3FiCtUnamDHRq](https://i.loli.net/2021/02/26/1r3FiCtUnamDHRq.png)
 
@@ -240,7 +242,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 自定义快捷字符
 
-打开 `luna_pinyin_simp.custom.yaml` 修改快捷 Emoji 和符号。
+打开 `luna_pinyin_simp.custom.yaml` 文件，修改快捷 Emoji 和符号。
 
 ![iNUSQxemPdycoRg](https://i.loli.net/2021/02/23/iNUSQxemPdycoRg.png)
 
@@ -272,7 +274,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ---
 ### 皮肤
 
-打开 `squirrel.custom.yaml`，在 `style/color_scheme:` 后面更改主题名称，例如：`macos_light`。
+打开 `squirrel.custom.yaml` 文件，添加皮肤代码，并在 `style/color_scheme:` 后面更改主题名称，例如：`macos_light`。
 
 ![截屏2021-04-10 上午5.21.25](https://tvax4.sinaimg.cn/large/008eZBHKly1gpe70qhu7nj31ao0ummzd.jpg)
 
