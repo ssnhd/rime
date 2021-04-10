@@ -4,19 +4,14 @@
 
 ![rime效果图](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
----
+| 主要特点       |            |            |                           |
+| :------------- | :--------- | ---------- | ------------------------- |
+| 朙月拼音简化字 | 开源       | Emoji 齐全 | 动态输入时间、日期、星期  |
+| 隐私保护       | 响应速度快 | 高度自定义 | 超大词库（150万搜狗词条） |
 
-### 主要特点
+Twitter：[@yifangme](https://twitter.com/yifangme)  
 
-* 朙月拼音简化字
-* 开源，隐私保护
-* Emoji 齐全
-* 动态输入时间、日期、星期
-* 响应速度快
-* 高度自定义
-* 150万搜狗词库
-* [Telegram 交流群](https://t.me/shurufa1)
-* [Twitter](https://twitter.com/yifangme)
+Telegram：[ @shurufa1](https://t.me/shurufa1) 
 
 ---
 
