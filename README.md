@@ -11,8 +11,8 @@
 * Emoji 齐全
 * 动态输入时间、日期、星期
 * 高度自定义
-* Twitter: [@yifangme](https://twitter.com/yifangme)
-* Telegram: [@shurufa1](https://t.me/shurufa1) 
+* [Twitter](https://twitter.com/yifangme)
+* [Telegram 交流群](https://t.me/shurufa1) 
 
 ---
 
