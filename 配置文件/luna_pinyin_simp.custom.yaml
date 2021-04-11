@@ -126,4 +126,4 @@ patch:
     #- derive/u$/uu/                           # ui = u  # u 不小心按两下
 
 # librime-lua 输入动态时间和日期
-  "engine/translators/+": lua_translator@date_translator
+  "engine/translators/@6": lua_translator@date_translator
