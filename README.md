@@ -6,15 +6,13 @@
 
 ### 主要特点
 
-> * 朙月拼音简化字
-> * 超大词库〔150万搜狗词条〕
-> * Emoji 齐全
-> * 动态输入时间、日期、星期
-> * 高度自定义
-
-Twitter：[@yifangme](https://twitter.com/yifangme)  
-
-Telegram：[ @shurufa1](https://t.me/shurufa1) 
+* 朙月拼音简化字
+* 超大词库〔150万搜狗词条〕
+* Emoji 齐全
+* 动态输入时间、日期、星期
+* 高度自定义
+* Twitter: [@yifangme](https://twitter.com/yifangme)
+* Telegram: [@shurufa1](https://t.me/shurufa1) 
 
 ---
 
