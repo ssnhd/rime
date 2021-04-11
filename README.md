@@ -8,10 +8,8 @@
 
 > * 朙月拼音简化字
 > * 超大词库〔150万搜狗词条〕
-> * Emoji
+> * Emoji 齐全
 > * 动态输入时间、日期、星期
-> * 响应速度快
-> * 开源/隐私保护
 > * 高度自定义
 
 Twitter：[@yifangme](https://twitter.com/yifangme)  
