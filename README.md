@@ -4,6 +4,13 @@
 
 ![rime效果图](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
+---
+### 联系信息
+
+* Twitter：[@yifangme](https://twitter.com/yifangme)
+* Telegram 交流群：[@shurufa1](https://t.me/shurufa1) 
+
+---
 ### 主要特点
 
 * 朙月拼音简化字
@@ -11,8 +18,6 @@
 * Emoji 齐全
 * 动态输入时间、日期、星期
 * 高度自定义
-* [Twitter](https://twitter.com/yifangme)
-* [Telegram 交流群](https://t.me/shurufa1) 
 
 ---
 
