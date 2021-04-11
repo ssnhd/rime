@@ -22,7 +22,7 @@ Telegram：[ @shurufa1](https://t.me/shurufa1)
 
 ### 【配置文件】更新日志
 #### 2021-04-11
-* 修复无法更改候选词个数问题
+* 修复[无法更改候选词个数](https://github.com/maomiui/rime/issues/22)问题
 
 #### 2021-04-09
 
