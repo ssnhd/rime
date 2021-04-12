@@ -4,8 +4,6 @@
 
 ![rime效果图](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
-[![](https://img.shields.io/badge/Twitter-%40yifangme-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip)
-
 ---
 ### 主要特点
 
@@ -14,6 +12,8 @@
 * Emoji 齐全
 * 动态输入时间、日期、星期
 * 高度自定义
+
+[![](https://img.shields.io/badge/Twitter-%40yifangme-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip)
 
 ---
 
