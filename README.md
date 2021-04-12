@@ -6,12 +6,6 @@
 
 [![](https://img.shields.io/badge/Twitter-%40yifangme-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 ---
-### 联系信息
-
-* Twitter：[@yifangme](https://twitter.com/yifangme)
-* Telegram 讨论群：[@shurufa1](https://t.me/shurufa1) 
-
----
 ### 主要特点
 
 * 朙月拼音简化字
