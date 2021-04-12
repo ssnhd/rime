@@ -4,6 +4,7 @@
 
 ![rime效果图](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
+[![](https://img.shields.io/badge/Twitter-%40yifangme-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 ---
 ### 联系信息
 
