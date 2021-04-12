@@ -8,7 +8,7 @@
 ### 联系信息
 
 * Twitter：[@yifangme](https://twitter.com/yifangme)
-* Telegram：[@shurufa1](https://t.me/shurufa1) 
+* Telegram 讨论群：[@shurufa1](https://t.me/shurufa1) 
 
 ---
 ### 主要特点
