@@ -16,11 +16,6 @@
 #
 # no comment
 
-
-V2EX	ve	2
-v2ex.com	ve	1
-
-
 Rime	rime	4
 鼠须管	rime	3
 https://rime.im/	rime	2
@@ -58,9 +53,6 @@ CarPlay	cp	1
 CleanShot X	cs
 
 Download	dl	1
-Downie	dow
-Dear	dear
-
 
 Enpass	enp
 Emoji	em
@@ -80,7 +72,6 @@ Google Voice	gv
 Gboard	gb
 
 Handoff	ho
-Hi	hi
 
 HyperSwitch	hs
 
@@ -100,7 +91,6 @@ Evutec	kfl
 
 Lightning to USB-C	ltc
 Lightning to USB	ltu
-LINE	line
 
 Mac	mac	2
 Mac mini	mac	1
@@ -133,7 +123,6 @@ Paypal	pp
 Pro	pro
 
 QQ	qq
-Quantumult	quan
 
 Pages	pg
 
@@ -141,12 +130,9 @@ readme.md	rm
 
 ScreenBar Plus	sbp	1
 Shadowrocket	sds	3	
-Shadowsocks	sds	2
-ShadowsocksX-NG-R8	sds	1
 Safari	sf	2
 Shift	sf	1
 SHIELD TV	stv
-SSD	ssd	2
 Spotify	sp	1
 Spark	sp	2
 Sublime Text	sbt
@@ -158,10 +144,9 @@ Typora	ty
 TeamViewer  tv
 
 USB-C	uc
-Up主	upzhu
-U盘	upan
 
-WH-1000XM2	sn
+V2EX	ve
+
 WhatsApp	wa
 WeChat	wc	2
 Windows	win
