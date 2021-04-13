@@ -3,7 +3,7 @@ patch:
     - schema: luna_pinyin_simp      # 朙月拼音 简化字
     - schema: luna_pinyin           # 朙月拼音 繁体
         
-  menu/page_size: 7   # 候选词个数
+  menu/page_size: 8   # 候选词个数
 
 # 若caps切换大小写无效,打开系统偏好设置-键盘-输入法-取消勾选[使用大写锁定键切换“美国”输入模式]
   ascii_composer/good_old_caps_lock: true   # 若为true，caps只切换大小写
