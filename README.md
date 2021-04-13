@@ -13,7 +13,7 @@
 * 动态输入时间、日期、星期
 * 高度自定义
 
-[![](https://img.shields.io/badge/Twitter-%40yifangme-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip)
+[![](https://img.shields.io/badge/%E9%BC%A0%E9%A1%BB%E7%AE%A1%E5%AE%89%E8%A3%85%E5%8C%85-0.15.2-%23009CD1)](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.2.zip)  [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 
 ---
 
@@ -77,7 +77,7 @@
 ---
 ### 安装输入法
 
-打开[ Rime](https://rime.im/) 官网下载安装包并安装，点选菜单栏【ㄓ】图标，即可使用鼠须管输入法。
+安装鼠须管输入法，点选菜单栏【ㄓ】图标，即可使用鼠须管输入法。
 
 小贴士：按 `Control+｀` 切换输入方案。
 
@@ -88,7 +88,7 @@
 
 ### 定制输入法
 
-下载配置文件解压出【配置文件】和【花园明朝字体】，首先将字体安装到 Mac 字体册。
+将配置文件解压得到【配置文件】和【花园明朝字体】，首先将字体安装到 Mac 字体册。
 
 ![2021-04-10-15.38.40](https://tva2.sinaimg.cn/large/008eZBHKly1gpeowyisfbj31ie0swwhz.jpg)
 
