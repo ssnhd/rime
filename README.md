@@ -353,8 +353,11 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ### 大写数字
 配置内 `numbers.schema.yaml` 为大写数字文件。
 
-将 `schema_id: numbers` 添加在 `default.custom.yaml`（本配置方案默认已添加），快捷键 `Control+｀` 切换方案选择**大写数字**。
+将下面代码添加在 `default.custom.yaml`（本配置方案默认已添加），快捷键 `Control+｀` 切换方案选择**大写数字**。
 
+```
+- schema: numbers               # 大写数字
+```
 
 | 按键  |  输出 |
 |---|---|
@@ -367,7 +370,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 |  按键（按住Shift） | 输出  |
 |---|---|
 | 1234567890  | 一二三四五六七八九〇  |
-|  wqbsjfd. |  万千百十角分点 |
+|  wqbsjfd. |  万千百十角分第点 |
 | z  | 整之  |
 | y  | 元月亿  |
 
