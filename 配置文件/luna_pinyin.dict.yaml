@@ -3,28 +3,6 @@
 #
 # Luna Pinyin - 明月拼音
 #
-#   Rime Developers <rime-devel@googlegroups.com>
-#
-# Thanks to the following works:
-#
-# * CC-CEDICT
-#   http://cc-cedict.org/
-#
-# * Android open source project
-#   http://android.git.kernel.org/?p=platform/packages/inputmethods/PinyinIME.git
-#
-# * Chewing - 新酷音
-#   http://chewing.csie.net/
-#
-# * 三拼簡繁詞庫 0.9
-#   http://www.pkucn.com/viewthread.php?tid=245448
-#
-# * opencc - 開放中文轉換
-#   http://code.google.com/p/opencc/
-#
-# * 萌典
-#   http://www.moedict.tw/
-#
 
 ---
 name: luna_pinyin
