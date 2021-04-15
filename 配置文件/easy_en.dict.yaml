@@ -4,10 +4,7 @@
 #
 # easy_en - Easy English
 #
-# Patrick <ipatrickmac@gmail.com>
-#
 # Easy English
-# 缩减版本，删除了字符数为1 的字母和词频较低的单词
 
 ---
 name: easy_en
