@@ -10,6 +10,9 @@ use_preset_vocabulary: false
 ...
 
 # 常见中英词汇
+iOS	i o s
+ios	i o s
+iOS 14	i o s
 H&M	h m
 Q幣	q bi
 QQ號	q q hao
@@ -26,3 +29,10 @@ Up主	u p zhu
 🇭🇰	h k	10002
 HK	h k	10001
 Hong Kong	h k	10000
+
+# 货币
+￥	ren min bi
+$	mei yuan
+
+#符号
+π	pai
