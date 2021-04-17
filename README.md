@@ -22,6 +22,7 @@
 
 #### 2021-04-17
 
+* 增加朙月拼音配置文件
 * 增加系统蓝，曬經·日等皮肤
 
 #### 2021-04-14
@@ -111,6 +112,8 @@ easy_en.dict.yaml                 # 英文词典
 easy_en.schema.yaml               # 英文词典方案定义
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
+luna_pinyin.custom.yaml           # 朙月拼音设置
+luna_pinyin.schema.yaml           # 朙月拼音方案定义
 luna_pinyin.extended.dict.yaml    # 挂载词库
 luna_pinyin.dict.yaml             # 词库（汉字）
 luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
