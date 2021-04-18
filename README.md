@@ -111,8 +111,9 @@
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
+#### 配置文件说明
+
 ```
-# 配置文件介绍
 custom_phrase.txt                 # 自定义短语
 default.custom.yaml               # 全局设置
 double_pinyin_flypy.custom.yaml   # 小鹤双拼
@@ -131,8 +132,8 @@ luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
 luna_pinyin.zonghe.dict.yaml      # 词库（综合）
 numbers.schema.yaml               # 大写数字
 opencc                            
-  ├emoji_word.txt                 # Emoji
-  └emoji.json           
+  ├── emoji_word.txt              # Emoji
+  └── emoji.json           
 rime.lua                          # 动态时间、日期、星期
 squirrel.custom.yaml              # 皮肤
 ```
