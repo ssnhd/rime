@@ -17,7 +17,6 @@ patch:
         - UTF-8
         - GBK
         - GB2312
-
   simplifier:
     option_name: zh_simp
     
@@ -49,7 +48,7 @@ patch:
     spelling_hints: 9
     enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false
-    initial_quality: 0           # 调整英文候选词的位置
+    initial_quality: 1            # 调整英文候选词的位置
 
  # 符号快速输入和部分符号的快速上屏
   punctuator:
@@ -71,13 +70,14 @@ patch:
       "=": "="
       '\': "、"
       "%": "%"
+      "$": ["¥", "$", "€", "£", "¢", "¤"]
       "/": ["/", "÷"]
       "'": { pair: ["「", "」"] }
       "[": ["【", "〔", "［"]
       "]": ["】", "〕", "］"]
       "<": "《"
       ">": "》"
-      "*": "*"
+
   recognizer/patterns/punct: "^/([a-z]+|[0-9]0?)$"
 
 # 模糊拼音
