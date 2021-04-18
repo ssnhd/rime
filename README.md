@@ -8,11 +8,10 @@
 ---
 ### 主要特点
 
-* 朙月拼音
-* 超大词库〔150万搜狗词条〕
+* 朙月拼音｜朙月拼音·简化字｜小鹤双拼｜自然码双拼｜大写数字
+* 拼音超大词库〔150万搜狗词条〕
 * Emoji 与苹果设备同步
 * 动态输入时间、日期、星期
-* 大写数字输入
 * 高度自定义
 
 [![](https://img.shields.io/badge/%E9%BC%A0%E9%A1%BB%E7%AE%A1%E5%AE%89%E8%A3%85%E5%8C%85-0.15.2-%23009CD1)](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.2.zip)  [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
