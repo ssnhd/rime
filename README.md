@@ -130,8 +130,8 @@ luna_pinyin.dict.yaml             # 词库（汉字）
 luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
 luna_pinyin.zonghe.dict.yaml      # 词库（综合）
 numbers.schema.yaml               # 大写数字
-opencc                           # Emoji
-  ├emoji_word.txt
+opencc                            
+  ├emoji_word.txt                 # Emoji
   └emoji.json           
 rime.lua                          # 动态时间、日期、星期
 squirrel.custom.yaml              # 皮肤
