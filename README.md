@@ -4,8 +4,6 @@
 
 ![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
----
 ### 主要特点
 
 * 朙月拼音｜朙月拼音·简化字｜小鹤双拼｜自然码双拼｜大写数字
@@ -14,6 +12,7 @@
 * 动态输入时间、日期、星期
 * 高度自定义
 
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 ---
 
 ### 【配置文件】更新日志
@@ -423,4 +422,4 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 3. 如上，前往 `~/Library` 并删除文件夹【Rime】。
 4. 重新登入系统，确保清理完毕。
 
-🔝[返回顶部](#mac-第三方输入法rime-鼠须管squirrel配置详解)
+🔝[返回顶部](#主要特点)
