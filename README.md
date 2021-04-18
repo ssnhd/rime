@@ -4,7 +4,7 @@
 
 ![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
-
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 ---
 ### 主要特点
 
@@ -13,8 +13,6 @@
 * Emoji 与苹果设备同步
 * 动态输入时间、日期、星期
 * 高度自定义
-
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 
 ---
 
@@ -92,13 +90,13 @@
 
 前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏【ㄓ】图标，按 `Control+｀` 切换输入方案，即可开始使用输入法。
 
-> 注意：原 Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
+> 注：Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
 ---
 
 ### 定制输入法
 
-下载本文 [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip)  解压得到【配置文件】和【花园明朝字体】，Mac 不包含生僻字会导致有乱码，先将字体安装到字体册。
+下载[配置文件](https://github.com/maomiui/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不包含生僻字会导致有乱码，所以先将花园明朝字体安装到字体册。
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
