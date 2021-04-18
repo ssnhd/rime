@@ -2,7 +2,7 @@
 
 ## Mac 第三方输入法｜Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
-![rime效果图](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
+![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
 
 ---
@@ -14,7 +14,7 @@
 * 动态输入时间、日期、星期
 * 高度自定义
 
-[![](https://img.shields.io/badge/%E9%BC%A0%E9%A1%BB%E7%AE%A1%E5%AE%89%E8%A3%85%E5%8C%85-0.15.2-%23009CD1)](https://dl.bintray.com/rime/squirrel/Squirrel-0.15.2.zip)  [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
 
 ---
 
@@ -90,26 +90,21 @@
 ---
 ### 安装输入法
 
-安装鼠须管输入法，点选菜单栏【ㄓ】图标，即可使用鼠须管输入法。
+前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏【ㄓ】图标，按 `Control+｀` 切换输入方案，即可开始使用输入法。
 
-小贴士：按 `Control+｀` 切换输入方案。
-
-![008eZBHKgy1gn4v5nn7h7j31e20d2wfr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4v5nn7h7j31e20d2wfr.jpg)
-
+> 注意：原 Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
 ---
 
 ### 定制输入法
 
-将配置文件解压得到【配置文件】和【花园明朝字体】，首先将字体安装到字体册。
+下载本文 [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip)  解压得到【配置文件】和【花园明朝字体】，Mac 不包含生僻字会导致有乱码，先将字体安装到字体册。
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
-点选**用户设定**打开 Rime 目录文件夹，将【配置文件】里所有文件粘贴进去，并选择覆盖。
+点选**用户设定**打开 Rime 配置文件目录文件夹，将【配置文件】 里所有文件粘贴进去，并选择覆盖。
 
-> 注意：建议先备份原文件。
-
-![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
+![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
 #### 配置文件说明
 
@@ -144,42 +139,42 @@ squirrel.custom.yaml              # 皮肤
 >
 > 注2：搜狗词库较大，重新部署时间会稍长，请耐心等待。
 
-![008eZBHKgy1gn45fjrwu3j31e00c87e7](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
+![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
 ---
 ### 输入方案
 
-打开 `default.custom.yaml` 文件，添加输入方案。
+打开 `default.custom.yaml` 文件设置输入方案。
 
-> 注：本配置不包含双拼，五笔等输入方案，如有需要可自行参考[东风破](https://github.com/rime/plum)。
+> 其他输入方案请参考[东风破](https://github.com/rime/plum)。
 
-![](https://tva4.sinaimg.cn/large/008eZBHKly1gpjedz77psj31ao05gjre.jpg)
+![](https://tva4.sinaimg.cn/large/008eZBHKly1gpohotbdmoj31ao07mmxc.jpg)
 
 ### 候选词个数
 
-打开 `default.custom.yaml`，修改数字即候选词数量。
+打开 `default.custom.yaml` 数字表示候选词数量。
 
 ```
 menu/page_size: 9
 ```
 
-![E3eQ5gKHFNhPS8d](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
+![](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
 
 ### 中英文切换
 
-打开 `default.custom.yaml`，设置开启和禁用切换中英文。
+打开 `default.custom.yaml` 设置开启和禁用切换中英文。
 
-> 注意1：Mac 上鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
+> 注1：Mac 上鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
 >
-> 注意2：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
+> 注2：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
 
-![ogPE4mBitAzcZ5U](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
+![](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
 ### 翻页键
 
 打开 `default.custom.yaml`，设置翻页，如不需要在前面添加 `#` 号。
 
-![截屏2021-03-26 下午6.17.58](https://tva4.sinaimg.cn/large/008eZBHKly1goxh6033qlj31ao08c74x.jpg)
+![](https://tva4.sinaimg.cn/large/008eZBHKly1goxh6033qlj31ao08c74x.jpg)
 
 ### 常见快捷键
 
@@ -187,7 +182,7 @@ menu/page_size: 9
 
 更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
-![截屏2021-03-26 下午6.17.09](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
+![](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
 
 ---
 
@@ -199,7 +194,7 @@ menu/page_size: 9
 - {accept: Return, send: Escape, when: composing}
 ```
 
-![截屏2021-04-09 下午2.42.27](https://tva3.sinaimg.cn/large/008eZBHKly1gpdhm76bofj31am02u0sl.jpg)
+![](https://tva3.sinaimg.cn/large/008eZBHKly1gpdhm76bofj31am02u0sl.jpg)
 
 ---
 
@@ -238,7 +233,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 >
 > 电子游戏、艺术设计、生活百科、运动体闲、人文科学、娱乐休闲
 
-![截屏2021-04-01 下午6.58.06](https://tvax1.sinaimg.cn/large/008eZBHKly1gp4g1qlgxwj31ao048745.jpg)
+![](https://tvax1.sinaimg.cn/large/008eZBHKly1gp4g1qlgxwj31ao048745.jpg)
 
 ---
 
@@ -250,7 +245,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 > 注意：词库里需有中文编码才会显示 Emoji。例如，眯眼 = 😆，词库里需包含〔眯眼〕才会显示〔😆〕。
 
-![截屏2021-03-26 下午6.05.33](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
+![](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
 
 ---
 
@@ -258,7 +253,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin_simp.custom.yaml` 载入中/英文词库和 Emoji。
 
-![lLwFyREWcz3N7Gv](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
+![](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
 ---
 
@@ -266,7 +261,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin_simp.custom.yaml` 文件，修改快捷 Emoji 和符号。
 
-![iNUSQxemPdycoRg](https://i.loli.net/2021/02/23/iNUSQxemPdycoRg.png)
+![](https://i.loli.net/2021/02/23/iNUSQxemPdycoRg.png)
 
 
 ---
@@ -275,7 +270,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin_simp.custom.yaml `，去掉前面的 ` #` 开启模糊音。 
 
-![jXRH9aq3iAlIOhW](https://i.loli.net/2021/02/23/jXRH9aq3iAlIOhW.png)
+![](https://i.loli.net/2021/02/23/jXRH9aq3iAlIOhW.png)
 
 ---
 
@@ -285,11 +280,11 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 > 注意：自定义短语始终会显示在第一候选词。
 
-![RhHwdz9GT3NAlx7](https://i.loli.net/2021/02/23/RhHwdz9GT3NAlx7.png)
+![](https://i.loli.net/2021/02/23/RhHwdz9GT3NAlx7.png)
 
 效果：
 
-![S3z1lxFm8Kws6nW](https://i.loli.net/2021/02/23/S3z1lxFm8Kws6nW.png)
+![](https://i.loli.net/2021/02/23/S3z1lxFm8Kws6nW.png)
 
 
 
@@ -298,14 +293,14 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `squirrel.custom.yaml` 文件，添加皮肤代码，并在 `style/color_scheme:` 后面更改主题名称，例如：`macos_light`。
 
-![截屏2021-04-10 上午5.21.25](https://tvax4.sinaimg.cn/large/008eZBHKly1gpe70qhu7nj31ao0ummzd.jpg)
+![](https://tvax4.sinaimg.cn/large/008eZBHKly1gpe70qhu7nj31ao0ummzd.jpg)
 
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
 * 把颜色值写为十六进制数，即 `0xAABBGGRR` 或 `0xBBGGRR`。
 
-![008eZBHKgy1gn45ifbfhnj311r0kw769](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
+![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
 
 更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)。
 
@@ -315,7 +310,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 按 `Control + ｀` 组合键，选择朙月拼音·简化字，关闭 Emoji 选择〔🈶→🈚️〕，反之选择〔🈚️→🈶〕。
 
-![截屏2021-04-01 上午2.28.15](https://tvax4.sinaimg.cn/large/008eZBHKly1gp3nfu2fenj31ao04s3z0.jpg)
+![](https://tvax4.sinaimg.cn/large/008eZBHKly1gp3nfu2fenj31ao04s3z0.jpg)
 
 ---
 
@@ -323,7 +318,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `squirrel.custom.yaml` 进行添加修改设置。
 
-![HIL4Jevp8tulaBk](https://i.loli.net/2021/02/23/HIL4Jevp8tulaBk.png)
+![](https://i.loli.net/2021/02/23/HIL4Jevp8tulaBk.png)
 
 ---
 
@@ -333,7 +328,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 例如，下图里是 Visual Studio Code 里中文状态输入标点是英文符号。
 
-![UWnEmVLXvazqDAj](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
+![](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
 
 
 
@@ -351,23 +346,23 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
 
-![AFIO56cLTDiGo2d](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
+![](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
 
 ---
 
 ### 动态时间、日期、星期
 
-![008eZBHKgy1gn4w304etcj31e00bzjtr](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
+![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
 
 打开 `Rime.lua`，可修改格式和快捷编码，例如，`rq` = `日期`。
 
-![UTXEo4NGh5VzmBk](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
+![](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
 
 最后在对应的输入方式里加入下面代码生效。
 
 例如：朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
 
-![EiZV7jTWFUaYtpl](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
+![](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
 ---
 ### 大写数字
@@ -413,7 +408,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
  sync_dir: "/Users/用户名/Library/Mobile Documents/com~apple~CloudDocs/Rime"
 ```
 
-![RLnWQgxA9sZpY2k](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
+![](https://i.loli.net/2021/03/01/RLnWQgxA9sZpY2k.png)
 
 点选菜单栏【ㄓ】-【同步用户数据】，打开 iCloud 云盘查看同步文件，可多台设备同步。
 
