@@ -1,6 +1,6 @@
 
 
-## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解｜Mac 第三方输入法
+## Mac 第三方输入法｜Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![rime效果图](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
