@@ -180,7 +180,9 @@ menu/page_size: 9
 
 ### 常见快捷键
 
-打开 `default.custom.yaml`，设置快捷键，更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
+打开 `default.custom.yaml` 设置快捷键，例如常用的繁简切换快捷键 `Control + Shift + 4`。
+
+更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ![截屏2021-03-26 下午6.17.09](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
 
