@@ -107,7 +107,7 @@
 
 点选**用户设定**打开 Rime 目录文件夹，将【配置文件】里所有文件粘贴进去，并选择覆盖。
 
-> 注意：覆盖前建议先备份原文件。
+> 注意：建议先备份原文件。
 
 ![008eZBHKgy1gn45cxyphgj31e20ca7e9](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
