@@ -21,10 +21,15 @@
 
 ### 【配置文件】更新日志
 
+#### 2021-04-19
+
+* 增加小鹤双拼，自然码双拼
+* Emoji 增加繁体编码
+* 动态时间日期星期编码变更：`sj → time` `rq → date` `xq → week`
+
 #### 2021-04-17
 
 * 搜狗词库由**简体**更新为**繁体**（解决朙月拼音方案读取搜狗词库时是简体问题）
-* Emoji 增加繁体编码
 * 增加朙月拼音配置文件
 * 增加系统蓝，曬經·日等皮肤
 
@@ -110,13 +115,17 @@
 ```
 # 配置文件介绍
 custom_phrase.txt                 # 自定义短语
-default.custom.yaml               # 全局配置
+default.custom.yaml               # 全局设置
+double_pinyin_flypy.custom.yaml   # 小鹤双拼
+double_pinyin_flypy.schema.yaml   # 小鹤双拼
+double_pinyin.custom.yaml         # 自然码双拼
+double_pinyin.schema.yaml         # 自然码双拼
 easy_en.dict.yaml                 # 英文词典
-easy_en.schema.yaml               # 英文词典方案定义
-luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字设置
-luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字方案定义
-luna_pinyin.custom.yaml           # 朙月拼音设置
-luna_pinyin.schema.yaml           # 朙月拼音方案定义
+easy_en.schema.yaml               # 英文词典
+luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字
+luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字
+luna_pinyin.custom.yaml           # 朙月拼音
+luna_pinyin.schema.yaml           # 朙月拼音
 luna_pinyin.extended.dict.yaml    # 挂载词库
 luna_pinyin.dict.yaml             # 词库（汉字）
 luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
