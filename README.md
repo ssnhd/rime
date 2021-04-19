@@ -341,7 +341,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 智能纠错
 
-打开 `luna_pinyin_simp.custom.yaml` 下拉至底部。
+打开 `luna_pinyin_simp.custom.yaml` 文件下拉至底部可看到代码，默认是关闭状态。
 
 ![](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
 
