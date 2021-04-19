@@ -130,7 +130,7 @@ rime.lua                          # 动态时间、日期、星期
 squirrel.custom.yaml              # 皮肤
 ```
 
-点击**重新部署**完成定制，如对细节进行调整，继续往下看。
+点击**重新部署**完成定制。
 
 > 注1：修改任何配置文件都要**重新部署**生效（快捷键 `Control+Option+｀`）。
 >
@@ -138,12 +138,15 @@ squirrel.custom.yaml              # 皮肤
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
+如果想对细节进行调整，继续往下看。
+
 ---
 ### 输入方案
 
 打开 `default.custom.yaml` 文件设置输入方案。
 
-> 其他输入方案请参考[东风破](https://github.com/rime/plum)。
+> 注1：其他输入方案请参考[东风破](https://github.com/rime/plum)。
+> 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
 
 ![](https://tva4.sinaimg.cn/large/008eZBHKly1gpohotbdmoj31ao07mmxc.jpg)
 
