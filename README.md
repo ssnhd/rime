@@ -146,6 +146,7 @@ squirrel.custom.yaml              # 皮肤
 打开 `default.custom.yaml` 文件设置输入方案。
 
 > 注1：其他输入方案请参考[东风破](https://github.com/rime/plum)。
+> 
 > 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
 
 ![](https://tva4.sinaimg.cn/large/008eZBHKly1gpohotbdmoj31ao07mmxc.jpg)
