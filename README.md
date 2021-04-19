@@ -349,17 +349,20 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 动态时间、日期、星期
 
-![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn4w304etcj31e00bzjtr.jpg)
+* `time` = `时间`
+* `date` = `日期`
+* `week` = `星期`
 
-打开 `Rime.lua`，可修改格式和快捷编码，例如，`rq` = `日期`。
-
-![](https://i.loli.net/2021/02/23/UTXEo4NGh5VzmBk.png)
-
-最后在对应的输入方式里加入下面代码生效。
-
-例如：朙月拼音·简化字，即添加在 `luna_pinyin_simp.custom.yaml`。
-
+在对应的输入方案里加入下面代码生效。例如：朙月拼音·简化字添加在 `luna_pinyin_simp.custom.yaml`。
+```
+# librime-lua 输入动态时间和日期
+  "engine/translators/@6": lua_translator@date_translator
+```
 ![](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
+
+打开 `Rime.lua` 文件可修改编码和输出格式，例如，`sj` = `时间`。
+
+> 注：使用双拼方案，两位字母编码可能会受影响，建议改为不冲突的编码。
 
 ---
 ### 大写数字
