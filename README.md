@@ -87,7 +87,7 @@
 ---
 ### 安装输入法
 
-前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏【ㄓ】图标，按 `Control+｀` 切换输入方案，即可开始使用输入法。
+前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏输入法选择【ㄓ】图标，按 `Control+｀` 切换输入方案，开始使用输入法。
 
 > 注：Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
