@@ -143,59 +143,55 @@ squirrel.custom.yaml              # 皮肤
 ---
 ### 输入方案
 
-打开 `default.custom.yaml` 文件设置输入方案。
-
-> 注1：其他输入方案请参考[东风破](https://github.com/rime/plum)。
-> 
-> 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
+打开 `default.custom.yaml` 文件，将输入方案输在此处，按 `Control+｀` 切换输入方案；前面加 `#` 关闭输入方案。
 
 ![](https://tva4.sinaimg.cn/large/008eZBHKly1gpohotbdmoj31ao07mmxc.jpg)
 
+> 注1：其他输入方案参考[东风破](https://github.com/rime/plum)。
+> 
+> 注2：非程序员用户可能不知道如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
+
 ### 候选词个数
 
-打开 `default.custom.yaml` 数字表示候选词数量。
+打开 `default.custom.yaml` 文件，修改后面的数字即候选词数量。
 
 ```
 menu/page_size: 9
 ```
 
-![](https://i.loli.net/2021/02/23/E3eQ5gKHFNhPS8d.png)
-
 ### 中英文切换
 
 打开 `default.custom.yaml` 设置开启和禁用切换中英文。
+
+![](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
 > 注1：Mac 上鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
 >
 > 注2：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
 
-![](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
-
 ### 翻页键
 
-打开 `default.custom.yaml`，设置翻页，如不需要在前面添加 `#` 号。
+打开 `default.custom.yaml` 文件设置翻页，关闭某项在前面添加 `#`。
 
 ![](https://tva4.sinaimg.cn/large/008eZBHKly1goxh6033qlj31ao08c74x.jpg)
 
 ### 常见快捷键
 
-打开 `default.custom.yaml` 设置快捷键，例如常用的繁简切换快捷键 `Control + Shift + 4`。
-
-更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
+打开 `default.custom.yaml` 设置快捷键，例如繁简切换 `Control + Shift + 4`。
 
 ![](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
+
+> 更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ---
 
 ### 回车清码
 
-打开 `default.custom.yaml`，找到下面代码，将前面的 `#` 号去掉并对其代码，即开启回车清码。
+打开 `default.custom.yaml`，找到下面代码，将前面的 `#` 号去掉并对其代码开启回车清码。
 
 ```
 - {accept: Return, send: Escape, when: composing}
 ```
-
-![](https://tva3.sinaimg.cn/large/008eZBHKly1gpdhm76bofj31am02u0sl.jpg)
 
 ---
 
@@ -226,15 +222,15 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 `luna_pinyin.extended.dict.yaml`，将词库名称添加进去。
 
-例如：搜狗词库 `luna_pinyin.sogou.dict.yaml`，输入 `- luna_pinyin.sogou` 。
+例如：词库文件 `luna_pinyin.sogou.dict.yaml`，则输入 `- luna_pinyin.sogou` 。
+
+![](https://tvax1.sinaimg.cn/large/008eZBHKly1gp4g1qlgxwj31ao048745.jpg)
 
 > 注：本配置搜狗词库含以下 12 个分类，满足绝大部分用户。
 >
 > 城市信息、自然科学、社会科学、工程应用、农林渔畜、医学医药
 >
 > 电子游戏、艺术设计、生活百科、运动体闲、人文科学、娱乐休闲
-
-![](https://tvax1.sinaimg.cn/large/008eZBHKly1gp4g1qlgxwj31ao048745.jpg)
 
 ---
 
@@ -244,7 +240,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 规则：文字+文字+Emoji，文字之间用 `tab` 键分隔，文字和表情之间用 `空格` 键分隔。
 
-> 注意：词库里需有中文编码才会显示 Emoji。例如，眯眼 = 😆，词库里需包含〔眯眼〕才会显示〔😆〕。
+> 注：词库里需有中文编码才会显示 Emoji。例如，眯眼 = 😆，词库里需包含〔眯眼〕才会显示〔😆〕。
 
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
 
@@ -252,7 +248,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 载入词库和 Emoji
 
-打开 `luna_pinyin_simp.custom.yaml` 载入中/英文词库和 Emoji。
+打开 `luna_pinyin_simp.custom.yaml` 文件，载入中/英文词库和 Emoji。
 
 ![](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
@@ -260,7 +256,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 自定义快捷字符
 
-打开 `luna_pinyin_simp.custom.yaml` 文件，修改快捷 Emoji 和符号。
+打开 `luna_pinyin_simp.custom.yaml` 文件，修改快捷 Emoji 和快捷符号。
 
 ![](https://i.loli.net/2021/02/23/iNUSQxemPdycoRg.png)
 
@@ -269,7 +265,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 模糊音
 
-打开 `luna_pinyin_simp.custom.yaml `，去掉前面的 ` #` 开启模糊音。 
+打开 `luna_pinyin_simp.custom.yaml ` 文件，去掉前面的 `#` 开启模糊音。 
 
 ![](https://i.loli.net/2021/02/23/jXRH9aq3iAlIOhW.png)
 
@@ -277,9 +273,13 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 自定义短语
 
-打开 `custom_phrase.txt` 编辑短语，规则：文字 + 编码 + 权重，使用 `Tab` 键分隔。
+打开 `custom_phrase.txt` 文件，编辑短语。
 
-> 注意：自定义短语始终会显示在第一候选词。
+规则：`文字` + `编码` + `权重`，使用 `Tab` 键分隔。
+
+> 注：自定义短语始终会显示在第一候选项。
+
+例如：
 
 ![](https://i.loli.net/2021/02/23/RhHwdz9GT3NAlx7.png)
 
@@ -292,7 +292,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ---
 ### 皮肤
 
-打开 `squirrel.custom.yaml` 文件，添加皮肤代码，并在 `style/color_scheme:` 后面更改主题名称，例如：`macos_light`。
+打开 `squirrel.custom.yaml` 文件，添加或修改皮肤代码，并在 `style/color_scheme:` 后面修改名称即更换皮肤。
+
+例如：`macos_light`
 
 ![](https://tvax4.sinaimg.cn/large/008eZBHKly1gpe70qhu7nj31ao0ummzd.jpg)
 
@@ -303,13 +305,16 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45ifbfhnj311r0kw769.jpg)
 
-更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)。
+> 更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)。
 
 ---
 
 ### 关闭 Emoji
 
-按 `Control + ｀` 组合键，选择朙月拼音·简化字，关闭 Emoji 选择〔🈶→🈚️〕，反之选择〔🈚️→🈶〕。
+按 `Control + ｀` 组合键，选择输入方案。
+
+* 关闭 Emoji 选择 🈶 → 🈚️
+* 开启 Emoji 选择 🈚️ → 🈶
 
 ![](https://tvax4.sinaimg.cn/large/008eZBHKly1gp3nfu2fenj31ao04s3z0.jpg)
 
@@ -317,7 +322,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 特定程序里关闭开启中文输入
 
-打开 `squirrel.custom.yaml` 进行添加修改设置。
+打开 `squirrel.custom.yaml` 文件，输入软件英文名，开启或关闭中文输入。
 
 ![](https://i.loli.net/2021/02/23/HIL4Jevp8tulaBk.png)
 
@@ -325,9 +330,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 特定程序里中文输入英文标点
 
-打开 `squirrel.custom.yaml`，在指定程序里加入 `ascii_punct: true` 即可。
+打开 `squirrel.custom.yaml` 文件，在指定程序里加入 `ascii_punct: true` 即中文状态下输入英文标点。
 
-例如，下图里是 Visual Studio Code 里中文状态输入标点是英文符号。
+例如：在 Visual Studio Code 软件里中文状态输入英文标点。
 
 ![](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
 
@@ -337,15 +342,15 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 删除误上屏的错词
 
-先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift+Fn+Delete` 键（第三方键盘按   `Control+Delete`）。
+先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift + Fn + Delete` 键（第三方键盘按   `Control + Delete`）。
 
-> 注意：只能从用户词典中删除词组；词库里词组只会取消其调频顺序。
+> 注：只能从用户词典中删除词组；词库里词组只会取消其调频顺序。
 
 ---
 
 ### 智能纠错
 
-打开 `luna_pinyin_simp.custom.yaml` 文件下拉至底部可看到代码，默认是关闭状态。
+打开 `luna_pinyin_simp.custom.yaml` 文件，找到下图代码，去掉前面的 `#` 即开启。
 
 ![](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
 
@@ -357,16 +362,16 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 * `date` = `日期`
 * `week` = `星期`
 
-在对应的输入方案里加入下面代码生效。例如：朙月拼音·简化字添加在 `luna_pinyin_simp.custom.yaml`。
+在对应的输入方案里加入下面代码生效。
+
+例如：朙月拼音·简化字方案即添加在 `luna_pinyin_simp.custom.yaml`。
+
 ```
 # librime-lua 输入动态时间和日期
   "engine/translators/@6": lua_translator@date_translator
 ```
-![](https://i.loli.net/2021/02/23/EiZV7jTWFUaYtpl.png)
 
-打开 `Rime.lua` 文件可修改编码和输出格式，例如，`sj` = `时间`。
-
-> 注：使用双拼方案，两位字母编码可能会受影响，建议改为不冲突的编码。
+打开 `Rime.lua` 文件可修改编码和输出格式，例如：将〔时间〕编码设置为 `sj`（注：如使用双拼方案，两位字母编码可能会受影响，建议改为不冲突的编码）。
 
 ---
 ### 大写数字
@@ -402,9 +407,9 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 同步
 
-示例：同步到 iCloud 云盘，在 iCloud 云盘内新建个文件夹（例如叫 Rime）。
+示例：同步到 iCloud 云盘，在 iCloud 云盘内新建个文件夹。
 
-1. 打开 ` installation.yaml`，修改 `installation_id` 的 UUID（例如叫 mac）。
+1. 打开 ` installation.yaml`，修改 `installation_id` 的 UUID。
 
 2. 再输入或粘贴以下代码。
 
@@ -425,7 +430,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 ### 卸载鼠须管
 
 1. 打开系统盘好设置 - 键盘 - 输入法，移除【鼠须管】。
-2. 打开访达并按下 `command+shift+G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
+2. 打开访达并按下 `command + shift + G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
 3. 如上，前往 `~/Library` 并删除文件夹【Rime】。
 4. 重新登入系统，确保清理完毕。
 
