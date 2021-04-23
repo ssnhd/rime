@@ -12,3 +12,5 @@ import_tables:
   - luna_pinyin
   - luna_pinyin.sogou
   - luna_pinyin.zonghe
+  # - luna_pinyin.extra_hanzi     # 「Rime词库扩展计划」 - 生僻字
+  # - luna_pinyin.place           # sogou 四级行政区划地名词库
