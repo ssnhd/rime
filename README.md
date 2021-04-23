@@ -99,7 +99,7 @@
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
-点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件文件夹，将【配置文件】 里所有文件粘贴进去，并选择覆盖。
+点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件粘贴进去，并选择覆盖。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
