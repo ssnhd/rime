@@ -349,6 +349,13 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 示例：在 Visual Studio Code 程序里中文状态输入英文标点。
 
+```
+  app_options:
+    com.microsoft.VSCode:       # Visual Studio Code
+        ascii_mode: false       # 开启中文输入
+        ascii_punct: true       # 中文状态输入英文标点
+```
+
 ![](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
 
 
