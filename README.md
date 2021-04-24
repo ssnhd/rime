@@ -322,17 +322,32 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 特定程序里关闭开启中文输入
 
-打开 `squirrel.custom.yaml` 文件，输入软件英文名，开启或关闭中文输入。
+打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，在下方输入程序目录名称。
+* `ture` 为关闭中文输入
+* `false` 为开启中文输入
+
+示例：
+```
+  app_options:    # App关闭/开启中文输入
+    com.apple.Spotlight:        # 聚焦搜索
+        ascii_mode: true        # 关闭中文输入
+    com.microsoft.VSCode:       # Visual Studio Code
+        ascii_mode: false       # 开启中文输入
+```
 
 ![](https://i.loli.net/2021/02/23/HIL4Jevp8tulaBk.png)
+
+> 如何获取程序安装目录下的名称？感谢 @loong1992 提醒 [#25](https://github.com/maomiui/rime/issues/25)
+> 1. 打开**活动监视器**，选中对应 App，再点击上方 `···` 点选**取样进程**。
+> 2. 找到 `Identifier`，后面的编码即为该程序名称。
 
 ---
 
 ### 特定程序里中文输入英文标点
 
-打开 `squirrel.custom.yaml` 文件，在指定程序里加入 `ascii_punct: true` 即中文状态下输入英文标点。
+打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，在指定程序里加入 `ascii_punct: true` 即中文状态下输入英文标点。
 
-例如：在 Visual Studio Code 软件里中文状态输入英文标点。
+示例：在 Visual Studio Code 程序里中文状态输入英文标点。
 
 ![](https://i.loli.net/2021/02/24/UWnEmVLXvazqDAj.png)
 
