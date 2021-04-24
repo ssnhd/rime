@@ -337,7 +337,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ![](https://i.loli.net/2021/02/23/HIL4Jevp8tulaBk.png)
 
-> 如何获取程序安装目录下的名称？感谢 @loong1992 提醒 [#25](https://github.com/maomiui/rime/issues/25)
+> 如何获取程序安装目录下的名称？感谢 [@loong1992](https://github.com/loong1992) 提醒！[#25](https://github.com/maomiui/rime/issues/25)
 > 1. 打开**活动监视器**，选中对应程序，点击上方 `···` 再点选**取样进程**。
 > 2. 找到 `Identifier`，后面的编码即为该程序名称。
 
