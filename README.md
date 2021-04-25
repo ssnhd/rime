@@ -431,7 +431,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 1. 打开 ` installation.yaml` 文件，修改 `installation_id` 后面的 UUID。
 
-2. 再输入以下代码（用户名`修改为自己的名称）。
+2. 再输入以下代码（用户名修改为自己的名称）。
 
 ```
  sync_dir: "/Users/用户名/Library/Mobile Documents/com~apple~CloudDocs/Rime"
