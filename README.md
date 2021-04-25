@@ -6,7 +6,7 @@
 
 * 朙月拼音｜朙月拼音·简化字｜小鹤双拼｜自然码双拼｜大写数字
 * 拼音超大词库〔150万搜狗词条〕
-* Emoji 与 macOS 11.2.3 同步
+* Emoji 同步 macOS 11.2.3
 * 动态输入时间、日期、星期
 * 高度自定义
 
@@ -85,7 +85,7 @@
 ---
 ### 安装输入法
 
-前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏输入法选择【ㄓ】图标，按 `Control+｀` 切换输入方案，开始使用输入法。
+前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏选择【ㄓ】图标，按 `Control+｀` 切换输入方案使用输入法。
 
 > 注：Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
@@ -93,11 +93,11 @@
 
 ### 定制输入法
 
-下载[配置文件](https://github.com/maomiui/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不包含生僻字会导致有乱码，所以先将花园明朝字体安装到字体册。
+下载[配置文件](https://github.com/maomiui/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 Mac 不包含部分生僻字会导致出现乱码，所以将花园明朝字体安装到字体册。
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
-点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件粘贴进去，并选择覆盖。
+点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
@@ -128,9 +128,9 @@ rime.lua                          # 动态时间、日期、星期
 squirrel.custom.yaml              # 皮肤
 ```
 
-点击**重新部署**完成定制。
+点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
 
-> 注1：修改任何配置文件都要**重新部署**生效（快捷键 `Control+Option+｀`）。
+> 注1：修改任何配置文件都要重新部署生效。
 >
 > 注2：搜狗词库较大，重新部署时间会稍长，请耐心等待。
 
@@ -145,9 +145,9 @@ squirrel.custom.yaml              # 皮肤
 
 ![](https://tva4.sinaimg.cn/large/008eZBHKly1gpohotbdmoj31ao07mmxc.jpg)
 
-> 注1：其他输入方案参考[东风破](https://github.com/rime/plum)。
+> 注1：其他输入方案[东风破](https://github.com/rime/plum)。
 > 
-> 注2：非程序员用户可能不知道如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
+> 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
 
 ### 候选词个数
 
@@ -163,23 +163,23 @@ menu/page_size: 9
 
 ![](https://i.loli.net/2021/02/23/ogPE4mBitAzcZ5U.png)
 
-> 注1：Mac 上鼠须管不能区分左、右 Shift ，因此左、右 Shift 键的作用一样。
+> 注1：Mac 上鼠须管不能区分左 / 右 `Shift` ，因此左 / 右 `Shift` 键的作用一样。
 >
-> 注2：如果 caps 键不能切换大小写，打开系统偏好设置 - 键盘 - 输入法 - 取消勾选【使用大写锁定键切换“美国”输入模式】
+> 注2：如果 `caps` 键不能切换大小写，打开系统偏好设置 -> 键盘 -> 输入法 -> 取消勾选**使用大写锁定键切换“美国”输入模式**
 
 ### 翻页键
 
-打开 `default.custom.yaml` 文件设置翻页，关闭某项在前面添加 `#`。
+打开 `default.custom.yaml` 文件，设置翻页，关闭某项在前面添加 `#`。
 
 ![](https://tva4.sinaimg.cn/large/008eZBHKly1goxh6033qlj31ao08c74x.jpg)
 
 ### 常见快捷键
 
-打开 `default.custom.yaml` 设置快捷键，例如繁简切换 `Control + Shift + 4`。
+打开 `default.custom.yaml` 文件，设置快捷键，例如繁简切换 `Control + Shift + 4`。
 
 ![](https://tvax4.sinaimg.cn/large/008eZBHKly1goxh5892kpj31ao088js6.jpg)
 
-> 更多快捷键参考：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
+> 更多快捷键：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ---
 
@@ -195,17 +195,17 @@ menu/page_size: 9
 
 ### 词库文档格式
 
-文件命名为 <词库名>.dict.yaml。 词库文件的前半部份为一份 YAML 文档：
+文件命名为 <词库名>.dict.yaml。 
 
 ```
-# 注意这里以 --- ... 分别标记出 YAML 文档的起始与结束位置
+# 以 --- ... 分别标记出 YAML 文档的起始与结束位置
 # 在 ... 下方空一行
 
 ---
 name: luna_pinyin            # 词库名
 version: "0.9"               # 版本
-sort: by_weight              # by_weight（按词频高低排序）或 original（保持原码表中的顺序）
-use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇表【八股文】
+sort: by_weight              # by_weight（词频高低排序）或 original（保持原码表中的顺序）
+use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股文
 ...
 
 # 格式每行定义一条〔文字－编码〕，字符与码表之间使用 tab 键，码表之间使用空格键。
@@ -244,7 +244,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 ### 载入词库和 Emoji
 
-打开 `luna_pinyin_simp.custom.yaml` 文件，载入中/英文词库和 Emoji。
+打开 `luna_pinyin_simp.custom.yaml` 文件，载入中 / 英文词库和 Emoji。
 
 ![](https://i.loli.net/2021/02/23/lLwFyREWcz3N7Gv.png)
 
