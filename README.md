@@ -10,7 +10,7 @@
 * 动态输入时间、日期、星期
 * 高度自定义
 
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1)
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
 ---
 
 ### 【配置文件】更新日志
@@ -224,7 +224,7 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 
 ![](https://tvax1.sinaimg.cn/large/008eZBHKly1gp4g1qlgxwj31ao048745.jpg)
 
-> 注：本配置搜狗词库含以下 12 个分类，满足绝大部分用户。
+> 注：本配置搜狗词库含以下 12 个分类
 >
 > 城市信息、自然科学、社会科学、工程应用、农林渔畜、医学医药
 >
@@ -252,7 +252,7 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 
 ### 自定义快捷字符
 
-打开 `luna_pinyin_simp.custom.yaml` 文件，修改快捷 Emoji 和快捷符号。
+打开 `luna_pinyin_simp.custom.yaml` 文件，修改快捷 Emoji 和符号。
 
 ![](https://i.loli.net/2021/02/23/iNUSQxemPdycoRg.png)
 
@@ -269,11 +269,9 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 
 ### 自定义短语
 
-打开 `custom_phrase.txt` 文件，编辑短语。
+打开 `custom_phrase.txt` 文件，编辑短语。规则：`文字` + `编码` + `权重`，使用 `Tab` 键分隔。
 
-规则：`文字` + `编码` + `权重`，使用 `Tab` 键分隔。
-
-> 注：自定义短语始终会显示在第一候选项。
+> 注：自定义短语显示在第一候选项。
 
 例如：
 
@@ -288,7 +286,8 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 ---
 ### 皮肤
 
-打开 `squirrel.custom.yaml` 文件，添加或修改皮肤代码，并在 `style/color_scheme:` 后面修改名称即更换皮肤。
+* 添加 / 修改皮肤：打开 `squirrel.custom.yaml` 文件。
+* 更换皮肤：在 `style/color_scheme:` 后面修改名称。
 
 例如：`macos_light`
 
@@ -341,7 +340,7 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 
 ### 特定程序里中文输入英文标点
 
-打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，在指定程序里加入 `ascii_punct: true` 即中文状态下输入英文标点。
+打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，在指定程序里加入 `ascii_punct: true`。
 
 示例：在 Visual Studio Code 程序里中文状态输入英文标点。
 
@@ -360,7 +359,7 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 
 ### 删除误上屏的错词
 
-先把选字光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift + Fn + Delete` 键（第三方键盘按   `Control + Delete`）。
+将光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift + Fn + Delete` 键（第三方键盘按   `Control + Delete`）。
 
 > 注：只能从用户词典中删除词组；词库里词组只会取消其调频顺序。
 
@@ -368,7 +367,7 @@ use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股�
 
 ### 智能纠错
 
-打开 `luna_pinyin_simp.custom.yaml` 文件，找到下图代码，去掉前面的 `#` 即开启。
+打开 `luna_pinyin_simp.custom.yaml` 文件，找到下图代码，去掉前面的 `#` 开启。
 
 ![](https://i.loli.net/2021/02/23/AFIO56cLTDiGo2d.png)
 
