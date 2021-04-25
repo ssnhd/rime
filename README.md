@@ -236,7 +236,7 @@ use_preset_vocabulary: true  # true 或 false，选择是否导入预设词汇�
 
 打开 opencc 文件夹内 `emoji_word.txt` 修改 Emoji。
 
-规则：文字+文字+Emoji，文字之间用 `tab` 键分隔，文字和表情之间用 `空格` 键分隔。
+规则：`字符` + `字符` + `Emoji`；字符之间用 `tab` 键分隔，字符和 Emoji 之间用 `空格` 键分隔。
 
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
 
