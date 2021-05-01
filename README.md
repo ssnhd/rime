@@ -91,7 +91,8 @@
 
 前往[官网](https://rime.im/download/)下载鼠须管并安装，完成后点击菜单栏选择【ㄓ】图标，按 `Control+｀` 切换输入方案使用输入法。
 
-> 注：Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
+> 注1：`0.15.0` 及之后版本候选词有 Emoji 符号时会出现候选框高低不一情况，待开发者修复，如介意可以先安装 `0.14.0` 版本。
+> 注2：Rime 配置文件位于 `~/Library/Rime`，定制输入法前建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
 ---
 
