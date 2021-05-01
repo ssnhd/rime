@@ -104,7 +104,7 @@
 
 2. 点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
-> 注：为防止操作不当需要重新安装，建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
+    > 注：为防止操作不当需要重新安装，建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
