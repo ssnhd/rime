@@ -141,7 +141,7 @@ squirrel.custom.yaml              # 皮肤
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
-如果想对细节进行调整，继续往下看。
+到这里鼠须管输入法已基本上完美使用，如对一些功能进行调整，继续往下看。
 
 ---
 ### 输入方案
