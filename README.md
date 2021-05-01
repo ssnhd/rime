@@ -98,13 +98,13 @@
 
 ### 定制输入法
 
-1. 配置文件解压得到【配置文件】和【花园明朝字体】，因 macOS 不包含部分生僻字会出现乱码，所以先将花园明朝字体安装到字体册。
+配置文件解压得到【配置文件】和【花园明朝字体】，因 macOS 不包含部分生僻字会出现乱码，所以先将花园明朝字体安装到字体册。
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
-2. 点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
+点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
-    > 注：为防止操作不当需要重新安装，建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
+> 注：为防止操作不当需要重新安装，建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
@@ -135,9 +135,9 @@ rime.lua                          # 动态时间、日期、星期
 squirrel.custom.yaml              # 皮肤
 ```
 
-3. 点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
+点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
 
-    > 注：①修改任何配置文件需重新部署方可生效；②本配置搜狗词库较大，第一次部署时间会稍长。
+> 注：①修改任何配置文件需重新部署方可生效；②本配置搜狗词库较大，第一次部署时间会稍长。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
