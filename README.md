@@ -5,12 +5,14 @@
 ### 主要特点
 
 * 朙月拼音｜朙月拼音·简化字｜小鹤双拼｜自然码双拼｜大写数字
-* 搜狗词库丰富，前期自造词准确度偏低
+* 丰富的搜狗词库（前期自造词准确度偏低，需要个人慢慢积累）
 * Emoji 与 macOS 同步
 * 动态输入时间、日期、星期
 * 不联网
 * 高度自定义
-* 小众，适合爱折腾用户，有问题先看 [Issues](https://github.com/maomiui/rime/issues) / [Closed](https://github.com/maomiui/rime/issues?q=is%3Aissue+is%3Aclosed) 或加入电报
+* 小众，适合爱折腾用户
+
+> 有问题先看 [Issues](https://github.com/maomiui/rime/issues)，[Closed](https://github.com/maomiui/rime/issues?q=is%3Aissue+is%3Aclosed) 或加入 Telegram
 
 [![](https://img.shields.io/badge/Download-%E9%BC%A0%E9%A1%BB%E7%AE%A1-%234BC022)](https://rime.im/download/) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
 ---
