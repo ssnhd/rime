@@ -12,9 +12,12 @@
 * 高度自定义
 * 小众，适合爱折腾用户
 
+[![](https://img.shields.io/badge/Download-%E9%BC%A0%E9%A1%BB%E7%AE%A1-%234BC022)](https://github.com/rime/squirrel/releases/tag/0.15.2) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
+
+> 如果无法从 GitHub 上下载配置，可选择[百度网盘](https://pan.baidu.com/s/1-ny3kUJm8adqmdhFGK9_QQ)，密码: `jpdt`
+> 
 > 有问题先看 [Issues](https://github.com/maomiui/rime/issues)，[Closed](https://github.com/maomiui/rime/issues?q=is%3Aissue+is%3Aclosed) 或加入 Telegram
 
-[![](https://img.shields.io/badge/Download-%E9%BC%A0%E9%A1%BB%E7%AE%A1-%234BC022)](https://github.com/rime/squirrel/releases/tag/0.15.2) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
 ---
 
 ### 【配置文件】更新日志
