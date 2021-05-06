@@ -4,16 +4,16 @@
 
 ### 主要特点
 
-* 朙月拼音｜朙月拼音·简化字｜小鹤双拼｜自然码双拼｜大写数字
-* 词库大（前期自造词准确度偏低，需慢慢积累）
+* 朙月拼音、朙月拼音·简化字、小鹤双拼、自然码双拼、大写数字
+* 词库多（近 172 万搜狗词库，但前期自造词准确度低需要慢慢积累）
 * Emoji 与 macOS 同步
 * 动态输入时间、日期、星期
 * 开源，不联网保护个人隐私
-* 高度自定义
+* 速度快
+* 皮肤多
+* DIY 空间大
 
 [![](https://img.shields.io/badge/Download-%E9%BC%A0%E9%A1%BB%E7%AE%A1-%234BC022)](https://github.com/rime/squirrel/releases/tag/0.15.2) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
-
-> 如果无法从 GitHub 下载配置文件，可选择[百度网盘](https://pan.baidu.com/s/1D0SBRkUHNVyDcf_FA1NMPw)，密码: `bt5p`
 
 ---
 
@@ -22,7 +22,7 @@
 #### 2021-05-04
 
 * 增加 macOS 11.3 Emoji
-* 升级搜狗词库：原 150 万增加至 171.4773 万
+* 升级搜狗词库（由 150 万增加至近 172 万）
 
 #### 2021-04-19
 
