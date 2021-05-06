@@ -15,7 +15,7 @@
 
 [![](https://img.shields.io/badge/Download-%E9%BC%A0%E9%A1%BB%E7%AE%A1-%234BC022)](https://github.com/rime/squirrel/releases/tag/0.15.2) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
 
-> 注：鼠须管 0.15.2 版本候选词有 Emoji 符号时，候选框高度不一（如上图），如介意可以下载 0.14.0 版本。
+> 注：鼠须管 0.15.2 版本候选词有 Emoji 符号时，候选框高度不一（如上图），如介意请下载 0.14.0 版本。
 ---
 
 ### 【配置文件】更新日志
