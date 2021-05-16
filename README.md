@@ -192,6 +192,8 @@ patch:
   menu/page_size: 9   # 候选词个数
 ```
 
+---
+
 ### 中英文切换
 
 打开 `default.custom.yaml` 文件，找到下面代码，设置切换中英文。
