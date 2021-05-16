@@ -182,6 +182,8 @@ patch:
 > 
 > 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
 
+---
+
 ### 候选词个数
 
 打开 `default.custom.yaml` 文件，找到下面代码，修改后面的数字即候选词数量。
@@ -208,6 +210,8 @@ patch:
 >
 > 注2：如果 `caps` 键不能切换大小写，打开系统偏好设置 > 键盘 > 输入法 > 取消勾选「使用大写锁定键切换“美国”输入模式」
 
+---
+
 ### 翻页键
 
 打开 `default.custom.yaml` 文件，找到下面代码，设置翻页，关闭某项在前面添加 `#`。
@@ -225,6 +229,8 @@ patch:
     #- { when: has_menu, accept: period, send: Page_Down }       # "."下一页
 ```
 
+---
+
 ### 常见快捷键
 
 打开 `default.custom.yaml` 文件，找到下面代码，设置快捷键。
@@ -240,8 +246,7 @@ patch:
   # - {accept: "Control+Shift+5", toggle: extended_charset, when: always}  # 通用/增广切换（显示生僻字）
 ```
 
-
-> 更多快捷键：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
+更多快捷键：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
 
 ---
 
