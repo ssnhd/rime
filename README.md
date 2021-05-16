@@ -238,7 +238,6 @@ patch:
 打开 `default.custom.yaml` 文件，找到下面代码，设置快捷键。
 
 ```
-# 快捷键  
   # - {accept: "Control+a", send: Home, when: composing}                   # 光标移至首
   # - {accept: "Control+e", send: End, when: composing}                    # 光标移至尾
   # - {accept: "Control+Shift+1", select: .next, when: always}             # 切换输入方案
