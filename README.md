@@ -125,7 +125,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 鼠须管配置文件位置（`~/Library/Rime`）会多出一个【Rime.bak】文件夹，即备份。
 
-![](https://i.loli.net/2021/04/19/oeOQcvnz4rtXRGg.png)
+![](https://tva2.sinaimg.cn/large/008eZBHKgy1gqlr7npj02j31du0tcadi.jpg)
 
 > 如果想还原，将 Rime 文件夹清空，再将【Rime.bak】文件夹内的文件粘贴过去，重新部署。
 
