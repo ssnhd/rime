@@ -112,6 +112,24 @@
 
 ---
 
+### 备份配置文件
+
+为防止[定制输入法](#定制输入法)操作不当需要重新安装鼠须管，建议先为 Rime 做个备份。
+
+在【终端】中键入或粘贴以下命令，按回车键。
+
+```
+cp -r ~/Library/Rime ~/Library/Rime.bak
+```
+
+鼠须管配置文件位置（`~/Library/Rime`）会多出一个【Rime.bak】文件夹，即备份。
+
+![](https://i.loli.net/2021/04/19/oeOQcvnz4rtXRGg.png)
+
+> 如果想还原，将 Rime 文件夹清空，再将【Rime.bak】文件夹内的文件粘贴过去，重新部署。
+
+---
+
 ### 配置文件说明
 
 ```
@@ -148,8 +166,6 @@ squirrel.custom.yaml              # 皮肤
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
 点选**用户设定**（`~/Library/Rime`）打开 Rime 目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
-
-> 注：为防止操作不当需要重新安装，建议先[备份原配置文件](https://github.com/maomiui/rime-bak)。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
