@@ -11,7 +11,7 @@
 * 速度快、开源、不联网保护个人隐私
 * DIY 空间大
 
-[![](https://img.shields.io/badge/Download-%E9%BC%A0%E9%A1%BB%E7%AE%A1-%234BC022)](https://github.com/rime/squirrel/releases/tag/0.15.2) [![](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)](https://github.com/maomiui/rime/archive/refs/heads/master.zip) [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/shurufa1) 
 
 ---
 
@@ -132,7 +132,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 ### 定制输入法
 
-配置文件解压得到【配置文件】和【花园明朝字体】，macOS 不包含部分生僻字，将花园明朝字体安装到字体册。
+下载[配置文件](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)解压得到【配置文件】和【花园明朝字体】，macOS 不包含部分生僻字，将花园明朝字体安装到字体册。
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
