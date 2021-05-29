@@ -101,7 +101,8 @@
 ### 安装输入法
 本品适用于 macOS 10.9+
 1. 下载[鼠须管](https://github.com/rime/squirrel/releases/tag/0.15.2)，初次安装后，请注销并重新登录。
-2. 菜单栏点选【ㄓ】图标，开始使用输入法。通过快捷键 `Control+｀` 或 `F4` 呼出方案，切换输入方式。
+2. 菜单栏点选【ㄓ】图标，开始使用输入法。
+> 默认`朙月拼音`（繁体）输入，通过快捷键 `Control+｀` 或 `F4` 呼出方案，切换输入方式，例如选择`朙月拼音·简化字`即简体输入。
 
 ![](https://tva1.sinaimg.cn/large/008eZBHKgy1gqza78ke7lj31bg0a1gll.jpg)
 
