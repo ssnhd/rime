@@ -100,11 +100,9 @@
 ---
 ### 安装输入法
 本品适用于 macOS 10.9+
-1. 下载[鼠须管](https://github.com/rime/squirrel/releases/tag/0.15.2)，初次安装后，请注销并重新登录。
+1. 下载[鼠须管](https://rime.im/)，初次安装后，请注销并重新登录。
 2. 菜单栏点选【ㄓ】图标，开始使用输入法。
-> 默认`朙月拼音`繁体输入，通过快捷键 `Control+｀` 或 `F4` 呼出方案，切换输入方式，例如选择`朙月拼音·简化字`即简体输入。
-
-![](https://tva1.sinaimg.cn/large/008eZBHKgy1gqza78ke7lj31bg0a1gll.jpg)
+> 默认〔朙月拼音〕繁体输入，通过快捷键 `Control+｀` 或 `F4` 呼出方案，切换输入方式，例如选择〔朙月拼音·简化字〕简体输入。
 
 ---
 
@@ -125,11 +123,11 @@
 cp -r ~/Library/Rime ~/Library/Rime.bak
 ```
 
-鼠须管配置文件位置（`~/Library/Rime`）会多出一个【Rime.bak】文件夹，即备份。
+鼠须管配置文件路径（`~/Library/Rime`）多出【Rime.bak】文件夹，即备份。
 
-![](https://tva2.sinaimg.cn/large/008eZBHKgy1gqlr7npj02j31du0tcadi.jpg)
+![](https://tvax2.sinaimg.cn/large/008jMPXrgy1gr7uvc1gflj31m40v00vw.jpg)
 
-> 如果想还原，将 Rime 文件夹清空，再将【Rime.bak】文件夹内的文件粘贴过去，重新部署。
+> 还原方法：【Rime】文件夹清空，再将【Rime.bak】文件夹内的文件粘贴过去，重新部署。
 
 ---
 
