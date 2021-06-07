@@ -5,11 +5,12 @@
 ### 主要特点
 
 * 朙月拼音、朙月拼音·简化字、小鹤双拼、自然码双拼、大写数字
-* 搜狗词库多（前期自造词准确度较低，需要慢慢积累）
+* 170万搜狗词库
 * Emoji 与 macOS 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护个人隐私
 * DIY 空间大
+* 缺点：前期自造长句词准确度较低，需要慢慢积累；上手难度大
 
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/v2expro) 
 
