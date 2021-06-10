@@ -9,7 +9,7 @@
 * Emoji 与 macOS 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网、保护个人隐私、DIY 空间大
-* 词库永不丢失，词库存储在[同步](#同步)的 `luna_pinyin.userdb.txt` 文件
+* 词库永不丢失，词库存储在[同步用户数据](#同步用户数据)的 `luna_pinyin.userdb.txt` 文件内
 * 缺点：上手难度大；前期自造词（长句）准确度较低，需时间积累，坚持！坚持！再坚持！
 
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%23D0104C)](https://t.me/v2expro) 
@@ -97,7 +97,7 @@
 24. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
 25. [删除误上屏的错词](#删除误上屏的错词)
 26. [大写数字](#大写数字)
-27. [同步](#同步)
+27. [同步用户数据](#同步用户数据)
 28. [删除字体不一的生僻字](https://github.com/maomiui/rime-rare-word)
 29. [报错日志](#报错日志)
 30. [卸载](#卸载鼠须管)
@@ -623,7 +623,7 @@ Squirrel	rime	1
 
 ---
 
-### 同步
+### 同步用户数据
 
 同步到 iCloud 云盘，在 iCloud 云盘内新建个文件夹。
 
