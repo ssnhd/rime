@@ -35,7 +35,7 @@
 
 #### 2021-04-19
 
-* 【双拼】增加小鹤和自然码（[在线双拼练习](https://api.ihint.me/shuang/)）
+* 【双拼】增加小鹤和自然码（[双拼练习](https://api.ihint.me/shuang/) 和 [自然码词库](https://github.com/SleepyBag/rime-zrm)）
 * 【Emoji】增加繁体编码
 * 【动态时间日期星期】编码变更：`sj → time` `rq → date` `xq → week`
 
