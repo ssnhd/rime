@@ -62,8 +62,8 @@
 
 #### 2021-03-22
 
-* 【搜狗词库】12个分类合并为一个 `luna_pinyin.sogou.dict.yaml`，并删除重复词条
-* ~~`luna_pinyin.cn_en.dict.yaml`~~ 更改为 `luna_pinyin.zonghe.dict.yaml`
+* 【搜狗词库】12 个分类合并为一个 `luna_pinyin.sogou.dict.yaml`，并删除重复词条
+* 【词库】~~`luna_pinyin.cn_en.dict.yaml`~~ 更改为 `luna_pinyin.zonghe.dict.yaml`
 
 #### 2021-02-23
 
