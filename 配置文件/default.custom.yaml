@@ -17,7 +17,7 @@ patch:
     Control_L: noop                         # 左Control
     Control_R: noop                         # 右Control
 
-  key_binder/bindings: # 翻页(若要打开,去掉前面的#号)
+  key_binder/bindings: # 翻页(若要开启,去掉前面的#号)
     - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
     - { when: composing, accept: Shift+Tab, send: Shift+Left }  # "Shift+Tab" 键向左选拼音分词
     - { when: composing, accept: Tab, send: Shift+Right }       # "tab" 键选拼音分词   
@@ -29,14 +29,14 @@ patch:
     #- { when: paging, accept: comma, send: Page_Up }            # ","上一页
     #- { when: has_menu, accept: period, send: Page_Down }       # "."下一页
  
-# 快捷键  
-  # - {accept: "Control+a", send: Home, when: composing}                   # 光标移至首
-  # - {accept: "Control+e", send: End, when: composing}                    # 光标移至尾
-  # - {accept: "Control+Shift+1", select: .next, when: always}             # 切换输入方案
-  # - {accept: "Control+Shift+2", toggle: ascii_mode, when: always}        # 中英文切换
-  # - {accept: "Control+Shift+3", toggle: full_shape, when: always}        # 全角/半角切换
+# 快捷键(若要开启,去掉前面的#号)
+    #- {accept: "Control+a", send: Home, when: composing}                   # 光标移至首
+    #- {accept: "Control+e", send: End, when: composing}                    # 光标移至尾
+    #- {accept: "Control+Shift+1", select: .next, when: always}             # 切换输入方案
+    #- {accept: "Control+Shift+2", toggle: ascii_mode, when: always}        # 中英文切换
+    #- {accept: "Control+Shift+3", toggle: full_shape, when: always}        # 全角/半角切换
     - {accept: "Control+Shift+4", toggle: simplification, when: always}    # 繁简体切换
-  # - {accept: "Control+Shift+5", toggle: extended_charset, when: always}  # 通用/增广切换（显示生僻字）
+    #- {accept: "Control+Shift+5", toggle: extended_charset, when: always}  # 通用/增广切换（显示生僻字）
 
 # 回车清码（若要开启,去掉前面的#号）
-  # - {accept: Return, send: Escape, when: composing}   
+    #- {accept: Return, send: Escape, when: composing}   
