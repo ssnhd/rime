@@ -49,7 +49,7 @@ patch:
     spelling_hints: 9
     enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false
-    initial_quality: 1            # 调整英文候选词的位置
+    initial_quality: -4            # 调整英文候选词的位置，如 -3 会更靠后
 
  # 符号快速输入和部分符号的快速上屏
   punctuator:
