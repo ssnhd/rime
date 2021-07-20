@@ -18,8 +18,8 @@
 
 ### 【配置文件】更新日志
 
-### 2021-07
-- 【增加】[三角叠字、左右叠字、四方叠字](https://github.com/maomiui/rime/blob/master/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/luna_pinyin.zonghe.dict.yaml)，例如：`垚` `雦` `叕`
+#### 2021-07
+- 【增加】[综合词库](https://github.com/maomiui/rime/blob/master/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/luna_pinyin.zonghe.dict.yaml)增加三角叠字、左右叠字、四方叠字，例如：`垚` `雦` `叕`
 
 #### 2021-06
 - 【替换】`luna_pinyin.dict.yaml` 使用《通用规范汉字表》
