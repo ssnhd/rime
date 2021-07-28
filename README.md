@@ -2,6 +2,8 @@
 
 ![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
+## 保护个人隐私，请勿使用联网输入法。推荐使用【原生输入法】或【Rime 鼠须管】
+
 ### 主要特点
 
 * 朙月拼音、朙月拼音·简化字、小鹤双拼、自然码双拼、大写数字
@@ -10,7 +12,7 @@
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护个人隐私、DIY 空间大
 * 词库不丢失
-* 缺点：上手难度大；前期自造词准确度低
+* *上手难度大，前期自造词准确度低*
 
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%23D0104C)](https://t.me/v2expro) 
 
