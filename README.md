@@ -172,7 +172,7 @@ squirrel.custom.yaml              # 皮肤
 ---
 ### 输入方案
 
-打开 `default.custom.yaml` 文件，添加输入方案，按 `Control+｀` 切换输入方案。前面加 `#` 关闭方案。
+如果输入方案文件已加入配置文件内，需要将输入方案名称添加进 `default.custom.yaml`；按 `Control+｀` 切换输入方案，前面加 `#` 关闭方案。
 
 ```
 patch:
@@ -180,13 +180,13 @@ patch:
     - schema: luna_pinyin_simp      # 朙月拼音简化字
     - schema: luna_pinyin           # 朙月拼音
     - schema: double_pinyin_flypy   # 小鹤双拼
-    - schema: double_pinyin         # 自然码双拼
+    #- schema: double_pinyin         # 自然码双拼
     - schema: numbers               # 大写数字
 ```
 
-> 注1：其他输入方案参考[东风破](https://github.com/rime/plum)。
+> 注1：其他[输入方案](https://github.com/rime/plum)，例如五笔。
 > 
-> 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)。
+> 注2：非程序员用户可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)，另外常用到的 [Tab 键](https://twitter.com/yifangme/status/1357338760623529988)可能需要修改，因人而异。
 
 ---
 
