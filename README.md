@@ -2,17 +2,16 @@
 
 ![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
-## 保护个人隐私，不建议用联网输入法；推荐【原生输入法】或【鼠须管】
+## 保护个人隐私，不建议使用联网输入法；推荐自带输入法或鼠须管。
 
 ### 主要特点
 
-* 朙月拼音、朙月拼音·简化字、小鹤双拼、自然码双拼、大写数字
-* 170 万搜狗词库
+* 朙月拼音（繁体 / 简化字）、小鹤双拼、自然码双拼、大写数字
+* 个人词库不丢失，另外包含约 170 万搜狗词库
 * Emoji 与 macOS 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护个人隐私、DIY 空间大
-* 词库不丢失
-* *上手难度大，前期自造词准确度低*
+* 上手难度大，前期自造词准确度低
 
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%23D0104C)](https://t.me/v2expro) 
 
@@ -21,7 +20,7 @@
 ### 【配置文件】更新日志
 
 #### 2021-07
-- 【增加】[综合词库](https://github.com/maomiui/rime/blob/master/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/luna_pinyin.zonghe.dict.yaml)增加三角叠字、左右叠字、四方叠字，例如：`垚` `雦` `叕`
+- 【增加】[综合词库](https://github.com/maomiui/rime/blob/master/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/luna_pinyin.zonghe.dict.yaml)增加三角叠字、左右叠字、四方叠字。例如：输入 `tututu` 输出 `垚`。
 
 #### 2021-06
 - 【替换】`luna_pinyin.dict.yaml` 使用《通用规范汉字表》
