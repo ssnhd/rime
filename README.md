@@ -2,9 +2,7 @@
 
 ![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
-## 保护个人隐私，不建议使用联网输入法；推荐自带输入法或鼠须管。
-
-### 主要特点
+### 特点
 
 * 朙月拼音（繁体 / 简化字）、小鹤双拼、自然码双拼、大写数字
 * 个人词库不丢失，另外包含约 170 万搜狗词库
@@ -15,48 +13,9 @@
 
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%23D0104C)](https://t.me/v2expro) 
 
----
-
-### 【配置文件】更新日志
-
-#### 2021-07
-- 【增加】[综合词库](https://github.com/maomiui/rime/blob/master/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/luna_pinyin.zonghe.dict.yaml)增加三角叠字、左右叠字、四方叠字。例如：输入 `tututu` 输出 `垚`。
-
-#### 2021-06
-- 【增加】`Tab` 键：默认设为拼音分词功能
-- 【修复】Emoji：日本旗帜因编码重复导致“🇯🇵”不显示问题
-
-#### 2021-05
-- 【修复】朙月拼音和朙月拼音简化字：开启模糊音无法使用超级简拼
-- 【增加】macOS 11.3 Emoji
-- 【增加】搜狗词库：增加至约 172 万
-
-#### 2021-04
-
-- 【增加】小鹤双拼和自然码双拼（[双拼练习](https://api.ihint.me/shuang/) 和 [自然码词库](https://github.com/SleepyBag/rime-zrm)）
-- 【增加】Emoji：更新中文编码和增加繁体编码
-- 【修改】动态时间日期星期：编码 `sj → time`、`rq → date`、`xq → week`
-- 【修改】搜狗词库：编码更改为 `汉字 + 拼音`和繁体
-- 【增加】朙月拼音（繁体）输入方案
-- 【增加】[大写数字](#大写数字)输入方案
-- 【增加】Windows 10 皮肤
-- 【增加】英文词典：常用词
-- 【删除】自定义短语和英文词典：重复词条
-- 【修复】候选词：无法更改个数 [#22](https://github.com/maomiui/rime/issues/22)
-- 【增加】[回车清码](#回车清码)功能
-
-#### 2021-03
-
-- 【删除】搜狗词库：12 个分类合并为一个 `luna_pinyin.sogou.dict.yaml`，并删除重复词条
-- 【更改】~~`luna_pinyin.cn_en.dict.yaml`~~ 更改为 `luna_pinyin.zonghe.dict.yaml`
-
-#### 2021-02
-
-- 【删除】动态日期：美式格式 ~~`"%m-%d-%Y"`~~
-- 【删除】动态时间：含日期格式 ~~`"%Y%m%d%H%M%S"`~~
+### 更新日志：https://github.com/maomiui/rime/wiki
 
 ---
-
 ### 目录
 
 1. [安装输入法](#安装输入法)
