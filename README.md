@@ -11,11 +11,15 @@
 * 速度快、开源、不联网保护个人隐私、DIY 空间大
 * 上手难度大，前期自造词准确度低
 
+更新日志：[点击这里](https://github.com/maomiui/rime/wiki
+) 
+
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%23D0104C)](https://t.me/v2expro) 
 
-### 更新日志：https://github.com/maomiui/rime/wiki
 
----
+
+***
+
 ### 目录
 
 1. [安装输入法](#安装输入法)
