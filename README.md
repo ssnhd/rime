@@ -88,7 +88,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 ### 定制输入法
 
-下载[配置文件](https://img.shields.io/badge/Download-%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%234BC022)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
+下载[配置文件](https://github.com/maomiui/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
 
 ![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
 
