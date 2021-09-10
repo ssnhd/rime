@@ -28,6 +28,8 @@ patch:
     - { when: has_menu, accept: bracketright, send: Page_Down } # "]"下一页
     #- { when: paging, accept: comma, send: Page_Up }            # ","上一页
     #- { when: has_menu, accept: period, send: Page_Down }       # "."下一页
+    #- {accept: semicolon, send: 2, when: has_menu}  # 候选2 用分号
+    #- {accept: apostrophe, send: 3, when: has_menu} # 候选3 用单引号
  
 # 快捷键(若要开启,去掉前面的#号)
     #- {accept: "Control+a", send: Home, when: composing}                   # 光标移至首
