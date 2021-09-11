@@ -21,6 +21,8 @@
 **请先查看目录，可以解决大部分问题；或者查看 [Issues](https://github.com/maomiui/rime/issues)（包含[关闭的](https://github.com/maomiui/rime/issues?q=is%3Aissue+is%3Aclosed)），最后还可以加入 Telegram 群组讨论。**
 
  [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/yifangme) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%23D0104C)](https://t.me/v2expro) 
+ 
+ 友情提醒：修改任何文件都要点击菜单栏【ㄓ】里的“重新部署”生效（快捷键 `Control+Option+｀`）。
 
 ***
 
