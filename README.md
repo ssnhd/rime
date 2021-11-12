@@ -1,8 +1,7 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
-![](https://tvax3.sinaimg.cn/large/008eZBHKly1gpbtyhi91wj31jk1j8wkf.jpg)
 
-### 特点
+### 主要特点
 
 * 朙月拼音（繁体 / 简化字）、小鹤双拼、自然码双拼、大写数字
 * 个人词库不丢失，另外包含约 170 万搜狗词库
@@ -14,13 +13,13 @@
 
 ***
 
-更新日志：[点击这里](https://github.com/maomiui/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/qingmail) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro) 
 
 ***
 
-**请先查看目录，可以解决大部分问题；或者查看 [Issues](https://github.com/maomiui/rime/issues)（包含[关闭的](https://github.com/maomiui/rime/issues?q=is%3Aissue+is%3Aclosed)），最后还可以加入 Telegram 群组讨论。**
+**请先查看目录，可以解决大部分问题；或者查看 [Issues](https://github.com/qingmail/rime/issues)（包含[关闭的](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），最后还可以加入 Telegram 群组讨论。**
  
  友情提醒：修改任何文件都要点击菜单栏【ㄓ】里的“重新部署”生效（快捷键 `Control+Option+｀`）。
 
@@ -40,7 +39,7 @@
 10. [回车清码](#回车清码)
 11. [词库文档格式](#词库文档格式)
 12. [外挂词库](#外挂词库)
-13. [搜狗词库转换方法](https://github.com/maomiui/sogou-dict-transform)
+13. [搜狗词库转换方法](https://github.com/qingmail/sogou-dict-transform)
 14. [Emoji](#修改-emoji)
 15. [载入词库和 Emoji](#载入词库和-Emoji)
 16. [自定义快捷字符](#自定义快捷字符)
@@ -55,7 +54,7 @@
 25. [删除误上屏的错词](#删除误上屏的错词)
 26. [大写数字](#大写数字)
 27. [同步用户数据](#同步用户数据)
-28. [删除字体不一的生僻字](https://github.com/maomiui/rime-rare-word)
+28. [删除字体不一的生僻字](https://github.com/qingmail/rime-rare-word)
 29. [报错日志](#报错日志)
 30. [卸载](#卸载鼠须管)
 31. [搜狗词库大全](#搜狗词库大全)
@@ -95,9 +94,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 ### 定制输入法
 
-下载[配置文件](https://github.com/maomiui/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
-
-![](https://i.loli.net/2021/04/19/uwNgmUX4prI6Kyq.png)
+下载[配置文件](https://github.com/qingmail/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
 
 点选**用户设定**（`~/Library/Rime`）打开目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
@@ -520,7 +517,7 @@ Squirrel	rime	1
         ascii_mode: false           # 开启中文输入
 ```
 
-> 如何获取程序安装目录下的名称？感谢 [@loong1992](https://github.com/loong1992) 提醒！[#25](https://github.com/maomiui/rime/issues/25)
+> 如何获取程序安装目录下的名称？感谢 [@loong1992](https://github.com/loong1992) 提醒！[#25](https://github.com/qingmail/rime/issues/25)
 > 1. 打开**活动监视器**，选中对应程序，点击上方 `···` 再点选**取样进程**。
 > 2. 找到 `Identifier`，后面的编码即为该程序名称。
 
@@ -643,7 +640,7 @@ update_time: "Thu Feb 25 16:18:53 2021"
 为了解决上述问题，您可以删除搜狗词库文件，下载下图里的词库，根据自己需求修改添加。
 
 > * [下载搜狗词库](https://www.aliyundrive.com/s/2RJbS4Fftqm)
-> * [搜狗词库转换](https://github.com/maomiui/sogou-dict-transform)
+> * [搜狗词库转换](https://github.com/qingmail/sogou-dict-transform)
 
 ![](https://i.imgur.com/FI2AxHS.png)
 
