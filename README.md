@@ -10,19 +10,17 @@
 * 速度快、开源、不联网、DIY 空间大
 * 缺点：上手难度大，前期自造词准确度低
 
-
-***
-
-更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
-
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/qingmail) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro) 
-
 ***
 ### 先看
 
 目录包含大部分详解；未能解决请 [Issues](https://github.com/qingmail/rime/issues)（[已关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），或加入 [Telegram](https://t.me/V2EXPro) 群讨论。
  
  友情提醒：修改任何文件都要点击菜单栏【ㄓ】里的“重新部署”生效（快捷键 `Control+Option+｀`）。
+
+
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/qingmail) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro) 
+
+更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ***
 
