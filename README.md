@@ -161,6 +161,9 @@ patch:
 |  z | 整之  |✂️| z  | 整之  |
 |  y | 元月亿  |✂️| y  | 元月亿  |
 
+
+![](https://i.loli.net/2021/04/14/qYxrowydRaAUvzP.gif)
+
 ---
 
 ### 候选词个数
@@ -531,12 +534,6 @@ Squirrel	rime	1
 将光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift + Fn + Delete` 键（第三方键盘按   `Control + Delete`）。
 
 > 注：只能从用户词典中删除词组；词库里词组只会取消其调频顺序。
-
-
-示例：
-
-![](https://i.loli.net/2021/04/14/qYxrowydRaAUvzP.gif)
-
 
 ---
 
