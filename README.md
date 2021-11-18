@@ -130,7 +130,7 @@ squirrel.custom.yaml              # 皮肤
 ---
 ### 输入方案
 
-如果输入方案配置文件（例如五笔）已加入配置文件内，需要将输入方案名称添加进 `default.custom.yaml`。按 `Control+｀` 切换输入方案。
+如果输入方案配置文件（例如下面的大写数字）已加入配置文件内，需要将输入方案名称添加进 `default.custom.yaml`（按 `Control+｀` 切换输入方案）。
 
 ```
 patch:
@@ -142,8 +142,24 @@ patch:
     - schema: numbers               # 大写数字
 ```
 
-> 其他输入方案[点击这里](https://github.com/rime/plum)。
-> 非程序员可能不知如何打开 `.yaml` 文件，推荐使用 [Visual Studio Code](https://code.visualstudio.com/)，另外常用到的 [Tab](https://twitter.com/qingmail/status/1357338760623529988) 键可能需要修改，因人而异。
+> 其他输入方案[点击这里](https://github.com/rime/plum)。推荐使用 [Visual Studio Code](https://code.visualstudio.com/) 打开 `.yaml` 文件（[Tab](https://twitter.com/qingmail/status/1357338760623529988) 键可能需要修改，因人而异）。
+
+---
+
+### 大写数字
+
+大写数字输入方案配置文件 `numbers.schema.yaml`。将下面代码添加在 `default.custom.yaml`（默认已添加）。
+
+```
+- schema: numbers               # 大写数字
+```
+大写数字用法：
+| 按键  |  输出 |✂️|按键（按住Shift）|输出 |
+|---|---|---|---|---|
+| 1234567890  | 壹贰叁肆伍陆柒捌玖零  |✂️| 1234567890  | 一二三四五六七八九〇  |
+| wqbsjfd.  |  万仟佰拾角分第点 |✂️|  wqbsjfd. |  万千百十角分第点 |
+|  z | 整之  |✂️| z  | 整之  |
+|  y | 元月亿  |✂️| y  | 元月亿  |
 
 ---
 
@@ -515,27 +531,6 @@ Squirrel	rime	1
 将光标（`↑` `↓`或`←` `→`）移到要删除的词组上，按 `Shift + Fn + Delete` 键（第三方键盘按   `Control + Delete`）。
 
 > 注：只能从用户词典中删除词组；词库里词组只会取消其调频顺序。
-
-
----
-### 大写数字
-
-配置内 `numbers.schema.yaml` 为大写数字文件。
-
-将下面代码添加在 `default.custom.yaml`（本配置默认已添加），快捷键 `Control+｀` 切换方案选择**大写数字**。
-
-```
-- schema: numbers               # 大写数字
-```
-
-| 按键  |  输出 |✂️|按键（按住Shift）|输出 |
-|---|---|---|---|---|
-| 1234567890  | 壹贰叁肆伍陆柒捌玖零  |✂️| 1234567890  | 一二三四五六七八九〇  |
-| wqbsjfd.  |  万仟佰拾角分第点 |✂️|  wqbsjfd. |  万千百十角分第点 |
-|  z | 整之  |✂️| z  | 整之  |
-|  y | 元月亿  |✂️| y  | 元月亿  |
-
-
 
 
 示例：
