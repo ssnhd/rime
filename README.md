@@ -1,5 +1,6 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
+![](https://i.imgur.com/nm2Wk1F.jpg)
 
 ### 主要特点
 
