@@ -14,14 +14,9 @@
 ***
 ### 先看
 
-目录包含大部分详解，建议先看完；未能解决可以 [Issues](https://github.com/qingmail/rime/issues)（[含关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），或加入 [Telegram](https://t.me/V2EXPro) 群。
- 
- 友情提醒：修改任何文件都要点击菜单栏【ㄓ】里的“重新部署”生效（快捷键 `Control+Option+｀`）。
-
-
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-%231BA1F3)](https://twitter.com/qingmail) [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro) 
-
-更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+* 目录包含大部分详解，建议先看完；未能解决可以 [Issues](https://github.com/qingmail/rime/issues)（[含关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），或加入 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro)
+* 安装鼠须管建议打开通知，部署配置文件会实时提示是否成功。
+* 更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ***
 
