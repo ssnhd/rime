@@ -5,17 +5,17 @@
 ### 主要特点
 
 * 朙月拼音、小鹤双拼、自然码双拼、大写数字
-* 词库不丢失，配置里包含约 170 万搜狗词库
-* Emoji 与 macOS 同步
+* 词库不丢失，配置里含约 170 万搜狗词库
+* Emoji 同步 macOS
 * 动态输入时间、日期、星期
-* 速度快、开源、不联网、DIY 空间大
-* 缺点：上手难度大，前期自造词准确度低
+* 速度快、开源、不联网保护隐私、DIY 空间大
+* 缺点上手难度大，前期自造词准确度低
 
 ***
 ### 先看
 
-* 目录包含大部分详解，建议先看完；未能解决可以 [Issues](https://github.com/qingmail/rime/issues)（[含关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），或加入 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro)
-* 安装鼠须管建议打开通知，部署配置文件会实时提示是否成功。
+* 建议先看下面目录内容；有问题请 [Issues](https://github.com/qingmail/rime/issues)（[含关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），欢迎加入 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro)
+* 鼠须管建议打开通知，部署配置文件会实时提示是否成功。
 * 更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ***
@@ -53,11 +53,9 @@
 ---
 ### 安装输入法
 
-1. 下载[鼠须管](https://rime.im/)并安装。
-2. 菜单栏点选【ㄓ】图标，开始使用输入法。
-> 注：默认为繁体输入，通过快捷键 `Control+｀` 呼出方案，切换输入方式，例如选择【朙月拼音·简化字】简体输入。
+下载[鼠须管](https://rime.im/)并安装。菜单栏点选【ㄓ】图标，开始使用输入法。
+> 注：默认为繁体输入，通过快捷键 `Control+｀` 呼出方案切换输入方式，例如选择【朙月拼音·简化字】简体输入。
 
-配置文件路径：
 * 程序配置路径: `/Library/Input Methods/Squirrel.app/Contents/SharedSupport`
 * 用户配置路径: `~/Library/Rime`（一般情况下，我们只用到这个）
 
