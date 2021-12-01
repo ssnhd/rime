@@ -321,7 +321,11 @@ import_tables:
 
 ### 快捷符号
 
-打开 `luna_pinyin_simp.custom.yaml` 文件，找到 `punctuator`，修改快捷 Emoji 和符号。
+打开 `luna_pinyin_simp.custom.yaml` 文件，找到 `punctuator` 修改快捷 Emoji 和符号。
+
+效果：
+
+![](https://i.imgur.com/Ca784F1.png)
 
 ```
  # 符号快速输入和部分符号的快速上屏
