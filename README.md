@@ -15,7 +15,6 @@
 ### 先看
 
 * 建议先看下面目录内容；有问题请 [Issues](https://github.com/qingmail/rime/issues)（[含关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），欢迎加入 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro)
-* 鼠须管建议打开通知，部署配置文件会实时提示是否成功。
 * 更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ***
@@ -54,10 +53,12 @@
 ### 安装输入法
 
 下载[鼠须管](https://rime.im/)并安装。菜单栏点选【ㄓ】图标，开始使用输入法。
-> 注：默认为繁体输入，通过快捷键 `Control+｀` 呼出方案切换输入方式，例如选择【朙月拼音·简化字】简体输入。
+> 注1：默认为繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】输出简体。
+> 
+> 注2：建议系统偏好设置里打开鼠须管通知，之后部署配置文件会实时提示是否成功。
 
 * 程序配置路径: `/Library/Input Methods/Squirrel.app/Contents/SharedSupport`
-* 用户配置路径: `~/Library/Rime`（一般情况下，我们只用到这个）
+* 用户配置路径: `~/Library/Rime`（一般情况下，只用到这个）
 
 ---
 
@@ -112,10 +113,9 @@ squirrel.custom.yaml              # 皮肤
 ```
 
 
-点击**重新部署**（快捷键 `Control+Option+｀`），到这里完成定制，如对功能进行探索或调整，继续往下看。
+点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。如对功能进行探索调整，继续往下看。
 
-> 修改任何配置文件都要**重新部署**生效；
-> 本配置里搜狗词库较大，第一次部署时间会稍长。
+> 注：修改任何文件都要“重新部署”方可生效；本配置里搜狗词库较大，第一次部署时间会稍长，请耐心等待。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
