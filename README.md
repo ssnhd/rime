@@ -226,37 +226,19 @@ key_binder/bindings: # 翻页
 
 ### 词库文档格式
 
-文件命名为 <词库名>.dict.yaml。 
+新建文件，命名格式为 <词库名>.dict.yaml，其他要求见下图。
 
-```
-# 以 --- ... 分别标记出 YAML 文档的起始与结束位置
-# 在 ... 下方空一行
+例如朙月拼音词库，则为 `luna_pinyin.词库名.dict.yaml`。
 
----
-name: luna_pinyin            # 词库名
-version: "0.9"               # 版本
-sort: by_weight              # by_weight（词频高低排序）或 original（保持原码表中的顺序）
-use_preset_vocabulary: true  # true 或 false，是否导入预设词汇八股文
-...
-
-# 格式每行定义一条〔文字－编码〕，字符与码表之间使用 tab 键，码表之间使用空格键。
-测	ce
-测试	ce shi
-目的地	mu di di
-```
+![](https://i.imgur.com/zcDOdod.png)
 
 ---
 
 ### 外挂词库
 
-打开 `luna_pinyin.extended.dict.yaml` 文件，找到 `import_tables`，将词库名称添加在下方。
+打开 `luna_pinyin.extended.dict.yaml` 文件，找到 `import_tables`，将词库名称添加进去。
 
-```
-import_tables:
-  - luna_pinyin
-  - luna_pinyin.sogou
-  - luna_pinyin.zonghe
-```
+![](https://i.imgur.com/fxOh26P.png)
 
 ---
 
@@ -433,44 +415,14 @@ Squirrel	rime	1
 
 ![](https://i.loli.net/2021/02/23/S3z1lxFm8Kws6nW.png)
 
-> 注：自定义短语始终显示在第一候选项，无法单独设置为第二或第三候选项。
+> 注：自定义短语始终显示在第一候选项，无法单独设置为其他后选项。
 
 ---
 ### 皮肤
 
 打开 `squirrel.custom.yaml` 文件，将皮肤代码添加进去。在 `style/color_scheme:` 后面修改名称即可更换皮肤。
 
-```
-  # 更换皮肤
-  style/color_scheme: macos_light
-
-  # 皮肤主题 
-  preset_color_schemes:
-  
-    macos_light:
-      back_color: 0xFFFFFF                      # 候选条背景色，24位色值，16进制，BGR顺序
-      border_color: 0xFFFFFF                    # 边框色
-      text_color: 0x424242                      # 拼音行文字颜色
-      hilited_back_color: 0xD75A00              # 第一候选项背景背景色
-      hilited_candidate_text_color: 0xFFFFFF    # 第一候选项文字颜色
-      hilited_candidate_label_color: 0xFFFFFF   # 第一候选项编号颜色
-      hilited_comment_text_color: 0x999999      # 注解文字高亮
-      hilited_text_color: 0x999999              # 高亮拼音 (需要开启内嵌编码)
-      candidate_text_color: 0x3c3c3c            # 预选项文字颜色
-      comment_text_color: 0x999999              # 拼音等提示文字颜色
-      horizontal: true                          # 水平排列
-      inline_preedit: true                      # 单行显示，false双行显示
-      label_color: 0x999999                     # 预选栏编号颜色
-      candidate_format: "%c\u2005%@"            # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
-      font_face: "PingFangSC"                   # 候选词编号字体
-      font_point: 16              # 候选文字大小
-      label_font_point: 13        # 候选编号大小
-      corner_radius: 5            # 候选条圆角
-      hilited_corner_radius: 5    # 高亮圆角
-      border_height: 4            # 窗口上下高度
-      border_width: 4             # 窗口左右宽度
-      border_color_width: 0       # 输入条边框宽度
-```
+![](https://i.imgur.com/Jmf49zP.png)
 
 更多皮肤效果：[点击这里](https://github.com/qingmail/rime-pifu)。
 
