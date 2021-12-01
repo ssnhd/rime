@@ -528,11 +528,10 @@ Squirrel	rime	1
 
 ### 同步
 
-同步到 iCloud 云盘，在 iCloud 云盘内新建个文件夹。
+词库同步到 iCloud 云盘，在 iCloud 云盘内新建个文件夹。
 
-1. 打开 ` installation.yaml` 文件，修改 `installation_id` 后面的 UUID。
-
-2. 再输入以下代码（admin 修改为您的 Mac 用户名）。
+1. 打开配置文件里的 ` installation.yaml`，修改 `installation_id` 后面的 ID，例如 `mac`。
+2. 再输入路径代码（admin 为 Mac 用户名）。
 
 ```
  sync_dir: "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Rime"
@@ -545,20 +544,20 @@ distribution_name: "鼠鬚管"
 distribution_version: 0.15.2
 install_time: "Tue Feb 23 04:21:16 2021"
 installation_id: "mac"	# 修改id, 同步时会在同步目录下生成文件夹，文件夹名对应id
-sync_dir: "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Rime"  # 同步和备份目录至iCloud云盘
+sync_dir: "/Users/zhangsan/Library/Mobile Documents/com~apple~CloudDocs/Rime"  # 同步和备份目录至iCloud云盘
 rime_version: 1.7.3
 update_time: "Thu Feb 25 16:18:53 2021"
 ```
 
 
-1. 点选菜单栏【ㄓ】->【同步用户数据】，打开 iCloud 云盘可查看。
+3. 点选菜单栏【ㄓ】-【同步用户数据】后打开 iCloud 云盘查看同步成功。
 
 ![](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
 > #### 词库同步至新电脑
-> 示例：iCloud 平台
-> 1. 先将之前网盘里的备份词库文件拷贝至电脑 iCloud 云盘。
-> 2. 再配置好鼠须管，打开配置文件里的 ` installation.yaml`，将 **UUID** 和 **路径** 修改为备份词库文件一至，重新部署完成词库同步。
+
+> 1. 将之前网盘里的备份词库文件拷贝至电脑 iCloud 云盘。
+> 2. 打开已经配置好的鼠须管配置文件 ` installation.yaml`，将 **ID** 和 **路径** 修改成和备份词库文件一至，重新部署完成词库同步。
 
 更多同步方案：[点击这里](https://github.com/rime/home/wiki/UserGuide#%E5%90%8C%E6%AD%A5%E7%94%A8%E6%88%B6%E8%B3%87%E6%96%99)
 
