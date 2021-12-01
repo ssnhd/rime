@@ -11,11 +11,9 @@
 * 速度快、开源、不联网保护隐私、DIY 空间大
 * 缺点上手难度大，前期自造词准确度低
 
-***
-### 先看
+遇到问题先看下面目录；可 [Issues](https://github.com/qingmail/rime/issues)（含[关闭的 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），欢迎加入 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro)
 
-* 建议先看下面目录内容；有问题请 [Issues](https://github.com/qingmail/rime/issues)（[含关闭 Issues](https://github.com/qingmail/rime/issues?q=is%3Aissue+is%3Aclosed)），欢迎加入 [![](https://img.shields.io/badge/Telegram-%E8%AE%A8%E8%AE%BA%E7%BE%A4-%2323A5E4)](https://t.me/V2EXPro)
-* 更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ***
 
