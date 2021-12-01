@@ -559,10 +559,10 @@ update_time: "Thu Feb 25 16:18:53 2021"
 
 ![](https://i.loli.net/2021/03/01/3WGFzIevCr69j8n.png)
 
-**延伸：词库同步至新 Mac 方法：**
-
-1. 先将需要同步的配置文件拷贝至新电脑 iCloud 云盘。
-2. 再配置好鼠须管，打开 ` installation.yaml` 文件，将 UUID 和路径修改为同步文件一至并重新部署，完成词库同步。
+> #### 词库同步至新电脑
+> 示例：iCloud 平台
+> 1. 先将之前网盘里的备份词库文件拷贝至电脑 iCloud 云盘。
+> 2. 再配置好鼠须管，打开配置文件里的 ` installation.yaml`，将 **UUID** 和 **路径** 修改为备份词库文件一至，重新部署完成词库同步。
 
 更多同步方案：[点击这里](https://github.com/rime/home/wiki/UserGuide#%E5%90%8C%E6%AD%A5%E7%94%A8%E6%88%B6%E8%B3%87%E6%96%99)
 
