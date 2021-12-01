@@ -543,8 +543,8 @@ distribution_code_name: Squirrel
 distribution_name: "鼠鬚管"
 distribution_version: 0.15.2
 install_time: "Tue Feb 23 04:21:16 2021"
-installation_id: "mac"	# 修改id, 同步时会在同步目录下生成文件夹，文件夹名对应id
-sync_dir: "/Users/zhangsan/Library/Mobile Documents/com~apple~CloudDocs/Rime"  # 同步和备份目录至iCloud云盘
+installation_id: "mac"  #ID
+sync_dir: "/Users/zhangsan/Library/Mobile Documents/com~apple~CloudDocs/Rime"  #路径
 rime_version: 1.7.3
 update_time: "Thu Feb 25 16:18:53 2021"
 ```
