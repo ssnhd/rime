@@ -246,7 +246,7 @@ key_binder/bindings: # 翻页
 
 打开 opencc 文件夹内 `emoji_word.txt` 修改 Emoji。
 
-规则：`字符` + `字符` + `Emoji`；字符之间用 `tab` 键分隔，字符和 Emoji 之间用 `空格` 键分隔。
+规则：`字符 + 字符 + Emoji`；字符之间用 **tab 键**分隔，字符和 Emoji 之间用**空格键**分隔。
 
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
 
@@ -382,13 +382,13 @@ key_binder/bindings: # 翻页
 ---
 
 ### 动态时间、日期、星期
-打开 `Rime.lua` 文件修改编码和输出格式。
+打开 `Rime.lua` 文件修改编码和格式。默认日期= `date`，可以修改为自己喜欢的简短编码。
 
-* `time` = `时间`
-* `date` = `日期`
-* `week` = `星期`
+* `rq` = `日期`
+* `sj` = `时间`
+* `xq` = `星期`
 
-> 注：例如将时间设为 `sj`，双拼用户不建议改为两位字母，会存在冲突。
+![](https://i.imgur.com/bB820q5.png)
 
 再将下面代码添加在对应的输入方案里，例如：朙月拼音·简化字方案即添加在 `luna_pinyin_simp.custom.yaml`。
 
@@ -401,7 +401,7 @@ key_binder/bindings: # 翻页
 
 ### 自定义短语
 
-打开 `custom_phrase.txt` 文件编辑短语。规则：`文字+编码+权重`，使用 `Tab` 键分隔。
+打开 `custom_phrase.txt` 文件编辑短语。规则：`文字 + 编码 + 权重`，使用 Tab 键分隔。
 
 示例：
 
