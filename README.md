@@ -38,13 +38,12 @@
 19. [动态时间、日期、星期](#动态时间日期星期)
 20. [自定义短语](#自定义短语)
 21. [皮肤](#皮肤)
-22. [特定程序里关闭开启中文输入](#特定程序里关闭开启中文输入)
-23. [特定程序里中文输入英文标点](#特定程序里中文输入英文标点)
-24. [删除错词](#删除错词)
-25. [删除生僻字](https://github.com/qingmail/rime-rare-word)
-26. [同步](#同步)
-27. [报错日志](#报错日志)
-28. [卸载](#卸载鼠须管)
+22. [开启关闭中文输入和中文状态输出英文标点](#开启关闭中文输入和中文状态输出英文标点)
+23. [删除错词](#删除错词)
+24. [删除生僻字](https://github.com/qingmail/rime-rare-word)
+25. [同步](#同步)
+26. [报错日志](#报错日志)
+27. [卸载](#卸载鼠须管)
 ---
 ### 安装输入法
 
@@ -435,43 +434,23 @@ Squirrel	rime	1
 
 ---
 
-### 特定程序里关闭开启中文输入
+### 开启关闭中文输入和中文状态输出英文标点
 
-打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，在下方输入程序目录名称。
-* `ture` 为关闭中文输入
-* `false` 为开启中文输入
+打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，添加软件名和是否允许代码。
 
-示例：
-```
-  app_options:    # App关闭中文输入
-    #com.apple.Spotlight:            # 聚焦搜索
-        #ascii_mode: true
-    #com.runningwithcrayons.Alfred:  # afred
-        #ascii_mode: true
-    com.apple.Terminal:             # 终端
-        ascii_mode: true
-    com.microsoft.VSCode:           # Visual Studio Code
-        ascii_mode: false           # 开启中文输入
-```
+* `ture` 关闭中文输入
+* `false` 开启中文输入
+* `ascii_punct: true` 开启中文输入时输出英文标点
 
-> 延伸：如何获取程序安装目录下的名称？
-> 1. 打开**活动监视器**，选中对应程序，点击上方 `···` 再点选**取样进程**。
-> 2. 找到 `Identifier`，后面的编码即为该程序名称。
+示例：下图粉框内表示 Visual Studio Code 支持中文输入，但标点是英文。
 
----
+![](https://i.imgur.com/bDPJ0Al.png)
 
-### 特定程序里中文输入英文标点
+> **延伸：如何获取程序名称？**
+> 1. 打开**活动监视器**，选中对应程序，上方 `···` 里点击**取样进程**。
+> 2. 找到 `Identifier`，后面显示即为该程序名称。
+> ![](https://i.imgur.com/W8hUnK1.png)
 
-打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，在指定程序里加入 `ascii_punct: true`。
-
-示例：在 Visual Studio Code 程序里中文状态输入英文标点。
-
-```
-  app_options:    # App关闭中文输入
-    com.microsoft.VSCode:           # Visual Studio Code
-        ascii_mode: false           # 开启中文输入
-        ascii_punct: true           # 半角符号即中文状态输入英文标点
-```
 
 ---
 
