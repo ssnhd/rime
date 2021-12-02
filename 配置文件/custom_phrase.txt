@@ -93,6 +93,7 @@ Numbers	nb	1
 1Password	one	2
 OneDrive	one	1
 openwrt	ow
+OK	ok
 Option	ot
 Outlook	ol	2
 outlook.com	ol	1
