@@ -348,7 +348,7 @@ key_binder/bindings: # 翻页
 
 ### 模糊音
 
-示例：打开朙月拼音简化字 `luna_pinyin_simp.custom.yaml ` 文件，找到下面代码进行设置。 
+示例：打开朙月拼音简化字 `luna_pinyin_simp.custom.yaml ` 文件，找到下面代码进行设置，开启去掉前面 `#`。 
 
 ```
 # 模糊拼音
@@ -368,7 +368,7 @@ key_binder/bindings: # 翻页
 
 ### 智能纠错
 
-示例：打开朙月拼音简化字 `luna_pinyin_simp.custom.yaml` 文件，找到下面代码进行设置。
+示例：打开朙月拼音简化字 `luna_pinyin_simp.custom.yaml` 文件，找到下面代码进行设置，关闭前面添加 `#`。
 
 ```
     # 自動糾正一些常見的按鍵錯誤
