@@ -444,7 +444,7 @@ Squirrel	rime	1
 
 示例：下图粉框内表示 Visual Studio Code 支持中文输入，但标点是英文。
 
-![](https://i.imgur.com/bDPJ0Al.png)
+![](https://i.imgur.com/waa5gAJ.png)
 
 > **延伸：如何获取程序名称？**
 > 1. 打开**活动监视器**，选中对应程序，上方 `···` 里点击**取样进程**。
