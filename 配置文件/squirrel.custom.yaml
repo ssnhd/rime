@@ -169,15 +169,15 @@ patch:
       border_width: 4                         # 窗口边界宽度，大于圆角半径才生效           
 
   app_options:    # App关闭/开启中文输入
-    #com.apple.Spotlight:            # 聚焦搜索
+    #com.apple.Spotlight:             # 聚焦搜索
         #ascii_mode: true
-    #com.runningwithcrayons.Alfred:  # afred
+    #com.runningwithcrayons.Alfred:   # alfred
         #ascii_mode: true
-    com.apple.Terminal:             # 终端
+    com.apple.Terminal:              # 终端
         ascii_mode: true
-    com.microsoft.VSCode:           # Visual Studio Code
-        ascii_mode: false           # 开启中文输入
-        ascii_punct: true           # 半角符号即中文状态输入英文标点
+    com.microsoft.VSCode:            # Visual Studio Code
+        ascii_mode: false            # 开启中文输入
+        ascii_punct: true            # 半角符号即中文状态输入英文标点
 
 
 
