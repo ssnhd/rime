@@ -11,7 +11,7 @@
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护隐私、DIY 空间大
 
-🌏 欢迎加入 [Telegram 电报群](https://t.me/V2EXPro) ，更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+>欢迎加入 [Telegram 电报群](https://t.me/V2EXPro) 、[Twitter](https://twitter.com/qingmail)，更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ***
 
