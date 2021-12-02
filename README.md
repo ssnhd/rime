@@ -6,7 +6,7 @@
 
 * 朙月拼音、小鹤双拼、自然码双拼、大写数字
 * 词库不丢失
-* 包含约 170 万[搜狗词库](https://github.com/qingmail/sogou-ciku)
+* 包含约 170 万[搜狗词库](https://github.com/qingmail/sogou-dict-transform)
 * Emoji 与 Mac 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护隐私、DIY 空间大
