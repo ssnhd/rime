@@ -479,13 +479,15 @@ Squirrel	rime	1
 
 #### 词库同步到 iCloud
 
-1. 在 iCloud 云盘内新建个文件夹。
+1. 在 iCloud 云盘内新建个文件夹，例如 `Rime`。
 2. 打开配置文件 ` installation.yaml`，修改 `installation_id` ID，例如 `mac`。
 3. 再添加路径代码（admin 为 Mac 用户名）。
 
 ```
  sync_dir: "/Users/admin/Library/Mobile Documents/com~apple~CloudDocs/Rime"
 ```
+
+示例：下图路径意思是同步至 iCloud 下 Rime 文件夹内。
 
 ![I](https://i.imgur.com/Q4g5Out.png)
 
