@@ -1,9 +1,12 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![](https://i.imgur.com/nm2Wk1F.jpg)
-Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准备的，建议先看下目录，会发现原来如此简单。关于词库词频，日积月累，越用越上手。
+Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准备的，建议先看下目录，会发现原来如此简单。关于词库词频，日积月累越用越上手。
 
-欢迎加入 [Telegram 电报群](https://t.me/V2EXPro) 、[Twitter](https://twitter.com/qingmail)
+[![](https://img.shields.io/badge/%E9%BC%A0%E9%A1%BB%E7%AE%A1%E5%AE%89%E8%A3%85%E5%8C%85-%E4%B8%8B%E8%BD%BD-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
+[![](https://img.shields.io/badge/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%E4%B8%8B%E8%BD%BD-brightgreen)](https://github.com/qingmail/rime/archive/refs/heads/master.zip)
+[![](https://img.shields.io/badge/Telegram-%E7%94%B5%E6%8A%A5%E7%BE%A4-blue)](https://t.me/V2EXPro)
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-orange)](https://twitter.com/qingmail)
 
 更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
@@ -17,6 +20,7 @@ Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准
 * Emoji 与 Mac 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护隐私、DIY 空间大
+
 
 ***
 
@@ -52,7 +56,7 @@ Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准
 ---
 ### 安装输入法
 
-下载[鼠须管](https://rime.im/)并安装。菜单栏点选【ㄓ】图标，开始使用输入法。
+打开鼠须管安装包并安装。菜单栏点选【ㄓ】图标，开始使用输入法。
 
 默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
 
@@ -81,7 +85,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 ### 定制输入法
 
-下载[配置文件](https://github.com/qingmail/rime/archive/refs/heads/master.zip)解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
+打开配置文件解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
 
 点选**用户设定**（`~/Library/Rime`）打开目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
