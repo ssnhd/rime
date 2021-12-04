@@ -233,6 +233,8 @@ key_binder/bindings: # 翻页
 
 新建文件，命名格式为 <词库名>.dict.yaml，其他要求见下图。
 
+>注：词库或其他内容请用繁体，因为繁体支持自动转为简体，反之无效，例如你的词库是简体，而你繁体输出，那么词库将不会被触发。
+
 例如朙月拼音词库，则为 `luna_pinyin.词库名.dict.yaml`。
 
 ![](https://i.imgur.com/zcDOdod.png)
