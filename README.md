@@ -9,7 +9,6 @@ Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准
 [![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-orange)](https://twitter.com/qingmail)
 [![](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-Update%20Log-yellow)](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
----
 
 ### 主要特点
 
