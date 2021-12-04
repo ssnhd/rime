@@ -5,8 +5,8 @@ Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准
 
 [![](https://img.shields.io/badge/%E9%BC%A0%E9%A1%BB%E7%AE%A1%E5%AE%89%E8%A3%85%E5%8C%85-%E4%B8%8B%E8%BD%BD-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
 [![](https://img.shields.io/badge/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%E4%B8%8B%E8%BD%BD-brightgreen)](https://github.com/qingmail/rime/archive/refs/heads/master.zip)
-[![](https://img.shields.io/badge/Telegram-%E7%94%B5%E6%8A%A5%E7%BE%A4-blue)](https://t.me/V2EXPro)
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-orange)](https://twitter.com/qingmail)
+[![](https://img.shields.io/badge/Telegram-%E7%94%B5%E6%8A%A5%E7%BE%A4-27A1D8)](https://t.me/V2EXPro)
+[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-1E9BF1)](https://twitter.com/qingmail)
 [![](https://img.shields.io/badge/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-Update%20Log-yellow)](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 
