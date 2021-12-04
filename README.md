@@ -1,11 +1,11 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![](https://i.imgur.com/nm2Wk1F.jpg)
-Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准备的，建议先看下目录，会发现原来如此简单。关于词库词频，日积月累，该输入法会越用越上手。
+Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准备的，建议先看下目录，会发现原来如此简单。关于词库词频，日积月累，越用越上手。
 
-欢迎加入 [Telegram 电报群](https://t.me/V2EXPro) 、[Twitter](https://twitter.com/qingmail)。
+欢迎加入 [Telegram 电报群](https://t.me/V2EXPro) 、[Twitter](https://twitter.com/qingmail)
 
-更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)。
+更新日志：[点击这里](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ---
 
