@@ -119,7 +119,8 @@ squirrel.custom.yaml              # 皮肤
 
 点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
 
-> 注：修改任何文件都要“重新部署”方可生效；本配置里搜狗词库较大，第一次部署时间会稍长，请耐心等待。
+> 注1：修改任何文件都要“重新部署”方可生效；  
+> 注2：本配置里搜狗词库较大，第一次部署时间会稍长，请耐心等待。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
@@ -139,7 +140,8 @@ patch:
     - schema: numbers               # 大写数字
 ```
 
-> 其他输入方案[点击这里](https://github.com/rime/plum)。推荐使用 [Visual Studio Code](https://code.visualstudio.com/) 打开 `.yaml` 文件（[Tab](https://twitter.com/qingmail/status/1357338760623529988) 键可能需要修改，因人而异）。
+> 其他输入方案[点击这里](https://github.com/rime/plum)。  
+> 推荐用 [VSCode](https://code.visualstudio.com/) 打开 `.yaml` 格式文件（[Tab 键修改方法](https://twitter.com/qingmail/status/1357338760623529988)）。
 
 ---
 
