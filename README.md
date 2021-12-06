@@ -1,20 +1,20 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![](https://i.imgur.com/nm2Wk1F.jpg)
-Rime 鼠须管对于初次接触者来说有点难，本文档就是为新手准备的，建议先看下目录，会发现原来如此简单。关于词库词频，日积月累越用越上手。
+鼠须管对于初次接触者有点复杂，本文档就是为新手准备，建议先看下目录会发现其实蛮简单。关于词库词频，日积月累越用越上手。
 
-[![](https://img.shields.io/badge/%E9%BC%A0%E9%A1%BB%E7%AE%A1%E5%AE%89%E8%A3%85%E5%8C%85-%E4%B8%8B%E8%BD%BD-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
-[![](https://img.shields.io/badge/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6-%E4%B8%8B%E8%BD%BD-brightgreen)](https://github.com/qingmail/rime/archive/refs/heads/master.zip)
-[![](https://img.shields.io/badge/Telegram-%E7%94%B5%E6%8A%A5%E7%BE%A4-27A1D8)](https://t.me/V2EXPro)
-[![](https://img.shields.io/badge/Twitter-%E6%8E%A8%E7%89%B9-1E9BF1)](https://twitter.com/qingmail)
-[![](https://img.shields.io/badge/Update%20Log-%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97-yellow)](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+[![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
+[![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/qingmail/rime/archive/refs/heads/master.zip)
+[![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
+[![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/qingmail)
+[![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/qingmail/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 
 ### 主要特点
 
 * 朙月拼音、小鹤双拼、自然码双拼
 * 词库不丢失，支持多平台同步
-* 包含约 170 万[搜狗词库](https://github.com/qingmail/sogou-dict-transform)（无重码）
+* 包含约 170 万搜狗词库（无重码）
 * Emoji 与 Mac 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护隐私、DIY 空间大
