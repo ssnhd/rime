@@ -1,7 +1,7 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![](https://i.imgur.com/nm2Wk1F.jpg)
-鼠须管对于初次接触者有点复杂，本文档就是为新手准备，建议先看下目录会发现其实蛮简单。关于词库词频，日积月累越用越上手。
+
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
 [![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/qingmail/rime/archive/refs/heads/master.zip)
@@ -21,6 +21,7 @@
 
 
 ***
+一键部署无需修改任何文件，只需完成目录 1~3；若修改细节见目录 4~26。
 
 ### 目录
 
@@ -116,7 +117,7 @@ squirrel.custom.yaml              # 皮肤
 ```
 
 
-点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。如对功能进行探索调整，继续往下看。
+点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
 
 > 注：修改任何文件都要“重新部署”方可生效；本配置里搜狗词库较大，第一次部署时间会稍长，请耐心等待。
 
