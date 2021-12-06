@@ -60,8 +60,8 @@
 
 > 注：建议打开鼠须管通知，之后部署配置文件会实时提示是否成功。
 
-程序配置路径: `/Library/Input Methods/Squirrel.app/Contents/SharedSupport`\
-用户配置路径: `~/Library/Rime`（一般情况下，只用到这个）
+程序安装路径: `/Library/Input Methods/Squirrel.app/Contents/SharedSupport`\
+用户配置路径: `~/Library/Rime`（后续一般只用这个）
 
 ---
 
