@@ -4,10 +4,10 @@
 
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
-[![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/liuour/rime/archive/refs/heads/master.zip)
+[![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/huatliu/rime/archive/refs/heads/master.zip)
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/huatliu)
-[![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/liuour/rime/wiki#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
+[![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/huatliu/rime/wiki#更新日志)
 
 
 ### 主要特点
@@ -39,7 +39,7 @@
 9. [回车清码](#回车清码)
 10. [词库文档格式](#词库文档格式)
 11. [外挂词库](#外挂词库)
-12. [搜狗词库转换方法](https://github.com/liuour/sogou-dict-transform)
+12. [搜狗词库转换方法](https://github.com/huatliu/sogou-dict-transform)
 13. [修改 Emoji](#修改-emoji)
 14. [载入外挂词库和 Emoji](#载入外挂词库和-Emoji)
 15. [关闭 Emoji](#关闭-emoji)
@@ -51,7 +51,7 @@
 21. [皮肤](#皮肤)
 22. [特定程序开启关闭中文输入和中文状态输出英文标点](#特定程序开启关闭中文输入和中文状态输出英文标点)
 23. [删除错词](#删除错词)
-24. [删除生僻字](https://github.com/liuour/rime-rare-word)
+24. [删除生僻字](https://github.com/huatliu/rime-rare-word)
 25. [同步](#同步)
 26. [报错日志](#报错日志)
 27. [卸载](#卸载鼠须管)
@@ -143,7 +143,7 @@ patch:
 ```
 
 > 其他输入方案[点击这里](https://github.com/rime/plum)。  
-> 推荐用 [VSCode](https://code.visualstudio.com/) 打开 `.yaml` 格式文件（[Tab 键修改方法](https://twitter.com/liuour/status/1357338760623529988)）。
+> 推荐用 [VSCode](https://code.visualstudio.com/) 打开 `.yaml` 格式文件（[Tab 键修改方法](https://twitter.com/huatliu/status/1357338760623529988)）。
 
 ---
 
@@ -438,7 +438,7 @@ Squirrel	rime	1
 
 ![](https://i.imgur.com/Jmf49zP.png)
 
-更多皮肤效果：[点击这里](https://github.com/liuour/rime-pifu)。
+更多皮肤效果：[点击这里](https://github.com/huatliu/rime-pifu)。
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
