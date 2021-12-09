@@ -19,7 +19,8 @@ patch:
         - GB2312
   simplifier:
     option_name: zh_simp
-    
+
+  # 启用罕见字過濾  
   engine/filters:
       - simplifier
       - simplifier@emoji_conversion
@@ -48,8 +49,8 @@ patch:
     dictionary: easy_en
     spelling_hints: 9
     enable_completion: false      # 是否启用英文输入联想补全
-    enable_sentence: false
-    initial_quality: -3           # 调整英文候选词的位置，如 -3 会更靠后
+    enable_sentence: false        # 混输时不出现带有图案的英文
+    initial_quality: 0           # 英文候选词的位置，可以尝试 0 到 0.5 左右的数值。数值越大，英文单词出现的就越靠前。
 
  # 符号快速输入和部分符号的快速上屏
   punctuator:
