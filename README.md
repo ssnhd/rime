@@ -6,7 +6,7 @@
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
 [![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/lhqx/rime/archive/refs/heads/master.zip)
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
-[![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/lhqx)
+[![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/liuhqx)
 [![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/lhqx/rime/wiki#更新日志)
 
 
