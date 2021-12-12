@@ -143,7 +143,7 @@ patch:
 ```
 
 > 其他输入方案[点击这里](https://github.com/rime/plum)。  
-> 推荐用 [VSCode](https://code.visualstudio.com/) 打开 `.yaml` 格式文件（[Tab 键修改方法](https://twitter.com/lhqx/status/1357338760623529988)）。
+> 推荐用 [VSCode](https://code.visualstudio.com/) 打开 `.yaml` 格式文件（[Tab 键修改方法](https://twitter.com/liuhqx/status/1357338760623529988)）。
 
 ---
 
