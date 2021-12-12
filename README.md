@@ -17,7 +17,7 @@
 * 包含约 170 万搜狗词库（无重码）
 * Emoji 与 Mac 同步
 * 动态输入时间、日期、星期
-* 速度快、开源、不联网保护隐私、DIY 自定义
+* 速度快、开源、不联网保护隐私、自定义
 
 
 ***
@@ -76,7 +76,7 @@
 cp -r ~/Library/Rime ~/Library/Rime.bak
 ```
 
-配置文件路径（`~/Library/Rime`）多出【Rime.bak】即备份文件。
+用户配置路径出现一个【Rime.bak】文件夹即备份。
 
 ![](https://tvax2.sinaimg.cn/large/008jMPXrgy1gr7uvc1gflj31m40v00vw.jpg)
 
