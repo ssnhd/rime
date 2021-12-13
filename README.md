@@ -61,10 +61,10 @@
 打开鼠须管安装包并安装。菜单栏点选【ㄓ】图标，开始使用输入法。\
 默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
 
-> 注：建议打开鼠须管通知，之后部署配置文件会实时提示是否成功。
+> 注：建议打开鼠须管通知，部署配置提示是否成功。
 
 程序安装路径: `/Library/Input Methods/Squirrel.app/Contents/SharedSupport`\
-用户配置路径: `~/Library/Rime`（后续一般只用这个）
+用户配置路径: `~/Library/Rime`（一般情况下只用到这个）
 
 ---
 
@@ -185,15 +185,14 @@ patch:
   ascii_composer/good_old_caps_lock: true   # 若为true，caps只切换大小写
   ascii_composer/switch_key:
     Caps_Lock: commit_code                    
-    Shift_L: commit_code   # 左Shift，关闭noop
+    Shift_L: commit_code   # 左Shift
     Shift_R: noop          # 右Shift
     Control_L: noop        # 左Control
     Control_R: noop        # 右Control
 ```
 
-> 注1：Mac 上鼠须管不能区分左右 `Shift` ，因此左右 `Shift` 键作用一样。
->
-> 注2：如果 `caps` 键不能切换大小写，打开 Mac 系统偏好设置 - 键盘 - 输入法 - 取消勾选“使用大写锁定键切换“美国”输入模式”。
+> 注1：鼠须管目前无法区分左右 Shift 键 ，因此作用一样。\
+> 注2：如果 caps 键不能切换大小写，打开 Mac 系统偏好设置 - 键盘 - 输入法 - 取消【使用大写锁定键切换“美国”输入模式】。
 
 ---
 
@@ -228,21 +227,21 @@ key_binder/bindings: # 翻页
 
 ### 回车清码
 
-打开 `default.custom.yaml` 文件，找到下面代码（默认关闭，若开启去掉 `#`）。
+打开 `default.custom.yaml` 文件，找到下面代码（本配置默认关闭该功能）。
 
 ```
-  #- {accept: Return, send: Escape, when: composing} 
+  - {accept: Return, send: Escape, when: composing} 
 ```
 
 ---
 
 ### 词库文档格式
 
-新建文件，命名格式为 <词库名>.dict.yaml，其他要求见下图。
+电脑新建文件，命名格式为 <词库名>.dict.yaml，其他要求见下图。
 
->注：词库或其他内容请用繁体，因为繁体支持自动转为简体，反之无效，例如你的词库是简体，而你繁体输出，那么词库将不会被触发。
+>注：词库或其他内容请用繁体，因为繁体支持自动转为简体，反之无效。如果词库是简体，而你繁体输出，那么词库将不会被触发。
 
-例如朙月拼音词库，则为 `luna_pinyin.词库名.dict.yaml`。
+例如朙月拼音词库，则可以设置为 `luna_pinyin.词库名.dict.yaml`。
 
 ![](https://i.imgur.com/zcDOdod.png)
 
@@ -250,7 +249,7 @@ key_binder/bindings: # 翻页
 
 ### 外挂词库
 
-打开 `luna_pinyin.extended.dict.yaml` 文件，找到 `import_tables`，将词库名称添加进去。
+打开 `luna_pinyin.extended.dict.yaml` 文件，找到 `import_tables` 将词库名称添加进去。
 
 ![](https://i.imgur.com/fxOh26P.png)
 
@@ -258,9 +257,9 @@ key_binder/bindings: # 翻页
 
 ### 修改 Emoji
 
-打开 opencc 文件夹内 `emoji_word.txt` 修改 Emoji。
+打开 opencc 文件夹内 `emoji_word.txt`。
 
-规则：`字符 + 字符 + Emoji`；字符之间用 **tab 键**分隔，字符和 Emoji 之间用**空格键**分隔。
+规则：`字符 + 字符 + Emoji`，字符之间用 tab 键，字符和 Emoji 之间用空格键。
 
 ![](https://tva2.sinaimg.cn/large/008eZBHKly1goxgt4aawqj31ao0geq4o.jpg)
 
