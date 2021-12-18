@@ -9,7 +9,7 @@
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/liuhqx)
 
-机场推荐：[点击这里](https://qingmai.tk/2021/12/14/justmysocks/)
+**机场推荐：[https://qingmai.tk/2021/12/14/justmysocks](https://qingmai.tk/2021/12/14/justmysocks/)**
 
 ### 主要特点
 
