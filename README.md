@@ -8,7 +8,7 @@
 [![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/lhqx/rime/wiki#更新日志)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/liuhqx)
 
-* V2EX 交流群：[点击这里](https://t.me/V2EXPro)
+* Telegram 交流群：[点击这里](https://t.me/V2EXPro)
 * 代理机场推荐：[点击这里](https://qingmai.tk/2021/12/14/justmysocks/)
 
 ### 主要特点
