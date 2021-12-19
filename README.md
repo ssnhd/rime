@@ -89,9 +89,8 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 打开配置文件解压得到【配置文件】和【花园明朝字体】，因为 macOS 不含部分生僻字，所以将花园明朝字体安装到字体册。
 
-点选**用户设定**（`~/Library/Rime`）打开目录文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
+点选菜单栏【ㄓ】里的**用户设定**（快捷键 `~/Library/Rime`）打开原配置文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
-![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45cxyphgj31e20ca7e9.jpg)
 
 ```
 # 定制配置文件说明
@@ -124,7 +123,7 @@ squirrel.custom.yaml              # 皮肤
 点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
 
 > 注1：修改任何文件都要“重新部署”方可生效；  
-> 注2：本配置里搜狗词库较大，第一次部署时间会稍长，请耐心等待。
+> 注2：本配置里搜狗词库较大，首次部署时间会稍长，请耐心等待。
 
 ![](https://ww1.sinaimg.cn/large/008eZBHKgy1gn45fjrwu3j31e00c87e7.jpg)
 
