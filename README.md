@@ -79,7 +79,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 用户配置路径出现一个【Rime.bak】文件夹即备份。
 
-![](https://tvax2.sinaimg.cn/large/008jMPXrgy1gr7uvc1gflj31m40v00vw.jpg)
+![](https://i.imgur.com/1EFPjAK.png)
 
 > 还原方法：【Rime】文件夹清空，将【Rime.bak】内的文件粘贴过去，重新部署。
 
