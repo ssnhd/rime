@@ -95,22 +95,23 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 ```
 # 定制配置文件说明
-custom_phrase.txt                 # 自定义短语
+custom_phrase.txt                 # 自定义短语·文本替换
 default.custom.yaml               # 全局设置
-double_pinyin_flypy.custom.yaml   # 小鹤双拼
-double_pinyin_flypy.schema.yaml   # 小鹤双拼
-double_pinyin.custom.yaml         # 自然码双拼
-double_pinyin.schema.yaml         # 自然码双拼
+double_pinyin_flypy.custom.yaml   # 小鹤双拼（不用双拼可删除）
+double_pinyin_flypy.schema.yaml   # 小鹤双拼（不用双拼可删除）
+double_pinyin.custom.yaml         # 自然码双拼（不用双拼可删除）
+double_pinyin.schema.yaml         # 自然码双拼（不用双拼可删除）
 easy_en.dict.yaml                 # 英文词典
 easy_en.schema.yaml               # 英文词典
 luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字
 luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字
-luna_pinyin.custom.yaml           # 朙月拼音
-luna_pinyin.schema.yaml           # 朙月拼音
+luna_pinyin.custom.yaml           # 朙月拼音·繁体（不用繁体可删除）
+luna_pinyin.schema.yaml           # 朙月拼音·繁体（不用繁体可删除）
 luna_pinyin.extended.dict.yaml    # 挂载词库
-luna_pinyin.dict.yaml             # 词库（汉字）
-luna_pinyin.sogou.dict.yaml       # 词库（搜狗）
-luna_pinyin.zonghe.dict.yaml      # 词库（综合）
+luna_pinyin.dict.yaml             # 词库·汉字
+luna_pinyin.changyongci.dict.yaml # 词库·常用词
+luna_pinyin.chat.dict.yaml        # 词库·聊天
+luna_pinyin.sogou.dict.yaml       # 词库·搜狗
 numbers.schema.yaml               # 大写数字
 opencc                            
   ├── emoji_word.txt              # Emoji
