@@ -40,7 +40,7 @@ patch:
     spelling_hints: 9
     enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false
-    initial_quality: 0           # 调整英文候选词的位置
+    initial_quality: -0.5           # 调整英文候选词的位置
 
  # 符号快速输入和部分符号的快速上屏
   punctuator:
