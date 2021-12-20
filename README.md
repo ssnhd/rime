@@ -107,11 +107,12 @@ luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字
 luna_pinyin.custom.yaml           # 朙月拼音·繁体（不用繁体可删除）
 luna_pinyin.schema.yaml           # 朙月拼音·繁体（不用繁体可删除）
 luna_pinyin.extended.dict.yaml    # 挂载词库
-luna_pinyin.dict.yaml             # 词库·汉字
-luna_pinyin.changyongci.dict.yaml # 词库·常用词
-luna_pinyin.chat.dict.yaml        # 词库·聊天
-luna_pinyin.sogou.dict.yaml       # 词库·搜狗
-numbers.schema.yaml               # 大写数字
+luna_pinyin.dict.yaml             # 词库-汉字
+luna_pinyin.av.dict.yaml          # 词库-日本 AV 女优
+luna_pinyin.changyongci.dict.yaml # 词库-常用词
+luna_pinyin.chat.dict.yaml        # 词库-聊天
+luna_pinyin.sogou.dict.yaml       # 词库-搜狗
+numbers.schema.yaml               # 大写数字输出方案（不用可删除）
 opencc                            
   ├── emoji_word.txt              # Emoji
   └── emoji.json           
