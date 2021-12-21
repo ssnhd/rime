@@ -13,4 +13,6 @@ import_tables:
   - luna_pinyin.av
   - luna_pinyin.changyongci
   - luna_pinyin.chat
+  - luna_pinyin.cn_en
   - luna_pinyin.sogou
+  - luna_pinyin.user
