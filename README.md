@@ -136,7 +136,7 @@ squirrel.custom.yaml              # 皮肤
 ```
 patch:
   schema_list:
-    - schema: luna_pinyin_simp      # 朙月拼音简化字
+    - schema: luna_pinyin_simp      # 朙月拼音
     - schema: double_pinyin_flypy   # 小鹤双拼
     - schema: double_pinyin         # 自然码双拼
     - schema: numbers               # 大写数字
