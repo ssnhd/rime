@@ -102,10 +102,8 @@ double_pinyin.custom.yaml         # 自然码双拼（不用双拼可删除）
 double_pinyin.schema.yaml         # 自然码双拼（不用双拼可删除）
 easy_en.dict.yaml                 # 英文词典
 easy_en.schema.yaml               # 英文词典
-luna_pinyin_simp.custom.yaml      # 朙月拼音·简化字
-luna_pinyin_simp.schema.yaml      # 朙月拼音·简化字
-luna_pinyin.custom.yaml           # 朙月拼音·繁体（不用繁体可删除）
-luna_pinyin.schema.yaml           # 朙月拼音·繁体（不用繁体可删除）
+luna_pinyin_simp.custom.yaml      # 朙月拼音（繁体输出快捷键 Control Shift 4）
+luna_pinyin_simp.schema.yaml      # 朙月拼音
 luna_pinyin.extended.dict.yaml    # 挂载词库
 luna_pinyin.dict.yaml             # 词库-汉字
 luna_pinyin.av.dict.yaml          # 词库-日本 AV 女优
