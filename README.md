@@ -111,7 +111,6 @@ luna_pinyin.dict.yaml             # 词库-汉字
 luna_pinyin.av.dict.yaml          # 词库-日本 AV 女优
 luna_pinyin.changyongci.dict.yaml # 词库-常用词
 luna_pinyin.chat.dict.yaml        # 词库-聊天
-luna_pinyin.cn_en.dict.yaml       # 词库-中英混合
 luna_pinyin.sogou.dict.yaml       # 词库-搜狗
 luna_pinyin.user.dict.yaml        # 词库-用户积累
 numbers.schema.yaml               # 大写数字输出方案（不用可删除）
