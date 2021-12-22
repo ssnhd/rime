@@ -3,7 +3,7 @@
 ![](https://i.imgur.com/nm2Wk1F.jpg)
 本文主要是输入法详解，鼠须管属于开源软件，不联网，所以词库肯定不如搜狗/百度，前期可能还不如 Mac 自带输入法，需要慢慢积累，时间越久越好用。
 
-本配置词库持续更新，包含常用语和搜狗词库等；因为搜狗词量较大（含[搜狗词库官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类），可能会出现同一拼音较多候选项，初次需要翻页选择，如果不想这样，可以看目录 12 转换词库方法，添加一些自己感兴趣的词库，不感兴趣的不添加。
+本配置词库包含常用语和搜狗词库……因搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，好处是专业词库丰富且无重码），会出现同一拼音较多候选项，初次使用可能要翻页选择；如不喜欢候选词较多，可以删除本配置里搜狗词库，再看[目录 12](https://github.com/lhqx/sogou-dict-transform) 添加自己感兴趣的词库。
 
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
