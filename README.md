@@ -1,9 +1,11 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![](https://i.imgur.com/nm2Wk1F.jpg)
-本文主要是输入法详解，鼠须管属于开源软件，不联网，所以词库肯定不如搜狗/百度，前期可能还不如 Mac 自带输入法，需要慢慢积累，时间越久越好用。
+**问**：鼠须管词库不如搜狗/百度，前期还不如自带输入法，为何还要用呢？  
+**答**：开源不联网，保护个人隐私；词库不丢失支持多平台同步（自带输入法常丢词库且不支持同步）；各种自定义设置（例如自带输入法 tab 键很难用，鼠须管支持切光标或翻页）……
 
-本配置词库包含常用语和搜狗词库……因搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，好处是专业词库丰富且无重码），会出现同一拼音较多候选项，初次使用可能要翻页选择；如不喜欢候选词较多，可以删除本配置里搜狗词库，再看[目录 12](https://github.com/lhqx/sogou-dict-transform) 添加自己感兴趣的词库。
+
+本文主要是详解，配置里包含的搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，专业词丰富且无重码），会出现同一拼音较多候选词，初次使用可能要翻页查找选择，如不喜欢候选词较多，可以删除本配置里搜狗词库，依照[目录 12](https://github.com/lhqx/sogou-dict-transform) 添加自己感兴趣的词库。
 
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
