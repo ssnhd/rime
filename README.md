@@ -441,7 +441,7 @@ Squirrel	rime	1
 
 打开 `squirrel.custom.yaml` 文件，将皮肤代码添加进去。在 `style/color_scheme:` 后面修改名称即可更换皮肤。
 
-![](https://i.imgur.com/Jmf49zP.png)
+![](https://i.imgur.com/qxRvDv3.png)
 
 更多皮肤效果：[点击这里](https://github.com/lhqx/rime-pifu)。
 
@@ -455,7 +455,7 @@ Squirrel	rime	1
 
 ### 特定程序开启关闭中文输入和中文状态输出英文标点
 
-打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，添加软件名和是否允许代码。
+打开 `default.custom.yaml` 文件，找到 `app_options:`，添加软件名和是否允许代码。
 
 * `ascii_mode: ture` 关闭中文输入
 * `ascii_mode: false` 开启中文输入
