@@ -40,16 +40,4 @@ patch:
     #- {accept: "Control+Shift+5", toggle: extended_charset, when: always}  # 通用/增广切换（显示生僻字）
 
 # 回车清码（若要开启,去掉前面的#号）
-    #- {accept: Return, send: Escape, when: composing}   
-
-# App关闭/开启中文输入
-  app_options:    
-    com.apple.Spotlight:             # 聚焦搜索
-        ascii_mode: true
-    com.runningwithcrayons.Alfred:   # alfred
-        ascii_mode: true
-    com.apple.Terminal:              # 终端
-        ascii_mode: true
-    com.microsoft.VSCode:            # Visual Studio Code
-        ascii_mode: false            # 开启中文输入
-        ascii_punct: true            # 半角符号即中文状态输入英文标点 
+    #- {accept: Return, send: Escape, when: composing} 
