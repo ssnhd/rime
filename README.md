@@ -457,7 +457,7 @@ Squirrel	rime	1
 
 ### 特定程序开启关闭中文输入和中文状态输出英文标点
 
-打开 `default.custom.yaml` 文件，找到 `app_options:`，添加软件名和是否允许代码。
+打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，添加软件名和是否允许代码。
 
 * `ascii_mode: ture` 关闭中文输入
 * `ascii_mode: false` 开启中文输入

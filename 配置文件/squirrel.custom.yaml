@@ -230,3 +230,15 @@ patch:
       #label_font_face: "STHeitiSC-Light"
       label_font_point: 14
       text_color: 0x424242
+
+# App关闭/开启中文输入
+  app_options:    
+    com.apple.Spotlight:             # 聚焦搜索
+        ascii_mode: true
+    com.runningwithcrayons.Alfred:   # alfred
+        ascii_mode: true
+    com.apple.Terminal:              # 终端
+        ascii_mode: true
+    com.microsoft.VSCode:            # Visual Studio Code
+        ascii_mode: false            # 开启中文输入
+        ascii_punct: true            # 半角符号即中文状态输入英文标点 
