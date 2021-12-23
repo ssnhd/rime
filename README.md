@@ -7,6 +7,8 @@
 
 本文主要是详解，配置里包含的搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，专业词丰富且无重码），会出现同一拼音较多候选词，初次使用可能要翻页查找选择，如不喜欢候选词较多，可以删除本配置里搜狗词库，依照[目录 12](https://github.com/lhqx/sogou-dict-transform) 添加自己感兴趣的词库。
 
+> 注：12 月更新增加大量常用语聊天词库，请下载部署。
+
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
 [![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/lhqx/rime/archive/refs/heads/master.zip)
