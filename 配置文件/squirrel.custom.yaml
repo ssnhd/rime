@@ -240,5 +240,11 @@ patch:
     com.apple.Terminal:              # 终端
         ascii_mode: true
     com.microsoft.VSCode:            # Visual Studio Code
-        ascii_mode: false            # 开启中文输入
+        ascii_mode: true
         ascii_punct: true            # 半角符号即中文状态输入英文标点 
+    com.tencent.Lemon:               # 腾讯柠檬
+        ascii_mode: true
+    com.apple.dt.Xcode:              # Xcode
+        ascii_mode: true
+    com.nektony.App-Cleaner-SII:     # App Cleaner & Uninstaller
+        ascii_mode: true

@@ -455,12 +455,12 @@ Squirrel	rime	1
 
 ---
 
-### 特定程序开启关闭中文输入和中文状态输出英文标点
+### 特定程序默认中英文输入和中文状态输出英文标点
 
 打开 `squirrel.custom.yaml` 文件，找到 `app_options:`，添加软件名和是否允许代码。
 
-* `ascii_mode: ture` 关闭中文输入
-* `ascii_mode: false` 开启中文输入
+* `ascii_mode: ture` 默认英文输入
+* `ascii_mode: false` 默认中文输入
 * `ascii_punct: true` 开启中文输入时输出英文标点
 
 示例：下图粉框内表示 Visual Studio Code 支持中文输入，但标点是英文。
