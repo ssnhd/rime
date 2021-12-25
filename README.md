@@ -322,7 +322,7 @@ key_binder/bindings: # 翻页
 
 ### 快捷符号
 
-打开 `luna_pinyin_simp.custom.yaml` 文件，找到 `punctuator` 修改快捷 Emoji 和符号。
+打开 `luna_pinyin_simp.custom.yaml` 文件，找到 `punctuator` 修改快捷 Emoji 和符号，
 
 效果：
 
@@ -353,7 +353,7 @@ key_binder/bindings: # 翻页
       "|": ["|", "｜", "·", "・", "§", "¦", "‖", "︴"]
       "/": ["/", "÷"]
       "'": { pair: ["「", "」"] }
-      "[": ["【", "〔", "［"]
+      "[": ["【", "〔", "［"]       #例如可以删除后面的几个只保留【
       "]": ["】", "〕", "］"]
       "<": "《"
       ">": "》"
