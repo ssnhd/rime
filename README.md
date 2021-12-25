@@ -5,12 +5,12 @@
 **答**：开源不联网，保护个人隐私；词库不丢失支持多平台同步（自带输入法常丢词库且不支持同步）；各种自定义设置（例如自带输入法 tab 键很难用，鼠须管支持切光标或翻页）……一句话，使用越久越好用。
 
 
-本文主要是详解，配置里包含的搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，专业词丰富且无重码），会出现同一拼音较多候选词，初次使用可能要翻页查找选择，如不喜欢候选词较多，可以删除本配置里搜狗词库，依照[目录 12](https://github.com/lhqx/sogou-dict-transform) 添加自己感兴趣的词库。
+本文主要是详解，配置里包含的搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，专业词丰富且无重码），会出现同一拼音较多候选词，初次使用可能要翻页查找选择，如不喜欢候选词较多，可以删除本配置里搜狗词库，依照[目录 12](https://github.com/xhql/sogou-dict-transform) 添加自己感兴趣的词库。
 
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
-[![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/lhqx/rime/archive/refs/heads/master.zip)
-[![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/lhqx/rime/wiki#更新日志)
+[![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/xhql/rime/archive/refs/heads/master.zip)
+[![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/xhql/rime/wiki#更新日志)
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/xhqliu)
 
@@ -46,7 +46,7 @@
 9. [回车清码](#回车清码)
 10. [词库文档格式](#词库文档格式)
 11. [外挂词库](#外挂词库)
-12. [搜狗词库转换方法](https://github.com/lhqx/sogou-dict-transform)
+12. [搜狗词库转换方法](https://github.com/xhql/sogou-dict-transform)
 13. [修改 Emoji](#修改-emoji)
 14. [载入外挂词库和 Emoji](#载入外挂词库和-Emoji)
 15. [关闭 Emoji](#关闭-emoji)
@@ -58,7 +58,7 @@
 21. [皮肤](#皮肤)
 22. [特定程序默认中英文输入和中文状态输出英文标点](#特定程序默认中英文输入和中文状态输出英文标点)
 23. [删除错词](#删除错词)
-24. [删除生僻字](https://github.com/lhqx/rime-rare-word)
+24. [删除生僻字](https://github.com/xhql/rime-rare-word)
 25. [同步](#同步)
 26. [报错日志](#报错日志)
 27. [卸载](#卸载鼠须管)
@@ -445,7 +445,7 @@ Squirrel	rime	1
 
 ![](https://i.imgur.com/qxRvDv3.png)
 
-更多皮肤效果：[点击这里](https://github.com/lhqx/rime-pifu)。
+更多皮肤效果：[点击这里](https://github.com/xhql/rime-pifu)。
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
