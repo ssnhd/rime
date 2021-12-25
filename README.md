@@ -257,6 +257,8 @@ key_binder/bindings: # 翻页
 
 打开 `luna_pinyin.extended.dict.yaml` 文件，找到 `import_tables` 将词库名称添加进去。
 
+>注：添加任何明月拼音词库文件，都要外挂在此处，重新部署生效。
+
 ![](https://i.imgur.com/fxOh26P.png)
 
 ---
