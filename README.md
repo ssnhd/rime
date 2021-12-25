@@ -445,7 +445,7 @@ Squirrel	rime	1
 
 ![](https://i.imgur.com/qxRvDv3.png)
 
-更多皮肤效果：[点击这里](https://github.com/xhql/rime-pifu)。
+更多皮肤效果：[点击这里](https://github.com/xhql/rime-skin)。
 
 * 每 8bit 一组，从低位到高位分别代表 Red、Green、Blue、Alpha，共 32bit。
 * Alpha 值（如果界面支持）是可选的，默认为 `0xF` F 即不透明。
