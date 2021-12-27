@@ -1,11 +1,13 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
 ![](https://i.imgur.com/nm2Wk1F.jpg)
-**问**：鼠须管词库不如搜狗/百度，前期还不如自带输入法，为何还要用呢？  
-**答**：开源不联网，保护个人隐私；词库不丢失支持多平台同步（自带输入法常丢词库且不支持同步）；各种自定义设置（例如自带输入法 tab 键很难用，鼠须管支持切光标或翻页）……一句话，使用越久越好用。
+**Q**：鼠须管词库不如搜狗 / 百度，前期还不如自带输入法，为何还要用呢？    
+**A**：开源不联网保护个人隐私；词库不丢失且支持多平台同步；各种自定义（例如 tab 键支持切光标或翻页）……一句话，使用越久越好用。
 
 
-本文主要是详解，配置里包含的搜狗词库较大（集合[搜狗官网](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd) 12 个分类，专业词丰富且无重码），会出现同一拼音较多候选词，初次使用可能要翻页查找选择，如不喜欢候选词较多，可以删除本配置里搜狗词库，依照[目录 12](https://github.com/xhql/sogou-dict-transform) 添加自己感兴趣的词库。
+配置里词库包含 171 万搜狗和 8 万常用聊天用语，**无重码**，你可能在其他人的配置里看到很多分类词库，其实那些很多都重码，本配置除了汇总之外，还添加几万个日常聊天用语。
+
+> 注：搜狗专业词库较多（[集合官网 12 个分类](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd)），会出现同一拼音较多候选词，初次使用可能要翻页选择，如不喜欢，可以删除配置里搜狗词库，依照[目录 12](https://github.com/xhql/sogou-dict-transform) 添加自己感兴趣的。
 
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
@@ -21,7 +23,7 @@
 
 * 朙月拼音、小鹤双拼、自然码双拼
 * 词库不丢失，支持多平台同步
-* 词库无重码：171 万条搜狗专业词、8 万条常用聊天用语词
+* 词库无重码：171 万条搜狗专业词、8 万条常用聊天用语
 * Emoji 与 Mac 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护隐私、自定义
@@ -108,13 +110,13 @@ double_pinyin.custom.yaml         # 自然码双拼（不用双拼可删除）
 double_pinyin.schema.yaml         # 自然码双拼（不用双拼可删除）
 easy_en.dict.yaml                 # 英文词典
 easy_en.schema.yaml               # 英文词典
-luna_pinyin_simp.custom.yaml      # 朙月拼音（繁体输出快捷键 Control Shift 4）
+luna_pinyin_simp.custom.yaml      # 朙月拼音（繁体输出快捷键 Control+Shift+4）
 luna_pinyin_simp.schema.yaml      # 朙月拼音
 luna_pinyin.extended.dict.yaml    # 挂载词库
 luna_pinyin.dict.yaml             # 词库-汉字
 luna_pinyin.av.dict.yaml          # 词库-日本 AV 女优
-luna_pinyin.chat.dict.yaml        # 词库-聊天（约8万条）
-luna_pinyin.sogou.dict.yaml       # 词库-搜狗（约171万条）
+luna_pinyin.chat.dict.yaml        # 词库-聊天（约 8 万条）
+luna_pinyin.sogou.dict.yaml       # 词库-搜狗（约 171 万条）
 numbers.schema.yaml               # 大写数字输出方案（不用可删除）
 opencc                            
   ├── emoji_word.txt              # Emoji
