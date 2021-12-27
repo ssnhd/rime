@@ -21,7 +21,7 @@
 
 * 朙月拼音、小鹤双拼、自然码双拼
 * 词库不丢失，支持多平台同步
-* 包含约 170 万搜狗词库（无重码）
+* 词库均无重码：171 万条搜狗专业词、8 万条常用聊天用语词
 * Emoji 与 Mac 同步
 * 动态输入时间、日期、星期
 * 速度快、开源、不联网保护隐私、自定义
@@ -113,10 +113,8 @@ luna_pinyin_simp.schema.yaml      # 朙月拼音
 luna_pinyin.extended.dict.yaml    # 挂载词库
 luna_pinyin.dict.yaml             # 词库-汉字
 luna_pinyin.av.dict.yaml          # 词库-日本 AV 女优
-luna_pinyin.changyongci.dict.yaml # 词库-常用词
-luna_pinyin.chat.dict.yaml        # 词库-聊天
-luna_pinyin.sogou.dict.yaml       # 词库-搜狗
-luna_pinyin.user.dict.yaml        # 词库-用户积累
+luna_pinyin.chat.dict.yaml        # 词库-聊天（约8万条）
+luna_pinyin.sogou.dict.yaml       # 词库-搜狗（约171万条）
 numbers.schema.yaml               # 大写数字输出方案（不用可删除）
 opencc                            
   ├── emoji_word.txt              # Emoji
