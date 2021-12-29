@@ -45,25 +45,24 @@
 6. [候选词个数](#候选词个数)
 7. [中英文切换键](#中英文切换键)
 8. [快捷键](#快捷键)
-9. [回车清码](#回车清码)
-10. [词库文档格式](#词库文档格式)
-11. [外挂词库](#外挂词库)
-12. [搜狗词库转换方法](https://github.com/xhql/sogou-dict-transform)
-13. [修改 Emoji](#修改-emoji)
-14. [载入外挂词库和 Emoji](#载入外挂词库和-Emoji)
-15. [关闭 Emoji](#关闭-emoji)
-16. [快捷符号](#快捷符号)
-17. [模糊音](#模糊音)
-18. [智能纠错](#智能纠错)
-19. [动态时间、日期、星期](#动态时间日期星期)
-20. [自定义短语](#自定义短语)
-21. [皮肤](#皮肤)
-22. [特定程序默认中英文输入和中文状态输出英文标点](#特定程序默认中英文输入和中文状态输出英文标点)
-23. [删除错词](#删除错词)
-24. [删除生僻字](https://github.com/xhql/rime-rare-word)
-25. [同步](#同步)
-26. [报错日志](#报错日志)
-27. [卸载](#卸载鼠须管)
+9. [词库文档格式](#词库文档格式)
+10. [外挂词库](#外挂词库)
+11. [搜狗词库转换方法](https://github.com/xhql/sogou-dict-transform)
+12. [修改 Emoji](#修改-emoji)
+13. [载入外挂词库和 Emoji](#载入外挂词库和-Emoji)
+14. [关闭 Emoji](#关闭-emoji)
+15. [快捷符号](#快捷符号)
+16. [模糊音](#模糊音)
+17. [智能纠错](#智能纠错)
+18. [动态时间、日期、星期](#动态时间日期星期)
+19. [自定义短语](#自定义短语)
+20. [皮肤](#皮肤)
+21. [特定程序默认中英文输入和中文状态输出英文标点](#特定程序默认中英文输入和中文状态输出英文标点)
+22. [删除错词](#删除错词)
+23. [删除生僻字](https://github.com/xhql/rime-rare-word)
+24. [同步](#同步)
+25. [报错日志](#报错日志)
+26. [卸载](#卸载鼠须管)
 ---
 ### 安装输入法
 
@@ -99,32 +98,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 
 点选菜单栏【ㄓ】里的**用户设定**（路径 `~/Library/Rime`）打开原配置文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
 
-
-```
-# 定制配置文件说明
-custom_phrase.txt                 # 自定义短语·文本替换
-default.custom.yaml               # 全局设置
-double_pinyin_flypy.custom.yaml   # 小鹤双拼（不用双拼可删除）
-double_pinyin_flypy.schema.yaml   # 小鹤双拼（不用双拼可删除）
-double_pinyin.custom.yaml         # 自然码双拼（不用双拼可删除）
-double_pinyin.schema.yaml         # 自然码双拼（不用双拼可删除）
-easy_en.dict.yaml                 # 英文词典
-easy_en.schema.yaml               # 英文词典
-luna_pinyin_simp.custom.yaml      # 朙月拼音（繁体输出快捷键 Control+Shift+4）
-luna_pinyin_simp.schema.yaml      # 朙月拼音
-luna_pinyin.extended.dict.yaml    # 挂载词库
-luna_pinyin.dict.yaml             # 词库-汉字
-luna_pinyin.av.dict.yaml          # 词库-日本 AV 女优
-luna_pinyin.chat.dict.yaml        # 词库-聊天（约 8 万条）
-luna_pinyin.sogou.dict.yaml       # 词库-搜狗（约 171 万条）
-numbers.schema.yaml               # 大写数字输出方案（不用可删除）
-opencc                            
-  ├── emoji_word.txt              # Emoji
-  └── emoji.json           
-rime.lua                          # 动态时间、日期、星期
-squirrel.custom.yaml              # 皮肤
-```
-
+![](https://i.imgur.com/i4fOl8b.png)
 
 点击**重新部署**（快捷键 `Control+Option+｀`）完成定制。
 
@@ -218,6 +192,7 @@ key_binder/bindings: # 翻页
   #- { when: paging, accept: comma, send: Page_Up }            # ","上一页
   #- { when: has_menu, accept: period, send: Page_Down }       # "."下一页
 
+# 其他快捷键(若要开启,去掉前面的#号)
   #- {accept: "Control+a", send: Home, when: composing}                   # 光标移至首
   #- {accept: "Control+e", send: End, when: composing}                    # 光标移至尾
   #- {accept: "Control+Shift+1", select: .next, when: always}             # 切换输入方案
@@ -225,19 +200,10 @@ key_binder/bindings: # 翻页
   #- {accept: "Control+Shift+3", toggle: full_shape, when: always}        # 全角/半角切换
   - {accept: "Control+Shift+4", toggle: simplification, when: always}    # 繁简体切换
   #- {accept: "Control+Shift+5", toggle: extended_charset, when: always}  # 通用/增广切换（显示生僻字）
+  #- {accept: Return, send: Escape, when: composing}                      # 回车清码（默认关闭）
 ```
 
 更多快捷键：[点击这里](https://github.com/rime/rime-prelude/blob/master/key_bindings.yaml)
-
----
-
-### 回车清码
-
-打开 `default.custom.yaml` 文件，找到下面代码（本配置默认关闭该功能）。
-
-```
-  - {accept: Return, send: Escape, when: composing} 
-```
 
 ---
 
