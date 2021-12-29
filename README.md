@@ -4,10 +4,7 @@
 **Q**：鼠须管词库不如搜狗 / 百度，前期还不如自带输入法，为何还要用呢？    
 **A**：开源不联网保护个人隐私；词库不丢失且支持多平台同步；各种自定义（例如 tab 键支持切光标或翻页）……一句话，使用越久越好用。
 
-
-配置里词库包含 171 万搜狗和 8 万常用聊天用语，**无重码**，你可能在其他人的配置里看到很多分类词库，其实那些很多都重码，本配置除了汇总之外，还添加几万个日常聊天用语。
-
-> 注：搜狗专业词库较多（[集合官网 12 个分类](https://pinyin.sogou.com/dict/cate/index/167?rf=dictindex&pos=dict_rcmd)），会出现同一拼音较多候选词，初次使用可能要翻页选择，如不喜欢，可以删除配置里搜狗词库，依照[目录 12](https://github.com/xhql/sogou-dict-transform) 添加自己感兴趣的。
+> 可能其他人的配置里有很多分类词库，其实那些很多都重码，本配置里词库包含 171 万搜狗和 8 万常用聊天用语，无重码。
 
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
