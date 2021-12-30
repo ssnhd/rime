@@ -4,8 +4,6 @@
 **Q**：鼠须管词库不如搜狗 / 百度，前期还不如自带输入法，为何还要用呢？    
 **A**：开源不联网保护个人隐私；词库不丢失且支持多平台同步；各种自定义（例如 tab 键支持切光标或翻页）……一句话，使用越久越好用。
 
-> 可能其他人的配置里有很多分类词库，其实那些很多都重码，本配置里词库包含 171 万搜狗和 8 万常用聊天用语，无重码。
-
 
 [![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
 [![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/xhql/rime/archive/refs/heads/master.zip)
@@ -13,7 +11,7 @@
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/xhqliu)
 
-✈️  **机场：[点击这里](https://qingmai.tk/2021/12/14/justmysocks/)**
+✈️  **机场代理：[点击这里](https://justmysocks.net/members/aff.php?aff=12029)**
 
 ---
 ### 主要特点
@@ -29,7 +27,7 @@
 ***
 ```
 目录 1-3：一键部署定制  
-目录 4-26：细节详情及修改
+目录 4-25：细节详情及修改
 ```
 
 ### 目录
@@ -54,12 +52,11 @@
 18. [动态时间、日期、星期](#动态时间日期星期)
 19. [自定义短语](#自定义短语)
 20. [皮肤](#皮肤)
-21. [特定程序默认中英文输入和中文状态输出英文标点](#特定程序默认中英文输入和中文状态输出英文标点)
+21. [特定程序默认中英文输入，中文状态输出英文标点](#特定程序默认中英文输入和中文状态输出英文标点)
 22. [删除错词](#删除错词)
 23. [删除生僻字](https://github.com/xhql/rime-rare-word)
 24. [同步](#同步)
 25. [报错日志](#报错日志)
-26. [卸载](#卸载鼠须管)
 ---
 ### 安装输入法
 
@@ -478,15 +475,6 @@ Squirrel	rime	1
 找到【rime.squirrel.INFO】文件，右击点选**显示原身**得到日志文件。
 
 ![](https://tvax2.sinaimg.cn/large/008eZBHKgy1gq3kwsm5vvj31l00outbn.jpg)
-
----
-
-### 卸载鼠须管
-
-1. 打开系统盘好设置 - 键盘 - 输入法，移除【鼠须管】。
-2. 打开访达并按下 `command + shift + G` 前往 `/Library/Input Methods` 文件夹，删除【Squirrel.app】。
-3. 如上，前往 `~/Library` 并删除文件夹【Rime】。
-4. 重新登入系统，确保清理完毕。
 
 🔝[返回目录](#目录)
 
