@@ -11,7 +11,8 @@
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/xhqliu)
 
-✈️  **机场代理：[点击这里](https://justmysocks.net/members/aff.php?aff=12029)**
+✈️ **机场代理：[点击这里](https://justmysocks.net/members/aff.php?aff=12029)**\
+☎️ **购买 Google Voice：[点击这里](https://t.me/iPantherauncia)**
 
 ---
 ### 主要特点
