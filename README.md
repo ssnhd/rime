@@ -9,5 +9,5 @@
 [![](https://img.shields.io/badge/Telegram-电报群-27A1D8)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/xhqliu)
 
-配置文件详细介绍：[点击这里](https://qingmai.ml/2022/01/06/rime/)
+#### 配置文件详细介绍：[点击这里](https://qingmai.ml/2022/01/06/rime/)
 
