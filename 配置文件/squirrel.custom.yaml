@@ -18,7 +18,7 @@ patch:
   #style/color_scheme: purity
   #style/color_scheme: starcraft
 
-  # 皮肤主题，源自于网络，但都经过重新修正
+  # 皮肤主题
   preset_color_schemes:
   
     mac_light:
