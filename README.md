@@ -3,8 +3,6 @@
 ![](https://i.imgur.com/SWQL3nA.png)
 
 
-[![](https://img.shields.io/badge/鼠须管安装包-下载-brightgreen)](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)
-[![](https://img.shields.io/badge/配置文件-下载-brightgreen)](https://github.com/xhql/rime/archive/refs/heads/master.zip)
 [![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/xhql/rime/wiki#更新日志)
 [![](https://img.shields.io/badge/Rime鼠须管-TG群-red)](https://t.me/rimeim)
 [![](https://img.shields.io/badge/V2EX-TG群-blue)](https://t.me/V2EXPro)
@@ -21,15 +19,14 @@
 * 关于词频，需要根据用户使用时间慢慢积累，一句话：越久越上手
 
 ---
-### 安装输入法
+### 安装
 
-安装后菜单栏点选【ㄓ】图标，开始使用输入法。\
-默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
+下载 [鼠须管安装包](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)，安装后菜单栏点选【ㄓ】开始使用输入法，默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
 
 ---
 ### 备份初始配置（可选）
 
-防止操作不当无法恢复，先为初始配置做个备份。【终端】中输入以下命令，按回车键。配置路径出现一个【Rime.bak】文件夹即备份。
+防止操作不当配置无法恢复，可以为初始配置做个备份。在【终端】中输入以下命令，按回车键，会出现一个【Rime.bak】文件夹即备份。
 
 ```
 cp -r ~/Library/Rime ~/Library/Rime.bak
@@ -38,9 +35,11 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 ---
 ### 定制配置
 
-1. 下载配置文件解压得到【配置文件】和【花园明朝字体】，将字体安装到字体册。
-2. 点选菜单栏【ㄓ】里的【用户设定】打开文件夹，将【配置文件】 里所有文件复制粘贴进去，并选择覆盖。
-3. 点击【重新部署】（快捷键 `Control+Option+｀`）完成。
+1. 下载 [配置文件](https://github.com/xhql/rime/archive/refs/heads/master.zip) 解压得到【配置文件】和【花园明朝字体】，将字体安装到字体册（Mac 缺少生僻字）。
+2. 点击菜单栏【ㄓ】-【用户设定】，将【配置文件】里所有文件粘贴进去，并选择覆盖。
+3. 点击菜单栏【ㄓ】-【重新部署】（快捷键 `Control+Option+｀`），至此完成定制配置，可以愉快的使用了。
+
+> 注：本配置搜狗词库较大，部署时间会稍长请耐心等待（可以输出中文即完成）。
 
 ---
 #### 配置文件详细介绍：[点击这里](https://qingmai.ml/2022/01/06/rime/)
