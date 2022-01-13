@@ -23,7 +23,7 @@
 ---
 ### 安装
 
-下载 [鼠须管安装包](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)，安装后菜单栏点选【ㄓ】开始使用输入法，默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
+下载 [鼠须管](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)，安装后菜单栏点选【ㄓ】开始使用输入法，默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
 
 ---
 ### 备份初始配置（可选）
@@ -37,7 +37,7 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 ---
 ### 定制配置
 
-1. 下载 [配置文件](https://github.com/xhql/rime/archive/refs/heads/master.zip) 解压得到【配置文件】和【花园明朝字体】，将字体安装到字体册（Mac 缺少生僻字）。
+1. 下载 [配置](https://github.com/xhql/rime/archive/refs/heads/master.zip) 解压得到【配置文件】和【花园明朝字体】，将字体安装到字体册（Mac 缺少生僻字）。
 2. 点击菜单栏【ㄓ】-【用户设定】，将【配置文件】里所有文件粘贴进去，并选择覆盖。
 3. 点击菜单栏【ㄓ】-【重新部署】（快捷键 `Control+Option+｀`），至此完成定制配置，可以愉快的使用了。
 
