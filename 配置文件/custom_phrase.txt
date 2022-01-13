@@ -1,20 +1,5 @@
-# Rime table
-# coding: utf-8
-#@/db_name  custom_phrase.txt
-#@/db_type	tabledb
-#
-# 用於【朙月拼音】系列輸入方案
-# 【小狼毫】0.9.21 以上
-#
-# 請將該文件以UTF-8編碼保存爲
-# Rime用戶文件夾/custom_phrase.txt
-#
 # 碼表各字段以製表符（Tab）分隔
-# 順序爲：文字、編碼、權重（決定重碼的次序、可選）
-#
-# 雖然文本碼表編輯較爲方便，但不適合導入大量條目
-#
-# no comment
+# 順序爲：文字+編碼+權重（決定重碼的次序、可選）,用tab键间隔
 
 Rime	rime	4
 鼠须管	rime	3
@@ -26,7 +11,6 @@ Squirrel	rime	1
 ≤	xy	1
 App Store	as	2
 Apple Store	as	1
-AC86U	ac	2
 AppleCare+	ac	1
 Apple ID	aid
 Apple Music	am	2
@@ -41,16 +25,13 @@ App Cleaner & Uninstaller	acu
 Chrome	ch	2
 Clubhouse	ch
 ClashX	cla
-Chrome  ch  100
 CleanMyMac X	cmm	1
 Command	cm	1
 Control	ct	2
 CarPlay	cp	1
 CleanShot X	cs
 Download	dl	1
-Enpass	enp
 Emoji	em
-Mimestream	mim
 Final Cut Pro	fcp
 gfwlist	gfw
 GitHub Desktop	gh	1
@@ -61,17 +42,13 @@ Google Pay	gp
 Google Play	gp	2
 Google Voice	gv
 Gboard	gb
-Handoff	ho
 HyperSwitch	hs
 iCloud	ic
-Illustrator	ill
 iStat Menus	ism
 iWork	iw	4
-iTunes	itunes
 iMac	imac	2
 iMac Pro	imac	1	
 Keynote	kn
-koolproxy	kpr
 koolshare	ks
 Evutec	kfl
 Lightning to USB-C	ltc
@@ -96,20 +73,13 @@ openwrt	ow
 OK	ok
 Option	ot
 Outlook	ol	2
-outlook.com	ol	1
 Parallels Desktop	pd
-Paragon NTFS	pn
 Photoshop	ps
 Paypal	pp
 Pro	pro
 QQ	qq
-Pages	pg
-readme.md	rm
-ScreenBar Plus	sbp	1
-Shadowrocket	sds	3	
 Safari	sf	2
 Shift	sf	1
-SHIELD TV	stv
 Spotify	sp	1
 Spark	sp	2
 Sublime Text	sbt
