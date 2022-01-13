@@ -17,6 +17,8 @@ patch:
   #style/color_scheme: ink
   #style/color_scheme: purity
   #style/color_scheme: starcraft
+  #style/color_scheme: nord_light
+  #style/color_scheme: nord_dark
 
   # 皮肤主题
   preset_color_schemes:
@@ -27,7 +29,7 @@ patch:
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
-      line_spacing: 10                              # 行间距(适用于竖排)
+      line_spacing: 10                             # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
       font_face: "PingFangSC"                      # 候选词字体
@@ -336,8 +338,43 @@ patch:
       hilited_candidate_back_color: 0x000000   # 候选文字背景色
       comment_text_color: 0x1010d0             # 拼音等提示文字颜色
       hilited_comment_text_color: 0x1010f0     # 注解文字高亮
-  
 
+    nord_light:
+      name: 北方浅色
+      horizontal: true              # true横排，false竖排
+      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)
+      back_color: 0xF4EFEC                     # 候选条背景色
+      border_color: 0xF4EFEC                   # 边框色
+      candidate_text_color: 0xC1A181           # 第一候选项文字颜色
+      comment_text_color: 0xD0C088             # 拼音等提示文字颜色
+      hilited_back_color: 0xF0E9E5             # 第一候选项背景背景色
+      hilited_candidate_back_color: 0xE9DED8   # 候选文字背景色
+      hilited_candidate_text_color: 0xAC815E   # 第一候选项文字颜色
+      hilited_text_color: 0xAD8EB4             # 高亮拼音 (需要开启内嵌编码)
+      text_color: 0x7087D0                     # 拼音等提示文字颜色
+
+    nord_dark:
+      name: 北方深色
+      horizontal: true              # true横排，false竖排
+      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      font_point: 16                           # 候选文字大小
+      label_font_point: 14                     # 候选编号大小
+      corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)
+      back_color: 0x473A33                     # 候选条背景色
+      border_color: 0x473A33                   # 边框色
+      candidate_text_color: 0xF5D887           # 第一候选项文字颜色
+      comment_text_color: 0xE6B687             # 拼音等提示文字颜色
+      hilited_back_color: 0x473A33             # 第一候选项背景背景色
+      hilited_candidate_back_color: 0x5D4C43   # 候选文字背景色
+      hilited_candidate_text_color: 0xC0E077   # 第一候选项文字颜色
+      hilited_text_color: 0x6EC8F5             # 高亮拼音 (需要开启内嵌编码)
+      text_color: 0x78E8F0                     # 拼音等提示文字颜色
+  
 # 特定App默认中/英文输入   
   app_options:    
     com.apple.Spotlight:             # 聚焦搜索
