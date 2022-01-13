@@ -2,7 +2,7 @@ patch:
   show_notifications_when: appropriate     # 状态通知，可设为全开（always）全关（never）  
 
   # 皮肤主题名称输入在下方，开启去掉前面#
-  style/color_scheme: mac_light
+  #style/color_scheme: mac_light
   #style/color_scheme: mac_dark
   #style/color_scheme: mac_green
   #style/color_scheme: mac_orange
@@ -13,7 +13,7 @@ patch:
   #style/color_scheme: solarized_dark
   #style/color_scheme: apathy
   #style/color_scheme: google
-  #style/color_scheme: milan
+  style/color_scheme: milan
   #style/color_scheme: ink
   #style/color_scheme: purity
   #style/color_scheme: starcraft
@@ -23,10 +23,11 @@ patch:
   
     mac_light:
       name: Mac浅色
-      horizontal: true             # true横排，false竖排
+      horizontal: false             # true横排，false竖排
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                              # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
       font_face: "PingFangSC"                      # 候选词字体
@@ -50,6 +51,7 @@ patch:
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                              # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效 
       font_face: "PingFangSC"                      # 候选词字体
@@ -74,6 +76,7 @@ patch:
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                              # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
       font_face: "PingFangSC"                      # 候选词字体
@@ -97,6 +100,7 @@ patch:
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
+      line_spacing: 10                              # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
       font_face: "PingFangSC"                      # 候选词字体
@@ -123,6 +127,7 @@ patch:
       font_face: "PingFangSC"                      # 候选词字体
       font_point: 16                               # 候选字大小
       label_font_point: 13                         # 候选编号大小
+      line_spacing: 10                              # 行间距(适用于竖排)
       text_color: 0x424242                    # 拼音行文字颜色
       back_color: 0xFFFFFF                    # 候选条背景色
       border_color: 0xFFFFFF                  # 边框色
@@ -142,7 +147,8 @@ patch:
       corner_radius: 5                             # 窗口圆角 
       font_point: 16                               # 候选文字大小
       label_font_point: 14                         # 候选编号大小
-      font_face: "PingFangSC-Regular,HanaMinB"     # 候选词字体
+      line_spacing: 10                              # 行间距(适用于竖排)
+      font_face: "PingFangSC-Regular,HanaMinB"     # 候选词字体  
       text_color: 0xc2c2c2                     # 拼音行文字颜色
       back_color: 0x444444                     # 候选条背景色，24位色值，16进制，BGR顺序
       candidate_text_color: 0xeeeeee           # 预选项文字颜色
@@ -169,6 +175,7 @@ patch:
       hilite_spacing: 8           # 序号和候选字之间的间隔
       hilite_padding: 12          # 候选字背景色色块高度 若想候选字背景色块无边界填充候选框，仅需其高度和候选字上下边距一致即可
       round_corner: 0             # 候选字背景色块圆角幅度
+      line_spacing: 10            # 行间距(适用于竖排)
       candidate_text_color: 0x000000          # 预选项文字颜色
       comment_text_color: 0x888888            # 拼音等提示文字颜色
       text_color: 0x000000                    # 拼音行文字颜色
@@ -188,6 +195,7 @@ patch:
       corner_radius: 6                             # 窗口圆角 
       font_point: 16                               # 候选文字大小
       label_font_point: 15                         # 候选编号大小
+      line_spacing: 10                             # 行间距(适用于竖排)
       font_face: "PingFangSC-Regular,HanaMinB"     # 候选词字体
       text_color: 0x8236d3                     # 拼音行文字颜色
       back_color: 0x362b00                     # 候选条背景色，24位色值，16进制，BGR顺序
@@ -207,6 +215,7 @@ patch:
       corner_radius: 6                             # 窗口圆角 
       font_point: 16                               # 候选文字大小
       label_font_point: 15                         # 候选编号大小
+      line_spacing: 10                             # 行间距(适用于竖排)
       font_face: "PingFangSC-Regular,HanaMinB"     # 候选词字体
       text_color: 0xA1A095                     # 拼音行文字颜色
       border_color: 0xf02A1F00                 # 边框颜色
@@ -223,10 +232,11 @@ patch:
 
     apathy:
       name: 冷漠
-      horizontal: true              # true横排，false竖排
+      horizontal: true               # true横排，false竖排
       back_color: 0xFFFFFF           # 候选条背景色，24位色值，16进制，BGR顺序
       border_height: 0               # 窗口上下高度，大于圆角半径才生效
       border_width: 8                # 窗口左右宽度
+      line_spacing: 10               # 行间距(适用于竖排)
       candidate_format: "%c %@ "     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       comment_text_color: 0x999999              # 拼音等提示文字颜色
       corner_radius: 5                          # 窗口圆角
@@ -244,6 +254,7 @@ patch:
       font_point: 16                           # 候选文字大小
       label_font_point: 15                     # 候选编号大小
       corner_radius: 6                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)
       text_color: 0x666666                     # 拼音行文字颜色
       candidate_text_color: 0x000000           # 预选项文字颜色
       back_color: 0xFFFFFF                     # 候选条背景色
@@ -258,10 +269,12 @@ patch:
       
     milan:
       name: 米兰
-      horizontal: true              # true横排，false竖排
+      horizontal: false              # true横排，false竖排
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
+      line_spacing: 8                          # 行间距
+      line_spacing: 10                         # 行间距(适用于竖排)
       border_height: 4                             # 窗口上下高度，大于圆角半径才生效
       border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
       corner_radius: 5                         # 窗口圆角
@@ -278,6 +291,7 @@ patch:
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
       corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)
       text_color: 0x5a5a5a                     # 拼音等提示文字颜色
       back_color: 0xeeffffff                   # 候选条背景色
       candidate_text_color: 0x000000           # 第一候选项文字颜色
@@ -294,6 +308,7 @@ patch:
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
       corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)
       text_color: 0xc2c2c2                     # 拼音等提示文字颜色
       back_color: 0x444444                     # 候选条背景色
       candidate_text_color: 0xeeeeee           # 第一候选项文字颜色
@@ -310,6 +325,7 @@ patch:
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
       corner_radius: 5                         # 窗口圆角
+      line_spacing: 10                         # 行间距(适用于竖排)
       text_color: 0xccaa88                     # 拼音等提示文字颜色
       candidate_text_color: 0x30bb55           # 第一候选项文字颜色
       back_color: 0xee000000                   # 候选条背景色
@@ -322,17 +338,17 @@ patch:
       hilited_comment_text_color: 0x1010f0     # 注解文字高亮
   
 
-# App关闭/开启中文输入
+# 特定App默认中/英文输入   
   app_options:    
     com.apple.Spotlight:             # 聚焦搜索
-        ascii_mode: true
+        ascii_mode: true             # true默认英文,false默认中文
     com.runningwithcrayons.Alfred:   # alfred
         ascii_mode: true
     com.apple.Terminal:              # 终端
         ascii_mode: true
     com.microsoft.VSCode:            # Visual Studio Code
         ascii_mode: true
-        ascii_punct: true            # 半角符号即中文状态输入英文标点 
+        ascii_punct: true            # 中文状态输出英文标点(半角) 
     com.tencent.Lemon:               # 腾讯柠檬
         ascii_mode: true
     com.apple.dt.Xcode:              # Xcode
