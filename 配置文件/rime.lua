@@ -11,11 +11,11 @@ function date_translator(input, seg)
         yield(Candidate("time", seg.start, seg._end, os.date("%H:%M"), ""))
         yield(Candidate("time", seg.start, seg._end, os.date("%H:%M:%S"), ""))
     end
-
     if (input == "xq") then
         local weakTab = {'日', '一', '二', '三', '四', '五', '六'}
         yield(Candidate("week", seg.start, seg._end, "周"..weakTab[tonumber(os.date("%w")+1)], ""))
         yield(Candidate("week", seg.start, seg._end, "星期"..weakTab[tonumber(os.date("%w")+1)], ""))
+        yield(Candidate("week", seg.start, seg._end, "礼拜"..weakTab[tonumber(os.date("%w")+1)], ""))
     end
 end
 
