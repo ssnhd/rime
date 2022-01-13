@@ -8,6 +8,8 @@
 [![](https://img.shields.io/badge/V2EX-TG群-blue)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/xhqliu)
 
+有问题您可以 [issues](https://github.com/xhql/rime/issues) 或加入电报群。
+
 ### 特点
 
 * 朙月拼音、小鹤双拼、自然码双拼
