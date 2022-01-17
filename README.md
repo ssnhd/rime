@@ -43,5 +43,5 @@ cp -r ~/Library/Rime ~/Library/Rime.bak
 > 注：本配置搜狗词库较大，部署时间会稍长请耐心等待（可以输出中文即完成）。
 
 ---
-### 配置文件详细介绍：[点击这里](https://ssnhd.com/2022/01/06/rime/)
+### 配置文件详解：[点击这里](https://ssnhd.com/2022/01/06/rime/)
 
