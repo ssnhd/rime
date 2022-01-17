@@ -1,6 +1,6 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
-![](https://i.imgur.com/Xyme9Dv.png)
+![](https://i.imgur.com/sw2IXL1.png)
 
 [![](https://img.shields.io/badge/UpdateLog-更新日志-yellow)](https://github.com/ssnhd/rime/wiki#更新日志)
 [![](https://img.shields.io/badge/Rime鼠须管-TG群-red)](https://t.me/rimeim)
