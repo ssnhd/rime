@@ -10,6 +10,16 @@ use_preset_vocabulary: true     # true 或 false，选择是否导入预设词�
 
 import_tables:
   - luna_pinyin
-  - luna_pinyin.av
   - luna_pinyin.chat
-  - luna_pinyin.sogou
+  - luna_pinyin.chengshi
+  - luna_pinyin.gongcheng
+  - luna_pinyin.nongye
+  - luna_pinyin.renwen
+  - luna_pinyin.shehui
+  - luna_pinyin.shenghuo
+  - luna_pinyin.yishu
+  - luna_pinyin.yixue
+  - luna_pinyin.youxi
+  - luna_pinyin.yule
+  - luna_pinyin.yundong
+  - luna_pinyin.ziran
