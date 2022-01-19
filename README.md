@@ -7,7 +7,6 @@
 [![](https://img.shields.io/badge/V2EX-TG群-blue)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/ssnhdcom)
 
-有问题您可以 [issues](https://github.com/ssnhd/rime/issues) 或加入电报群。
 
 ### 特点
 
