@@ -25,15 +25,6 @@
 下载 [鼠须管](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)，安装后菜单栏点选【ㄓ】开始使用输入法，默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
 
 ---
-### 备份初始配置（可选）
-
-防止操作不当配置无法恢复，可以为初始配置做个备份。在【终端】中输入以下命令，按回车键，会出现一个【Rime.bak】文件夹即备份。
-
-```
-cp -r ~/Library/Rime ~/Library/Rime.bak
-```
-
----
 ### 定制配置
 
 1. 下载 [配置](https://github.com/ssnhd/rime/archive/refs/heads/master.zip) 解压得到【配置文件】和【花园明朝字体】，将字体安装到字体册（Mac 缺少生僻字）。
