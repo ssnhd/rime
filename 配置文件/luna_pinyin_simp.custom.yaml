@@ -1,11 +1,11 @@
 patch:
   switches:
-    - name: ascii_mode
+    - name: ascii_mode                   # 0 中文，1 英文
       reset: 0
-      states: ["中文", "西文"]
-    - name: full_shape
+      states: ["中文", "西文"]   
+    - name: full_shape                   # 全角/半角符号开关
       states: ["半角", "全角"]
-    - name: show_emoji
+    - name: show_emoji                   # Emoji 开关
       reset: 1
       states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
     - name: zh_simp                      # (※1) 繁简转换
@@ -17,6 +17,7 @@ patch:
         - UTF-8
         - GBK
         - GB2312
+
   simplifier:
     option_name: zh_simp
 
@@ -32,12 +33,12 @@ patch:
     opencc_config: emoji.json
     option_name: show_emoji
     tags: abc
-    # tips: all    # Emoji 显示注释（去掉 # 开启）
+    #tips: all    # Emoji 显示注释
 
 # 改写拼写运算，含英文的词汇（luna_pinyin.cn_en.dict.yaml）不影响简拼
   "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
 
-#  载入朙月拼音扩充词库
+# 载入朙月拼音扩充词库
   "translator/dictionary": luna_pinyin.extended
 
 # 加载easy_en依赖
@@ -50,9 +51,9 @@ patch:
     spelling_hints: 9
     enable_completion: false      # 是否启用英文输入联想补全
     enable_sentence: false        # 混输时不出现带有图案的英文
-    initial_quality: -0.5         # 英文候选词的位置，可以尝试 0 到 0.5 左右的数值。数值越大，英文单词出现的就越靠前。
+    initial_quality: -0.5         # 英文候选词的位置, 数值越大越靠前。
 
- # 符号快速输入和部分符号的快速上屏
+ # 快捷表情和符号
   punctuator:
     import_preset: symbols
     symbols:
