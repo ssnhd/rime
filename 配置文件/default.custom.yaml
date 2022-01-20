@@ -5,35 +5,40 @@ patch:
     - schema: double_pinyin         # 自然码双拼
     - schema: numbers               # 大写数字
         
-  menu/page_size: 9   # 候选词个数
+  menu/page_size: 9                 # 候选词个数
 
-# 若caps切换大小写无效,打开系统偏好设置-键盘-输入法-取消勾选[使用大写锁定键切换“美国”输入模式]
-  ascii_composer/good_old_caps_lock: true   # 若为true，caps只切换大小写
+# 若 caps 切换大小写无效, 打开 Mac 系统偏好设置 > 键盘 > 输入法 > 取消勾选[使用大写锁定键切换“美国”输入模式]
+  ascii_composer/good_old_caps_lock: true # 若为 true， Caps 只切换大小写
   ascii_composer/switch_key:
-    Caps_Lock: commit_code                    
-    Shift_L: commit_code                    # 左Shift   关闭noop
-    Shift_R: commit_code                    # 右Shift
-    Control_L: noop                         # 左Control
-    Control_R: noop                         # 右Control
+    Caps_Lock: commit_code                # Caps 键                    
+    Shift_L: commit_code                  # 左 Shift，切换中英文
+    Shift_R: commit_code                  # 右 Shift，切换中英文
+    Control_L: noop                       # 左 Control，屏蔽该切换键
+    Control_R: noop                       # 右 Control，屏蔽该切换键
 
-  key_binder/bindings: # 快捷键,若要开启,去掉前面的 # 号
-    - { when: composing, accept: ISO_Left_Tab, send: Shift+Left }
-    - { when: composing, accept: Shift+Tab, send: Shift+Left }  # "Shift+Tab" 键向左选拼音分词
-    - { when: composing, accept: Tab, send: Shift+Right }       # "tab" 键选拼音分词   
-    #- { when: composing, accept: Tab, send: Page_Down }        # "tab" 键翻页
-    - { when: paging, accept: minus, send: Page_Up }            # "-"上一页
-    - { when: has_menu, accept: equal, send: Page_Down }        # "="下一页
-    - { when: paging, accept: bracketleft, send: Page_Up }      # "["上一页
-    - { when: has_menu, accept: bracketright, send: Page_Down } # "]"下一页
-    - { when: paging, accept: comma, send: Page_Up }            # ","上一页
-    - { when: has_menu, accept: period, send: Page_Down }       # "."下一页
-    #- {accept: semicolon, send: 2, when: has_menu}             # 候选2 用分号
-    #- {accept: apostrophe, send: 3, when: has_menu}            # 候选3 用单引号
-    #- {accept: "Control+a", send: Home, when: composing}                   # 光标移至首
-    #- {accept: "Control+e", send: End, when: composing}                    # 光标移至尾
-    #- {accept: "Control+Shift+1", select: .next, when: always}             # 切换输入方案
-    #- {accept: "Control+Shift+2", toggle: ascii_mode, when: always}        # 中英文切换
-    #- {accept: "Control+Shift+3", toggle: full_shape, when: always}        # 全角/半角切换
-    - {accept: "Control+Shift+4", toggle: simplification, when: always}    # 繁简体切换
-    #- {accept: "Control+Shift+5", toggle: extended_charset, when: always}  # 通用/增广切换（显示生僻字）
-    #- {accept: Return, send: Escape, when: composing}                      # 回车清码
+  key_binder/bindings: # 若开启, 去掉前面#
+# 翻页
+    #- { when: has_menu, accept: Tab, send: Page_Down }            # "tab" 键翻页, 和 "tab" 键分词只能二选一
+    - { when: composing, accept: Tab, send: Shift+Right }         # "tab" 键分词
+    - { when: paging, accept: minus, send: Page_Up }              # "-" 上一页
+    - { when: has_menu, accept: equal, send: Page_Down }          # "=" 下一页
+    - { when: paging, accept: comma, send: Page_Up }              # "," 上一页
+    - { when: has_menu, accept: period, send: Page_Down }         # "." 下一页
+    - { when: paging, accept: bracketleft, send: Page_Up }        # "[" 上一页
+    - { when: has_menu, accept: bracketright, send: Page_Down }   # "]" 下一页
+# 快捷键
+    #- { when: has_menu, accept: semicolon, send: 2 }              # ":" (分号)选择第 2 个候选词
+    #- { when: has_menu, accept: apostrophe, send: 3 }             # "'" (引号)选择第 3 个候选词
+    #- { when: composing, accept: Shift+Tab, send: Shift+Left }    # "Shift+Tab" 键向左选拼音分词
+    #- { when: composing, accept: Control+a, send: Home }          # "Control+a" 光标移至首
+    #- { when: composing, accept: Control+e, send: End }           # "Control+e" 光标移至尾
+    #- { when: composing, accept: Control+g, send: Escape }        # "Control+g" 清码
+    #- { when: composing, accept: Return, send: Escape }           # "Return" 回车清码
+    #- { when: always, accept: Control+Shift+1, select: .next }             # 切换输入方案
+    #- { when: always, accept: Control+Shift+2, toggle: ascii_mode }        # 中/英文切换
+    #- { when: always, accept: Control+Shift+3, toggle: full_shape }        # 全角/半角切换
+    - { when: always, accept: Control+Shift+4, toggle: simplification }    # 繁简体切换
+    #- { when: always, accept: Control+Shift+5, toggle: extended_charset }  # 通用/增广切换（显示生僻字）
+    #- { when: composing, accept: Control+b, send: Left }           # "Control+b" 移动光标
+    #- { when: composing, accept: Control+f, send: Right }          # "Control+f" 向右选择候选词
+    #- { when: composing, accept: Control+h, send: BackSpace }      # "Control+h" 删除输入码
