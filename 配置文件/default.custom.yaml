@@ -1,32 +1,32 @@
 patch:
   schema_list:
-    - schema: luna_pinyin_simp      # 朙月拼音
-    - schema: double_pinyin_flypy   # 小鹤双拼
-    - schema: double_pinyin         # 自然码双拼
-    - schema: numbers               # 大写数字
-        
-  menu/page_size: 9                 # 候选词个数
+    - schema: luna_pinyin_simp # 朙月拼音
+    - schema: double_pinyin_flypy # 小鹤双拼
+    - schema: double_pinyin # 自然码双拼
+    - schema: numbers # 大写数字
 
-# 若 caps 切换大小写无效, 打开 Mac 系统偏好设置 > 键盘 > 输入法 > 取消勾选[使用大写锁定键切换“美国”输入模式]
+  menu/page_size: 9 # 候选词个数
+
+  # 若 caps 切换大小写无效, 打开 Mac 系统偏好设置 > 键盘 > 输入法 > 取消勾选[使用大写锁定键切换“美国”输入模式]
   ascii_composer/good_old_caps_lock: true # 若为 true， Caps 只切换大小写
   ascii_composer/switch_key:
-    Caps_Lock: commit_code                # Caps 键                    
-    Shift_L: commit_code                  # 左 Shift，切换中英文
-    Shift_R: commit_code                  # 右 Shift，切换中英文
-    Control_L: noop                       # 左 Control，屏蔽该切换键
-    Control_R: noop                       # 右 Control，屏蔽该切换键
+    Caps_Lock: commit_code # Caps 键
+    Shift_L: commit_code # 左 Shift，切换中英文
+    Shift_R: commit_code # 右 Shift，切换中英文
+    Control_L: noop # 左 Control，屏蔽该切换键
+    Control_R: noop # 右 Control，屏蔽该切换键
 
   key_binder/bindings: # 若开启, 去掉前面#
-# 翻页
+    # 翻页
     #- { when: has_menu, accept: Tab, send: Page_Down }            # "tab" 键翻页, 和 "tab" 键分词只能二选一
-    - { when: composing, accept: Tab, send: Shift+Right }         # "tab" 键分词
-    - { when: paging, accept: minus, send: Page_Up }              # "-" 上一页
-    - { when: has_menu, accept: equal, send: Page_Down }          # "=" 下一页
-    - { when: paging, accept: comma, send: Page_Up }              # "," 上一页
-    - { when: has_menu, accept: period, send: Page_Down }         # "." 下一页
-    - { when: paging, accept: bracketleft, send: Page_Up }        # "[" 上一页
-    - { when: has_menu, accept: bracketright, send: Page_Down }   # "]" 下一页
-# 快捷键
+    - { when: composing, accept: Tab, send: Shift+Right } # "tab" 键分词
+    - { when: paging, accept: minus, send: Page_Up } # "-" 上一页
+    - { when: has_menu, accept: equal, send: Page_Down } # "=" 下一页
+    - { when: paging, accept: comma, send: Page_Up } # "," 上一页
+    - { when: has_menu, accept: period, send: Page_Down } # "." 下一页
+    - { when: paging, accept: bracketleft, send: Page_Up } # "[" 上一页
+    - { when: has_menu, accept: bracketright, send: Page_Down } # "]" 下一页
+    # 快捷键
     #- { when: has_menu, accept: semicolon, send: 2 }              # ":" (分号)选择第 2 个候选词
     #- { when: has_menu, accept: apostrophe, send: 3 }             # "'" (引号)选择第 3 个候选词
     #- { when: composing, accept: Shift+Tab, send: Shift+Left }    # "Shift+Tab" 键向左选拼音分词
@@ -37,7 +37,7 @@ patch:
     #- { when: always, accept: Control+Shift+1, select: .next }             # 切换输入方案
     #- { when: always, accept: Control+Shift+2, toggle: ascii_mode }        # 中/英文切换
     #- { when: always, accept: Control+Shift+3, toggle: full_shape }        # 全角/半角切换
-    - { when: always, accept: Control+Shift+4, toggle: simplification }    # 繁简体切换
+    - { when: always, accept: Control+Shift+4, toggle: simplification } # 繁简体切换
     #- { when: always, accept: Control+Shift+5, toggle: extended_charset }  # 通用/增广切换（显示生僻字）
     #- { when: composing, accept: Control+b, send: Left }           # "Control+b" 移动光标
     #- { when: composing, accept: Control+f, send: Right }          # "Control+f" 向右选择候选词
