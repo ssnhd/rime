@@ -29,13 +29,14 @@
 1. 下载 [配置](https://github.com/ssnhd/rime/archive/refs/heads/master.zip) 解压得到【配置文件】和【花园明朝字体】，将字体安装到字体册（Mac 缺少生僻字）。
 2. 点击菜单栏【ㄓ】-【用户设定】，将【配置文件】里所有文件粘贴进去，并选择覆盖。
 3. 点击菜单栏【ㄓ】-【重新部署】（快捷键 `Control+Option+｀`），至此完成定制配置，可以愉快的使用了。
+- 定制详解：[点击这里。](https://ssnhd.com/2022/01/06/rime/)
 
 ---
-### 定制详解
+### 购买 Google Voice
+【首选】Telegram: [@gv188](https://t.me/gv188)\
+【备选】QQ: voice188
+[![](https://i.imgur.com/WUQcBlv.png)](https://ssnhd.com/2022/01/27/voice/)
 
-了解细节：[点击这里](https://ssnhd.com/2022/01/06/rime/)
-
----
 ### 更新日志
 
 #### 2022-5
