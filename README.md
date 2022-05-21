@@ -7,6 +7,7 @@
 [![](https://img.shields.io/badge/V2EX-TG群-blue)](https://t.me/V2EXPro)
 [![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/ssnhdcom)
 
+## 购买 Google Voice：[点击这里](https://ssnhd.com/2022/01/27/voice/)
 
 ### 特点
 
@@ -101,3 +102,5 @@
 
 - 【删除】动态日期：美式格式 ~~`"%m-%d-%Y"`~~
 - 【删除】动态时间：含日期格式 ~~`"%Y%m%d%H%M%S"`~~
+
+## 购买 Google Voice [点击这里](https://t.me/gv188)
