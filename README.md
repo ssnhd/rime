@@ -31,8 +31,7 @@
 
 ---
 ### 购买 Google Voice
-【首选】Telegram: [@gv188](https://t.me/gv188)\
-【备选】QQ: 254136957
+点击图片
 [![](https://i.imgur.com/WUQcBlv.png)](https://ssnhd.com/2022/01/27/voice/)
 
 ### 更新日志
