@@ -30,8 +30,7 @@
 - 定制详解：[点击这里。](https://ssnhd.com/2022/01/06/rime/)
 
 ---
-### 购买 Google Voice
-点击图片
+### [👏 购买 Google Voice 点击这里 👏](https://ssnhd.com/2022/01/27/voice/)
 [![](https://i.imgur.com/WUQcBlv.png)](https://ssnhd.com/2022/01/27/voice/)
 
 ### 更新日志
