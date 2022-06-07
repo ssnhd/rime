@@ -31,7 +31,7 @@
 
 ---
 ### [👏 购买 Google Voice 点击这里 👏](https://ssnhd.com/2022/01/27/voice/)
-[![](https://i.imgur.com/WUQcBlv.png)](https://ssnhd.com/2022/01/27/voice/)
+[![](https://i.imgur.com/RELjhoN.png)](https://ssnhd.com/2022/01/27/voice/)
 
 ### 更新日志
 
