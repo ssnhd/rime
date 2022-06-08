@@ -1,31 +1,33 @@
 patch:
   show_notifications_when: appropriate     # 状态通知，可设为全开（always）全关（never）  
 
-  # 皮肤主题名称输入在下方，开启去掉前面#
-  #style/color_scheme: mac_light
-  #style/color_scheme: mac_dark
+  # 皮肤主题名称输入在下方，分为浅色和深色
+  # 浅色主题（使用哪个主题去掉前面的 #）
+  style/color_scheme: mac_light
   #style/color_scheme: mac_green
   #style/color_scheme: mac_orange
   #style/color_scheme: mac_blue
-  #style/color_scheme: psionics
   #style/color_scheme: win10
-  #style/color_scheme: solarized_rock
-  #style/color_scheme: solarized_dark
   #style/color_scheme: apathy
   #style/color_scheme: google
-  style/color_scheme: milan
+  #style/color_scheme: milan
   #style/color_scheme: ink
-  #style/color_scheme: purity
-  #style/color_scheme: starcraft
   #style/color_scheme: nord_light
-  #style/color_scheme: nord_dark
+  # 深色主题（使用哪个主题去掉前面的 #）
+  style/color_scheme_dark: mac_dark
+  #style/color_scheme_dark: psionics
+  #style/color_scheme_dark: solarized_rock
+  #style/color_scheme_dark: solarized_dark
+  #style/color_scheme_dark: purity
+  #style/color_scheme_dark: starcraft
+  #style/color_scheme_dark: nord_dark
 
   # 皮肤主题
   preset_color_schemes:
   
     mac_light:
       name: Mac浅色
-      horizontal: false             # true横排，false竖排
+      horizontal: true             # true横排，false竖排
       candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
@@ -391,4 +393,6 @@ patch:
     com.apple.dt.Xcode:              # Xcode
         ascii_mode: true
     com.nektony.App-Cleaner-SII:     # App Cleaner & Uninstaller
+        ascii_mode: true
+    com.xunyong.hapigo:              # hapigo
         ascii_mode: true
