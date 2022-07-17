@@ -3,9 +3,9 @@
 ![](https://i.imgur.com/sw2IXL1.png)
 
 
-[![](https://img.shields.io/badge/Rime鼠须管-TG群-red)](https://t.me/rimeim)
-[![](https://img.shields.io/badge/V2EX-TG群-blue)](https://t.me/V2EXPro)
-[![](https://img.shields.io/badge/Twitter-推特-1E9BF1)](https://twitter.com/muzhilau)
+- [Rime 群](https://t.me/rimeim)
+- [V2EX 群](https://t.me/V2EXPro)
+- 欢迎关注：[Twitter](https://twitter.com/muzhilau)
 
 ### 特点
 
