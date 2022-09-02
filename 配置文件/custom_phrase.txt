@@ -15,9 +15,10 @@ AppleCare+	ac	1
 Apple ID	aid
 Apple Music	am	2
 AiMesh	am	1
-AirPods	ap	4
-Apple Pay	ap	3
-Alipay	ap	2
+AirPods	ap	450
+Apple Pay	ap	400
+Apple	ap	500
+Alipay	ap	480
 Apple TV	atv
 Apple Watch	aw
 Android	az
@@ -30,8 +31,13 @@ Command	cm	1
 Control	ct	2
 CarPlay	cp	1
 CleanShot X	cs
+CallKit	ck
+ClashX	cl
+
 Download	dl	1
 Emoji	em
+Facebook	fb
+
 Final Cut Pro	fcp
 gfwlist	gfw
 GitHub Desktop	gh	1
@@ -40,23 +46,46 @@ Gmail	gm
 Google	gg
 Google Pay	gp
 Google Play	gp	2
-Google Voice	gv
+GV	gv	100
+Google Voice	gv	200
+GV 号	gvhao
 Gboard	gb
+
 HyperSwitch	hs
+
 iCloud	ic
 iStat Menus	ism
 iWork	iw	4
+iPhone	i	200
+iPhone XS Max	i	100
+iPhone 13 Pro Max	i	1
 iMac	imac	2
-iMac Pro	imac	1	
+iMac Pro	imac	1
+Instagram	ins
+iStat Menus	is
+iPad	ipad	300
+iPad Air	ipad	200
+iPad Pro	ipad	100
+iMessage	im	100
+I'm	im	200
+
+Just My Socks	jms
+
+koolcenter	kc	
 Keynote	kn
 koolshare	ks
 Evutec	kfl
 Lightning to USB-C	ltc
 Lightning to USB	ltu
-Mac	mac	2
+Linux	lx
+
+Mac	mac	200
+macOS	mac	100
 Mac mini	mac	1
-macOS	macos	2
-macOS BigSur	macos	1
+Mimestream	mim
+macOS	macos	500
+macOS Monterey	macos	400
+macOS BigSur	macos	100
 Markdown	md
 Microsoft	mic	2
 Microsoft Office	mic	1
@@ -78,21 +107,56 @@ Photoshop	ps
 Paypal	pp
 Pro	pro
 QQ	qq
+Quantumult X	quanx	2
+圈X	quanx	1
+
 Safari	sf	2
 Shift	sf	1
-Spotify	sp	1
-Spark	sp	2
+Spark	sp	300
+Spotify	sp	200
+SpaceX	sp	100
+Surge	su	200
+Speedtest	su	100
 Sublime Text	sbt
+Shadowrocket	sds
+
 Telegram	tg
-Twitter	tt
+Twitter	tt	2
+TikTok	tt	1
 Type-C	tc	
 Typora	ty
 TeamViewer  tv
 USB-C	uc
 V2EX	ve
+Voice	vo
+
 WhatsApp	wa
 WeChat	wc	2
 Windows	win
 YouTube	yt
 YouTube Premium	yp
 又双叒叕	yyy
+
+A杖	azhang
+B站	bzhan
+iOS	ios
+H&M	hm	1
+HarmonyOS	hm	2
+IT之家	itzhijia
+IP	ip
+你TM	nitama
+Q幣	qbi
+QQ號	qqhao
+QQ號碼	qqhaoma
+QQ會員	qqhuiyuan
+QQ空間	qqkongjian
+QQ群	qqqun
+QQ郵箱	qqyouxiang
+T恤	txu
+U盤	upan
+up主	upzhu
+V站	vzhan
+🇭🇰	hk	10002
+HK	hk	10001
+Hong Kong	hk	10000
+π	pai
