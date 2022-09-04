@@ -44,7 +44,7 @@ use_preset_vocabulary: true
 ㄚ	a
 ㄛ	o
 ㄜ	e
-ㄝ	eh
+ㄝ	e
 ㄞ	ai
 ㄟ	ei
 ㄠ	ao
@@ -382,7 +382,7 @@ use_preset_vocabulary: true
 㕴	chen
 㕵	guo
 㕶	fu
-㕷	huo
+㕷	hua
 㕷	pa
 㕷	pia
 㕸	li
@@ -19514,7 +19514,7 @@ use_preset_vocabulary: true
 甬	yong
 甭	beng
 甮	beng
-甮	fong
+甮	feng
 甯	ning
 田	tian
 由	you
@@ -26291,7 +26291,7 @@ use_preset_vocabulary: true
 誏	rang
 誐	e
 誑	kuang
-誒	eh	50%
+誒	e	50%
 誒	ei	50%
 誒	xi	0%
 誓	shi
