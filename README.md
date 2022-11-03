@@ -31,8 +31,8 @@
 定制详解：[点击这里](https://ssnhd.com/2022/01/06/rime/)。
 
 ---
-### [👏 购买 Google Voice 点击这里 👏](https://t.me/gv188)
-[![](https://i.imgur.com/RELjhoN.png)](https://t.me/gv188)
+### [👏 购买 Google Voice 点击这里 👏](https://t.me/GVStore)
+[![](https://i.imgur.com/RELjhoN.png)](https://t.me/GVStore)
 
 ### 更新日志
 
