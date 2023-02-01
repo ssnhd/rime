@@ -3,9 +3,9 @@
 ![](https://i.imgur.com/mMM6Tft.png)
 
 
-- [Rime 群](https://t.me/rimeim)
-- [V2EX 群](https://t.me/V2EXPro)
-- 欢迎关注：[Twitter](https://twitter.com/muzhilau)
+- [Rime 鼠须管群](https://t.me/rimeim)
+- [V2EX 交流群](https://t.me/V2EXPro)
+- 欢迎关注 [Twitter](https://twitter.com/muzhilau)
 
 ### 特点
 
@@ -19,7 +19,7 @@
 ---
 ### 安装
 
-下载 [鼠须管](https://github.com/rime/squirrel/releases/download/0.15.2/Squirrel-0.15.2.zip)，安装后菜单栏点选【ㄓ】开始使用输入法，默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
+下载 [鼠须管](https://github.com/rime/squirrel/releases)，安装后菜单栏点选【ㄓ】开始使用输入法，默认繁体输出，通过快捷键 `Control+｀` 切换输入方式，例如选择【朙月拼音·简化字】简体输出。
 
 ---
 ### 定制
