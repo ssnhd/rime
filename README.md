@@ -32,7 +32,7 @@
 
 ---
 ### [👏 购买 Google Voice 点击这里 👏](https://t.me/GVStore)
-E-mail：<ahezuo@outlook.com>
+E-mail：<ahezuo@gmail.com>
 [![](https://i.imgur.com/RELjhoN.png)](https://t.me/GVStore)
 
 ### 更新日志
