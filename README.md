@@ -4,7 +4,6 @@
 
 
 - [Rime 鼠须管群](https://t.me/rimeim)
-- [V2EX 交流群](https://t.me/V2EXPro)
 - 欢迎关注 [Twitter](https://twitter.com/muzhilau)
 
 ### 特点
