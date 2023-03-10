@@ -27,7 +27,7 @@
 定制详解：[点击这里](https://ssnhd.com/2022/01/06/rime/)。
 
 ---
-### [👏 购买 Google Voice 点击这里 👏](https://t.me/GVStore)
+### [👏 出售 Google Voice 👏](https://t.me/GVStore)
 E-mail：<ahezuo@gmail.com>
 [![](https://i.imgur.com/RELjhoN.png)](https://t.me/GVStore)
 
