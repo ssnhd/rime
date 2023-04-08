@@ -5,7 +5,7 @@ patch:
   # 浅色主题
   style/color_scheme: wechat_light
   # 深色主题
-  style/color_scheme_dark: wechat_drak
+  style/color_scheme_dark: wechat_dark
 
   # 皮肤主题
   preset_color_schemes:
@@ -28,7 +28,7 @@ patch:
       text_color: 0x424242                      # 拼音行文字颜色
       inline_preedit: true                      # 拼音位于： 候选框 false | 行内 true
 
-    wechat_drak:
+    wechat_dark:
       name: 微信键盘深色
       horizontal: true                          # true横排，false竖排
       back_color: 0x2e2925                      # 候选条背景色
