@@ -9,7 +9,6 @@ patch:
 
   # 皮肤主题
   preset_color_schemes:
-
     wechat_light:
       name: 微信键盘浅色
       horizontal: true                          # true横排，false竖排
@@ -96,7 +95,6 @@ patch:
       hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
       hilited_comment_text_color: 0x999999    # 注解文字高亮
 
-
     mac_green:
       name: Mac绿
       horizontal: true             # true横排，false竖排
@@ -144,7 +142,6 @@ patch:
       hilited_candidate_text_color: 0xFFFFFF  # 第一候选项文字颜色
       hilited_candidate_label_color: 0xFFFFFF # 第一候选项编号颜色
       hilited_comment_text_color: 0x999999    # 注解文字高亮
-
 
     mac_blue:
       name: Mac浅蓝
@@ -293,17 +290,16 @@ patch:
       comment_text_color: 0x6D6D6D             # 拼音等提示文字颜色
       hilited_comment_text_color: 0xEBC6B0     # 注解文字高亮
       hilited_candidate_label_color: 0xfafafa  # 第一候选项编号颜色
-      
+
     milan:
       name: 米兰
       horizontal: false              # true横排，false竖排
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
-      line_spacing: 8                          # 行间距
       line_spacing: 10                         # 行间距(适用于竖排)
-      border_height: 4                             # 窗口上下高度，大于圆角半径才生效
-      border_width: 4                              # 窗口左右宽度，大于圆角半径才生效
+      border_height: 4                         # 窗口上下高度，大于圆角半径才生效
+      border_width: 4                          # 窗口左右宽度，大于圆角半径才生效
       corner_radius: 5                         # 窗口圆角
       back_color: 0xFFFFFF                     # 候选条背景色
       comment_text_color: 0x999999             # 拼音等提示文字颜色
@@ -400,22 +396,26 @@ patch:
       hilited_text_color: 0x6EC8F5             # 高亮拼音 (需要开启内嵌编码)
       text_color: 0x78E8F0                     # 拼音等提示文字颜色
   
-# 特定App默认中/英文输入   
-  app_options:    
-    com.apple.Spotlight:             # 聚焦搜索
-        ascii_mode: true             # true默认英文,false默认中文
-    com.runningwithcrayons.Alfred:   # alfred
-        ascii_mode: true
-    com.apple.Terminal:              # 终端
-        ascii_mode: true
-    com.microsoft.VSCode:            # Visual Studio Code
-        ascii_mode: true
-        ascii_punct: true            # 中文状态输出英文标点(半角) 
-    com.tencent.Lemon:               # 腾讯柠檬
-        ascii_mode: true
-    com.apple.dt.Xcode:              # Xcode
-        ascii_mode: true
-    com.nektony.App-Cleaner-SII:     # App Cleaner & Uninstaller
-        ascii_mode: true
-    com.xunyong.hapigo:              # hapigo
-        ascii_mode: true
+  # 特定App默认中/英文输入
+  app_options:
+    com.apple.Spotlight: # 聚焦搜索
+      ascii_mode: true             # true默认英文,false默认中文
+    com.runningwithcrayons.Alfred: # alfred
+      ascii_mode: true
+    com.apple.Terminal: # 终端
+      ascii_mode: true
+    com.microsoft.VSCode: # Visual Studio Code
+      ascii_mode: true
+      ascii_punct: true            # 中文状态输出英文标点(半角)
+    com.tencent.Lemon: # 腾讯柠檬
+      ascii_mode: true
+    com.apple.dt.Xcode: # Xcode
+      ascii_mode: true
+    com.nektony.App-Cleaner-SII: # App Cleaner & Uninstaller
+      ascii_mode: true
+    com.xunyong.hapigo: # hapigo
+      ascii_mode: true
+    com.termius-dmg.mac: # termius
+      ascii_mode: true
+    com.raycast.macos: # Raycast
+      ascii_mode: true
