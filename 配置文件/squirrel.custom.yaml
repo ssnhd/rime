@@ -15,7 +15,7 @@ patch:
       back_color: 0xFFFFFF                      # 候选条背景色
       border_height: 0                          # 窗口上下高度，大于圆角半径才生效
       border_width: 8                           # 窗口左右宽度，大于圆角半径才生效
-      candidate_format: '%c %@ '                # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c %@ "                # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       comment_text_color: 0x999999              # 拼音等提示文字颜色
       corner_radius: 5                          # 窗口圆角
       hilited_corner_radius: 5                  # 高亮圆角
@@ -33,7 +33,7 @@ patch:
       back_color: 0x2e2925                      # 候选条背景色
       border_height: 0                          # 窗口上下高度，大于圆角半径才生效
       border_width: 8                           # 窗口左右宽度，大于圆角半径才生效
-      candidate_format: '%c %@ '                # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c %@ "                # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       comment_text_color: 0x999999              # 拼音等提示文字颜色
       corner_radius: 5                          # 窗口圆角
       hilited_corner_radius: 5                  # 高亮圆角
@@ -418,4 +418,6 @@ patch:
     com.termius-dmg.mac: # termius
       ascii_mode: true
     com.raycast.macos: # Raycast
+      ascii_mode: true
+    com.jetbrains.intellij: # idea
       ascii_mode: true
