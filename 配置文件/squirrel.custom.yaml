@@ -261,7 +261,7 @@ patch:
       border_height: 0               # 窗口上下高度，大于圆角半径才生效
       border_width: 8                # 窗口左右宽度
       line_spacing: 10               # 行间距(适用于竖排)
-      candidate_format: "%c %@ "     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_format: "%c %@ "     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       comment_text_color: 0x999999              # 拼音等提示文字颜色
       corner_radius: 5                          # 窗口圆角
       font_point: 17                            # 候选文字大小
