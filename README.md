@@ -13,7 +13,7 @@
 * 速度快、开源、保护隐私、自定义强
 
 
-### [👏 出售 GV、ChatGPT、苹果礼品卡 👏](https://github.com/ssnhd/googlevoice)
+### [👏 出售美国实体卡、GV、Gmail、ChatGPT、Apple ID、礼品卡 👏](https://github.com/ssnhd/googlevoice)
 
 [![](https://i.imgur.com/RELjhoN.png)](https://github.com/ssnhd/googlevoice)
 
