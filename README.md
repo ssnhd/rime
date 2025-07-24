@@ -1,6 +1,6 @@
 ## Rime 鼠须管（Squirrel）朙月拼音、小鹤双拼、自然码双拼配置详解
 
-- 欢迎加入 [Rime 鼠须管电报群](https://t.me/rimeim)
+- 欢迎加入 [Rime 鼠须管电报群](https://t.me/rimeim)（进群需私聊群内管理员，否则无法加入）
 - 欢迎关注 [Twitter](https://twitter.com/muzhilau)
 
 ### 特点
@@ -13,9 +13,9 @@
 * 速度快、开源、保护隐私、自定义强
 
 
-### [👏 出售美国实体卡、GV、Gmail、ChatGPT、Apple ID、礼品卡 👏](https://github.com/ssnhd/googlevoice)
+### [👏 出售美国实体卡、GV、Gmail、ChatGPT、Apple ID、礼品卡 👏](https://t.me/GVStore)
 
-[![](https://i.imgur.com/RELjhoN.png)](https://github.com/ssnhd/googlevoice)
+[![](https://i.imgur.com/RELjhoN.png)](https://t.me/GVStore)
 
 
 ## 安装
