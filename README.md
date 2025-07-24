@@ -13,7 +13,7 @@
 * 速度快、开源、保护隐私、自定义强
 
 
-### [👏 出售美国实体卡、GV、Gmail、ChatGPT、Apple ID、礼品卡 👏](https://t.me/GVStore)
+### [出售🇬🇧英国、🇺🇸美国、🇳🇿新西兰实体 SIM 卡；Google Voice、Gmail 靓号、Apple ID、礼品卡](https://t.me/GVStore)
 
 [![](https://i.imgur.com/RELjhoN.png)](https://t.me/GVStore)
 
