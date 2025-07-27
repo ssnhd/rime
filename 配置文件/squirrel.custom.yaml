@@ -12,6 +12,8 @@ patch:
     wechat_light:
       name: 微信键盘浅色
       horizontal: true                          # true横排，false竖排
+      candidate_list_layout: linear             # stacked | linear  候选项排列方向
+      text_orientation: horizontal              # horizontal | vertical  文字排列方向
       back_color: 0xFFFFFF                      # 候选条背景色
       border_height: 0                          # 窗口上下高度，大于圆角半径才生效
       border_width: 8                           # 窗口左右宽度，大于圆角半径才生效
@@ -30,6 +32,8 @@ patch:
     wechat_dark:
       name: 微信键盘深色
       horizontal: true                          # true横排，false竖排
+      candidate_list_layout: linear             # stacked | linear  候选项排列方向
+      text_orientation: horizontal              # horizontal | vertical  文字排列方向
       back_color: 0x2e2925                      # 候选条背景色
       border_height: 0                          # 窗口上下高度，大于圆角半径才生效
       border_width: 8                           # 窗口左右宽度，大于圆角半径才生效
@@ -49,8 +53,10 @@ patch:
 
     mac_light:
       name: Mac浅色
-      horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: true                             # true横排，false竖排
+      candidate_list_layout: linear                # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                             # 行间距(适用于竖排)
@@ -73,8 +79,10 @@ patch:
 
     mac_dark:
       name: Mac深色
-      horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: true                             # true横排，false竖排
+      candidate_list_layout: linear                # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                              # 行间距(适用于竖排)
@@ -97,8 +105,10 @@ patch:
 
     mac_green:
       name: Mac绿
-      horizontal: true             # true横排，false竖排
-      candidate_format: "%c %@ "   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: true                             # true横排，false竖排
+      candidate_list_layout: linear                # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       hilited_corner_radius: 5                     # 高亮圆角
       line_spacing: 10                              # 行间距(适用于竖排)
@@ -145,8 +155,10 @@ patch:
 
     mac_blue:
       name: Mac浅蓝
-      horizontal: false              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: false                            # true横排，false竖排
+      candidate_list_layout: stacked               # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角
       font_face: "PingFangSC"                      # 候选词字体
       font_point: 16                               # 候选字大小
@@ -166,8 +178,10 @@ patch:
 
     psionics:
       name: 幽能
-      horizontal: true              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: true                             # true横排，false竖排
+      candidate_list_layout: linear                # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 5                             # 窗口圆角 
       font_point: 16                               # 候选文字大小
       label_font_point: 14                         # 候选编号大小
@@ -186,6 +200,8 @@ patch:
 
     win10:
       horizontal: true                  # true横排，false竖排
+      candidate_list_layout: linear     # stacked | linear  候选项排列方向
+      text_orientation: horizontal      # horizontal | vertical  文字排列方向
       candidate_format: "%c %@  "       # 如果是竖排建议改为 "%c\u2005%@"
       font_point: 17              # 候选文字大小
       label_font_point: 16        # 候选编号大小
@@ -214,8 +230,10 @@ patch:
 
     solarized_rock:
       name: 日光石
-      horizontal: true              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: true                             # true横排，false竖排
+      candidate_list_layout: linear                # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 6                             # 窗口圆角 
       font_point: 16                               # 候选文字大小
       label_font_point: 15                         # 候选编号大小
@@ -234,8 +252,10 @@ patch:
 
     solarized_dark:
       name: 夜光石
-      horizontal: true              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      horizontal: true                             # true横排，false竖排
+      candidate_list_layout: linear                # stacked | linear  候选项排列方向
+      text_orientation: horizontal                 # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "                   # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       corner_radius: 6                             # 窗口圆角 
       font_point: 16                               # 候选文字大小
       label_font_point: 15                         # 候选编号大小
@@ -257,6 +277,8 @@ patch:
     apathy:
       name: 冷漠
       horizontal: true               # true横排，false竖排
+      candidate_list_layout: linear  # stacked | linear  候选项排列方向
+      text_orientation: horizontal   # horizontal | vertical  文字排列方向
       back_color: 0xFFFFFF           # 候选条背景色，24位色值，16进制，BGR顺序
       border_height: 0               # 窗口上下高度，大于圆角半径才生效
       border_width: 8                # 窗口左右宽度
@@ -274,6 +296,8 @@ patch:
     google:
       name: 谷歌
       horizontal: true              # true横排，false竖排
+      candidate_list_layout: linear # stacked | linear  候选项排列方向
+      text_orientation: horizontal  # horizontal | vertical  文字排列方向
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 15                     # 候选编号大小
@@ -294,7 +318,9 @@ patch:
     milan:
       name: 米兰
       horizontal: false              # true横排，false竖排
-      candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
+      candidate_list_layout: stacked # stacked | linear  候选项排列方向
+      text_orientation: horizontal   # horizontal | vertical  文字排列方向
+      candidate_format: "%c %@ "     # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
       line_spacing: 10                         # 行间距(适用于竖排)
@@ -310,6 +336,8 @@ patch:
     ink:
       name: 墨池
       horizontal: true              # true横排，false竖排
+      candidate_list_layout: linear # stacked | linear  候选项排列方向
+      text_orientation: horizontal  # horizontal | vertical  文字排列方向
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
@@ -327,6 +355,8 @@ patch:
     purity:
       name: 纯洁
       horizontal: true              # true横排，false竖排
+      candidate_list_layout: linear # stacked | linear  候选项排列方向
+      text_orientation: horizontal  # horizontal | vertical  文字排列方向
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
@@ -344,6 +374,8 @@ patch:
     starcraft:
       name: 星际争霸
       horizontal: true              # true横排，false竖排
+      candidate_list_layout: linear # stacked | linear  候选项排列方向
+      text_orientation: horizontal  # horizontal | vertical  文字排列方向
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
@@ -363,6 +395,8 @@ patch:
     nord_light:
       name: 北方浅色
       horizontal: true              # true横排，false竖排
+      candidate_list_layout: linear # stacked | linear  候选项排列方向
+      text_orientation: horizontal  # horizontal | vertical  文字排列方向
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
@@ -381,6 +415,8 @@ patch:
     nord_dark:
       name: 北方深色
       horizontal: true              # true横排，false竖排
+      candidate_list_layout: linear # stacked | linear  候选项排列方向
+      text_orientation: horizontal  # horizontal | vertical  文字排列方向
       candidate_format: "%c %@ "    # 用 1/6 em 空格 U+2005 来控制编号 %c 和候选词 %@ 前后的空间
       font_point: 16                           # 候选文字大小
       label_font_point: 14                     # 候选编号大小
